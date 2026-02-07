@@ -57,7 +57,7 @@ export default function LandingPage() {
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <Link
-                  href="https://dashboard.ausbildungsgenie.de/register"
+                  href="https://dashboard.genieportal.de/register"
                   className="rounded-full border-2 border-rose-200 px-8 py-3.5 text-base font-medium text-gray-700 hover:border-rose-300 hover:bg-white transition-all flex items-center gap-2"
                 >
                   <Building2 className="h-4 w-4" />
@@ -288,7 +288,7 @@ export default function LandingPage() {
                 ))}
               </ul>
               <Link
-                href="https://dashboard.ausbildungsgenie.de/register"
+                href="https://dashboard.genieportal.de/register"
                 className="inline-flex items-center gap-2 mt-10 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 px-8 py-3.5 text-base font-medium text-white hover:from-rose-600 hover:to-pink-700 transition-all shadow-lg shadow-rose-500/25"
               >
                 Jetzt kostenlos starten
@@ -420,7 +420,7 @@ export default function LandingPage() {
                   ))}
                 </ul>
                 <Link
-                  href="https://dashboard.ausbildungsgenie.de/register"
+                  href="https://dashboard.genieportal.de/register"
                   className={`mt-6 block text-center rounded-full px-4 py-2.5 text-sm font-medium transition-colors ${
                     plan.highlighted
                       ? 'bg-white text-rose-600 hover:bg-gray-100'
@@ -502,7 +502,7 @@ export default function LandingPage() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/register"
+              href="https://dashboard.genieportal.de/register"
               className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-rose-600 hover:bg-gray-100 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />

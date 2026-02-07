@@ -58,7 +58,7 @@ const faqItems = [
   {
     question: 'Wie kann ich mein Unternehmen auf Praktikumsgenie registrieren?',
     answer:
-      'Ganz einfach: Besuche dashboard.ausbildungsgenie.de und klicke auf "Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Praktikumsanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
+      'Ganz einfach: Besuche dashboard.genieportal.de und klicke auf "Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Praktikumsanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
   },
   {
     question: 'Bietet ihr Schulungen oder Demos für Betriebe an?',
@@ -293,7 +293,7 @@ export default function KontaktPage() {
                 <ul className="space-y-3 mt-6">
                   <li>
                     <Link
-                      href="https://dashboard.ausbildungsgenie.de/login"
+                      href="https://dashboard.genieportal.de/login"
                       className="flex items-center gap-3 text-sm text-gray-700 hover:text-rose-600 transition-colors group"
                     >
                       <div className="w-8 h-8 rounded-lg bg-rose-50 flex items-center justify-center group-hover:bg-rose-100 transition-colors">
@@ -535,7 +535,7 @@ export default function KontaktPage() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/login"
+              href="https://dashboard.genieportal.de/login"
               className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-rose-600 hover:bg-gray-100 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />

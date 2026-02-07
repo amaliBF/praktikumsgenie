@@ -419,7 +419,7 @@ export default function VorteilePage() {
 
           <div className="text-center mt-12">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/login"
+              href="https://dashboard.genieportal.de/login"
               className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 px-8 py-3.5 text-base font-medium text-white hover:from-rose-600 hover:to-pink-700 transition-all shadow-lg shadow-rose-500/25"
             >
               Jetzt kostenlos starten
@@ -633,7 +633,7 @@ export default function VorteilePage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/login"
+              href="https://dashboard.genieportal.de/login"
               className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-rose-600 hover:bg-rose-50 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />

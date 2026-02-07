@@ -104,7 +104,7 @@ export default function Footer() {
               <li><Link href="/fuer-schueler" className="hover:text-white transition-colors">Für Schüler</Link></li>
               <li><Link href="/preise" className="hover:text-white transition-colors">Preise</Link></li>
               <li><Link href="/kontakt" className="hover:text-white transition-colors">Kontakt</Link></li>
-              <li><Link href="https://dashboard.ausbildungsgenie.de/login" className="hover:text-white transition-colors">Betriebe-Login</Link></li>
+              <li><Link href="https://dashboard.genieportal.de/login" className="hover:text-white transition-colors">Betriebe-Login</Link></li>
             </ul>
           </div>
         </div>

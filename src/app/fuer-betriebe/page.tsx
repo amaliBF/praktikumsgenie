@@ -181,7 +181,7 @@ export default function FuerBetriebePage() {
                 </p>
                 <div className="mt-10 flex flex-col sm:flex-row gap-4">
                   <Link
-                    href="https://dashboard.ausbildungsgenie.de/login"
+                    href="https://dashboard.genieportal.de/login"
                     className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-base font-semibold text-rose-600 hover:bg-rose-50 transition-all shadow-lg"
                   >
                     Kostenlos registrieren
@@ -512,7 +512,7 @@ export default function FuerBetriebePage() {
 
             <div className="mt-12 text-center">
               <Link
-                href="https://dashboard.ausbildungsgenie.de/login"
+                href="https://dashboard.genieportal.de/login"
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 px-8 py-4 text-base font-semibold text-white hover:from-rose-600 hover:to-pink-700 transition-all shadow-lg shadow-rose-500/25"
               >
                 Jetzt kostenlos starten
@@ -646,7 +646,7 @@ export default function FuerBetriebePage() {
                     ))}
                   </ul>
                   <Link
-                    href="https://dashboard.ausbildungsgenie.de/login"
+                    href="https://dashboard.genieportal.de/login"
                     className={`mt-8 block text-center rounded-full px-6 py-3 text-sm font-semibold transition-colors ${
                       plan.highlighted
                         ? 'bg-white text-rose-600 hover:bg-rose-50'
@@ -768,7 +768,7 @@ export default function FuerBetriebePage() {
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="https://dashboard.ausbildungsgenie.de/login"
+                href="https://dashboard.genieportal.de/login"
                 className="inline-flex items-center gap-2 rounded-full bg-white px-10 py-4 text-base font-semibold text-rose-600 hover:bg-rose-50 transition-colors shadow-lg"
               >
                 <Building2 className="h-5 w-5" />
@@ -778,7 +778,7 @@ export default function FuerBetriebePage() {
             <p className="mt-6 text-sm text-white/60">
               Bereits registriert?{' '}
               <Link
-                href="https://dashboard.ausbildungsgenie.de/login"
+                href="https://dashboard.genieportal.de/login"
                 className="text-white/80 underline hover:text-white"
               >
                 Zum Dashboard einloggen

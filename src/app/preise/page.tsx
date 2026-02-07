@@ -452,7 +452,7 @@ export default function PreisePage() {
                   href={
                     plan.name === 'Enterprise'
                       ? '/kontakt'
-                      : 'https://dashboard.ausbildungsgenie.de/login'
+                      : 'https://dashboard.genieportal.de/login'
                   }
                   className={`block text-center rounded-full px-6 py-3 text-sm font-semibold transition-all ${
                     plan.highlighted
@@ -563,7 +563,7 @@ export default function PreisePage() {
                     href={
                       plan.name === 'Enterprise'
                         ? '/kontakt'
-                        : 'https://dashboard.ausbildungsgenie.de/login'
+                        : 'https://dashboard.genieportal.de/login'
                     }
                     className={`inline-block rounded-full px-4 py-2 text-xs font-semibold transition-colors ${
                       plan.highlighted
@@ -695,7 +695,7 @@ export default function PreisePage() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/login"
+              href="https://dashboard.genieportal.de/login"
               className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-rose-600 hover:bg-gray-100 transition-colors flex items-center gap-2 shadow-lg"
             >
               Jetzt kostenlos starten
