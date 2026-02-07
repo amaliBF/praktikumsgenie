@@ -1,0 +1,30 @@
+{
+  "slug": "oldenburg",
+  "name": "Oldenburg",
+  "bundesland": "Niedersachsen",
+  "einwohner": 170000,
+  "beschreibung": "Oldenburg ist eine dynamische Universitätsstadt im Nordwesten Niedersachsens mit wachsender Wirtschaft und hoher Lebensqualität. Die Überseehafenstadt bietet Ausbildungsplätze in den Bereichen Energie, IT und Gesundheit. Als fahrradfreundlichste Großstadt Deutschlands und mit einer lebendigen Innenstadt ist Oldenburg besonders bei jungen Menschen beliebt.",
+  "topBerufe": [
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "fachinformatiker-anwendungsentwicklung",
+    "medizinische-fachangestellte",
+    "pflegefachmann",
+    "bankkaufmann",
+    "erzieher",
+    "elektroniker"
+  ],
+  "nachbarstaedte": [
+    "bremen",
+    "osnabrueck",
+    "emden"
+  ],
+  "besonderheiten": [
+    "Energieforschungszentrum NEXT ENERGY und wachsende Windkraftbranche",
+    "Fahrradfreundlichste Großstadt Deutschlands",
+    "Starker IT-Sektor mit CEWE und weiteren Digitalunternehmen",
+    "Klinikum Oldenburg als einer der größten Arbeitgeber der Region"
+  ],
+  "oepnv": "VWG-Buslinien und gute Bahnanbindung – die flache Stadt ist perfekt zum Radfahren geeignet.",
+  "lebenshaltung": "mittel"
+}

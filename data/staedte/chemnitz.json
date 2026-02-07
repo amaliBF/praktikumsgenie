@@ -1,0 +1,31 @@
+{
+  "slug": "chemnitz",
+  "name": "Chemnitz",
+  "bundesland": "Sachsen",
+  "einwohner": 245000,
+  "beschreibung": "Chemnitz, die Kulturhauptstadt Europas 2025, ist ein traditionsreicher Industriestandort mit Schwerpunkt Maschinenbau und Automobilzulieferung. Die Stadt bietet solide Ausbildungsplätze in der Fertigungsindustrie und profitiert vom Kulturhauptstadt-Effekt. Mit sehr günstigen Lebenshaltungskosten und einer wachsenden Kreativszene bietet Chemnitz großes Potenzial für Auszubildende.",
+  "topBerufe": [
+    "industriemechaniker",
+    "zerspanungsmechaniker",
+    "werkzeugmechaniker",
+    "mechatroniker",
+    "kaufmann-bueromanagement",
+    "elektroniker",
+    "kfz-mechatroniker",
+    "industriekaufmann"
+  ],
+  "nachbarstaedte": [
+    "dresden",
+    "leipzig",
+    "zwickau"
+  ],
+  "besonderheiten": [
+    "Kulturhauptstadt Europas 2025 mit Aufbruchstimmung",
+    "Starker Maschinenbau- und Automobilzulieferer-Standort",
+    "TU Chemnitz mit enger Industrievernetzung",
+    "Fraunhofer-Institute für Werkzeugmaschinen und Elektronische Nanosysteme",
+    "Sehr günstige Mieten und Lebenshaltungskosten"
+  ],
+  "oepnv": "CVAG mit Straßenbahnen und Bussen – überschaubare Stadt mit kurzen Pendelzeiten.",
+  "lebenshaltung": "niedrig"
+}

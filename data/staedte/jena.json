@@ -1,0 +1,32 @@
+{
+  "slug": "jena",
+  "name": "Jena",
+  "bundesland": "Thüringen",
+  "einwohner": 112000,
+  "beschreibung": "Jena ist eine der innovativsten Städte Deutschlands und weltweit bekannt für Optik und Photonik. Die Heimat von ZEISS, SCHOTT und Jenoptik bietet herausragende Ausbildungsmöglichkeiten in Hightech-Branchen. Als jüngste Stadt Thüringens mit zwei Hochschulen und einer lebendigen Start-up-Szene ist Jena ein dynamischer Ausbildungsstandort.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "elektroniker",
+    "augenoptiker",
+    "industriemechaniker",
+    "biologielaborant",
+    "industriekaufmann",
+    "fachinformatiker-systemintegration",
+    "pharmakant"
+  ],
+  "nachbarstaedte": [
+    "erfurt",
+    "weimar",
+    "leipzig",
+    "gera"
+  ],
+  "besonderheiten": [
+    "ZEISS, SCHOTT und Jenoptik als Weltmarktführer in Optik und Photonik",
+    "Höchste Forschungsdichte Deutschlands pro Einwohner",
+    "Jüngste Stadt Thüringens mit dynamischer Startup-Szene",
+    "Friedrich-Schiller-Universität und Ernst-Abbe-Hochschule",
+    "Beutenberg Campus als führender Wissenschaftsstandort"
+  ],
+  "oepnv": "JeNah-Straßenbahnen und Busse – kompakte Stadt im Saaletal mit kurzen Wegen.",
+  "lebenshaltung": "niedrig"
+}

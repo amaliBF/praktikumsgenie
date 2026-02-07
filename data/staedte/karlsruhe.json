@@ -1,0 +1,32 @@
+{
+  "slug": "karlsruhe",
+  "name": "Karlsruhe",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 310000,
+  "beschreibung": "Karlsruhe ist als Sitz des Bundesverfassungsgerichts und des KIT (Karlsruher Institut für Technologie) eine bedeutende Wissenschafts- und IT-Stadt in Baden. Die Fächerstadt ist ein führender Standort für Informationstechnologie und digitale Medien in Deutschland. Zahlreiche IT-Unternehmen und Forschungseinrichtungen bieten exzellente Ausbildungsplätze mit Zukunftsperspektive.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "fachinformatiker-systemintegration",
+    "it-system-elektroniker",
+    "kaufmann-e-commerce",
+    "industriekaufmann",
+    "mediengestalter-digital-print",
+    "elektroniker",
+    "kaufmann-bueromanagement"
+  ],
+  "nachbarstaedte": [
+    "stuttgart",
+    "heidelberg",
+    "pforzheim",
+    "mannheim"
+  ],
+  "besonderheiten": [
+    "Sitz des Bundesverfassungsgerichts und BGH",
+    "KIT als eine der führenden technischen Universitäten",
+    "IT-Hochburg mit CyberForum und zahlreichen Startups",
+    "Starker Energiesektor mit EnBW",
+    "Lebendige Kultur- und Kreativszene"
+  ],
+  "oepnv": "Umfangreiches Straßenbahn- und Busnetz – KVV-Verbund mit S-Bahn-Anbindung in die Region.",
+  "lebenshaltung": "hoch"
+}

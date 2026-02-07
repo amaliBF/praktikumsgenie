@@ -1,0 +1,32 @@
+{
+  "slug": "gera",
+  "name": "Gera",
+  "bundesland": "Thüringen",
+  "einwohner": 93000,
+  "beschreibung": "Gera ist eine aufstrebende Stadt in Ostthüringen mit solider industrieller Basis und günstigen Lebensbedingungen. Die drittgrößte Stadt Thüringens bietet Ausbildungsplätze in der Metallverarbeitung, im Gesundheitswesen und im Handwerk. Mit der Lage zwischen Jena und Zwickau profitiert Gera von der Dynamik beider Nachbarstädte und bietet zugleich sehr niedrige Lebenshaltungskosten.",
+  "topBerufe": [
+    "industriemechaniker",
+    "elektroniker",
+    "pflegefachmann",
+    "kaufmann-einzelhandel",
+    "kfz-mechatroniker",
+    "maler-lackierer",
+    "anlagenmechaniker-shk",
+    "kaufmann-bueromanagement"
+  ],
+  "nachbarstaedte": [
+    "jena",
+    "erfurt",
+    "chemnitz",
+    "zwickau"
+  ],
+  "besonderheiten": [
+    "Traditionsreicher Industriestandort mit Metallverarbeitung",
+    "SRH Wald-Klinikum als größter Arbeitgeber der Region",
+    "Historische Höhler als einzigartiges unterirdisches Gangsystem",
+    "Otto-Dix-Stadt mit bedeutender Kunstsammlung",
+    "Günstigste Mieten unter den thüringischen Großstädten"
+  ],
+  "oepnv": "GVB-Straßenbahnen und Busse – Bahnanbindung nach Jena, Erfurt und Leipzig.",
+  "lebenshaltung": "niedrig"
+}

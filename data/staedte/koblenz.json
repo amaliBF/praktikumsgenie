@@ -1,0 +1,31 @@
+{
+  "slug": "koblenz",
+  "name": "Koblenz",
+  "bundesland": "Rheinland-Pfalz",
+  "einwohner": 115000,
+  "beschreibung": "Koblenz liegt am Zusammenfluss von Rhein und Mosel und ist ein wichtiger Verwaltungs-, Militär- und Tourismusstandort. Die Stadt beherbergt zahlreiche Bundesbehörden, darunter das Bundesamt für Ausrüstung und IT der Bundeswehr, und bietet vielfältige Ausbildungsmöglichkeiten im öffentlichen Dienst. Der Tourismus- und Gastronomiesektor profitiert vom UNESCO-Welterbe Oberes Mittelrheintal.",
+  "topBerufe": [
+    "verwaltungsfachangestellter",
+    "kaufmann-bueromanagement",
+    "hotelfachmann",
+    "koch",
+    "it-system-elektroniker",
+    "kaufmann-einzelhandel",
+    "fachinformatiker-systemintegration",
+    "fachkraft-gastgewerbe"
+  ],
+  "nachbarstaedte": [
+    "bonn",
+    "mainz",
+    "trier"
+  ],
+  "besonderheiten": [
+    "Deutsches Eck am Zusammenfluss von Rhein und Mosel",
+    "Bundesamt für Ausrüstung und IT der Bundeswehr",
+    "UNESCO-Welterbe Oberes Mittelrheintal",
+    "Universität Koblenz",
+    "Wichtiger Tourismus- und Verwaltungsstandort"
+  ],
+  "oepnv": "KOVEB betreibt Buslinien. Hauptbahnhof mit IC/ICE-Halt. Regionalbahn entlang Rhein und Mosel. VRM-Verbund.",
+  "lebenshaltung": "mittel"
+}

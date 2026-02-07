@@ -1,0 +1,30 @@
+{
+  "slug": "bremen",
+  "name": "Bremen",
+  "bundesland": "Bremen",
+  "einwohner": 570000,
+  "beschreibung": "Bremen verbindet maritime Tradition mit moderner Industrie und bietet vielseitige Ausbildungsmöglichkeiten. Die Hansestadt ist ein bedeutender Standort für Luft- und Raumfahrt, Lebensmittelindustrie und Logistik. Mit einer lebendigen Wissenschaftslandschaft und kurzen Wegen ist Bremen ideal für Auszubildende, die eine persönliche Atmosphäre schätzen.",
+  "topBerufe": [
+    "fachkraft-lagerlogistik",
+    "kaufmann-spedition-logistik",
+    "industriekaufmann",
+    "industriemechaniker",
+    "kaufmann-einzelhandel",
+    "elektroniker",
+    "koch",
+    "kaufmann-bueromanagement"
+  ],
+  "nachbarstaedte": [
+    "hamburg",
+    "oldenburg",
+    "hannover"
+  ],
+  "besonderheiten": [
+    "Wichtiger Luft- und Raumfahrtstandort mit Airbus und OHB",
+    "Traditionsreiche Lebensmittelindustrie mit Beck's, Kellogg's und Kraft",
+    "Überseestadt als modernes Quartier für Logistik und Kreativwirtschaft",
+    "Starke Forschungslandschaft mit Fraunhofer und DFKI"
+  ],
+  "oepnv": "Gut ausgebautes BSAG-Netz mit Straßenbahnen und Bussen – die kompakte Stadt lässt sich auch gut mit dem Fahrrad erkunden.",
+  "lebenshaltung": "mittel"
+}

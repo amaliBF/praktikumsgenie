@@ -1,0 +1,30 @@
+{
+  "slug": "flensburg",
+  "name": "Flensburg",
+  "bundesland": "Schleswig-Holstein",
+  "einwohner": 90000,
+  "beschreibung": "Flensburg an der dänischen Grenze ist eine charmante Fördestadt mit einem einzigartigen deutsch-dänischen Flair. Die nördlichste kreisfreie Stadt Deutschlands bietet Ausbildungsplätze im Handel, Handwerk und in der Verwaltung. Die überschaubare Größe ermöglicht persönliche Betreuung während der Ausbildung bei gleichzeitig internationalem Ambiente.",
+  "topBerufe": [
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "verwaltungsfachangestellter",
+    "kfz-mechatroniker",
+    "friseur",
+    "medizinische-fachangestellte",
+    "tischler",
+    "elektroniker"
+  ],
+  "nachbarstaedte": [
+    "kiel",
+    "luebeck",
+    "hamburg"
+  ],
+  "besonderheiten": [
+    "Deutsch-dänische Grenzstadt mit bikulturellen Ausbildungsmöglichkeiten",
+    "Sitz des Kraftfahrt-Bundesamtes (KBA) mit vielen Verwaltungsjobs",
+    "Historischer Hafen und lebendige Rum-Tradition",
+    "Wachsender Standort für erneuerbare Energien und Windkraft"
+  ],
+  "oepnv": "Übersichtliches Busnetz von Aktiv Bus – die kompakte Innenstadt ist gut zu Fuß und per Rad erreichbar.",
+  "lebenshaltung": "mittel"
+}

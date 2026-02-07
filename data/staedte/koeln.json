@@ -1,0 +1,32 @@
+{
+  "slug": "koeln",
+  "name": "Köln",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 1080000,
+  "beschreibung": "Köln ist als Medienstadt und wichtiger Handelsstandort eines der bedeutendsten Ausbildungszentren in Nordrhein-Westfalen. Mit zahlreichen TV-Sendern, Verlagen, Versicherungen und einem der größten Messeplätze Europas bietet die Domstadt ein vielfältiges Angebot an Ausbildungsplätzen. Die lebendige Wirtschaftsstruktur mit über 100.000 Unternehmen sorgt für hervorragende Karrierechancen in nahezu allen Branchen.",
+  "topBerufe": [
+    "mediengestalter-digital-print",
+    "kaufmann-e-commerce",
+    "kaufmann-versicherungen-finanzen",
+    "veranstaltungskaufmann",
+    "kaufmann-bueromanagement",
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-einzelhandel",
+    "industriekaufmann"
+  ],
+  "nachbarstaedte": [
+    "bonn",
+    "duesseldorf",
+    "aachen",
+    "leverkusen"
+  ],
+  "besonderheiten": [
+    "Größte Stadt in NRW",
+    "Medienstandort mit RTL, WDR und zahlreichen Produktionsfirmen",
+    "Wichtiger Messestandort (Koelnmesse)",
+    "Starker Versicherungs- und Finanzsektor",
+    "Vielfältige Kulturszene und Kreativwirtschaft"
+  ],
+  "oepnv": "Hervorragend ausgebautes Netz mit KVB (Stadtbahn, Bus), S-Bahn und Regionalzüge. ICE-Knotenpunkt am Hauptbahnhof. VRS-Verbund für die gesamte Region.",
+  "lebenshaltung": "hoch"
+}

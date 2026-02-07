@@ -1,0 +1,31 @@
+{
+  "slug": "wuppertal",
+  "name": "Wuppertal",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 355000,
+  "beschreibung": "Wuppertal, die Stadt der Schwebebahn, ist ein bedeutender Standort für Maschinenbau, Chemie und Textilindustrie im Bergischen Land. Die Bergische Universität und zahlreiche mittelständische Unternehmen bieten ein breites Spektrum an Ausbildungsplätzen. Besonders die Bereiche Gesundheit, Handwerk und technische Berufe sind in der traditionsreichen Industriestadt stark vertreten.",
+  "topBerufe": [
+    "industriemechaniker",
+    "werkzeugmechaniker",
+    "elektroniker",
+    "kaufmann-bueromanagement",
+    "medizinische-fachangestellte",
+    "kfz-mechatroniker",
+    "maler-lackierer",
+    "friseur"
+  ],
+  "nachbarstaedte": [
+    "duesseldorf",
+    "koeln",
+    "solingen"
+  ],
+  "besonderheiten": [
+    "Berühmte Schwebebahn als Wahrzeichen",
+    "Traditionsreicher Industriestandort im Bergischen Land",
+    "Starker Mittelstand in Maschinenbau und Chemie",
+    "Bergische Universität Wuppertal",
+    "Historische Textiltradition"
+  ],
+  "oepnv": "WSW betreiben Schwebebahn, Busse und verbinden die Stadtteile im Tal. S-Bahn und Regionalbahn nach Düsseldorf und Köln. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "ludwigshafen",
+  "name": "Ludwigshafen am Rhein",
+  "bundesland": "Rheinland-Pfalz",
+  "einwohner": 175000,
+  "beschreibung": "Ludwigshafen ist der Hauptsitz der BASF, dem größten Chemiekonzern der Welt, und damit einer der wichtigsten Chemiestandorte Europas. Das BASF-Werk in Ludwigshafen ist der größte zusammenhängende Chemiestandort weltweit und bildet jährlich hunderte Auszubildende in naturwissenschaftlichen und technischen Berufen aus. Die Stadt bietet darüber hinaus Ausbildungsmöglichkeiten in Logistik und Industrie.",
+  "topBerufe": [
+    "chemikant",
+    "pharmakant",
+    "biologielaborant",
+    "industriemechaniker",
+    "elektroniker",
+    "fachkraft-lagerlogistik",
+    "industriekaufmann",
+    "kaufmann-bueromanagement"
+  ],
+  "nachbarstaedte": [
+    "mannheim",
+    "heidelberg",
+    "mainz"
+  ],
+  "besonderheiten": [
+    "Welthauptsitz der BASF",
+    "Größter zusammenhängender Chemiestandort der Welt",
+    "Exzellente Chemie-Ausbildungsprogramme",
+    "Direkte Rheinlage gegenüber Mannheim",
+    "Starke industrielle Prägung"
+  ],
+  "oepnv": "RNV betreibt Straßenbahn und Busse, verbunden mit Mannheim. S-Bahn Rhein-Neckar. VRN-Verbund.",
+  "lebenshaltung": "mittel"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "landshut",
+  "name": "Landshut",
+  "bundesland": "Bayern",
+  "einwohner": 75000,
+  "beschreibung": "Landshut ist die Hauptstadt Niederbayerns und ein wachsender Wirtschaftsstandort zwischen München und Regensburg. Die Stadt profitiert von der Nähe zum Münchner Flughafen und beheimatet bedeutende Unternehmen der Automobilzulieferindustrie. Mit der Hochschule Landshut und einer gut erhaltenen Altstadt bietet die Stadt eine ideale Kombination aus Karrierechancen und Lebensqualität.",
+  "topBerufe": [
+    "kfz-mechatroniker",
+    "industriemechaniker",
+    "elektroniker",
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "mechatroniker",
+    "fachkraft-lagerlogistik",
+    "industriekaufmann"
+  ],
+  "nachbarstaedte": [
+    "muenchen",
+    "regensburg",
+    "passau"
+  ],
+  "besonderheiten": [
+    "Nähe zum Münchner Flughafen – logistischer Vorteil",
+    "BMW-Werk Landshut als großer Ausbildungsbetrieb",
+    "Hochschule Landshut mit dualen Studienangeboten",
+    "Historische Altstadt mit der höchsten Ziegelsteinkirche der Welt",
+    "Günstigere Lebenshaltung als München bei guter Anbindung"
+  ],
+  "oepnv": "Stadtbusnetz – direkte Bahnverbindung nach München (ca. 60 Min.) und Regensburg.",
+  "lebenshaltung": "mittel"
+}

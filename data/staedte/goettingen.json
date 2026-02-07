@@ -1,0 +1,31 @@
+{
+  "slug": "goettingen",
+  "name": "Göttingen",
+  "bundesland": "Niedersachsen",
+  "einwohner": 120000,
+  "beschreibung": "Göttingen ist eine renommierte Universitäts- und Wissenschaftsstadt mit exzellenten Ausbildungsmöglichkeiten in Forschung und Gesundheit. Die Stadt beherbergt zahlreiche Max-Planck-Institute und eine der ältesten Universitäten Deutschlands. Besonders in den Bereichen Medizin, Messtechnik und Optik finden Auszubildende hier hervorragende Karrierechancen.",
+  "topBerufe": [
+    "medizinische-fachangestellte",
+    "pflegefachmann",
+    "biologielaborant",
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-bueromanagement",
+    "augenoptiker",
+    "pharmakant",
+    "fachkraft-schutz-sicherheit"
+  ],
+  "nachbarstaedte": [
+    "hildesheim",
+    "kassel",
+    "hannover"
+  ],
+  "besonderheiten": [
+    "Max-Planck-Gesellschaft mit fünf Instituten in der Stadt",
+    "Universitätsmedizin Göttingen als größter Arbeitgeber",
+    "Sartorius als weltweit führendes Biotech-Unternehmen",
+    "Starke Messtechnik- und Optikbranche mit Mahr und Zeiss",
+    "Lebendige Studentenstadt mit junger Atmosphäre"
+  ],
+  "oepnv": "GöVB-Busnetz und ICE-Bahnhof mit schnellen Verbindungen nach Hannover, Kassel und Frankfurt.",
+  "lebenshaltung": "mittel"
+}

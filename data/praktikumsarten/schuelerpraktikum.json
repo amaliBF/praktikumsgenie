@@ -1,0 +1,11 @@
+{
+  "slug": "schuelerpraktikum",
+  "name": "Schülerpraktikum",
+  "dauer": "1-3 Wochen",
+  "zielgruppe": "Schüler Klasse 8-10",
+  "verguetet": false,
+  "beschreibung": "Das Schülerpraktikum ist oft der erste Kontakt mit der Arbeitswelt. In ein bis drei Wochen schnupperst du in einen Beruf hinein und lernst den Arbeitsalltag kennen.",
+  "voraussetzungen": ["Mindestalter je nach Bundesland (meist 14 Jahre)", "Einverständnis der Eltern", "Praktikumsvertrag über die Schule"],
+  "tipps": ["Bewirb dich frühzeitig – beliebte Betriebe sind schnell vergeben", "Halte deine Eindrücke für den Praktikumsbericht fest", "Stelle viele Fragen und zeige Eigeninitiative"],
+  "branchen": ["Handwerk", "IT & Technik", "Gesundheit", "Handel", "Gastronomie", "Büro & Verwaltung"]
+}

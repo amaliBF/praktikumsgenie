@@ -1,0 +1,31 @@
+{
+  "slug": "wuerzburg",
+  "name": "Würzburg",
+  "bundesland": "Bayern",
+  "einwohner": 130000,
+  "beschreibung": "Würzburg ist das wirtschaftliche und kulturelle Zentrum Unterfrankens mit einer starken Mischung aus Gesundheitswesen, Handel und Dienstleistungen. Die Universitätsstadt am Main bietet als Oberzentrum der Region besonders viele Ausbildungsplätze im medizinischen Bereich und in der Verwaltung. Die lebendige Studierendenszene sorgt für ein junges und attraktives Stadtbild.",
+  "topBerufe": [
+    "medizinische-fachangestellte",
+    "pflegefachmann",
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "bankkaufmann",
+    "verwaltungsfachangestellter",
+    "steuerfachangestellter",
+    "hotelfachmann"
+  ],
+  "nachbarstaedte": [
+    "nuernberg",
+    "frankfurt",
+    "bamberg"
+  ],
+  "besonderheiten": [
+    "Universitätsklinikum als größter Arbeitgeber der Region",
+    "Starker Gesundheits- und Pharmastandort",
+    "Bedeutende Weinregion mit Tourismuswirtschaft",
+    "Exzellente Julius-Maximilians-Universität",
+    "ICE-Knotenpunkt mit schneller Anbindung an Frankfurt und München"
+  ],
+  "oepnv": "Straßenbahn- und Busnetz im Stadtgebiet – gute Regionalbahnverbindungen in die Region Mainfranken.",
+  "lebenshaltung": "mittel"
+}

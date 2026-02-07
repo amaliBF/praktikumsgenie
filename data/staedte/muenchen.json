@@ -1,0 +1,32 @@
+{
+  "slug": "muenchen",
+  "name": "München",
+  "bundesland": "Bayern",
+  "einwohner": 1490000,
+  "beschreibung": "München ist Bayerns Landeshauptstadt und einer der stärksten Wirtschaftsstandorte Deutschlands. Die Stadt beheimatet zahlreiche DAX-Konzerne wie BMW, Siemens und Allianz sowie innovative Tech-Startups und eine florierende Finanzbranche. Ob IT, Automobilindustrie, Medien oder Gesundheitswesen – München zählt zu den attraktivsten Ausbildungsstandorten in ganz Europa.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "fachinformatiker-systemintegration",
+    "industriekaufmann",
+    "bankkaufmann",
+    "kaufmann-e-commerce",
+    "mechatroniker",
+    "mediengestalter-digital-print",
+    "kaufmann-versicherungen-finanzen"
+  ],
+  "nachbarstaedte": [
+    "augsburg",
+    "nuernberg",
+    "ingolstadt",
+    "regensburg"
+  ],
+  "besonderheiten": [
+    "Sitz von BMW, Siemens, Allianz und vielen DAX-Konzernen",
+    "Einer der größten IT- und Startup-Hubs Europas",
+    "Starker Finanz- und Versicherungsstandort",
+    "Exzellente Übernahmequoten nach der Ausbildung",
+    "Vielfältige duale Studienangebote"
+  ],
+  "oepnv": "Hervorragend ausgebautes Netz mit U-Bahn, S-Bahn, Tram und Bus – MVV-Verbund deckt die gesamte Metropolregion ab.",
+  "lebenshaltung": "sehr hoch"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "luebeck",
+  "name": "Lübeck",
+  "bundesland": "Schleswig-Holstein",
+  "einwohner": 217000,
+  "beschreibung": "Lübeck, die Stadt des Marzipans und UNESCO-Weltkulturerbes, bietet als Oberzentrum an der Ostsee vielfältige Ausbildungschancen. Die traditionsreiche Hansestadt vereint Tourismus, Medizintechnik und Lebensmittelproduktion. Mit der Nähe zu Hamburg und der hohen Lebensqualität an der Ostsee ist Lübeck ein attraktiver Ausbildungsstandort.",
+  "topBerufe": [
+    "hotelfachmann",
+    "koch",
+    "kaufmann-einzelhandel",
+    "medizinische-fachangestellte",
+    "pflegefachmann",
+    "fachkraft-lagerlogistik",
+    "kaufmann-bueromanagement",
+    "baecker"
+  ],
+  "nachbarstaedte": [
+    "hamburg",
+    "kiel",
+    "rostock"
+  ],
+  "besonderheiten": [
+    "UNESCO-Weltkulturerbe mit starkem Tourismussektor",
+    "Bedeutender Medizintechnik-Standort mit Dräger und Euroimmun",
+    "Traditionsreiche Lebensmittelindustrie mit Niederegger Marzipan",
+    "Skandinavienkai als wichtiger Ostsee-Fährhafen",
+    "Exzellente Hochschullandschaft mit Universität und TH Lübeck"
+  ],
+  "oepnv": "Stadtbusse der Stadtverkehr Lübeck GmbH und gute Regionalbahn-Anbindung – Hamburg ist in 45 Minuten erreichbar.",
+  "lebenshaltung": "mittel"
+}

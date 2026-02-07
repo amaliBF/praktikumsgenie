@@ -1,0 +1,31 @@
+{
+  "slug": "kaiserslautern",
+  "name": "Kaiserslautern",
+  "bundesland": "Rheinland-Pfalz",
+  "einwohner": 100000,
+  "beschreibung": "Kaiserslautern ist ein aufstrebender IT- und Wissenschaftsstandort in der Westpfalz. Die Rheinland-Pfälzische Technische Universität und das Deutsche Forschungszentrum für Künstliche Intelligenz (DFKI) machen die Stadt zu einem Innovationsstandort. Die Präsenz der US-Streitkräfte und zahlreiche mittelständische Unternehmen sorgen für ein vielfältiges Ausbildungsangebot in Technologie, Handwerk und Dienstleistung.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "fachinformatiker-systemintegration",
+    "elektroniker",
+    "mechatroniker",
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "kfz-mechatroniker",
+    "it-system-elektroniker"
+  ],
+  "nachbarstaedte": [
+    "saarbruecken",
+    "mannheim",
+    "mainz"
+  ],
+  "besonderheiten": [
+    "Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI)",
+    "Rheinland-Pfälzische Technische Universität",
+    "Wachsender IT- und Technologiestandort",
+    "Größte US-Militärgemeinde außerhalb der USA",
+    "1. FC Kaiserslautern und Fritz-Walter-Stadion"
+  ],
+  "oepnv": "SWK betreiben Buslinien. Hauptbahnhof mit ICE-Halt. Regionalbahn nach Mannheim und Saarbrücken. VRN-Verbund.",
+  "lebenshaltung": "mittel"
+}

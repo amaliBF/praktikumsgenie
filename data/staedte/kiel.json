@@ -1,0 +1,30 @@
+{
+  "slug": "kiel",
+  "name": "Kiel",
+  "bundesland": "Schleswig-Holstein",
+  "einwohner": 247000,
+  "beschreibung": "Kiel als Landeshauptstadt Schleswig-Holsteins ist ein maritimer Ausbildungsstandort mit starkem Bezug zur See- und Hafenwirtschaft. Die Stadt an der Förde bietet Ausbildungsplätze in der Werftindustrie, im Marinestützpunkt und in wachsenden Technologieunternehmen. Die hohe Lebensqualität am Wasser macht Kiel besonders attraktiv für junge Menschen.",
+  "topBerufe": [
+    "industriemechaniker",
+    "elektroniker",
+    "mechatroniker",
+    "kaufmann-bueromanagement",
+    "verwaltungsfachangestellter",
+    "medizinische-fachangestellte",
+    "fachinformatiker-systemintegration",
+    "koch"
+  ],
+  "nachbarstaedte": [
+    "hamburg",
+    "luebeck",
+    "flensburg"
+  ],
+  "besonderheiten": [
+    "Bedeutender Marinestandort und Werftindustrie mit ThyssenKrupp Marine Systems",
+    "Kieler Woche als weltweit größtes Segelevent und Wirtschaftsfaktor",
+    "Starke Gesundheitswirtschaft mit UKSH als größtem Arbeitgeber",
+    "Wachsender IT- und Technologiesektor in der Wissenschaftsstadt"
+  ],
+  "oepnv": "KVG-Busnetz erschließt das gesamte Stadtgebiet – ergänzt durch Fördeschifffahrt und gute Bahnanbindung nach Hamburg.",
+  "lebenshaltung": "mittel"
+}

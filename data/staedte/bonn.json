@@ -1,0 +1,31 @@
+{
+  "slug": "bonn",
+  "name": "Bonn",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 330000,
+  "beschreibung": "Bonn ist als ehemalige Bundeshauptstadt und heutiger Sitz zahlreicher Bundesministerien, UN-Organisationen und internationaler Institutionen ein herausragender Standort für Verwaltungs- und Dienstleistungsberufe. Mit der Deutschen Telekom und der Deutschen Post DHL haben zwei DAX-Konzerne ihren Hauptsitz in Bonn. Die Bundesstadt bietet besonders in den Bereichen öffentliche Verwaltung, IT und Logistik attraktive Ausbildungsplätze.",
+  "topBerufe": [
+    "verwaltungsfachangestellter",
+    "kaufmann-bueromanagement",
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-spedition-logistik",
+    "it-system-elektroniker",
+    "kaufmann-e-commerce",
+    "industriekaufmann",
+    "rechtsanwaltsfachangestellter"
+  ],
+  "nachbarstaedte": [
+    "koeln",
+    "koblenz",
+    "aachen"
+  ],
+  "besonderheiten": [
+    "Ehemalige Bundeshauptstadt",
+    "Sitz von Deutscher Telekom und Deutsche Post DHL",
+    "UN-Campus und internationale Organisationen",
+    "Zahlreiche Bundesbehörden und Ministerien",
+    "Rheinische Friedrich-Wilhelms-Universität"
+  ],
+  "oepnv": "SWB Bus und Bahn sowie Stadtbahn-Verbindungen nach Köln. ICE-Halt am Hauptbahnhof. VRS-Verbund mit hervorragender Anbindung an die Region.",
+  "lebenshaltung": "hoch"
+}

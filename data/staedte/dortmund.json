@@ -1,0 +1,32 @@
+{
+  "slug": "dortmund",
+  "name": "Dortmund",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 590000,
+  "beschreibung": "Dortmund hat den Strukturwandel vom Stahl- und Kohlestandort zur modernen Technologie- und Dienstleistungsstadt erfolgreich gemeistert. Mit der TU Dortmund, dem Technologiezentrum und zahlreichen IT-Unternehmen bietet die Stadt besonders in technischen und digitalen Berufen attraktive Ausbildungsplätze. Die Logistikbranche profitiert von der zentralen Lage und dem größten Kanalhafen Europas.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "fachinformatiker-systemintegration",
+    "fachkraft-lagerlogistik",
+    "kaufmann-spedition-logistik",
+    "industriemechaniker",
+    "elektroniker",
+    "kaufmann-bueromanagement",
+    "kaufmann-e-commerce"
+  ],
+  "nachbarstaedte": [
+    "essen",
+    "bochum",
+    "muenster",
+    "bielefeld"
+  ],
+  "besonderheiten": [
+    "Erfolgreicher Strukturwandel zur IT- und Technologiestadt",
+    "Größter Kanalhafen Europas",
+    "Wichtiger Logistik-Hub",
+    "TU Dortmund als Innovationstreiber",
+    "Wachsender IT- und Digitalsektor"
+  ],
+  "oepnv": "Gut ausgebaut mit DSW21 (U-Bahn, Straßenbahn, Bus), S-Bahn und Regionalzüge. Hauptbahnhof als ICE-Halt. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

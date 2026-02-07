@@ -1,0 +1,31 @@
+{
+  "slug": "oberhausen",
+  "name": "Oberhausen",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 210000,
+  "beschreibung": "Oberhausen hat mit dem CentrO eines der größten Einkaufs- und Freizeitzentren Europas und ist ein wichtiger Handels- und Dienstleistungsstandort im westlichen Ruhrgebiet. Die Stadt bietet durch den Einzelhandel, die Freizeitwirtschaft und verbliebene Industriebetriebe ein vielfältiges Ausbildungsangebot. Die zentrale Lage zwischen Essen und Duisburg ermöglicht den Zugang zu einem großen Arbeitsmarkt.",
+  "topBerufe": [
+    "kaufmann-einzelhandel",
+    "fachkraft-gastgewerbe",
+    "veranstaltungskaufmann",
+    "kaufmann-bueromanagement",
+    "fachkraft-lagerlogistik",
+    "elektroniker",
+    "fachkraft-schutz-sicherheit",
+    "kfz-mechatroniker"
+  ],
+  "nachbarstaedte": [
+    "essen",
+    "duisburg",
+    "muelheim"
+  ],
+  "besonderheiten": [
+    "CentrO - eines der größten Einkaufszentren Europas",
+    "Gasometer als Wahrzeichen und Ausstellungsort",
+    "Starker Einzelhandels- und Freizeitsektor",
+    "Zentrale Lage im westlichen Ruhrgebiet",
+    "Wachsende Dienstleistungsbranche"
+  ],
+  "oepnv": "STOAG betreibt Straßenbahn und Busse. S-Bahn und Regionalbahn nach Essen, Duisburg und Düsseldorf. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

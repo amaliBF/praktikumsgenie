@@ -1,0 +1,32 @@
+{
+  "slug": "bamberg",
+  "name": "Bamberg",
+  "bundesland": "Bayern",
+  "einwohner": 78000,
+  "beschreibung": "Bamberg ist UNESCO-Weltkulturerbe und eine charmante Universitätsstadt in Oberfranken mit einer überraschend vielfältigen Wirtschaftsstruktur. Die Stadt besticht durch einen gesunden Mix aus Automobilzulieferern wie Brose, mittelständischen Unternehmen und einem starken Dienstleistungssektor. Die hohe Lebensqualität und die überschaubare Größe machen Bamberg zu einem angenehmen Ausbildungsort.",
+  "topBerufe": [
+    "industriekaufmann",
+    "mechatroniker",
+    "kaufmann-einzelhandel",
+    "koch",
+    "hotelfachmann",
+    "medizinische-fachangestellte",
+    "kaufmann-bueromanagement",
+    "elektroniker"
+  ],
+  "nachbarstaedte": [
+    "nuernberg",
+    "wuerzburg",
+    "erlangen",
+    "fuerth"
+  ],
+  "besonderheiten": [
+    "Sitz von Brose Fahrzeugteile – international agierender Zulieferer",
+    "UNESCO-Welterbe mit starkem Tourismussektor",
+    "Renommierte Otto-Friedrich-Universität",
+    "Traditionsreiche Brauereikultur und Gastronomie",
+    "Überschaubare Stadt mit persönlicher Ausbildungsatmosphäre"
+  ],
+  "oepnv": "Stadtbusnetz mit guter Abdeckung – Bahnanbindung an Nürnberg, Würzburg und Erlangen.",
+  "lebenshaltung": "mittel"
+}

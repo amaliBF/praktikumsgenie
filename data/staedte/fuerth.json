@@ -1,0 +1,31 @@
+{
+  "slug": "fuerth",
+  "name": "Fürth",
+  "bundesland": "Bayern",
+  "einwohner": 130000,
+  "beschreibung": "Fürth bildet zusammen mit Nürnberg und Erlangen das fränkische Städtedreieck und profitiert von der wirtschaftlichen Stärke der gesamten Metropolregion. Die Stadt mit ihrer traditionsreichen Industriegeschichte hat sich zu einem modernen Wirtschaftsstandort entwickelt. Besonders in Handwerk, Handel und Produktion finden Jugendliche vielfältige Ausbildungsmöglichkeiten.",
+  "topBerufe": [
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "elektroniker",
+    "kfz-mechatroniker",
+    "friseur",
+    "maler-lackierer",
+    "fachkraft-lagerlogistik",
+    "tischler"
+  ],
+  "nachbarstaedte": [
+    "nuernberg",
+    "erlangen",
+    "bamberg"
+  ],
+  "besonderheiten": [
+    "Direkt an Nürnberg angrenzend – gemeinsamer Arbeitsmarkt",
+    "Starkes Handwerk und Mittelstand",
+    "Günstigere Mieten als in Nürnberg",
+    "Gründerstadt mit wachsender Startup-Szene",
+    "Historische Altstadt mit hoher Lebensqualität"
+  ],
+  "oepnv": "In das Nürnberger ÖPNV-Netz integriert mit U-Bahn, Bus und S-Bahn – VGN-Verbund.",
+  "lebenshaltung": "mittel"
+}

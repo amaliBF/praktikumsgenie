@@ -1,0 +1,31 @@
+{
+  "slug": "saarbruecken",
+  "name": "Saarbrücken",
+  "bundesland": "Saarland",
+  "einwohner": 180000,
+  "beschreibung": "Saarbrücken ist die Landeshauptstadt des Saarlandes und ein wichtiger Wirtschaftsstandort an der deutsch-französischen Grenze. Die Stadt verbindet industrielle Tradition in Stahl und Keramik mit modernen Branchen wie IT, Automotive und Nanotechnologie. Die Grenzlage zu Frankreich und die Universität des Saarlandes mit ihrem renommierten Informatik-Schwerpunkt machen Saarbrücken zu einem attraktiven Ausbildungsstandort mit internationaler Perspektive.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "fachinformatiker-systemintegration",
+    "industriemechaniker",
+    "kaufmann-bueromanagement",
+    "mechatroniker",
+    "kfz-mechatroniker",
+    "kaufmann-einzelhandel",
+    "verwaltungsfachangestellter"
+  ],
+  "nachbarstaedte": [
+    "kaiserslautern",
+    "trier",
+    "ludwigshafen"
+  ],
+  "besonderheiten": [
+    "Landeshauptstadt des Saarlandes",
+    "Grenzlage zu Frankreich mit bilingualen Chancen",
+    "Universität des Saarlandes mit Informatik-Exzellenz",
+    "Helmholtz-Zentrum für Informationssicherheit (CISPA)",
+    "Traditionsreicher Industriestandort mit modernem Wandel"
+  ],
+  "oepnv": "Saarbahn und Buslinien der Saarbahn GmbH. Hauptbahnhof mit ICE-Halt. Grenzüberschreitende Verbindungen nach Frankreich. saarVV-Verbund.",
+  "lebenshaltung": "mittel"
+}

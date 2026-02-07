@@ -1,0 +1,31 @@
+{
+  "slug": "leverkusen",
+  "name": "Leverkusen",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 165000,
+  "beschreibung": "Leverkusen ist untrennbar mit dem Bayer-Konzern verbunden und einer der wichtigsten Chemiestandorte Deutschlands. Der Chempark Leverkusen beherbergt neben Bayer zahlreiche weitere Chemie- und Pharmaunternehmen, die erstklassige Ausbildungsplätze in naturwissenschaftlichen und technischen Berufen anbieten. Die Nähe zu Köln und Düsseldorf erweitert das berufliche Spektrum zusätzlich.",
+  "topBerufe": [
+    "chemikant",
+    "pharmakant",
+    "biologielaborant",
+    "industriemechaniker",
+    "elektroniker",
+    "kaufmann-bueromanagement",
+    "industriekaufmann",
+    "fachinformatiker-anwendungsentwicklung"
+  ],
+  "nachbarstaedte": [
+    "koeln",
+    "duesseldorf",
+    "solingen"
+  ],
+  "besonderheiten": [
+    "Welthauptsitz von Bayer AG",
+    "Chempark Leverkusen als einer der größten Chemieparks Europas",
+    "Führender Pharma- und Chemiestandort",
+    "Bayer 04 Leverkusen und BayArena",
+    "Hervorragende Ausbildungsprogramme der Chemieindustrie"
+  ],
+  "oepnv": "Wupsi betreibt Buslinien. S-Bahn und Regionalbahn nach Köln und Düsseldorf. Direkte Autobahnanbindung. VRS-Verbund.",
+  "lebenshaltung": "hoch"
+}

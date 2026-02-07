@@ -1,0 +1,31 @@
+{
+  "slug": "tuebingen",
+  "name": "Tübingen",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 92000,
+  "beschreibung": "Tübingen ist eine der renommiertesten Universitätsstädte Deutschlands und hat sich zu einem weltweit beachteten Standort für Biotechnologie und KI-Forschung entwickelt. Die malerische Stadt am Neckar beheimatet CureVac und das Cyber Valley, Europas größtes KI-Forschungskonsortium. Auszubildende profitieren von der einzigartigen Verbindung aus Spitzenforschung, Gesundheitswesen und studentischer Lebensqualität.",
+  "topBerufe": [
+    "biologielaborant",
+    "pharmakant",
+    "medizinische-fachangestellte",
+    "pflegefachmann",
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-bueromanagement",
+    "erzieher",
+    "rechtsanwaltsfachangestellter"
+  ],
+  "nachbarstaedte": [
+    "stuttgart",
+    "reutlingen",
+    "freiburg"
+  ],
+  "besonderheiten": [
+    "Eberhard Karls Universität – eine der ältesten Deutschlands",
+    "Cyber Valley – Europas führendes KI-Forschungszentrum",
+    "CureVac und starker Biotech-Cluster",
+    "Universitätsklinikum als größter Arbeitgeber",
+    "Charmante Altstadt mit höchster Lebensqualität"
+  ],
+  "oepnv": "Busnetz im naldo-Verbund – Regionalbahn nach Stuttgart und Reutlingen.",
+  "lebenshaltung": "hoch"
+}

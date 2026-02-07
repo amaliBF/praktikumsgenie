@@ -1,0 +1,32 @@
+{
+  "slug": "duesseldorf",
+  "name": "Düsseldorf",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 620000,
+  "beschreibung": "Düsseldorf ist die Landeshauptstadt Nordrhein-Westfalens und ein bedeutendes Zentrum für Mode, Werbung und Unternehmensberatung. Die Stadt beherbergt zahlreiche internationale Konzerne und japanische Unternehmen, was ein breites Spektrum an Ausbildungsmöglichkeiten schafft. Als führender Messestandort und wichtiger Finanzplatz bietet Düsseldorf besonders in kaufmännischen und kreativen Berufen hervorragende Perspektiven.",
+  "topBerufe": [
+    "kaufmann-bueromanagement",
+    "kaufmann-einzelhandel",
+    "fachinformatiker-anwendungsentwicklung",
+    "mediengestalter-digital-print",
+    "kaufmann-e-commerce",
+    "immobilienkaufmann",
+    "industriekaufmann",
+    "veranstaltungskaufmann"
+  ],
+  "nachbarstaedte": [
+    "koeln",
+    "duisburg",
+    "essen",
+    "wuppertal"
+  ],
+  "besonderheiten": [
+    "Landeshauptstadt NRW",
+    "Internationaler Modestandort mit Königsallee",
+    "Größte japanische Gemeinde Europas",
+    "Starker Werbe- und Kommunikationssektor",
+    "Wichtiger Messestandort"
+  ],
+  "oepnv": "Sehr gut ausgebaut mit Rheinbahn (U-Bahn, Straßenbahn, Bus), S-Bahn und Regionalverkehr. Internationaler Flughafen direkt angebunden. VRR-Verbund.",
+  "lebenshaltung": "sehr hoch"
+}

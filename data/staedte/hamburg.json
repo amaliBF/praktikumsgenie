@@ -1,0 +1,32 @@
+{
+  "slug": "hamburg",
+  "name": "Hamburg",
+  "bundesland": "Hamburg",
+  "einwohner": 1900000,
+  "beschreibung": "Hamburg ist als größter Seehafen Deutschlands ein Top-Standort für Ausbildungen in Logistik, Handel und Medien. Die Hansestadt bietet mit über 40.000 Ausbildungsplätzen jährlich eine enorme Vielfalt an Karrieremöglichkeiten. Von der Hafenwirtschaft über die florierende Medienbranche bis hin zum starken Einzelhandel finden Jugendliche hier ideale Bedingungen für den Berufsstart.",
+  "topBerufe": [
+    "kaufmann-spedition-logistik",
+    "kaufmann-grosshandel",
+    "kaufmann-e-commerce",
+    "mediengestalter-digital-print",
+    "fachinformatiker-anwendungsentwicklung",
+    "fachkraft-lagerlogistik",
+    "industriekaufmann",
+    "veranstaltungskaufmann"
+  ],
+  "nachbarstaedte": [
+    "luebeck",
+    "bremen",
+    "kiel",
+    "rostock"
+  ],
+  "besonderheiten": [
+    "Größter Seehafen Deutschlands mit starker Logistikbranche",
+    "Führender Medienstandort mit ARD, Spiegel und zahlreichen Agenturen",
+    "Airbus-Werk Finkenwerder als wichtiger Arbeitgeber in der Luftfahrt",
+    "Vielfältige Startup-Szene in der HafenCity und im Schanzenviertel",
+    "Über 100.000 Unternehmen bieten breite Ausbildungsmöglichkeiten"
+  ],
+  "oepnv": "Hervorragend ausgebautes HVV-Netz mit U-Bahn, S-Bahn, Bussen und Fähren – alle Stadtteile sind gut erreichbar.",
+  "lebenshaltung": "sehr hoch"
+}

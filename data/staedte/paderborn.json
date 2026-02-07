@@ -1,0 +1,31 @@
+{
+  "slug": "paderborn",
+  "name": "Paderborn",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 155000,
+  "beschreibung": "Paderborn ist ein wachsender IT- und Technologiestandort in Ostwestfalen mit einer starken Verbindung zwischen Universität und Wirtschaft. Unternehmen wie Wincor Nixdorf (Diebold Nixdorf) und zahlreiche IT-Firmen machen die Stadt zu einem attraktiven Ausbildungsort für technische Berufe. Die historische Domstadt verbindet moderne Technologiewirtschaft mit hoher Lebensqualität.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "fachinformatiker-systemintegration",
+    "it-system-elektroniker",
+    "elektroniker",
+    "kaufmann-bueromanagement",
+    "industriekaufmann",
+    "mechatroniker",
+    "kaufmann-e-commerce"
+  ],
+  "nachbarstaedte": [
+    "bielefeld",
+    "dortmund",
+    "kassel"
+  ],
+  "besonderheiten": [
+    "Starker IT-Standort mit Diebold Nixdorf",
+    "Universität Paderborn mit Informatik-Schwerpunkt",
+    "Heinz Nixdorf MuseumsForum - größtes Computermuseum der Welt",
+    "Wachsende Technologiewirtschaft",
+    "Historische Domstadt mit hoher Lebensqualität"
+  ],
+  "oepnv": "PaderSprinter betreibt ein dichtes Busnetz. Hauptbahnhof mit IC-Anbindung nach Dortmund und Kassel. Nahverkehrsverbund Paderborn-Höxter.",
+  "lebenshaltung": "mittel"
+}

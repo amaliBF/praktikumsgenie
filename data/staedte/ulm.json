@@ -1,0 +1,31 @@
+{
+  "slug": "ulm",
+  "name": "Ulm",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 130000,
+  "beschreibung": "Ulm an der Donau ist eine innovative Wissenschaftsstadt an der Grenze zu Bayern mit dem höchsten Kirchturm der Welt. Die Stadt hat sich zu einem bedeutenden Standort für Pharma, Logistik und Spitzentechnologie entwickelt. Mit der Universität Ulm und dem Science Park bietet die Stadt ein zukunftsorientiertes Umfeld für Auszubildende.",
+  "topBerufe": [
+    "pharmakant",
+    "industriekaufmann",
+    "fachinformatiker-anwendungsentwicklung",
+    "elektroniker",
+    "kaufmann-spedition-logistik",
+    "fachkraft-lagerlogistik",
+    "mechatroniker",
+    "kaufmann-einzelhandel"
+  ],
+  "nachbarstaedte": [
+    "augsburg",
+    "stuttgart",
+    "reutlingen"
+  ],
+  "besonderheiten": [
+    "Höchster Kirchturm der Welt (Ulmer Münster, 161,5 m)",
+    "Starker Pharma-Standort mit Teva/ratiopharm",
+    "Universität Ulm mit exzellenter Forschung",
+    "Science Park als Innovationszentrum",
+    "Doppelstadt Ulm/Neu-Ulm – zwei Bundesländer, ein Arbeitsmarkt"
+  ],
+  "oepnv": "Straßenbahn und Busnetz – DING-Verbund mit regionaler Anbindung nach Stuttgart und Augsburg.",
+  "lebenshaltung": "mittel"
+}

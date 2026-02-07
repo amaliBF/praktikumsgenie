@@ -1,0 +1,29 @@
+{
+  "slug": "emden",
+  "name": "Emden",
+  "bundesland": "Niedersachsen",
+  "einwohner": 50000,
+  "beschreibung": "Emden an der Nordseeküste ist ein bedeutender Industriestandort mit VW-Werk und einem der größten Autoverladehäfen Europas. Die ostfriesische Seehafenstadt bietet solide Ausbildungsplätze in Automotive, Logistik und erneuerbaren Energien. Mit norddeutschem Charme und niedrigen Lebenshaltungskosten ist Emden ein bodenständiger Ausbildungsort.",
+  "topBerufe": [
+    "industriemechaniker",
+    "mechatroniker",
+    "elektroniker",
+    "fachkraft-lagerlogistik",
+    "kaufmann-spedition-logistik",
+    "kfz-mechatroniker",
+    "industriekaufmann",
+    "anlagenmechaniker-shk"
+  ],
+  "nachbarstaedte": [
+    "oldenburg",
+    "bremen"
+  ],
+  "besonderheiten": [
+    "VW-Werk Emden als einer der größten Arbeitgeber Ostfrieslands",
+    "Einer der größten Autoverladehäfen Europas",
+    "Wachsende Offshore-Windenergie-Branche",
+    "ENERCON-Nähe als Windkraftanlagenhersteller"
+  ],
+  "oepnv": "Stadtbuslinien und Bahnanbindung – die kompakte Stadt ist gut per Rad erreichbar, typisch ostfriesisch.",
+  "lebenshaltung": "niedrig"
+}

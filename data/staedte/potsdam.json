@@ -1,0 +1,31 @@
+{
+  "slug": "potsdam",
+  "name": "Potsdam",
+  "bundesland": "Brandenburg",
+  "einwohner": 185000,
+  "beschreibung": "Potsdam als Landeshauptstadt Brandenburgs verbindet UNESCO-Weltkulturerbe mit moderner Medien- und Wissenschaftslandschaft. Die Stadt am Wasser bietet Ausbildungsplätze in der Filmbranche am Standort Babelsberg, in der IT und in der Verwaltung. Mit der direkten Anbindung an Berlin und der hohen Lebensqualität ist Potsdam ein erstklassiger Ausbildungsstandort.",
+  "topBerufe": [
+    "mediengestalter-digital-print",
+    "fachinformatiker-anwendungsentwicklung",
+    "verwaltungsfachangestellter",
+    "veranstaltungskaufmann",
+    "kaufmann-bueromanagement",
+    "hotelfachmann",
+    "erzieher",
+    "koch"
+  ],
+  "nachbarstaedte": [
+    "berlin",
+    "magdeburg",
+    "leipzig"
+  ],
+  "besonderheiten": [
+    "Studio Babelsberg als ältestes Großfilmstudio der Welt",
+    "UNESCO-Welterbe Schlösser und Parks mit starkem Tourismus",
+    "Wissenschaftspark Golm mit zahlreichen Forschungsinstituten",
+    "Hasso-Plattner-Institut als renommierte IT-Hochschule",
+    "Hohe Lebensqualität mit Seen und historischer Innenstadt"
+  ],
+  "oepnv": "ViP-Straßenbahn und Busse sowie S-Bahn-Anbindung nach Berlin – Berliner Innenstadt in 30 Minuten erreichbar.",
+  "lebenshaltung": "hoch"
+}

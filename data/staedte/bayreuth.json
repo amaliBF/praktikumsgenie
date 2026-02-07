@@ -1,0 +1,31 @@
+{
+  "slug": "bayreuth",
+  "name": "Bayreuth",
+  "bundesland": "Bayern",
+  "einwohner": 75000,
+  "beschreibung": "Bayreuth ist als Festspielstadt weltweit bekannt und gleichzeitig ein solider Wirtschaftsstandort in Oberfranken. Die Universitätsstadt bietet eine gesunde Mischung aus Industrie, Handel und Verwaltung. Große Arbeitgeber wie die BAT (British American Tobacco) und zahlreiche Mittelständler sorgen für ein verlässliches Ausbildungsangebot.",
+  "topBerufe": [
+    "industriekaufmann",
+    "kaufmann-einzelhandel",
+    "verwaltungsfachangestellter",
+    "kaufmann-bueromanagement",
+    "industriemechaniker",
+    "elektroniker",
+    "kfz-mechatroniker",
+    "medizinische-fachangestellte"
+  ],
+  "nachbarstaedte": [
+    "nuernberg",
+    "bamberg",
+    "hof"
+  ],
+  "besonderheiten": [
+    "Richard-Wagner-Festspiele – internationales Kulturereignis",
+    "Universität Bayreuth mit exzellenter Forschung",
+    "Starker Mittelstand in Produktion und Handwerk",
+    "Sitz mehrerer Behörden und Verwaltungseinrichtungen",
+    "Bezahlbares Wohnen in attraktiver Umgebung"
+  ],
+  "oepnv": "Stadtbusnetz – Bahnanbindung an Nürnberg und Hof sowie nach Sachsen.",
+  "lebenshaltung": "mittel"
+}

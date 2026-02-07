@@ -1,0 +1,30 @@
+{
+  "slug": "schwerin",
+  "name": "Schwerin",
+  "bundesland": "Mecklenburg-Vorpommern",
+  "einwohner": 96000,
+  "beschreibung": "Schwerin als Landeshauptstadt Mecklenburg-Vorpommerns bietet Ausbildungsplätze vor allem in Verwaltung, Gesundheitswesen und Dienstleistungen. Die malerische Stadt der sieben Seen besticht durch das berühmte Schloss und eine hohe Lebensqualität bei niedrigen Kosten. Für Auszubildende, die eine ruhige und naturnahe Umgebung bevorzugen, ist Schwerin eine ausgezeichnete Wahl.",
+  "topBerufe": [
+    "verwaltungsfachangestellter",
+    "kaufmann-bueromanagement",
+    "medizinische-fachangestellte",
+    "pflegefachmann",
+    "erzieher",
+    "kaufmann-einzelhandel",
+    "steuerfachangestellter",
+    "rechtsanwaltsfachangestellter"
+  ],
+  "nachbarstaedte": [
+    "rostock",
+    "luebeck",
+    "hamburg"
+  ],
+  "besonderheiten": [
+    "Landeshauptstadt mit vielen Ausbildungsplätzen im öffentlichen Dienst",
+    "Schweriner Schloss als Wahrzeichen und Landtagssitz",
+    "Stadt der sieben Seen mit hoher Lebensqualität",
+    "Helios Kliniken als großer Arbeitgeber im Gesundheitsbereich"
+  ],
+  "oepnv": "Nahverkehr Schwerin mit Straßenbahnen und Bussen – überschaubare Stadt mit kurzen Wegen.",
+  "lebenshaltung": "niedrig"
+}

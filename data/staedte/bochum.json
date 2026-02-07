@@ -1,0 +1,32 @@
+{
+  "slug": "bochum",
+  "name": "Bochum",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 365000,
+  "beschreibung": "Bochum hat sich von der Bergbaustadt zu einem modernen Standort für IT-Sicherheit und Automobilzulieferung entwickelt. Mit der Ruhr-Universität und dem Exzellenzcluster für Cybersicherheit bietet die Stadt besonders im IT-Bereich hervorragende Ausbildungsmöglichkeiten. Die vielfältige Unternehmenslandschaft aus Gesundheitswirtschaft, Einzelhandel und Technologie sorgt für ein breites Ausbildungsangebot.",
+  "topBerufe": [
+    "fachinformatiker-systemintegration",
+    "fachinformatiker-anwendungsentwicklung",
+    "it-system-elektroniker",
+    "kaufmann-bueromanagement",
+    "medizinische-fachangestellte",
+    "kfz-mechatroniker",
+    "industriekaufmann",
+    "elektroniker"
+  ],
+  "nachbarstaedte": [
+    "dortmund",
+    "essen",
+    "herne",
+    "witten"
+  ],
+  "besonderheiten": [
+    "IT-Sicherheitsstandort mit Exzellenzcluster CASA",
+    "Ruhr-Universität als größte Campus-Uni Deutschlands",
+    "Starkes Netzwerk der Gesundheitswirtschaft",
+    "Automobilzulieferer-Standort",
+    "Kulturszene mit Schauspielhaus und Starlight Express"
+  ],
+  "oepnv": "BOGESTRA betreibt U-Bahn, Straßenbahn und Busse. S-Bahn und Regionalbahnen ergänzen das Netz. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

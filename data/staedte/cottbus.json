@@ -1,0 +1,31 @@
+{
+  "slug": "cottbus",
+  "name": "Cottbus",
+  "bundesland": "Brandenburg",
+  "einwohner": 100000,
+  "beschreibung": "Cottbus befindet sich im Strukturwandel von der Braunkohle zu erneuerbaren Energien und bietet spannende Zukunfts-Ausbildungsplätze. Die zweitgrößte Stadt Brandenburgs investiert stark in den Aufbau neuer Industrien und einer Universitätsmedizin. Für Auszubildende bietet Cottbus günstige Lebenshaltungskosten und die Chance, den Wandel einer ganzen Region mitzugestalten.",
+  "topBerufe": [
+    "elektroniker",
+    "anlagenmechaniker-shk",
+    "pflegefachmann",
+    "kaufmann-bueromanagement",
+    "industriemechaniker",
+    "verwaltungsfachangestellter",
+    "erzieher",
+    "fachinformatiker-systemintegration"
+  ],
+  "nachbarstaedte": [
+    "berlin",
+    "potsdam",
+    "dresden"
+  ],
+  "besonderheiten": [
+    "Strukturwandel-Region mit neuen Zukunftsindustrien",
+    "BTU Cottbus-Senftenberg als Technische Universität",
+    "Aufbau einer neuen Universitätsmedizin",
+    "ICE-Instandhaltungswerk als neuer Großarbeitgeber",
+    "Sorbisch-wendische Kulturregion mit einzigartigem Erbe"
+  ],
+  "oepnv": "Cottbusverkehr mit Straßenbahnen und Bussen – kompakte Stadt mit kurzen Wegen und günstigen Fahrpreisen.",
+  "lebenshaltung": "niedrig"
+}

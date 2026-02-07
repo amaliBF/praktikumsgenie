@@ -1,0 +1,31 @@
+{
+  "slug": "moenchengladbach",
+  "name": "Mönchengladbach",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 260000,
+  "beschreibung": "Mönchengladbach ist ein dynamischer Wirtschaftsstandort am Niederrhein mit Stärken in Textil, Logistik und Maschinenbau. Die Stadt hat sich erfolgreich von der Textilindustrie zu einem modernen Dienstleistungs- und Gewerbestandort gewandelt. Mit dem Nordpark als Gewerbegebiet und der Hochschule Niederrhein bietet Mönchengladbach vielfältige Ausbildungschancen in Industrie, Handel und Handwerk.",
+  "topBerufe": [
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "industriemechaniker",
+    "fachkraft-lagerlogistik",
+    "elektroniker",
+    "medizinische-fachangestellte",
+    "kaufmann-grosshandel",
+    "kfz-mechatroniker"
+  ],
+  "nachbarstaedte": [
+    "duesseldorf",
+    "krefeld",
+    "koeln"
+  ],
+  "besonderheiten": [
+    "Traditionsreicher Textilstandort",
+    "Wachsender Logistiksektor",
+    "Hochschule Niederrhein mit Textil-Schwerpunkt",
+    "Borussia Mönchengladbach als Wirtschaftsfaktor",
+    "Gute Anbindung an den Flughafen Düsseldorf"
+  ],
+  "oepnv": "NEW betreibt Busnetz und Verbindungen in die Region. S-Bahn und Regionalbahn nach Düsseldorf und Köln. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

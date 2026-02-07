@@ -1,0 +1,11 @@
+{
+  "slug": "schnupperpraktikum",
+  "name": "Schnupperpraktikum",
+  "dauer": "1-5 Tage",
+  "zielgruppe": "Schüler, Interessierte",
+  "verguetet": false,
+  "beschreibung": "Das Schnupperpraktikum ist die kürzeste Form des Praktikums. In ein bis fünf Tagen bekommst du einen ersten Eindruck von einem Beruf oder Unternehmen.",
+  "voraussetzungen": ["Keine besonderen Voraussetzungen", "Bei Minderjährigen: Einverständnis der Eltern"],
+  "tipps": ["Ideal um mehrere Berufe in kurzer Zeit kennenzulernen", "Mach dir Notizen zu deinen Eindrücken", "Nutze die Zeit für gezielte Fragen an Mitarbeiter"],
+  "branchen": ["Handwerk", "Gesundheit", "Handel", "Technik", "Gastronomie"]
+}

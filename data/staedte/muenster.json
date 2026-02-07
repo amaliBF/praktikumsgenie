@@ -1,0 +1,31 @@
+{
+  "slug": "muenster",
+  "name": "Münster",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 315000,
+  "beschreibung": "Münster ist eine der lebenswertesten Städte Deutschlands und ein bedeutender Wissenschafts- und Verwaltungsstandort. Die Westfälische Wilhelms-Universität, das Universitätsklinikum und zahlreiche Behörden prägen die Wirtschaft der Fahrradstadt. Besonders in den Bereichen Gesundheit, Verwaltung, Recht und IT bietet Münster hervorragende Ausbildungsmöglichkeiten mit hoher Lebensqualität.",
+  "topBerufe": [
+    "verwaltungsfachangestellter",
+    "medizinische-fachangestellte",
+    "rechtsanwaltsfachangestellter",
+    "kaufmann-bueromanagement",
+    "steuerfachangestellter",
+    "fachinformatiker-anwendungsentwicklung",
+    "bankkaufmann",
+    "pflegefachmann"
+  ],
+  "nachbarstaedte": [
+    "osnabrueck",
+    "bielefeld",
+    "dortmund"
+  ],
+  "besonderheiten": [
+    "Fahrradhauptstadt Deutschlands",
+    "Renommierte Westfälische Wilhelms-Universität",
+    "Wichtiger Verwaltungs- und Justizstandort",
+    "Hohe Lebensqualität und niedrige Kriminalitätsrate",
+    "Starker Gesundheitssektor mit Uniklinikum"
+  ],
+  "oepnv": "Stadtwerke Münster betreiben ein dichtes Busnetz. Hauptbahnhof mit IC/ICE-Anbindung. Fahrrad als wichtigstes Verkehrsmittel. Westfalentarif.",
+  "lebenshaltung": "hoch"
+}

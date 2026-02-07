@@ -1,0 +1,31 @@
+{
+  "slug": "pforzheim",
+  "name": "Pforzheim",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 128000,
+  "beschreibung": "Pforzheim ist als Goldstadt international bekannt und Zentrum der deutschen Schmuck- und Uhrenindustrie am Nordrand des Schwarzwalds. Die Stadt bietet neben der traditionsreichen Schmuckbranche auch vielfältige Ausbildungsmöglichkeiten in Metallverarbeitung, Handel und Dienstleistungen. Die Hochschule Pforzheim gehört zu den renommiertesten Fachhochschulen für Design und Wirtschaft.",
+  "topBerufe": [
+    "kaufmann-einzelhandel",
+    "industriemechaniker",
+    "werkzeugmechaniker",
+    "augenoptiker",
+    "zahntechniker",
+    "kaufmann-bueromanagement",
+    "kfz-mechatroniker",
+    "mediengestalter-digital-print"
+  ],
+  "nachbarstaedte": [
+    "stuttgart",
+    "karlsruhe",
+    "heidelberg"
+  ],
+  "besonderheiten": [
+    "Goldstadt – Zentrum der deutschen Schmuck- und Uhrenindustrie",
+    "Hochschule Pforzheim – Top-Adresse für Design und Wirtschaft",
+    "Starke Metallverarbeitungstradition",
+    "Tor zum Schwarzwald – hohe Freizeitqualität",
+    "Bezahlbare Alternative zu Stuttgart und Karlsruhe"
+  ],
+  "oepnv": "Busnetz und S-Bahn-Anbindung an Karlsruhe und Stuttgart über VPE- und KVV-Verbund.",
+  "lebenshaltung": "mittel"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "darmstadt",
+  "name": "Darmstadt",
+  "bundesland": "Hessen",
+  "einwohner": 160000,
+  "beschreibung": "Darmstadt ist die Wissenschaftsstadt Hessens und ein führender Standort für Pharma, Chemie und IT. Mit der TU Darmstadt, dem GSI Helmholtzzentrum und Unternehmen wie Merck und dem Software AG bietet die Stadt exzellente Ausbildungsmöglichkeiten in naturwissenschaftlichen und technischen Berufen. Die hohe Dichte an Forschungseinrichtungen macht Darmstadt besonders attraktiv für zukunftsorientierte Ausbildungen.",
+  "topBerufe": [
+    "chemikant",
+    "pharmakant",
+    "biologielaborant",
+    "fachinformatiker-anwendungsentwicklung",
+    "fachinformatiker-systemintegration",
+    "elektroniker",
+    "industriekaufmann",
+    "kaufmann-bueromanagement"
+  ],
+  "nachbarstaedte": [
+    "frankfurt",
+    "wiesbaden",
+    "heidelberg",
+    "mannheim"
+  ],
+  "besonderheiten": [
+    "Offizieller Titel Wissenschaftsstadt",
+    "Merck-Hauptsitz - ältestes Pharma- und Chemieunternehmen der Welt",
+    "TU Darmstadt als führende technische Universität",
+    "Europäische Weltraumorganisation ESA (ESOC)",
+    "GSI Helmholtzzentrum für Schwerionenforschung"
+  ],
+  "oepnv": "HEAG mobilo betreibt Straßenbahn und Busse. S-Bahn und Regionalbahn nach Frankfurt. RMV-Verbund. Gute Anbindung an Frankfurt Flughafen.",
+  "lebenshaltung": "hoch"
+}

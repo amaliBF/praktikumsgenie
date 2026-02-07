@@ -1,0 +1,31 @@
+{
+  "slug": "hanau",
+  "name": "Hanau",
+  "bundesland": "Hessen",
+  "einwohner": 100000,
+  "beschreibung": "Hanau ist als Brüder-Grimm-Stadt bekannt und ein wachsender Industrie- und Technologiestandort östlich von Frankfurt. Die Stadt ist traditionell stark in der Edelmetallverarbeitung und Schmuckindustrie und hat sich zu einem vielseitigen Gewerbestandort mit Schwerpunkten in Materialwissenschaft und Technologie entwickelt. Die direkte Anbindung an Frankfurt eröffnet Auszubildenden zusätzliche Perspektiven.",
+  "topBerufe": [
+    "industriemechaniker",
+    "elektroniker",
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "kfz-mechatroniker",
+    "zahntechniker",
+    "augenoptiker",
+    "fachkraft-lagerlogistik"
+  ],
+  "nachbarstaedte": [
+    "frankfurt",
+    "offenbach",
+    "darmstadt"
+  ],
+  "besonderheiten": [
+    "Brüder-Grimm-Stadt",
+    "Historische Gold- und Silberstadt",
+    "Heraeus als Weltkonzern für Edelmetalle und Technologie",
+    "Wachsender Technologiestandort",
+    "Exzellente Anbindung an Frankfurt"
+  ],
+  "oepnv": "Hanauer Straßenbahn und Buslinien. S-Bahn und Regionalbahn nach Frankfurt. RMV-Verbund.",
+  "lebenshaltung": "mittel"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "magdeburg",
+  "name": "Magdeburg",
+  "bundesland": "Sachsen-Anhalt",
+  "einwohner": 240000,
+  "beschreibung": "Magdeburg als Landeshauptstadt Sachsen-Anhalts erlebt durch die Intel-Chipfabrik einen historischen Wirtschaftsaufschwung. Die Stadt an der Elbe bietet Ausbildungsplätze in der wachsenden Halbleiterindustrie, im Maschinenbau und in der Verwaltung. Mit günstigen Lebenshaltungskosten und einer aufstrebenden Wirtschaft ist Magdeburg ein Ausbildungsstandort mit enormem Zukunftspotenzial.",
+  "topBerufe": [
+    "elektroniker",
+    "industriemechaniker",
+    "mechatroniker",
+    "fachinformatiker-systemintegration",
+    "verwaltungsfachangestellter",
+    "kaufmann-bueromanagement",
+    "chemikant",
+    "industriekaufmann"
+  ],
+  "nachbarstaedte": [
+    "braunschweig",
+    "berlin",
+    "halle",
+    "hannover"
+  ],
+  "besonderheiten": [
+    "Intel-Chipfabrik als Milliarden-Investition schafft tausende Arbeitsplätze",
+    "Starker Maschinenbau mit FAM, SKET und IFA-Tradition",
+    "Otto-von-Guericke-Universität als wichtiger Forschungsstandort",
+    "Wasserstraßenkreuz und Schiffshebewerk Rothensee",
+    "Grüne Zitadelle von Hundertwasser als architektonisches Highlight"
+  ],
+  "oepnv": "MVB mit Straßenbahnen und Bussen – ICE-Bahnhof mit schnellen Verbindungen nach Berlin und Hannover.",
+  "lebenshaltung": "niedrig"
+}

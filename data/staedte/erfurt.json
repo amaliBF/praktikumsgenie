@@ -1,0 +1,32 @@
+{
+  "slug": "erfurt",
+  "name": "Erfurt",
+  "bundesland": "Thüringen",
+  "einwohner": 215000,
+  "beschreibung": "Erfurt als Landeshauptstadt Thüringens ist ein aufstrebender Logistik- und Dienstleistungsstandort in der Mitte Deutschlands. Die Stadt mit der beeindruckenden mittelalterlichen Altstadt bietet Ausbildungsplätze in der Logistik, Verwaltung und im wachsenden IT-Sektor. Durch den ICE-Knoten und die zentrale Lage ist Erfurt ideal vernetzt und bietet günstige Lebenshaltungskosten.",
+  "topBerufe": [
+    "fachkraft-lagerlogistik",
+    "kaufmann-spedition-logistik",
+    "verwaltungsfachangestellter",
+    "kaufmann-bueromanagement",
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-einzelhandel",
+    "erzieher",
+    "hotelfachmann"
+  ],
+  "nachbarstaedte": [
+    "jena",
+    "weimar",
+    "halle",
+    "leipzig"
+  ],
+  "besonderheiten": [
+    "ICE-Knoten mit Anbindung an alle deutschen Großstädte",
+    "Zalando-Logistikzentrum und wachsende E-Commerce-Branche",
+    "Besterhaltene mittelalterliche Altstadt mit Krämerbrücke",
+    "Kindermedienstadt mit KiKA-Hauptsitz",
+    "Messe Erfurt als bedeutender Veranstaltungsort"
+  ],
+  "oepnv": "EVAG mit Stadtbahn und Bussen – ICE-Knoten mit Verbindungen nach Berlin, München und Frankfurt in unter 2 Stunden.",
+  "lebenshaltung": "niedrig"
+}

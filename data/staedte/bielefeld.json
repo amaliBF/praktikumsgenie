@@ -1,0 +1,32 @@
+{
+  "slug": "bielefeld",
+  "name": "Bielefeld",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 335000,
+  "beschreibung": "Bielefeld ist das wirtschaftliche Zentrum Ostwestfalen-Lippes und bekannt für seine starke Nahrungsmittel- und Maschinenbauindustrie. Unternehmen wie Dr. Oetker, Schüco und Gildemeister haben hier ihren Sitz und bieten vielfältige Ausbildungsplätze. Die Stadt verbindet industrielle Tradition mit moderner Dienstleistungswirtschaft und ist ein wichtiger Standort für Gesundheitswirtschaft und Sozialunternehmen.",
+  "topBerufe": [
+    "industriekaufmann",
+    "industriemechaniker",
+    "kaufmann-bueromanagement",
+    "fachinformatiker-anwendungsentwicklung",
+    "elektroniker",
+    "koch",
+    "fachkraft-lagerlogistik",
+    "kaufmann-einzelhandel"
+  ],
+  "nachbarstaedte": [
+    "osnabrueck",
+    "dortmund",
+    "paderborn",
+    "muenster"
+  ],
+  "besonderheiten": [
+    "Wirtschaftszentrum Ostwestfalen-Lippes",
+    "Sitz von Dr. Oetker und Schüco",
+    "Starke Nahrungsmittel- und Maschinenbauindustrie",
+    "Universität Bielefeld",
+    "Wichtiger Standort der Gesundheitswirtschaft"
+  ],
+  "oepnv": "moBiel betreibt Stadtbahn und Buslinien. Hauptbahnhof mit ICE-Anbindung. Regionalverkehr in die Region OWL. Verbund OWL (Der Sechser).",
+  "lebenshaltung": "mittel"
+}

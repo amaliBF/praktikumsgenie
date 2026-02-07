@@ -1,0 +1,32 @@
+{
+  "slug": "frankfurt",
+  "name": "Frankfurt am Main",
+  "bundesland": "Hessen",
+  "einwohner": 760000,
+  "beschreibung": "Frankfurt am Main ist das Finanzzentrum Deutschlands und Sitz der Europäischen Zentralbank, der Deutschen Bundesbank sowie zahlreicher internationaler Banken und Finanzdienstleister. Die Mainmetropole bietet als bedeutender Messestandort, Verkehrsdrehscheibe und Sitz vieler Großkonzerne ein außergewöhnlich breites Spektrum an Ausbildungsmöglichkeiten. Besonders in den Bereichen Finanzen, IT, Logistik und Recht ist Frankfurt führend.",
+  "topBerufe": [
+    "bankkaufmann",
+    "kaufmann-versicherungen-finanzen",
+    "fachinformatiker-anwendungsentwicklung",
+    "immobilienkaufmann",
+    "rechtsanwaltsfachangestellter",
+    "kaufmann-bueromanagement",
+    "kaufmann-spedition-logistik",
+    "steuerfachangestellter"
+  ],
+  "nachbarstaedte": [
+    "wiesbaden",
+    "mainz",
+    "darmstadt",
+    "offenbach"
+  ],
+  "besonderheiten": [
+    "Finanzmetropole und Sitz der EZB",
+    "Internationaler Flughafen - größter Arbeitgeber der Region",
+    "Frankfurter Messe mit Buchmesse und IAA",
+    "Sitz zahlreicher DAX-Konzerne",
+    "Multikulturellste Stadt Deutschlands"
+  ],
+  "oepnv": "Exzellent ausgebaut mit U-Bahn, S-Bahn, Straßenbahn und Bussen. Hauptbahnhof als größter Fernbahnhof Deutschlands. RMV-Verbund. Flughafen-Fernbahnhof.",
+  "lebenshaltung": "sehr hoch"
+}

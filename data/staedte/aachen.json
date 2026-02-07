@@ -1,0 +1,31 @@
+{
+  "slug": "aachen",
+  "name": "Aachen",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 250000,
+  "beschreibung": "Aachen ist als Standort der renommierten RWTH Aachen eine der führenden Technologiestädte Deutschlands. Die enge Verzahnung von Universität und Industrie macht die Stadt zu einem Innovationsmotor, besonders in den Bereichen IT, Ingenieurwesen und E-Mobilität. Die Grenzlage zu Belgien und den Niederlanden eröffnet zusätzliche internationale Karrieremöglichkeiten.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "fachinformatiker-systemintegration",
+    "elektroniker",
+    "mechatroniker",
+    "industriemechaniker",
+    "kaufmann-bueromanagement",
+    "it-system-elektroniker",
+    "medizinische-fachangestellte"
+  ],
+  "nachbarstaedte": [
+    "koeln",
+    "bonn",
+    "duesseldorf"
+  ],
+  "besonderheiten": [
+    "RWTH Aachen als eine der besten technischen Universitäten Europas",
+    "Innovationszentrum für E-Mobilität und Digitalisierung",
+    "Dreiländereck Deutschland-Belgien-Niederlande",
+    "Starker IT- und Technologiesektor",
+    "UNESCO-Weltkulturerbe Aachener Dom"
+  ],
+  "oepnv": "ASEAG betreibt ein umfassendes Busnetz. Regionalzüge nach Köln und ins Dreiländereck. AVV-Verbund. Geplante Regiotram.",
+  "lebenshaltung": "mittel"
+}

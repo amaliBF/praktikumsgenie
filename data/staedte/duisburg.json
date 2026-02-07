@@ -1,0 +1,31 @@
+{
+  "slug": "duisburg",
+  "name": "Duisburg",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 500000,
+  "beschreibung": "Duisburg besitzt den größten Binnenhafen der Welt und ist ein zentraler Logistik- und Stahlstandort in Deutschland. Die Stadt bietet durch ihre starke Industrietradition und den wachsenden Logistiksektor zahlreiche Ausbildungsplätze in technischen und kaufmännischen Berufen. Als Endpunkt der Neuen Seidenstraße gewinnt Duisburg zunehmend an internationaler Bedeutung im Handel und in der Spedition.",
+  "topBerufe": [
+    "fachkraft-lagerlogistik",
+    "kaufmann-spedition-logistik",
+    "industriemechaniker",
+    "berufskraftfahrer",
+    "elektroniker",
+    "mechatroniker",
+    "kaufmann-grosshandel",
+    "werkzeugmechaniker"
+  ],
+  "nachbarstaedte": [
+    "essen",
+    "duesseldorf",
+    "krefeld"
+  ],
+  "besonderheiten": [
+    "Größter Binnenhafen der Welt (duisport)",
+    "Wichtiger Stahlstandort (thyssenkrupp Steel)",
+    "Endpunkt der Neuen Seidenstraße",
+    "Zentraler Logistik-Hub in NRW",
+    "Universität Duisburg-Essen"
+  ],
+  "oepnv": "DVG betreibt Straßenbahn und Busnetz, ergänzt durch S-Bahn und Regionalverkehr. ICE-Halt am Hauptbahnhof. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

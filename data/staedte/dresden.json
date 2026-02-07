@@ -1,0 +1,32 @@
+{
+  "slug": "dresden",
+  "name": "Dresden",
+  "bundesland": "Sachsen",
+  "einwohner": 560000,
+  "beschreibung": "Dresden ist als \"Silicon Saxony\" Europas größter Mikroelektronik-Standort und bietet herausragende Ausbildungsmöglichkeiten in Hightech und Industrie. Die sächsische Landeshauptstadt vereint Weltklasse-Kultur mit innovativer Wirtschaft und ist Heimat von Globalfoundries, Infineon und Bosch. Mit der barocken Altstadt und der Elblage ist Dresden einer der schönsten Ausbildungsorte Deutschlands.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "elektroniker",
+    "mechatroniker",
+    "chemikant",
+    "industriekaufmann",
+    "it-system-elektroniker",
+    "fachinformatiker-systemintegration",
+    "industriemechaniker"
+  ],
+  "nachbarstaedte": [
+    "leipzig",
+    "chemnitz",
+    "berlin",
+    "cottbus"
+  ],
+  "besonderheiten": [
+    "Silicon Saxony: Europas größter Halbleiter-Cluster mit Infineon, Bosch und Globalfoundries",
+    "Starke Pharma- und Biotech-Branche mit GlaxoSmithKline",
+    "Weltberühmte Kulturinstitutionen wie Semperoper und Zwinger",
+    "Exzellenzuniversität TU Dresden als Forschungsmotor",
+    "VW-Gläserne Manufaktur als innovativer Produktionsstandort"
+  ],
+  "oepnv": "DVB mit Straßenbahnen, Bussen und Bergbahnen – S-Bahn ins Umland und ICE-Anbindung nach Berlin und Prag.",
+  "lebenshaltung": "mittel"
+}

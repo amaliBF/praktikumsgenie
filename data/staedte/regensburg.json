@@ -1,0 +1,32 @@
+{
+  "slug": "regensburg",
+  "name": "Regensburg",
+  "bundesland": "Bayern",
+  "einwohner": 155000,
+  "beschreibung": "Regensburg ist UNESCO-Weltkulturerbe und gleichzeitig einer der dynamischsten Wirtschaftsstandorte Bayerns. Die Stadt an der Donau beheimatet BMW, Continental und Infineon sowie zahlreiche innovative Mittelständler. Mit vier Hochschulen und einer lebendigen Studierendenszene bietet Regensburg ein attraktives Umfeld für junge Auszubildende.",
+  "topBerufe": [
+    "fachinformatiker-systemintegration",
+    "mechatroniker",
+    "elektroniker",
+    "industriekaufmann",
+    "it-system-elektroniker",
+    "kaufmann-bueromanagement",
+    "kfz-mechatroniker",
+    "industriemechaniker"
+  ],
+  "nachbarstaedte": [
+    "nuernberg",
+    "muenchen",
+    "passau",
+    "ingolstadt"
+  ],
+  "besonderheiten": [
+    "BMW-Werk und Infineon-Standort",
+    "UNESCO-Welterbe Altstadt",
+    "Boomender IT-Sektor mit vielen Startups",
+    "Vier Hochschulen mit dualen Studienangeboten",
+    "Hohe Lebensqualität an der Donau"
+  ],
+  "oepnv": "Stadtbusnetz mit guter Abdeckung – Regionalbahnen verbinden Regensburg mit München, Nürnberg und Passau.",
+  "lebenshaltung": "mittel"
+}

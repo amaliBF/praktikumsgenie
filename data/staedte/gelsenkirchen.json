@@ -1,0 +1,31 @@
+{
+  "slug": "gelsenkirchen",
+  "name": "Gelsenkirchen",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 260000,
+  "beschreibung": "Gelsenkirchen befindet sich im Wandel von der Kohle- und Stahlstadt zum Standort für Solarenergie und Zukunftstechnologien. Die Stadt investiert stark in erneuerbare Energien und hat sich als Solarstadt einen Namen gemacht. Mit der Westfälischen Hochschule und Unternehmen der Energie- und Gesundheitsbranche bietet Gelsenkirchen Ausbildungsplätze besonders in technischen und sozialen Berufen.",
+  "topBerufe": [
+    "elektroniker",
+    "anlagenmechaniker-shk",
+    "pflegefachmann",
+    "kaufmann-einzelhandel",
+    "fachkraft-schutz-sicherheit",
+    "industriemechaniker",
+    "kfz-mechatroniker",
+    "erzieher"
+  ],
+  "nachbarstaedte": [
+    "essen",
+    "bochum",
+    "dortmund"
+  ],
+  "besonderheiten": [
+    "Solarstadt mit Fokus auf erneuerbare Energien",
+    "Westfälische Hochschule Gelsenkirchen",
+    "Strukturwandel mit Zukunftstechnologien",
+    "Veltins-Arena als Veranstaltungsort",
+    "Wachsender Gesundheitssektor"
+  ],
+  "oepnv": "Straßenbahn und Busse der BOGESTRA/Vestische. S-Bahn-Anbindung nach Essen und Dortmund. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

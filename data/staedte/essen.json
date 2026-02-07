@@ -1,0 +1,32 @@
+{
+  "slug": "essen",
+  "name": "Essen",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 580000,
+  "beschreibung": "Essen ist die Energiehauptstadt Deutschlands und Sitz bedeutender Konzerne wie RWE, E.ON und thyssenkrupp. Als Grüne Hauptstadt Europas 2017 hat die Stadt den Wandel zur modernen Dienstleistungsmetropole vollzogen. Die Messe Essen und der Medizinstandort mit dem Universitätsklinikum bieten vielfältige Ausbildungsmöglichkeiten in Wirtschaft, Technik und Gesundheit.",
+  "topBerufe": [
+    "industriekaufmann",
+    "elektroniker",
+    "kaufmann-bueromanagement",
+    "fachinformatiker-systemintegration",
+    "medizinische-fachangestellte",
+    "mechatroniker",
+    "kaufmann-einzelhandel",
+    "kaufmann-versicherungen-finanzen"
+  ],
+  "nachbarstaedte": [
+    "dortmund",
+    "duisburg",
+    "bochum",
+    "duesseldorf"
+  ],
+  "besonderheiten": [
+    "Energiehauptstadt Deutschlands (RWE, E.ON)",
+    "Sitz von thyssenkrupp",
+    "Grüne Hauptstadt Europas 2017",
+    "Wichtiger Medizinstandort",
+    "Messe Essen mit internationaler Bedeutung"
+  ],
+  "oepnv": "Umfangreiches Netz der Ruhrbahn (U-Bahn, Straßenbahn, Bus), S-Bahn-Anbindung und Regionalverkehr. ICE-Halt am Hauptbahnhof. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

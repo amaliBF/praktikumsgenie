@@ -1,0 +1,31 @@
+{
+  "slug": "wiesbaden",
+  "name": "Wiesbaden",
+  "bundesland": "Hessen",
+  "einwohner": 280000,
+  "beschreibung": "Wiesbaden ist die Landeshauptstadt Hessens und ein bedeutender Standort für Verwaltung, Gesundheit und Dienstleistungen. Die Kurstadt beherbergt zahlreiche Bundesbehörden, das Statistische Bundesamt und Unternehmen der Kreativwirtschaft. Mit ihrer gehobenen Infrastruktur und der Nähe zu Frankfurt bietet Wiesbaden attraktive Ausbildungsmöglichkeiten besonders im öffentlichen Dienst und im Gesundheitswesen.",
+  "topBerufe": [
+    "verwaltungsfachangestellter",
+    "kaufmann-bueromanagement",
+    "medizinische-fachangestellte",
+    "steuerfachangestellter",
+    "rechtsanwaltsfachangestellter",
+    "hotelfachmann",
+    "fachinformatiker-anwendungsentwicklung",
+    "immobilienkaufmann"
+  ],
+  "nachbarstaedte": [
+    "frankfurt",
+    "mainz",
+    "darmstadt"
+  ],
+  "besonderheiten": [
+    "Landeshauptstadt Hessens",
+    "Sitz des Statistischen Bundesamtes und Bundeskriminalamtes",
+    "Traditionsreiche Kurstadt mit Thermalquellen",
+    "Starker Verwaltungs- und Behördenstandort",
+    "Wachsende Kreativwirtschaft und IT-Szene"
+  ],
+  "oepnv": "ESWE Verkehr betreibt umfangreiches Busnetz. S-Bahn und Regionalbahn nach Frankfurt und Mainz. RMV-Verbund.",
+  "lebenshaltung": "hoch"
+}

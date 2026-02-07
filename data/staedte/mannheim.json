@@ -1,0 +1,32 @@
+{
+  "slug": "mannheim",
+  "name": "Mannheim",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 310000,
+  "beschreibung": "Mannheim ist eine dynamische Industriestadt in der Metropolregion Rhein-Neckar und ein wichtiger Handels- und Logistikstandort. Mit Unternehmen wie John Deere, Roche, ABB und BASF in der Nachbarstadt Ludwigshafen bietet die Quadratestadt vielfältige Ausbildungsmöglichkeiten. Die multikulturelle Universitätsstadt verbindet Industrie, Handel und Kreativwirtschaft auf einzigartige Weise.",
+  "topBerufe": [
+    "industriekaufmann",
+    "kaufmann-grosshandel",
+    "kaufmann-spedition-logistik",
+    "fachkraft-lagerlogistik",
+    "mechatroniker",
+    "chemikant",
+    "kaufmann-einzelhandel",
+    "fachinformatiker-systemintegration"
+  ],
+  "nachbarstaedte": [
+    "heidelberg",
+    "ludwigshafen",
+    "karlsruhe",
+    "darmstadt"
+  ],
+  "besonderheiten": [
+    "Zweitgrößter Binnenhafen Europas",
+    "Sitz von John Deere, ABB und Roche Diagnostics",
+    "Kreativwirtschaftszentrum Jungbusch",
+    "Universität Mannheim – führend in BWL",
+    "Multikulturelle Stadt mit lebendiger Kulturszene"
+  ],
+  "oepnv": "Straßenbahn und Bus im VRN-Verbund – S-Bahn Rhein-Neckar verbindet Mannheim, Heidelberg und die Region.",
+  "lebenshaltung": "hoch"
+}

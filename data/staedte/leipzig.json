@@ -1,0 +1,32 @@
+{
+  "slug": "leipzig",
+  "name": "Leipzig",
+  "bundesland": "Sachsen",
+  "einwohner": 600000,
+  "beschreibung": "Leipzig ist eine der am schnellsten wachsenden Städte Deutschlands und begeistert mit einer dynamischen Wirtschaft und lebendigen Kulturszene. Die Messestadt bietet Ausbildungsplätze in der Automobilindustrie, Logistik und der boomenden Kreativwirtschaft. Mit dem BMW-Werk, dem DHL-Hub am Flughafen und einer jungen Atmosphäre ist Leipzig ein zukunftsweisender Ausbildungsstandort.",
+  "topBerufe": [
+    "industriemechaniker",
+    "fachkraft-lagerlogistik",
+    "kaufmann-spedition-logistik",
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-e-commerce",
+    "mediengestalter-digital-print",
+    "mechatroniker",
+    "kaufmann-einzelhandel"
+  ],
+  "nachbarstaedte": [
+    "dresden",
+    "chemnitz",
+    "halle",
+    "berlin"
+  ],
+  "besonderheiten": [
+    "BMW- und Porsche-Werke als große Ausbilder in der Automobilbranche",
+    "DHL-Drehkreuz am Flughafen Leipzig/Halle – größtes in Europa",
+    "Boomende Kreativ- und Medienszene in Plagwitz und Lindenau",
+    "Leipziger Messe als traditionsreicher Wirtschaftsmotor",
+    "Eine der lebenswertesten Städte Deutschlands mit junger Bevölkerung"
+  ],
+  "oepnv": "LVB mit Straßenbahnen und Bussen sowie S-Bahn-Netz – Leipzig ist auch als Fahrradstadt bekannt.",
+  "lebenshaltung": "mittel"
+}

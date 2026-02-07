@@ -1,0 +1,31 @@
+{
+  "slug": "reutlingen",
+  "name": "Reutlingen",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 116000,
+  "beschreibung": "Reutlingen liegt am Fuße der Schwäbischen Alb und ist ein starker Maschinenbau- und Textilstandort in der Region Neckar-Alb. Die Stadt beheimatet Weltmarktführer wie Manz AG und zahlreiche innovative Mittelständler. Die Hochschule Reutlingen und die Nähe zu Stuttgart bieten Auszubildenden hervorragende Karriereperspektiven in Technik und Wirtschaft.",
+  "topBerufe": [
+    "industriemechaniker",
+    "mechatroniker",
+    "industriekaufmann",
+    "elektroniker",
+    "kaufmann-einzelhandel",
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-bueromanagement",
+    "zerspanungsmechaniker"
+  ],
+  "nachbarstaedte": [
+    "stuttgart",
+    "tuebingen",
+    "ulm"
+  ],
+  "besonderheiten": [
+    "Starker Maschinenbau und Textiltechnik",
+    "Hochschule Reutlingen mit praxisnaher Ausbildung",
+    "Zahlreiche Hidden Champions und Weltmarktführer",
+    "Tor zur Schwäbischen Alb – Natur und Freizeit",
+    "Teil der Wirtschaftsregion Stuttgart"
+  ],
+  "oepnv": "Busnetz im naldo-Verbund – Regionalbahnverbindung nach Stuttgart und Tübingen.",
+  "lebenshaltung": "mittel"
+}

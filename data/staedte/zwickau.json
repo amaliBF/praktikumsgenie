@@ -1,0 +1,30 @@
+{
+  "slug": "zwickau",
+  "name": "Zwickau",
+  "bundesland": "Sachsen",
+  "einwohner": 90000,
+  "beschreibung": "Zwickau blickt auf über 100 Jahre Automobilbau zurück und ist heute ein wichtiger Standort für Elektromobilität. Das VW-Werk Zwickau produziert ausschließlich Elektrofahrzeuge und bietet zukunftssichere Ausbildungsplätze. Mit niedrigen Lebenshaltungskosten und der Nähe zum Erzgebirge verbindet Zwickau Industrietradition mit Lebensqualität.",
+  "topBerufe": [
+    "mechatroniker",
+    "industriemechaniker",
+    "elektroniker",
+    "werkzeugmechaniker",
+    "kfz-mechatroniker",
+    "industriekaufmann",
+    "kaufmann-bueromanagement",
+    "zerspanungsmechaniker"
+  ],
+  "nachbarstaedte": [
+    "chemnitz",
+    "leipzig",
+    "dresden"
+  ],
+  "besonderheiten": [
+    "VW-Werk als größter E-Auto-Produktionsstandort in Europa",
+    "Über 100 Jahre Automobilbautradition (Horch, Audi, Trabant)",
+    "Starke Zulieferindustrie für die Automobilbranche",
+    "Westsächsische Hochschule mit Praxisnähe"
+  ],
+  "oepnv": "SVZ-Busse und Straßenbahnen sowie Bahnanbindung nach Chemnitz und Leipzig.",
+  "lebenshaltung": "niedrig"
+}

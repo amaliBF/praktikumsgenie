@@ -1,0 +1,11 @@
+{
+  "slug": "pflichtpraktikum",
+  "name": "Pflichtpraktikum (Studium)",
+  "dauer": "3-6 Monate",
+  "zielgruppe": "Studenten",
+  "verguetet": true,
+  "beschreibung": "Das Pflichtpraktikum ist fester Bestandteil vieler Studiengänge. Es dient dazu, theoretisches Wissen in der Praxis anzuwenden und erste Berufserfahrung zu sammeln.",
+  "voraussetzungen": ["Immatrikulation an einer Hochschule", "Nachweis über Pflichtpraktikum in der Studienordnung", "Praktikumsvertrag"],
+  "tipps": ["Kläre frühzeitig die Anforderungen deiner Hochschule", "Achte auf die Mindestdauer laut Studienordnung", "Nutze das Praktikum zum Netzwerken"],
+  "branchen": ["IT & Software", "Ingenieurwesen", "Wirtschaft", "Medien", "Soziale Arbeit", "Naturwissenschaften"]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "berlin",
+  "name": "Berlin",
+  "bundesland": "Berlin",
+  "einwohner": 3750000,
+  "beschreibung": "Berlin ist als Hauptstadt und größte Stadt Deutschlands ein pulsierender Ausbildungsstandort mit unzähligen Möglichkeiten. Die Metropole beherbergt eine florierende Startup-Szene, internationale Konzerne und eine einzigartige Kreativwirtschaft. Mit über 80.000 Ausbildungsplätzen jährlich und einer vielfältigen Kulturszene ist Berlin ein aufregender Ort für den Berufsstart.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-e-commerce",
+    "mediengestalter-digital-print",
+    "kaufmann-bueromanagement",
+    "veranstaltungskaufmann",
+    "hotelfachmann",
+    "fachkraft-schutz-sicherheit",
+    "medizinische-fachangestellte"
+  ],
+  "nachbarstaedte": [
+    "potsdam",
+    "dresden",
+    "leipzig"
+  ],
+  "besonderheiten": [
+    "Europas größte Startup-Hauptstadt mit über 500 Tech-Unternehmen",
+    "Regierungssitz mit vielfältigen Verwaltungs-Ausbildungsplätzen",
+    "Führender Standort für Kreativwirtschaft, Medien und Kultur",
+    "Charité als eines der größten Universitätskliniken Europas",
+    "Internationale Atmosphäre mit Unternehmen aus aller Welt"
+  ],
+  "oepnv": "Exzellent ausgebautes BVG-Netz mit U-Bahn, S-Bahn, Tram und Bussen – rund um die Uhr mobil in der ganzen Stadt.",
+  "lebenshaltung": "hoch"
+}

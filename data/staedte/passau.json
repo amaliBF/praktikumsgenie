@@ -1,0 +1,30 @@
+{
+  "slug": "passau",
+  "name": "Passau",
+  "bundesland": "Bayern",
+  "einwohner": 53000,
+  "beschreibung": "Passau, die Dreiflüssestadt an Donau, Inn und Ilz, liegt an der Grenze zu Österreich und ist ein bedeutender Handels- und Tourismusstandort in Niederbayern. Die Universität Passau und die Nähe zur österreichischen Wirtschaft schaffen ein besonderes Ausbildungsumfeld. Besonders in Tourismus, Handel und Handwerk gibt es attraktive Ausbildungsangebote.",
+  "topBerufe": [
+    "hotelfachmann",
+    "koch",
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "kfz-mechatroniker",
+    "fachkraft-gastgewerbe",
+    "tischler",
+    "anlagenmechaniker-shk"
+  ],
+  "nachbarstaedte": [
+    "regensburg",
+    "muenchen"
+  ],
+  "besonderheiten": [
+    "Einzigartige Lage am Zusammenfluss dreier Flüsse",
+    "Starker Tourismus- und Kreuzfahrtstandort",
+    "Universität Passau mit internationaler Ausrichtung",
+    "Grenzlage zu Österreich eröffnet zusätzliche Karrierechancen",
+    "Niedrige Lebenshaltungskosten bei hoher Lebensqualität"
+  ],
+  "oepnv": "Stadtbusnetz – Bahnanbindung an München und Regensburg sowie nach Österreich (Linz, Wien).",
+  "lebenshaltung": "mittel"
+}

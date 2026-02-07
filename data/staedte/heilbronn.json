@@ -1,0 +1,31 @@
+{
+  "slug": "heilbronn",
+  "name": "Heilbronn",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 128000,
+  "beschreibung": "Heilbronn am Neckar ist ein bedeutender Industrie- und Handelsstandort im Norden Baden-Württembergs. Die Stadt erlebt durch den Bildungscampus der Dieter Schwarz Stiftung (Lidl/Kaufland) einen beeindruckenden Aufschwung als Wissenschafts- und KI-Standort. Besonders in Handel, Logistik und Produktion finden Auszubildende hervorragende Perspektiven.",
+  "topBerufe": [
+    "kaufmann-einzelhandel",
+    "kaufmann-grosshandel",
+    "fachkraft-lagerlogistik",
+    "industriekaufmann",
+    "kaufmann-e-commerce",
+    "industriemechaniker",
+    "kfz-mechatroniker",
+    "kaufmann-bueromanagement"
+  ],
+  "nachbarstaedte": [
+    "stuttgart",
+    "karlsruhe",
+    "heidelberg"
+  ],
+  "besonderheiten": [
+    "Hauptsitz der Schwarz-Gruppe (Lidl/Kaufland)",
+    "Bildungscampus mit KI-Forschungszentrum IPAI",
+    "Starker Weinbau und Lebensmittelhandel",
+    "Wachsender Wissenschaftsstandort",
+    "Gute Anbindung an Stuttgart (ca. 50 Min.)"
+  ],
+  "oepnv": "Stadtbahn und Busnetz – HNV-Verbund mit S-Bahn-Anbindung an Stuttgart.",
+  "lebenshaltung": "mittel"
+}

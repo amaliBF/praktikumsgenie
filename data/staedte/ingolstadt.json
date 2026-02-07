@@ -1,0 +1,32 @@
+{
+  "slug": "ingolstadt",
+  "name": "Ingolstadt",
+  "bundesland": "Bayern",
+  "einwohner": 140000,
+  "beschreibung": "Ingolstadt ist als Sitz der AUDI AG eine der wohlhabendsten Städte Deutschlands und ein erstklassiger Standort für technische Ausbildungen. Die Automobilindustrie prägt die Stadt maßgeblich und bietet hunderte Ausbildungsplätze pro Jahr. Darüber hinaus wächst der IT- und Technologiesektor rund um die Technische Hochschule Ingolstadt stetig.",
+  "topBerufe": [
+    "mechatroniker",
+    "kfz-mechatroniker",
+    "industriemechaniker",
+    "elektroniker",
+    "fachinformatiker-anwendungsentwicklung",
+    "industriekaufmann",
+    "werkzeugmechaniker",
+    "zerspanungsmechaniker"
+  ],
+  "nachbarstaedte": [
+    "muenchen",
+    "nuernberg",
+    "regensburg",
+    "augsburg"
+  ],
+  "besonderheiten": [
+    "Hauptsitz der AUDI AG mit großem Ausbildungszentrum",
+    "Überdurchschnittliche Ausbildungsvergütung in der Automobilbranche",
+    "Starke Zulieferindustrie rund um Audi",
+    "Wachsender IT-Sektor und autonomes Fahren",
+    "Niedrige Arbeitslosenquote und hohe Übernahmechancen"
+  ],
+  "oepnv": "Stadtbusnetz mit solider Abdeckung – gute Bahnanbindung an München (ca. 50 Min.) und Nürnberg.",
+  "lebenshaltung": "hoch"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "offenbach",
+  "name": "Offenbach am Main",
+  "bundesland": "Hessen",
+  "einwohner": 130000,
+  "beschreibung": "Offenbach am Main ist eine dynamische, multikulturelle Stadt direkt neben Frankfurt und ein bedeutender Standort für Design, Kreativwirtschaft und Lederwarenindustrie. Die Hochschule für Gestaltung und das Deutsche Ledermuseum zeugen von der kreativen Tradition. Mit erschwinglicheren Mieten als Frankfurt und exzellenter Verkehrsanbindung bietet Offenbach eine attraktive Alternative für Auszubildende in der Rhein-Main-Region.",
+  "topBerufe": [
+    "mediengestalter-digital-print",
+    "kaufmann-einzelhandel",
+    "kaufmann-bueromanagement",
+    "fachinformatiker-anwendungsentwicklung",
+    "fachkraft-lagerlogistik",
+    "kaufmann-e-commerce",
+    "kfz-mechatroniker",
+    "friseur"
+  ],
+  "nachbarstaedte": [
+    "frankfurt",
+    "darmstadt",
+    "hanau"
+  ],
+  "besonderheiten": [
+    "Design- und Kreativstandort",
+    "Hochschule für Gestaltung (HfG)",
+    "Multikulturellste Großstadt Deutschlands",
+    "Günstigere Alternative zu Frankfurt",
+    "Historische Lederwarenindustrie"
+  ],
+  "oepnv": "OVB betreibt Buslinien. S-Bahn-Anbindung nach Frankfurt in wenigen Minuten. RMV-Verbund. Nähe zum Frankfurter Flughafen.",
+  "lebenshaltung": "hoch"
+}

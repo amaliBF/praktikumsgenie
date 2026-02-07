@@ -1,0 +1,32 @@
+{
+  "slug": "osnabrueck",
+  "name": "Osnabrück",
+  "bundesland": "Niedersachsen",
+  "einwohner": 165000,
+  "beschreibung": "Osnabrück, die Friedensstadt am Teutoburger Wald, bietet als starker Wirtschaftsstandort vielfältige Ausbildungschancen. Die Stadt ist bekannt für ihre Metall- und Automobilzulieferindustrie sowie den wachsenden Logistiksektor. Mit zwei Hochschulen, einer historischen Altstadt und bezahlbaren Mieten ist Osnabrück ein unterschätzter Geheimtipp für Auszubildende.",
+  "topBerufe": [
+    "industriemechaniker",
+    "kaufmann-grosshandel",
+    "kaufmann-einzelhandel",
+    "fachkraft-lagerlogistik",
+    "mechatroniker",
+    "kaufmann-bueromanagement",
+    "kfz-mechatroniker",
+    "anlagenmechaniker-shk"
+  ],
+  "nachbarstaedte": [
+    "oldenburg",
+    "muenster",
+    "bielefeld",
+    "hannover"
+  ],
+  "besonderheiten": [
+    "Friedensstadt mit historischer Bedeutung als Ort des Westfälischen Friedens",
+    "Starke Metallverarbeitungs- und Automobilzulieferindustrie",
+    "Wachsender Logistikstandort an der A1/A30-Kreuzung",
+    "Zwei Hochschulen mit enger Verzahnung zur regionalen Wirtschaft",
+    "Hohe Lebensqualität durch Grünflächen und überschaubare Größe"
+  ],
+  "oepnv": "Stadtwerke-Busnetz mit guter Abdeckung – ergänzt durch Regionalbahnen nach Münster, Hannover und Bremen.",
+  "lebenshaltung": "mittel"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "kassel",
+  "name": "Kassel",
+  "bundesland": "Hessen",
+  "einwohner": 200000,
+  "beschreibung": "Kassel ist ein wichtiger Industriestandort in Nordhessen mit Schwerpunkten in Verkehrstechnik, Maschinenbau und erneuerbaren Energien. Als Sitz von Volkswagen-Werk, Bombardier und SMA Solar bietet die documenta-Stadt vielfältige Ausbildungsmöglichkeiten in technischen und industriellen Berufen. Die Universität Kassel und die Kunsthochschule stärken zusätzlich den Bildungsstandort.",
+  "topBerufe": [
+    "industriemechaniker",
+    "mechatroniker",
+    "elektroniker",
+    "kfz-mechatroniker",
+    "industriekaufmann",
+    "kaufmann-bueromanagement",
+    "fachinformatiker-systemintegration",
+    "anlagenmechaniker-shk"
+  ],
+  "nachbarstaedte": [
+    "goettingen",
+    "paderborn",
+    "erfurt"
+  ],
+  "besonderheiten": [
+    "VW-Werk Kassel als größter Arbeitgeber",
+    "documenta - weltweit bedeutendste Kunstausstellung",
+    "Starker Standort für erneuerbare Energien (SMA Solar)",
+    "UNESCO-Weltkulturerbe Bergpark Wilhelmshöhe",
+    "Verkehrstechnik-Standort (Bombardier/Alstom)"
+  ],
+  "oepnv": "KVG betreibt Straßenbahn und Busse. ICE-Halt Kassel-Wilhelmshöhe als wichtiger Knotenpunkt. NVV-Verbund.",
+  "lebenshaltung": "mittel"
+}

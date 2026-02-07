@@ -1,0 +1,32 @@
+{
+  "slug": "augsburg",
+  "name": "Augsburg",
+  "bundesland": "Bayern",
+  "einwohner": 300000,
+  "beschreibung": "Augsburg ist eine der ältesten Städte Deutschlands und ein vielseitiger Wirtschaftsstandort zwischen München und Ulm. Die Universitätsstadt überzeugt mit einem starken Branchenmix aus Maschinenbau, IT und Dienstleistungen. Als drittgrößte Stadt Bayerns bietet Augsburg ein hervorragendes Preis-Leistungs-Verhältnis für Auszubildende.",
+  "topBerufe": [
+    "industriemechaniker",
+    "mechatroniker",
+    "fachinformatiker-anwendungsentwicklung",
+    "industriekaufmann",
+    "kaufmann-bueromanagement",
+    "elektroniker",
+    "kaufmann-einzelhandel",
+    "anlagenmechaniker-shk"
+  ],
+  "nachbarstaedte": [
+    "muenchen",
+    "ulm",
+    "nuernberg",
+    "ingolstadt"
+  ],
+  "besonderheiten": [
+    "Starker Maschinenbau- und Technologiestandort",
+    "Sitz von KUKA Robotics und MAN Energy Solutions",
+    "Innovationspark mit zahlreichen Hightech-Firmen",
+    "Günstigere Lebenshaltungskosten als München",
+    "Gute Anbindung an die Metropolregion München"
+  ],
+  "oepnv": "Gut vernetztes Straßenbahn- und Busnetz – AVV-Verbund mit direkter Bahnanbindung nach München und Ulm.",
+  "lebenshaltung": "mittel"
+}

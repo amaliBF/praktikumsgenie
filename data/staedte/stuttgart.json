@@ -1,0 +1,33 @@
+{
+  "slug": "stuttgart",
+  "name": "Stuttgart",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 635000,
+  "beschreibung": "Stuttgart ist die Landeshauptstadt Baden-Württembergs und das Herz der deutschen Automobilindustrie mit Mercedes-Benz und Porsche. Die Region Stuttgart gehört zu den wirtschaftsstärksten Europas und bietet tausende Ausbildungsplätze in Industrie, IT und Dienstleistungen. Die hohe Dichte an Weltmarktführern und Hidden Champions macht Stuttgart zu einem erstklassigen Ausbildungsstandort.",
+  "topBerufe": [
+    "mechatroniker",
+    "kfz-mechatroniker",
+    "fachinformatiker-anwendungsentwicklung",
+    "industriekaufmann",
+    "industriemechaniker",
+    "elektroniker",
+    "kaufmann-e-commerce",
+    "bankkaufmann"
+  ],
+  "nachbarstaedte": [
+    "karlsruhe",
+    "heidelberg",
+    "ulm",
+    "pforzheim",
+    "heilbronn"
+  ],
+  "besonderheiten": [
+    "Hauptsitz von Mercedes-Benz, Porsche und Bosch",
+    "Höchste Dichte an Weltmarktführern in Deutschland",
+    "Exzellente duale Ausbildungs- und Studienangebote (DHBW)",
+    "Starker Maschinen- und Fahrzeugbau",
+    "Wachsender IT- und Digitalsektor"
+  ],
+  "oepnv": "Umfangreiches Netz mit S-Bahn, Stadtbahn, Zahnradbahn und Bus – VVS-Verbund für die gesamte Region.",
+  "lebenshaltung": "sehr hoch"
+}

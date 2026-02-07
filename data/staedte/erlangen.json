@@ -1,0 +1,31 @@
+{
+  "slug": "erlangen",
+  "name": "Erlangen",
+  "bundesland": "Bayern",
+  "einwohner": 115000,
+  "beschreibung": "Erlangen ist als Siemens-Stadt und Universitätsstadt ein herausragender Technologie- und Forschungsstandort in Franken. Die Stadt bietet besonders im Bereich Medizintechnik, Elektrotechnik und IT exzellente Ausbildungsmöglichkeiten. Mit einer der niedrigsten Arbeitslosenquoten Deutschlands und höchster Akademikerquote ist Erlangen ein idealer Ort für eine zukunftssichere Ausbildung.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "fachinformatiker-systemintegration",
+    "elektroniker",
+    "mechatroniker",
+    "industriekaufmann",
+    "it-system-elektroniker",
+    "industriemechaniker",
+    "kaufmann-bueromanagement"
+  ],
+  "nachbarstaedte": [
+    "nuernberg",
+    "fuerth",
+    "bamberg"
+  ],
+  "besonderheiten": [
+    "Siemens Healthineers Hauptsitz – einer der größten Arbeitgeber",
+    "Führender Medizintechnik-Standort weltweit",
+    "Friedrich-Alexander-Universität mit dualen Studiengängen",
+    "Extrem niedrige Arbeitslosenquote",
+    "Innovationscluster Medical Valley"
+  ],
+  "oepnv": "Busnetz im Stadtgebiet sowie S-Bahn-Anbindung an Nürnberg und Fürth – VGN-Verbund.",
+  "lebenshaltung": "hoch"
+}

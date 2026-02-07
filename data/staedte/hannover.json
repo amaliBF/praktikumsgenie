@@ -1,0 +1,32 @@
+{
+  "slug": "hannover",
+  "name": "Hannover",
+  "bundesland": "Niedersachsen",
+  "einwohner": 535000,
+  "beschreibung": "Hannover als Landeshauptstadt Niedersachsens ist ein bedeutender Messe- und Wirtschaftsstandort mit hervorragenden Ausbildungsmöglichkeiten. Die Stadt ist Heimat der weltweit größten Industriemesse und bietet starke Branchen wie Automobilzulieferung, Versicherungen und IT. Mit der zentralen Lage und der guten Infrastruktur ist Hannover ein idealer Ort für den Karrierestart.",
+  "topBerufe": [
+    "industriekaufmann",
+    "kaufmann-versicherungen-finanzen",
+    "fachinformatiker-anwendungsentwicklung",
+    "mechatroniker",
+    "kaufmann-bueromanagement",
+    "bankkaufmann",
+    "veranstaltungskaufmann",
+    "elektroniker"
+  ],
+  "nachbarstaedte": [
+    "braunschweig",
+    "hildesheim",
+    "bremen",
+    "wolfsburg"
+  ],
+  "besonderheiten": [
+    "Weltgrößter Messestandort mit Hannover Messe und CeBIT-Nachfolger",
+    "Starker Versicherungsstandort mit Talanx, VHV und Hannover Rück",
+    "Continental-Hauptsitz als bedeutender Automobilzulieferer",
+    "Volkswagen Nutzfahrzeuge mit großem Werk in Stöcken",
+    "Exzellente Hochschullandschaft mit Leibniz Universität und MHH"
+  ],
+  "oepnv": "Umfangreiches üstra-Netz mit Stadtbahnen und Bussen – dazu ICE-Knotenpunkt mit schnellen Verbindungen in alle Richtungen.",
+  "lebenshaltung": "mittel"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "solingen",
+  "name": "Solingen",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 160000,
+  "beschreibung": "Solingen ist weltweit als Klingenstadt bekannt und ein traditionsreicher Standort der Schneidwaren- und Metallverarbeitung. Marken wie Zwilling und Wüsthof haben hier ihren Ursprung. Die Stadt im Bergischen Land bietet besonders in metallverarbeitenden und handwerklichen Berufen hervorragende Ausbildungsmöglichkeiten. Auch der Dienstleistungssektor und das Gesundheitswesen wachsen stetig.",
+  "topBerufe": [
+    "werkzeugmechaniker",
+    "zerspanungsmechaniker",
+    "industriemechaniker",
+    "kaufmann-einzelhandel",
+    "medizinische-fachangestellte",
+    "kfz-mechatroniker",
+    "elektroniker",
+    "kaufmann-bueromanagement"
+  ],
+  "nachbarstaedte": [
+    "wuppertal",
+    "duesseldorf",
+    "koeln",
+    "leverkusen"
+  ],
+  "besonderheiten": [
+    "Weltbekannte Klingenstadt",
+    "Traditionsreiche Schneidwarenindustrie (Zwilling, Wüsthof)",
+    "Starke Metallverarbeitung und Maschinenbau",
+    "Bergisches Land mit hohem Freizeitwert",
+    "Müngstener Brücke - höchste Eisenbahnbrücke Deutschlands"
+  ],
+  "oepnv": "Stadtwerke Solingen betreiben O-Bus und Buslinien. S-Bahn-Anbindung nach Düsseldorf und Köln. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

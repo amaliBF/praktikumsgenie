@@ -1,0 +1,31 @@
+{
+  "slug": "wolfsburg",
+  "name": "Wolfsburg",
+  "bundesland": "Niedersachsen",
+  "einwohner": 125000,
+  "beschreibung": "Wolfsburg ist die Automobilstadt Deutschlands und bietet als Volkswagen-Stammsitz einzigartige Ausbildungsmöglichkeiten in der Fahrzeugindustrie. Das VW-Werk ist mit Abstand der größte Arbeitgeber und bildet in zahlreichen technischen und kaufmännischen Berufen aus. Die Stadt bietet moderne Infrastruktur und überdurchschnittliche Ausbildungsvergütungen.",
+  "topBerufe": [
+    "mechatroniker",
+    "industriemechaniker",
+    "elektroniker",
+    "werkzeugmechaniker",
+    "zerspanungsmechaniker",
+    "industriekaufmann",
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-bueromanagement"
+  ],
+  "nachbarstaedte": [
+    "braunschweig",
+    "hannover",
+    "magdeburg"
+  ],
+  "besonderheiten": [
+    "Volkswagen-Stammsitz mit einem der größten Automobilwerke der Welt",
+    "Autostadt als Erlebniswelt und Auslieferungszentrum",
+    "Überdurchschnittliche Ausbildungsvergütungen durch Tarifbindung",
+    "Phaeno Science Center und moderne Stadtarchitektur",
+    "Hohe Wirtschaftskraft pro Kopf durch VW-Konzern"
+  ],
+  "oepnv": "WVG-Busnetz und gute Bahnanbindung nach Braunschweig, Hannover und Berlin – viele VW-Mitarbeiter nutzen Werksbusse.",
+  "lebenshaltung": "mittel"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "weimar",
+  "name": "Weimar",
+  "bundesland": "Thüringen",
+  "einwohner": 65000,
+  "beschreibung": "Weimar, die Stadt der Klassik und des Bauhauses, bietet Ausbildungsplätze mit kulturellem Flair. Die UNESCO-Welterbestadt ist Heimat der Bauhaus-Universität und zieht kreative Köpfe aus aller Welt an. Für Auszubildende im Kulturbereich, im Tourismus und in kreativen Berufen ist Weimar ein einzigartiger Standort mit besonderer Atmosphäre.",
+  "topBerufe": [
+    "hotelfachmann",
+    "koch",
+    "mediengestalter-digital-print",
+    "kaufmann-einzelhandel",
+    "tischler",
+    "fachkraft-gastgewerbe",
+    "veranstaltungskaufmann",
+    "florist"
+  ],
+  "nachbarstaedte": [
+    "erfurt",
+    "jena",
+    "gera"
+  ],
+  "besonderheiten": [
+    "UNESCO-Welterbestätten: Klassisches Weimar und Bauhaus",
+    "Bauhaus-Universität als international renommierte Kreativhochschule",
+    "Deutsches Nationaltheater und starke Kulturwirtschaft",
+    "Gedenkstätte Buchenwald als Ort historischer Bildung",
+    "Kleine Stadt mit internationaler Ausstrahlung"
+  ],
+  "oepnv": "Stadtwirtschaft Weimar mit Buslinien – die kompakte Altstadt ist fußläufig erkundbar, Erfurt in 15 Minuten per Bahn.",
+  "lebenshaltung": "niedrig"
+}

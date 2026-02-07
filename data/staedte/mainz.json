@@ -1,0 +1,31 @@
+{
+  "slug": "mainz",
+  "name": "Mainz",
+  "bundesland": "Rheinland-Pfalz",
+  "einwohner": 220000,
+  "beschreibung": "Mainz ist die Landeshauptstadt von Rheinland-Pfalz und ein bedeutender Medien-, Wissenschafts- und Weinstandort. Als Sitz des ZDF, zahlreicher Verlage und der Johannes Gutenberg-Universität bietet die Stadt hervorragende Ausbildungsmöglichkeiten in Medien, Verwaltung und Gesundheit. Die unmittelbare Nähe zu Frankfurt und Wiesbaden erweitert den Ausbildungsmarkt erheblich.",
+  "topBerufe": [
+    "mediengestalter-digital-print",
+    "veranstaltungskaufmann",
+    "verwaltungsfachangestellter",
+    "kaufmann-bueromanagement",
+    "medizinische-fachangestellte",
+    "fachinformatiker-anwendungsentwicklung",
+    "pharmakant",
+    "koch"
+  ],
+  "nachbarstaedte": [
+    "wiesbaden",
+    "frankfurt",
+    "darmstadt"
+  ],
+  "besonderheiten": [
+    "Landeshauptstadt Rheinland-Pfalz",
+    "Sitz des ZDF und zahlreicher Medienunternehmen",
+    "Johannes Gutenberg-Universität und Universitätsmedizin",
+    "Gutenberg-Stadt - Geburtsort des Buchdrucks",
+    "Bedeutender Weinhandelsplatz"
+  ],
+  "oepnv": "MVG betreibt Straßenbahn und Busse. S-Bahn und Regionalbahn nach Frankfurt und Wiesbaden. RMV/RNN-Verbund. Gute Anbindung an Frankfurter Flughafen.",
+  "lebenshaltung": "hoch"
+}

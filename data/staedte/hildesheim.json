@@ -1,0 +1,30 @@
+{
+  "slug": "hildesheim",
+  "name": "Hildesheim",
+  "bundesland": "Niedersachsen",
+  "einwohner": 102000,
+  "beschreibung": "Hildesheim ist eine geschichtsträchtige Stadt mit zwei UNESCO-Welterbestätten und einem soliden Ausbildungsmarkt. Die Stadt bietet besonders im Handwerk, in der Verwaltung und im Gesundheitswesen gute Ausbildungsplätze. Mit niedrigen Lebenshaltungskosten und der Nähe zu Hannover verbindet Hildesheim Kleinstadtcharme mit großstädtischen Möglichkeiten.",
+  "topBerufe": [
+    "kaufmann-einzelhandel",
+    "medizinische-fachangestellte",
+    "verwaltungsfachangestellter",
+    "tischler",
+    "maler-lackierer",
+    "anlagenmechaniker-shk",
+    "pflegefachmann",
+    "erzieher"
+  ],
+  "nachbarstaedte": [
+    "hannover",
+    "braunschweig",
+    "goettingen"
+  ],
+  "besonderheiten": [
+    "Zwei UNESCO-Welterbestätten: Dom und St. Michaelis",
+    "Traditionsreiches Handwerk mit starker Innungsstruktur",
+    "Bosch-Werk als bedeutender industrieller Arbeitgeber",
+    "Universität Hildesheim mit Schwerpunkt Kulturwissenschaften"
+  ],
+  "oepnv": "SVHI-Buslinien und S-Bahn-Anbindung nach Hannover in 30 Minuten – ideale Pendlerlage.",
+  "lebenshaltung": "niedrig"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "heidelberg",
+  "name": "Heidelberg",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 160000,
+  "beschreibung": "Heidelberg ist weltbekannt für seine romantische Altstadt, die älteste Universität Deutschlands und eine herausragende Forschungslandschaft. Die Stadt am Neckar ist ein bedeutender Standort für Biotechnologie, Medizin und IT mit Unternehmen wie SAP in der Nachbarschaft. Auszubildende profitieren von der internationalen Atmosphäre und exzellenten Karriereperspektiven in Wissenschaft und Technologie.",
+  "topBerufe": [
+    "biologielaborant",
+    "pharmakant",
+    "fachinformatiker-anwendungsentwicklung",
+    "medizinische-fachangestellte",
+    "kaufmann-bueromanagement",
+    "industriekaufmann",
+    "mediengestalter-digital-print",
+    "bankkaufmann"
+  ],
+  "nachbarstaedte": [
+    "mannheim",
+    "karlsruhe",
+    "darmstadt",
+    "heilbronn"
+  ],
+  "besonderheiten": [
+    "Älteste Universität Deutschlands (gegr. 1386)",
+    "Führender Biotechnologie- und Life-Science-Standort",
+    "DKFZ und EMBL – Weltklasse-Forschungseinrichtungen",
+    "Nähe zu SAP in Walldorf",
+    "Internationale Atmosphäre und hohe Lebensqualität"
+  ],
+  "oepnv": "Straßenbahn und Bus im VRN-Verbund – S-Bahn Rhein-Neckar nach Mannheim, Karlsruhe und Frankfurt.",
+  "lebenshaltung": "hoch"
+}

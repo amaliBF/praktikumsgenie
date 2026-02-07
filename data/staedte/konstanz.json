@@ -1,0 +1,31 @@
+{
+  "slug": "konstanz",
+  "name": "Konstanz",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 85000,
+  "beschreibung": "Konstanz am Bodensee ist die größte Stadt am größten See Deutschlands und liegt direkt an der Schweizer Grenze. Die Universitätsstadt bietet ein einzigartiges internationales Umfeld mit starkem Tourismus, Handel und einer wachsenden IT-Branche. Die hohe Lebensqualität am See und die Nähe zur Schweiz machen Konstanz zu einem besonderen Ausbildungsstandort.",
+  "topBerufe": [
+    "hotelfachmann",
+    "koch",
+    "kaufmann-einzelhandel",
+    "fachinformatiker-anwendungsentwicklung",
+    "kaufmann-e-commerce",
+    "kaufmann-bueromanagement",
+    "fachkraft-gastgewerbe",
+    "mediengestalter-digital-print"
+  ],
+  "nachbarstaedte": [
+    "freiburg",
+    "ulm",
+    "reutlingen"
+  ],
+  "besonderheiten": [
+    "Einzigartige Lage am Bodensee an der Schweizer Grenze",
+    "Universität Konstanz – Exzellenzuniversität",
+    "Starker Tourismus- und Kongressstandort",
+    "Grenzgänger-Möglichkeiten in die Schweiz",
+    "HTWG Konstanz mit praxisnahen Studiengängen"
+  ],
+  "oepnv": "Busnetz und Fähren am Bodensee – Bahnanbindung Richtung Stuttgart, Zürich und Schwarzwald.",
+  "lebenshaltung": "hoch"
+}

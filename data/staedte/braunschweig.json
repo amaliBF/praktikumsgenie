@@ -1,0 +1,32 @@
+{
+  "slug": "braunschweig",
+  "name": "Braunschweig",
+  "bundesland": "Niedersachsen",
+  "einwohner": 250000,
+  "beschreibung": "Braunschweig ist eine der forschungsstärksten Regionen Europas und bietet exzellente Ausbildungsmöglichkeiten in Technik und Wissenschaft. Die Löwenstadt beherbergt zahlreiche Forschungseinrichtungen und ist eng mit der Automobilindustrie verknüpft. Mit einer lebendigen Innenstadt und vergleichsweise günstigen Lebenshaltungskosten ist Braunschweig ein attraktiver Ausbildungsort.",
+  "topBerufe": [
+    "mechatroniker",
+    "industriemechaniker",
+    "fachinformatiker-systemintegration",
+    "elektroniker",
+    "industriekaufmann",
+    "kaufmann-bueromanagement",
+    "chemikant",
+    "werkzeugmechaniker"
+  ],
+  "nachbarstaedte": [
+    "hannover",
+    "wolfsburg",
+    "hildesheim",
+    "magdeburg"
+  ],
+  "besonderheiten": [
+    "Forschungsregion mit PTB, DLR, Helmholtz und Fraunhofer",
+    "Starke Anbindung an VW-Konzern und Automobilzulieferer",
+    "Siemens Mobility und Bombardier als große Arbeitgeber",
+    "Traditionsreiche TU Braunschweig mit enger Wirtschaftsvernetzung",
+    "Lebendige Kulturszene mit Staatstheater und zahlreichen Events"
+  ],
+  "oepnv": "Straßenbahn und Buslinien der BSVAG erschließen die Stadt gut – Wolfsburg und Hannover sind per Regionalzug schnell erreichbar.",
+  "lebenshaltung": "mittel"
+}

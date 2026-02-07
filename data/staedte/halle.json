@@ -1,0 +1,31 @@
+{
+  "slug": "halle",
+  "name": "Halle (Saale)",
+  "bundesland": "Sachsen-Anhalt",
+  "einwohner": 240000,
+  "beschreibung": "Halle an der Saale ist eine traditionsreiche Universitätsstadt mit wachsender Bedeutung als Wissenschafts- und Chemiestandort. Die Geburtsstadt Händels bietet Ausbildungsplätze in der chemischen Industrie, im Gesundheitswesen und in kreativen Berufen. Mit dem nahegelegenen Chemiepark Leuna-Merseburg und der engen Verbindung zu Leipzig profitiert Halle von einer dynamischen Wirtschaftsregion.",
+  "topBerufe": [
+    "chemikant",
+    "pharmakant",
+    "pflegefachmann",
+    "medizinische-fachangestellte",
+    "kaufmann-bueromanagement",
+    "kaufmann-einzelhandel",
+    "fachinformatiker-anwendungsentwicklung",
+    "erzieher"
+  ],
+  "nachbarstaedte": [
+    "leipzig",
+    "magdeburg",
+    "erfurt"
+  ],
+  "besonderheiten": [
+    "Chemiedreieck Leuna-Merseburg-Buna als bedeutender Industriestandort",
+    "Martin-Luther-Universität als eine der ältesten deutschen Universitäten",
+    "Leopoldina – Nationale Akademie der Wissenschaften",
+    "Kulturinsel mit Landesmuseum und Händel-Festspielen",
+    "Starke Verbindung zu Leipzig als gemeinsamer Wirtschaftsraum"
+  ],
+  "oepnv": "HAVAG mit Straßenbahnen und Bussen – S-Bahn nach Leipzig in 25 Minuten und gemeinsamer Flughafen Leipzig/Halle.",
+  "lebenshaltung": "niedrig"
+}

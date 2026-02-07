@@ -1,0 +1,31 @@
+{
+  "slug": "krefeld",
+  "name": "Krefeld",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 230000,
+  "beschreibung": "Krefeld, die ehemalige Samt- und Seidenstadt, ist heute ein vielseitiger Industriestandort am Niederrhein. Die Chemie- und Metallbranche sowie der Maschinenbau prägen die lokale Wirtschaft und bieten zahlreiche technische Ausbildungsplätze. Mit der Hochschule Niederrhein und einem breiten Mittelstand ist Krefeld ein solider Ausbildungsstandort mit guter Anbindung an Düsseldorf und Duisburg.",
+  "topBerufe": [
+    "industriemechaniker",
+    "chemikant",
+    "elektroniker",
+    "kaufmann-bueromanagement",
+    "kaufmann-einzelhandel",
+    "mechatroniker",
+    "fachkraft-lagerlogistik",
+    "maler-lackierer"
+  ],
+  "nachbarstaedte": [
+    "duesseldorf",
+    "duisburg",
+    "moenchengladbach"
+  ],
+  "besonderheiten": [
+    "Historische Samt- und Seidenstadt",
+    "Starke Chemie- und Metallindustrie",
+    "Hochschule Niederrhein",
+    "Bedeutender Maschinenbaustandort",
+    "Krefelder Zoo als Besuchermagnet"
+  ],
+  "oepnv": "SWK betreiben Straßenbahn und Buslinien. S-Bahn und Regionalbahn nach Düsseldorf und Duisburg. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

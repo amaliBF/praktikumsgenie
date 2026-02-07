@@ -1,0 +1,33 @@
+{
+  "slug": "nuernberg",
+  "name": "Nürnberg",
+  "bundesland": "Bayern",
+  "einwohner": 520000,
+  "beschreibung": "Nürnberg ist die zweitgrößte Stadt Bayerns und ein bedeutender Industrie- und Technologiestandort in Franken. Mit Unternehmen wie Siemens, Bosch, Datev und der Bundesagentur für Arbeit bietet die Stadt ein breites Ausbildungsangebot. Die Metropolregion Nürnberg zählt zu den innovativsten Wirtschaftsräumen Deutschlands.",
+  "topBerufe": [
+    "fachinformatiker-anwendungsentwicklung",
+    "industriekaufmann",
+    "elektroniker",
+    "mechatroniker",
+    "kaufmann-bueromanagement",
+    "industriemechaniker",
+    "kaufmann-e-commerce",
+    "fachkraft-lagerlogistik"
+  ],
+  "nachbarstaedte": [
+    "muenchen",
+    "augsburg",
+    "regensburg",
+    "wuerzburg",
+    "erlangen"
+  ],
+  "besonderheiten": [
+    "Sitz der Bundesagentur für Arbeit und von Datev",
+    "Starker Industriestandort mit Siemens und Bosch",
+    "Bedeutende Messe- und Kongressstadt",
+    "Großes Netzwerk an Berufsschulen und Kammern",
+    "Wachsender IT- und Digitalsektor"
+  ],
+  "oepnv": "Gut ausgebautes Netz mit U-Bahn, S-Bahn, Straßenbahn und Bus – VGN-Verbund verbindet die gesamte Metropolregion.",
+  "lebenshaltung": "hoch"
+}

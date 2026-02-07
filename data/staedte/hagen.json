@@ -1,0 +1,31 @@
+{
+  "slug": "hagen",
+  "name": "Hagen",
+  "bundesland": "Nordrhein-Westfalen",
+  "einwohner": 190000,
+  "beschreibung": "Hagen, das Tor zum Sauerland, ist ein traditionsreicher Industriestandort mit Schwerpunkten in der Metallverarbeitung und im Maschinenbau. Die FernUniversität Hagen als größte Universität Deutschlands prägt den Bildungsstandort. Zahlreiche mittelständische Unternehmen der Metall- und Elektroindustrie bieten solide Ausbildungsplätze in technischen und handwerklichen Berufen.",
+  "topBerufe": [
+    "industriemechaniker",
+    "werkzeugmechaniker",
+    "zerspanungsmechaniker",
+    "elektroniker",
+    "kaufmann-bueromanagement",
+    "kfz-mechatroniker",
+    "maler-lackierer",
+    "tischler"
+  ],
+  "nachbarstaedte": [
+    "dortmund",
+    "wuppertal",
+    "bochum"
+  ],
+  "besonderheiten": [
+    "FernUniversität Hagen - größte Universität Deutschlands",
+    "Starke Metall- und Elektroindustrie",
+    "Tor zum Sauerland",
+    "Traditionsreicher Industriestandort",
+    "Gute Mischung aus Stadt und Natur"
+  ],
+  "oepnv": "Hagener Straßenbahn und Buslinien. Hauptbahnhof mit IC-Halt. Regionalbahn nach Dortmund und ins Sauerland. VRR-Verbund.",
+  "lebenshaltung": "mittel"
+}

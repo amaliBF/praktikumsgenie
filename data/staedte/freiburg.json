@@ -1,0 +1,31 @@
+{
+  "slug": "freiburg",
+  "name": "Freiburg",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 230000,
+  "beschreibung": "Freiburg im Breisgau ist die sonnigste Großstadt Deutschlands und ein führender Standort für Umwelttechnologie, Medizin und Forschung. Die traditionsreiche Universitätsstadt am Schwarzwald bietet besonders in den Bereichen Gesundheit, erneuerbare Energien und Tourismus attraktive Ausbildungsplätze. Die hohe Lebensqualität und das milde Klima machen Freiburg zu einem der beliebtesten Ausbildungsorte im Süden.",
+  "topBerufe": [
+    "medizinische-fachangestellte",
+    "pflegefachmann",
+    "hotelfachmann",
+    "kaufmann-einzelhandel",
+    "elektroniker",
+    "fachinformatiker-anwendungsentwicklung",
+    "erzieher",
+    "biologielaborant"
+  ],
+  "nachbarstaedte": [
+    "karlsruhe",
+    "stuttgart",
+    "basel"
+  ],
+  "besonderheiten": [
+    "Führender Standort für Solar- und Umwelttechnologie",
+    "Universitätsklinikum als größter Arbeitgeber",
+    "Renommierte Albert-Ludwigs-Universität",
+    "Grenzlage zu Frankreich und der Schweiz",
+    "Sonnigste Großstadt Deutschlands mit hoher Lebensqualität"
+  ],
+  "oepnv": "Modernes Straßenbahn- und Busnetz – RVF-Verbund mit Anbindung an Schwarzwald und Kaiserstuhl.",
+  "lebenshaltung": "hoch"
+}

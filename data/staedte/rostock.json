@@ -1,0 +1,31 @@
+{
+  "slug": "rostock",
+  "name": "Rostock",
+  "bundesland": "Mecklenburg-Vorpommern",
+  "einwohner": 210000,
+  "beschreibung": "Rostock ist die größte Stadt Mecklenburg-Vorpommerns und ein wichtiger Hafen- und Tourismusstandort an der Ostsee. Die Universitätsstadt bietet Ausbildungsplätze in der maritimen Wirtschaft, im Tourismus und in der wachsenden IT-Branche. Mit dem Seebad Warnemünde und einer lebendigen Kulturszene verbindet Rostock Arbeiten und Leben am Meer.",
+  "topBerufe": [
+    "hotelfachmann",
+    "koch",
+    "fachkraft-lagerlogistik",
+    "kaufmann-spedition-logistik",
+    "fachinformatiker-systemintegration",
+    "industriemechaniker",
+    "pflegefachmann",
+    "fachkraft-gastgewerbe"
+  ],
+  "nachbarstaedte": [
+    "luebeck",
+    "schwerin",
+    "hamburg"
+  ],
+  "besonderheiten": [
+    "Größter Kreuzfahrthafen Deutschlands in Warnemünde",
+    "Älteste Universität im Ostseeraum (gegründet 1419)",
+    "Starke maritime Wirtschaft mit AIDA Cruises Hauptsitz",
+    "Wachsende IT- und Biotechbranche im Technologiepark",
+    "Beliebter Tourismusstandort mit Warnemünder Strand"
+  ],
+  "oepnv": "RSAG mit Straßenbahn und Bussen – S-Bahn-Linie nach Warnemünde und gute Fernzuganbindung nach Hamburg und Berlin.",
+  "lebenshaltung": "niedrig"
+}

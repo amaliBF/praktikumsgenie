@@ -1,0 +1,30 @@
+{
+  "slug": "rosenheim",
+  "name": "Rosenheim",
+  "bundesland": "Bayern",
+  "einwohner": 65000,
+  "beschreibung": "Rosenheim liegt am Alpenrand zwischen München und Salzburg und ist ein attraktiver Wirtschaftsstandort mit starkem Handwerk und einer wachsenden Holzbaubranche. Die Technische Hochschule Rosenheim ist führend im Bereich Holztechnik und Innenausbau. Die Nähe zu München und die hohe Lebensqualität in der Voralpenregion machen die Stadt besonders beliebt bei jungen Menschen.",
+  "topBerufe": [
+    "zimmerer",
+    "tischler",
+    "schreiner",
+    "kfz-mechatroniker",
+    "kaufmann-einzelhandel",
+    "anlagenmechaniker-shk",
+    "elektroniker",
+    "maler-lackierer"
+  ],
+  "nachbarstaedte": [
+    "muenchen",
+    "salzburg"
+  ],
+  "besonderheiten": [
+    "Führender Holzbau- und Innenausbaustandort",
+    "Technische Hochschule mit praxisnahen Studiengängen",
+    "Starkes Handwerk mit hoher Ausbildungstradition",
+    "Nähe zu den Alpen – hohe Freizeitqualität",
+    "Gute Bahnanbindung an München (ca. 45 Min.)"
+  ],
+  "oepnv": "Stadtbusnetz und Regionalbahnen – direkte Bahnverbindung nach München und Salzburg.",
+  "lebenshaltung": "mittel"
+}

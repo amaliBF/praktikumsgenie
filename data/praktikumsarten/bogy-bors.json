@@ -1,0 +1,11 @@
+{
+  "slug": "bogy-bors",
+  "name": "BOGY / BORS",
+  "dauer": "1 Woche",
+  "zielgruppe": "Schüler (bundeslandabhängig)",
+  "verguetet": false,
+  "beschreibung": "BOGY (Berufs- und Studienorientierung am Gymnasium) und BORS (Berufsorientierung an Realschulen) sind Pflichtpraktika, die je nach Bundesland in Klasse 9 oder 10 stattfinden.",
+  "voraussetzungen": ["Teilnahme am Berufsorientierungsprogramm der Schule", "Praktikumsvertrag", "Einverständniserklärung der Eltern"],
+  "tipps": ["Nutze die Chance, verschiedene Berufsfelder kennenzulernen", "Dokumentiere deine Erfahrungen sorgfältig", "Frage nach, ob du nach dem Praktikum wiederkommen darfst"],
+  "branchen": ["Alle Branchen"]
+}

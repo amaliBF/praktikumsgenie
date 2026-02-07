@@ -1,0 +1,31 @@
+{
+  "slug": "trier",
+  "name": "Trier",
+  "bundesland": "Rheinland-Pfalz",
+  "einwohner": 112000,
+  "beschreibung": "Trier ist die älteste Stadt Deutschlands und ein bedeutender Standort für Weinbau, Tourismus und Verwaltung in der Region Mosel-Saar. Die Universität Trier und die Hochschule Trier bilden wichtige Arbeitgeber und Ausbildungspartner. Die Grenzlage zu Luxemburg eröffnet zusätzliche Karrieremöglichkeiten, und der Tourismus rund um die UNESCO-Welterbestätten schafft zahlreiche Ausbildungsplätze in Gastronomie und Hotellerie.",
+  "topBerufe": [
+    "hotelfachmann",
+    "koch",
+    "kaufmann-einzelhandel",
+    "verwaltungsfachangestellter",
+    "kaufmann-bueromanagement",
+    "fachkraft-gastgewerbe",
+    "baecker",
+    "steuerfachangestellter"
+  ],
+  "nachbarstaedte": [
+    "koblenz",
+    "saarbruecken",
+    "mainz"
+  ],
+  "besonderheiten": [
+    "Älteste Stadt Deutschlands",
+    "Zahlreiche UNESCO-Welterbestätten (Porta Nigra, Dom)",
+    "Grenzlage zu Luxemburg mit Jobmöglichkeiten",
+    "Bedeutender Weinbaustandort an der Mosel",
+    "Universität und Hochschule Trier"
+  ],
+  "oepnv": "SWT betreiben Buslinien. Hauptbahnhof mit Regionalbahn nach Koblenz, Saarbrücken und Luxemburg. VRT-Verbund.",
+  "lebenshaltung": "mittel"
+}

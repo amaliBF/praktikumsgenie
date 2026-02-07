@@ -1,0 +1,31 @@
+{
+  "slug": "ludwigsburg",
+  "name": "Ludwigsburg",
+  "bundesland": "Baden-Württemberg",
+  "einwohner": 93000,
+  "beschreibung": "Ludwigsburg liegt nördlich von Stuttgart und ist ein bedeutender Wirtschaftsstandort in der Region mit starkem Bezug zur Automobilindustrie. Die Barockstadt beheimatet unter anderem Standorte von Bosch und Mann+Hummel sowie die renommierte Filmakademie Baden-Württemberg. Die unmittelbare Nähe zu Stuttgart und zahlreiche eigene Unternehmen machen Ludwigsburg zu einem attraktiven Ausbildungsort.",
+  "topBerufe": [
+    "mechatroniker",
+    "industriekaufmann",
+    "elektroniker",
+    "fachinformatiker-anwendungsentwicklung",
+    "mediengestalter-digital-print",
+    "kaufmann-bueromanagement",
+    "industriemechaniker",
+    "veranstaltungskaufmann"
+  ],
+  "nachbarstaedte": [
+    "stuttgart",
+    "heilbronn",
+    "pforzheim"
+  ],
+  "besonderheiten": [
+    "Bosch und Mann+Hummel als große Arbeitgeber",
+    "Filmakademie Baden-Württemberg – weltbekannt",
+    "Barockes Residenzschloss mit Blühendem Barock",
+    "Unmittelbare Nähe zum Stuttgarter Arbeitsmarkt",
+    "Lebendige Kulturszene mit Festivals und Events"
+  ],
+  "oepnv": "S-Bahn und Bus im VVS-Verbund – direkte S-Bahn-Verbindung nach Stuttgart (ca. 15 Min.).",
+  "lebenshaltung": "hoch"
+}
