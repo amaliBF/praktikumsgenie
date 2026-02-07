@@ -9,11 +9,12 @@ import {
   ArrowRight,
   HelpCircle,
   ExternalLink,
-  Sparkles,
+  FileText,
   Shield,
   Globe,
   Users,
   ScrollText,
+  ClipboardCheck,
 } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -57,7 +58,7 @@ const faqItems = [
   {
     question: 'Wie kann ich mein Unternehmen auf Praktikumsgenie registrieren?',
     answer:
-      'Ganz einfach: Besuche dashboard.praktikumsgenie.de und klicke auf "Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Praktikumsanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
+      'Ganz einfach: Besuche dashboard.ausbildungsgenie.de und klicke auf "Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Praktikumsanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
   },
   {
     question: 'Bietet ihr Schulungen oder Demos für Betriebe an?',
@@ -141,7 +142,7 @@ const jsonLdWebPage = {
 
 export default function KontaktPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFF5F6]">
       <Header />
 
       {/* JSON-LD */}
@@ -159,8 +160,9 @@ export default function KontaktPage() {
       />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-emerald-600 via-emerald-600 to-teal-600 text-white">
-        <div className="max-w-5xl mx-auto text-center">
+      <section className="relative pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 text-white overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="max-w-5xl mx-auto text-center relative z-10">
           {/* Breadcrumb */}
           <nav className="flex items-center justify-center gap-2 text-sm text-white/70 mb-8">
             <Link href="/" className="hover:text-white transition-colors">
@@ -170,7 +172,7 @@ export default function KontaktPage() {
             <span className="text-white font-medium">Kontakt</span>
           </nav>
 
-          <div className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-1.5 text-sm mb-8">
+          <div className="sticker-badge !bg-white/15 !border-white/30 !text-white backdrop-blur mb-8 mx-auto">
             <Mail className="h-4 w-4" />
             <span>Wir sind für dich da</span>
           </div>
@@ -187,40 +189,40 @@ export default function KontaktPage() {
       {/* Contact Info Cards */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-6 -mt-24 relative z-10">
+          <div className="grid md:grid-cols-3 gap-6 -mt-24 relative z-10 scrapbook-grid">
             <a
               href="#kontaktformular"
-              className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow block"
+              className="feature-box rounded-2xl p-8 text-center hover:shadow-xl transition-shadow block bg-white"
             >
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-emerald-100 text-emerald-600 mb-5">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-rose-500 to-pink-600 text-white mb-5">
                 <ScrollText className="h-7 w-7" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Kontaktformular</h3>
               <p className="text-gray-600">
                 Schreibe uns direkt über unser Formular. Wir melden uns schnellstmöglich zurück.
               </p>
-              <span className="inline-flex items-center gap-1 text-emerald-600 font-medium mt-3 text-sm">
+              <span className="inline-flex items-center gap-1 text-rose-600 font-medium mt-3 text-sm">
                 Zum Formular
                 <ChevronRight className="h-4 w-4" />
               </span>
             </a>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-teal-100 text-teal-600 mb-5">
+            <div className="feature-box rounded-2xl p-8 text-center hover:shadow-xl transition-shadow bg-white">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-pink-500 to-fuchsia-600 text-white mb-5">
                 <Mail className="h-7 w-7" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">E-Mail</h3>
               <a
                 href="mailto:kontakt@praktikumsgenie.de"
-                className="text-emerald-600 hover:text-emerald-700 font-medium transition-colors block"
+                className="text-rose-600 hover:text-rose-700 font-medium transition-colors block"
               >
                 kontakt@praktikumsgenie.de
               </a>
               <p className="text-sm text-gray-500 mt-2">Für alle Anfragen</p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-amber-100 text-amber-600 mb-5">
+            <div className="feature-box rounded-2xl p-8 text-center hover:shadow-xl transition-shadow bg-white">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-fuchsia-500 to-purple-600 text-white mb-5">
                 <Clock className="h-7 w-7" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Antwortzeiten</h3>
@@ -248,9 +250,9 @@ export default function KontaktPage() {
             </div>
 
             <div className="lg:col-span-2 space-y-8">
-              <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-8 border border-emerald-100">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">Wie können wir helfen?</h3>
-                <ul className="space-y-4">
+              <div className="pin-card rounded-2xl p-8">
+                <h3 className="board-divider text-lg font-bold text-gray-900 mb-4">Wie können wir helfen?</h3>
+                <ul className="space-y-4 mt-6">
                   {[
                     {
                       icon: Users,
@@ -274,7 +276,7 @@ export default function KontaktPage() {
                     },
                   ].map((item) => (
                     <li key={item.title} className="flex items-start gap-3">
-                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white text-emerald-600 flex-shrink-0 mt-0.5 shadow-sm">
+                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-rose-500 to-pink-600 text-white flex-shrink-0 mt-0.5">
                         <item.icon className="h-5 w-5" />
                       </div>
                       <div>
@@ -286,16 +288,16 @@ export default function KontaktPage() {
                 </ul>
               </div>
 
-              <div className="bg-white rounded-2xl p-8 border border-gray-200">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">Schnell-Links</h3>
-                <ul className="space-y-3">
+              <div className="tape-card rounded-2xl p-8 pt-10">
+                <h3 className="board-divider text-lg font-bold text-gray-900 mb-4">Schnell-Links</h3>
+                <ul className="space-y-3 mt-6">
                   <li>
                     <Link
-                      href="https://dashboard.praktikumsgenie.de/login"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-emerald-600 transition-colors group"
+                      href="https://dashboard.ausbildungsgenie.de/login"
+                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-rose-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
-                        <Building2 className="h-4 w-4 text-emerald-600" />
+                      <div className="w-8 h-8 rounded-lg bg-rose-50 flex items-center justify-center group-hover:bg-rose-100 transition-colors">
+                        <Building2 className="h-4 w-4 text-rose-600" />
                       </div>
                       <span>Betriebe-Dashboard</span>
                       <ExternalLink className="h-3.5 w-3.5 ml-auto text-gray-400" />
@@ -304,10 +306,10 @@ export default function KontaktPage() {
                   <li>
                     <Link
                       href="/preise"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-emerald-600 transition-colors group"
+                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-rose-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
-                        <Sparkles className="h-4 w-4 text-emerald-600" />
+                      <div className="w-8 h-8 rounded-lg bg-rose-50 flex items-center justify-center group-hover:bg-rose-100 transition-colors">
+                        <FileText className="h-4 w-4 text-rose-600" />
                       </div>
                       <span>Preise & Pakete</span>
                       <ChevronRight className="h-3.5 w-3.5 ml-auto text-gray-400" />
@@ -316,10 +318,10 @@ export default function KontaktPage() {
                   <li>
                     <Link
                       href="/impressum"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-emerald-600 transition-colors group"
+                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-rose-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
-                        <Shield className="h-4 w-4 text-emerald-600" />
+                      <div className="w-8 h-8 rounded-lg bg-rose-50 flex items-center justify-center group-hover:bg-rose-100 transition-colors">
+                        <Shield className="h-4 w-4 text-rose-600" />
                       </div>
                       <span>Impressum</span>
                       <ChevronRight className="h-3.5 w-3.5 ml-auto text-gray-400" />
@@ -328,10 +330,10 @@ export default function KontaktPage() {
                   <li>
                     <Link
                       href="/datenschutz"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-emerald-600 transition-colors group"
+                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-rose-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center group-hover:bg-emerald-100 transition-colors">
-                        <Shield className="h-4 w-4 text-emerald-600" />
+                      <div className="w-8 h-8 rounded-lg bg-rose-50 flex items-center justify-center group-hover:bg-rose-100 transition-colors">
+                        <Shield className="h-4 w-4 text-rose-600" />
                       </div>
                       <span>Datenschutzerklärung</span>
                       <ChevronRight className="h-3.5 w-3.5 ml-auto text-gray-400" />
@@ -345,10 +347,10 @@ export default function KontaktPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-1.5 text-sm text-emerald-700 mb-4">
+            <div className="sticker-badge mb-4">
               <HelpCircle className="h-4 w-4" />
               <span>Häufig gestellte Fragen</span>
             </div>
@@ -360,14 +362,14 @@ export default function KontaktPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 gap-6 scrapbook-grid">
             {faqItems.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow"
+                className="tape-card rounded-xl p-6 pt-8 hover:shadow-md transition-shadow"
               >
                 <h3 className="text-base font-semibold text-gray-900 mb-3 flex items-start gap-3">
-                  <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold flex-shrink-0 mt-0.5">
+                  <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-gradient-to-br from-rose-500 to-pink-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">
                     {index + 1}
                   </span>
                   <span>{item.question}</span>
@@ -383,10 +385,10 @@ export default function KontaktPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
+            <div className="pin-card rounded-2xl p-8 sm:p-12">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
                 Über{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">
+                <span className="gradient-text-discovery">
                   Praktikumsgenie
                 </span>
               </h2>
@@ -396,31 +398,31 @@ export default function KontaktPage() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <Building2 className="h-5 w-5 text-emerald-600 mt-1 flex-shrink-0" />
+                  <Building2 className="h-5 w-5 text-rose-500 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-gray-900">Butterflies IT UG (haftungsbeschränkt)</p>
                     <p className="text-gray-600 text-sm">Handelsregister: Amtsgericht Schwerin, HRB 12765</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <MapPin className="h-5 w-5 text-emerald-600 mt-1 flex-shrink-0" />
+                  <MapPin className="h-5 w-5 text-rose-500 mt-1 flex-shrink-0" />
                   <div>
                     <p className="text-gray-700">Hagenower Str. 73, 19061 Schwerin, Deutschland</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Mail className="h-5 w-5 text-emerald-600 mt-1 flex-shrink-0" />
+                  <Mail className="h-5 w-5 text-rose-500 mt-1 flex-shrink-0" />
                   <div>
                     <a
                       href="mailto:kontakt@praktikumsgenie.de"
-                      className="text-emerald-600 hover:text-emerald-700 font-medium transition-colors"
+                      className="text-rose-600 hover:text-rose-700 font-medium transition-colors"
                     >
                       kontakt@praktikumsgenie.de
                     </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Globe className="h-5 w-5 text-emerald-600 mt-1 flex-shrink-0" />
+                  <Globe className="h-5 w-5 text-rose-500 mt-1 flex-shrink-0" />
                   <div>
                     <p className="text-gray-700">USt-IdNr.: DE301178757</p>
                   </div>
@@ -430,7 +432,7 @@ export default function KontaktPage() {
               <div className="mt-8 flex gap-3">
                 <Link
                   href="/impressum"
-                  className="text-sm font-medium text-emerald-600 hover:text-emerald-700 transition-colors flex items-center gap-1"
+                  className="text-sm font-medium text-rose-600 hover:text-rose-700 transition-colors flex items-center gap-1"
                 >
                   Impressum
                   <ChevronRight className="h-4 w-4" />
@@ -438,7 +440,7 @@ export default function KontaktPage() {
                 <span className="text-gray-300">|</span>
                 <Link
                   href="/datenschutz"
-                  className="text-sm font-medium text-emerald-600 hover:text-emerald-700 transition-colors flex items-center gap-1"
+                  className="text-sm font-medium text-rose-600 hover:text-rose-700 transition-colors flex items-center gap-1"
                 >
                   Datenschutz
                   <ChevronRight className="h-4 w-4" />
@@ -446,7 +448,7 @@ export default function KontaktPage() {
                 <span className="text-gray-300">|</span>
                 <Link
                   href="/agb"
-                  className="text-sm font-medium text-emerald-600 hover:text-emerald-700 transition-colors flex items-center gap-1"
+                  className="text-sm font-medium text-rose-600 hover:text-rose-700 transition-colors flex items-center gap-1"
                 >
                   AGB
                   <ChevronRight className="h-4 w-4" />
@@ -474,7 +476,7 @@ export default function KontaktPage() {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <p className="font-semibold group-hover:text-emerald-300 transition-colors">Instagram</p>
+                    <p className="font-semibold group-hover:text-rose-300 transition-colors">Instagram</p>
                     <p className="text-sm text-gray-400">@praktikumsgenie</p>
                   </div>
                   <ExternalLink className="h-4 w-4 text-gray-500 group-hover:text-white transition-colors" />
@@ -492,7 +494,7 @@ export default function KontaktPage() {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <p className="font-semibold group-hover:text-emerald-300 transition-colors">TikTok</p>
+                    <p className="font-semibold group-hover:text-rose-300 transition-colors">TikTok</p>
                     <p className="text-sm text-gray-400">@praktikumsgenie</p>
                   </div>
                   <ExternalLink className="h-4 w-4 text-gray-500 group-hover:text-white transition-colors" />
@@ -510,7 +512,7 @@ export default function KontaktPage() {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <p className="font-semibold group-hover:text-emerald-300 transition-colors">YouTube</p>
+                    <p className="font-semibold group-hover:text-rose-300 transition-colors">YouTube</p>
                     <p className="text-sm text-gray-400">@praktikumsgenie</p>
                   </div>
                   <ExternalLink className="h-4 w-4 text-gray-500 group-hover:text-white transition-colors" />
@@ -522,8 +524,9 @@ export default function KontaktPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-emerald-600 to-teal-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-20 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
             Bereit loszulegen?
           </h2>
@@ -532,8 +535,8 @@ export default function KontaktPage() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.praktikumsgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-emerald-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/login"
+              className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-rose-600 hover:bg-gray-100 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />
               Als Betrieb registrieren

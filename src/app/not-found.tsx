@@ -1,17 +1,21 @@
 import Link from 'next/link';
-import { Sparkles, Home, Search, BookOpen, ClipboardList, ArrowLeft } from 'lucide-react';
+import { ClipboardCheck, Home, Search, BookOpen, ClipboardList, ArrowLeft } from 'lucide-react';
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white flex items-center justify-center px-4">
-      <div className="max-w-lg w-full text-center">
+    <div className="min-h-screen bg-[#FFF5F6] flex items-center justify-center px-4 relative overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute inset-0 doodle-circles" />
+      <div className="absolute inset-0 confetti-dots opacity-5" />
+
+      <div className="max-w-lg w-full text-center relative z-10">
         <div className="flex justify-center mb-6">
-          <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center">
-            <Sparkles className="w-10 h-10 text-emerald-600" />
+          <div className="w-20 h-20 bg-gradient-to-br from-rose-500 to-pink-600 rounded-full flex items-center justify-center shadow-lg shadow-rose-200">
+            <ClipboardCheck className="w-10 h-10 text-white" />
           </div>
         </div>
 
-        <div className="inline-block bg-emerald-100 text-emerald-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
+        <div className="sticker-badge mb-4 mx-auto">
           Fehler 404
         </div>
 
@@ -28,21 +32,21 @@ export default function NotFound() {
 
         <Link
           href="/"
-          className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-full transition-colors mb-10"
+          className="inline-flex items-center gap-2 bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-semibold px-6 py-3 rounded-full transition-all shadow-lg shadow-rose-200 mb-10"
         >
           <ArrowLeft className="w-4 h-4" />
           Zur&uuml;ck zur Startseite
         </Link>
 
-        <div className="border-t border-gray-200 pt-8">
+        <div className="border-t border-rose-100 pt-8">
           <p className="text-sm text-gray-500 mb-4 font-medium">Vielleicht suchst du das hier:</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 scrapbook-grid">
             <Link
               href="/praktikum"
-              className="flex items-center gap-3 p-3 rounded-xl border border-gray-200 hover:border-emerald-300 hover:bg-emerald-50 transition-colors group"
+              className="pin-card flex items-center gap-3 p-3 !rounded-xl hover:shadow-md transition-all group"
             >
-              <div className="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center group-hover:bg-emerald-200 transition-colors">
-                <Search className="w-5 h-5 text-emerald-600" />
+              <div className="w-10 h-10 bg-gradient-to-br from-rose-500 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <Search className="w-5 h-5 text-white" />
               </div>
               <div className="text-left">
                 <div className="font-semibold text-gray-900 text-sm">Praktikumspl&auml;tze</div>
@@ -52,10 +56,10 @@ export default function NotFound() {
 
             <Link
               href="/praktikumsarten"
-              className="flex items-center gap-3 p-3 rounded-xl border border-gray-200 hover:border-emerald-300 hover:bg-emerald-50 transition-colors group"
+              className="pin-card flex items-center gap-3 p-3 !rounded-xl hover:shadow-md transition-all group"
             >
-              <div className="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center group-hover:bg-emerald-200 transition-colors">
-                <ClipboardList className="w-5 h-5 text-emerald-600" />
+              <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-fuchsia-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <ClipboardList className="w-5 h-5 text-white" />
               </div>
               <div className="text-left">
                 <div className="font-semibold text-gray-900 text-sm">Praktikumsarten</div>
@@ -65,10 +69,10 @@ export default function NotFound() {
 
             <Link
               href="/ratgeber"
-              className="flex items-center gap-3 p-3 rounded-xl border border-gray-200 hover:border-emerald-300 hover:bg-emerald-50 transition-colors group"
+              className="pin-card flex items-center gap-3 p-3 !rounded-xl hover:shadow-md transition-all group"
             >
-              <div className="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center group-hover:bg-emerald-200 transition-colors">
-                <BookOpen className="w-5 h-5 text-emerald-600" />
+              <div className="w-10 h-10 bg-gradient-to-br from-fuchsia-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <BookOpen className="w-5 h-5 text-white" />
               </div>
               <div className="text-left">
                 <div className="font-semibold text-gray-900 text-sm">Ratgeber</div>
@@ -78,10 +82,10 @@ export default function NotFound() {
 
             <Link
               href="/"
-              className="flex items-center gap-3 p-3 rounded-xl border border-gray-200 hover:border-emerald-300 hover:bg-emerald-50 transition-colors group"
+              className="pin-card flex items-center gap-3 p-3 !rounded-xl hover:shadow-md transition-all group"
             >
-              <div className="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center group-hover:bg-emerald-200 transition-colors">
-                <Home className="w-5 h-5 text-emerald-600" />
+              <div className="w-10 h-10 bg-gradient-to-br from-rose-500 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <Home className="w-5 h-5 text-white" />
               </div>
               <div className="text-left">
                 <div className="font-semibold text-gray-900 text-sm">Startseite</div>

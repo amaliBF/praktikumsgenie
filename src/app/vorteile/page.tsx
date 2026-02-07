@@ -12,7 +12,7 @@ import {
   X,
   Building2,
   Users,
-  Sparkles,
+  ClipboardCheck,
   Zap,
   Clock,
   MapPin,
@@ -26,6 +26,7 @@ import {
   TrendingUp,
   Award,
   Quote,
+  BookOpen,
 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -55,70 +56,60 @@ const youthBenefits = [
     title: '100% kostenlos',
     description:
       'Alle Features sind und bleiben für Schüler und Studenten kostenlos. Kein Abo, keine versteckten Kosten, kein Premium-Modell. Du zahlst nichts, nie.',
-    color: 'bg-green-100 text-green-600',
   },
   {
     icon: Shield,
     title: 'Kein Lebenslauf nötig',
     description:
       'Vergiss den Stress mit Lebenslauf und Anschreiben. Erstelle in 2 Minuten ein Profil mit deinen Interessen und Stärken. Mehr braucht es nicht.',
-    color: 'bg-emerald-100 text-emerald-600',
   },
   {
     icon: Video,
     title: 'Echte Video-Einblicke',
     description:
       'Sieh in authentischen Kurzvideos, wie der Arbeitsalltag wirklich aussieht. Keine Stockfotos, keine Marketing-Texte. Echte Mitarbeiter, echte Einblicke.',
-    color: 'bg-teal-100 text-teal-600',
   },
   {
     icon: Brain,
     title: 'KI-Praktikumsfinder',
     description:
       'Weißt du nicht, welches Praktikum zu dir passt? Unsere KI stellt dir ein paar Fragen und schlägt Bereiche vor, an die du vielleicht nie gedacht hättest.',
-    color: 'bg-amber-100 text-amber-600',
   },
   {
     icon: MessageCircle,
     title: 'Direkt chatten',
     description:
       'Nach einem Match schreibst du direkt mit dem Betrieb. Wie bei WhatsApp, locker und ohne Formalitäten. Kein Anschreiben, kein Warten.',
-    color: 'bg-blue-100 text-blue-600',
   },
   {
     icon: MapPin,
     title: 'Betriebe in deiner Nähe',
     description:
       'Finde Praktikumsplätze in deinem Umkreis. Mit Fahrzeitanzeige, damit du weißt, wie lange du täglich unterwegs wärst.',
-    color: 'bg-orange-100 text-orange-600',
   },
   {
     icon: Lock,
     title: 'Datenschutz garantiert',
     description:
       'DSGVO-konform, deutsche Server, verschlüsselte Übertragung. Deine Daten gehören dir und werden niemals an Dritte verkauft.',
-    color: 'bg-slate-100 text-slate-600',
   },
   {
     icon: Smartphone,
     title: 'Einfach zu bedienen',
     description:
       'Die App funktioniert wie TikTok und Tinder. Wenn du ein Smartphone bedienen kannst, kannst du auch Praktikumsgenie nutzen. Ohne Anleitung.',
-    color: 'bg-cyan-100 text-cyan-600',
   },
   {
     icon: Zap,
     title: 'Schnelle Ergebnisse',
     description:
       'Vom Profil zum ersten Match oft in wenigen Stunden. Vom Match zum Vorstellungsgespräch in wenigen Tagen. Nicht Wochen oder Monate.',
-    color: 'bg-yellow-100 text-yellow-600',
   },
   {
     icon: Heart,
     title: 'Kein Spam',
     description:
       'Erst nach einem beidseitigen Match ist der Chat freigeschaltet. Du bekommst nur Nachrichten von Betrieben, die wirklich an dir interessiert sind.',
-    color: 'bg-red-100 text-red-600',
   },
 ];
 
@@ -128,70 +119,60 @@ const companyBenefits = [
     title: 'Gen Z direkt erreichen',
     description:
       'Schüler und Studenten sind unsere Zielgruppe. Erreichen Sie die Generation, die auf klassische Stellenanzeigen nicht mehr reagiert.',
-    color: 'bg-emerald-500/20 text-emerald-400',
   },
   {
     icon: Video,
     title: 'Authentisch präsentieren',
     description:
       'Zeigen Sie mit Kurzvideos, wie der Arbeitsalltag bei Ihnen wirklich aussieht. Echte Mitarbeiter überzeugen mehr als jede Stellenanzeige.',
-    color: 'bg-teal-500/20 text-teal-400',
   },
   {
     icon: ThumbsUp,
     title: 'Motivierte Bewerber',
     description:
       'Durch das Matching-System sehen Sie nur Kandidaten, die bereits Interesse an Ihrem Betrieb gezeigt haben. Jeder Match ist ein qualifizierter Lead.',
-    color: 'bg-green-500/20 text-green-400',
   },
   {
     icon: Zap,
     title: 'Schnelles Matching',
     description:
       'Vom Video-Upload bis zum ersten Match vergehen oft nur Stunden. Vom Match zum Vorstellungsgespräch nur Tage. Besetzen Sie Stellen schneller.',
-    color: 'bg-amber-500/20 text-amber-400',
   },
   {
     icon: Wallet,
     title: 'Günstiger als klassische Portale',
     description:
       'Schon ab 49 EUR pro Monat mit dem Starter-Plan. Deutlich günstiger als Stellenausschreibungen auf klassischen Jobportalen oder in Zeitungen.',
-    color: 'bg-emerald-500/20 text-emerald-400',
   },
   {
     icon: BarChart3,
     title: 'Detaillierte Analytics',
     description:
       'Sehen Sie genau, wie viele Schüler und Studenten Ihre Videos gesehen und geliked haben. Verfolgen Sie Trends und optimieren Sie Ihre Präsenz.',
-    color: 'bg-blue-500/20 text-blue-400',
   },
   {
     icon: Users,
     title: 'Team-Verwaltung',
     description:
       'Fügen Sie Kollegen hinzu und arbeiten Sie gemeinsam an der Praktikanten-Gewinnung. Mit Rollen und Berechtigungen für strukturierte Zusammenarbeit.',
-    color: 'bg-cyan-500/20 text-cyan-400',
   },
   {
     icon: Shield,
     title: 'Persönlicher Support',
     description:
       'Bei Fragen sind wir für Sie da. Persönlicher Support per Chat und E-Mail. Wir helfen Ihnen, die Plattform optimal zu nutzen.',
-    color: 'bg-slate-500/20 text-slate-400',
   },
   {
     icon: Target,
     title: 'Regionale Sichtbarkeit',
     description:
       'Ihre Videos und Stellenanzeigen werden bevorzugt Schülern und Studenten in Ihrer Region angezeigt. Zielgenau und ohne Streuverluste.',
-    color: 'bg-orange-500/20 text-orange-400',
   },
   {
     icon: TrendingUp,
     title: 'Employer Branding',
     description:
       'Positionieren Sie sich als moderner Praktikumsbetrieb. Authentische Videos bauen Ihre Arbeitgebermarke bei der jungen Generation auf.',
-    color: 'bg-rose-500/20 text-rose-400',
   },
 ];
 
@@ -301,7 +282,7 @@ export default function VorteilePage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFF5F6]">
       <Header />
 
       <script
@@ -314,9 +295,10 @@ export default function VorteilePage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-700 pt-28 pb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-emerald-200 mb-6" aria-label="Breadcrumb">
+      <section className="relative bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 pt-28 pb-20 overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="text-sm text-rose-200 mb-6" aria-label="Breadcrumb">
             <ol className="flex items-center gap-1">
               <li>
                 <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -327,30 +309,31 @@ export default function VorteilePage() {
           </nav>
 
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm text-emerald-200 mb-6 border border-white/20">
+            <div className="sticker-badge !bg-white/20 !text-white !border-white/30 backdrop-blur-sm mb-6">
               <Award className="h-4 w-4" />
               <span>Warum Praktikumsgenie?</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
               Die Vorteile von{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-emerald-300">
-                Praktikumsgenie
+              <span className="relative">
+                <span className="relative z-10">Praktikumsgenie</span>
+                <span className="absolute bottom-2 left-0 right-0 h-4 bg-white/20 -rotate-1 rounded" />
               </span>
             </h1>
-            <p className="text-lg sm:text-xl text-emerald-100 mb-8 max-w-2xl">
+            <p className="text-lg sm:text-xl text-rose-100 mb-8 max-w-2xl">
               Praktikumssuche muss nicht kompliziert, langweilig oder stressig sein. Wir machen
               sie schnell, visuell und direkt. Für Schüler, Studenten und Betriebe.
             </p>
             <div className="flex flex-wrap gap-3">
               <a
                 href="#fuer-schueler"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-emerald-600 font-medium text-sm hover:bg-emerald-50 transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-rose-600 font-medium text-sm hover:bg-rose-50 transition-colors shadow-lg"
               >
                 Vorteile für Schüler & Studenten
               </a>
               <a
                 href="#fuer-betriebe"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 border border-white/20 rounded-full text-white font-medium text-sm hover:bg-white/20 transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 border border-white/20 rounded-full text-white font-medium text-sm hover:bg-white/20 transition-colors backdrop-blur-sm"
               >
                 Vorteile für Betriebe
               </a>
@@ -360,32 +343,30 @@ export default function VorteilePage() {
       </section>
 
       {/* Vorteile für Schüler & Studenten */}
-      <section id="fuer-schueler" className="py-20 bg-white scroll-mt-20">
+      <section id="fuer-schueler" className="py-20 bg-[#FFF5F6] doodle-circles scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-1.5 text-sm text-emerald-700 mb-4">
-              <Sparkles className="h-4 w-4" />
+            <div className="sticker-badge mb-4">
+              <ClipboardCheck className="h-4 w-4" />
               Für Schüler & Studenten
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              10 Gründe, warum Schüler und Studenten Praktikumsgenie lieben
+              10 Gründe, warum Schüler und Studenten <span className="gradient-text-discovery">Praktikumsgenie</span> lieben
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Entwickelt für die Generation Z. So sollte Praktikumssuche im Jahr 2026 funktionieren.
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 scrapbook-grid">
             {youthBenefits.map((benefit, index) => (
               <div
                 key={benefit.title}
-                className={`rounded-2xl p-6 border border-gray-100 hover:border-emerald-200 hover:shadow-lg transition-all ${
+                className={`pin-card p-6 ${
                   index === 0 ? 'sm:col-span-2 lg:col-span-1' : ''
                 }`}
               >
-                <div
-                  className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${benefit.color} mb-4`}
-                >
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-rose-100 text-rose-600 mb-4">
                   <benefit.icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{benefit.title}</h3>
@@ -396,17 +377,22 @@ export default function VorteilePage() {
         </div>
       </section>
 
+      {/* Board Divider */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="pin-bar rounded-full" />
+      </div>
+
       {/* Vorteile für Betriebe */}
       <section id="fuer-betriebe" className="py-20 bg-gray-900 text-white scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-emerald-300 mb-4">
+            <div className="inline-flex items-center gap-2 rounded-full bg-rose-500/20 px-4 py-1.5 text-sm text-rose-300 mb-4 border border-rose-500/30">
               <Building2 className="h-4 w-4" />
               Für Praktikumsbetriebe
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               10 Gründe, warum Betriebe auf{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-pink-400">
                 Praktikumsgenie
               </span>{' '}
               setzen
@@ -420,11 +406,9 @@ export default function VorteilePage() {
             {companyBenefits.map((benefit) => (
               <div
                 key={benefit.title}
-                className="bg-white/5 backdrop-blur rounded-2xl p-6 border border-white/10 hover:border-emerald-500/50 transition-colors"
+                className="bg-white/5 backdrop-blur rounded-2xl p-6 border border-white/10 hover:border-rose-500/50 transition-colors"
               >
-                <div
-                  className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${benefit.color} mb-4`}
-                >
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-rose-500/20 text-rose-400 mb-4">
                   <benefit.icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">{benefit.title}</h3>
@@ -435,8 +419,8 @@ export default function VorteilePage() {
 
           <div className="text-center mt-12">
             <Link
-              href="https://dashboard.praktikumsgenie.de/login"
-              className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-8 py-3.5 text-base font-medium text-white hover:bg-emerald-500 transition-colors"
+              href="https://dashboard.ausbildungsgenie.de/login"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 px-8 py-3.5 text-base font-medium text-white hover:from-rose-600 hover:to-pink-700 transition-all shadow-lg shadow-rose-500/25"
             >
               Jetzt kostenlos starten
               <ChevronRight className="h-4 w-4" />
@@ -446,9 +430,13 @@ export default function VorteilePage() {
       </section>
 
       {/* Warum nicht klassische Portale? */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <div className="sticker-badge mb-4">
+              <Target className="h-4 w-4" />
+              Vergleich
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               Warum nicht einfach ein klassisches Stellenportal?
             </h2>
@@ -461,21 +449,18 @@ export default function VorteilePage() {
 
           <div className="space-y-4 max-w-4xl mx-auto">
             {comparisonPoints.map((point) => (
-              <div
-                key={point.category}
-                className="bg-white rounded-2xl border border-gray-200 overflow-hidden"
-              >
-                <div className="px-6 py-4 bg-gray-50 border-b border-gray-100">
+              <div key={point.category} className="pin-card overflow-hidden">
+                <div className="px-6 py-4 bg-gradient-to-r from-rose-50 to-pink-50 border-b border-rose-100">
                   <h3 className="font-semibold text-gray-900">{point.category}</h3>
                 </div>
-                <div className="grid sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-gray-100">
+                <div className="grid sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-rose-100">
                   <div className="px-6 py-4">
                     <div className="flex items-start gap-3">
-                      <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="h-3.5 w-3.5 text-green-600" />
+                      <div className="w-6 h-6 rounded-full bg-rose-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <Check className="h-3.5 w-3.5 text-rose-600" />
                       </div>
                       <div>
-                        <p className="text-xs font-medium text-emerald-600 mb-1">Praktikumsgenie</p>
+                        <p className="text-xs font-medium gradient-text-discovery mb-1">Praktikumsgenie</p>
                         <p className="text-sm text-gray-700">{point.praktikumsgenie}</p>
                       </div>
                     </div>
@@ -502,7 +487,7 @@ export default function VorteilePage() {
             </p>
             <Link
               href="/features"
-              className="inline-flex items-center gap-2 text-emerald-600 font-medium hover:text-emerald-700 transition-colors"
+              className="inline-flex items-center gap-2 text-rose-600 font-medium hover:text-rose-700 transition-colors"
             >
               Alle Features im Detail ansehen
               <ArrowRight className="h-4 w-4" />
@@ -512,24 +497,25 @@ export default function VorteilePage() {
       </section>
 
       {/* Zahlen und Fakten */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#FFF5F6] doodle-circles">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="sticker-badge mb-4">
+              <Zap className="h-4 w-4" />
+              Fakten
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Praktikumsgenie in Zahlen
+              Praktikumsgenie in <span className="gradient-text-discovery">Zahlen</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Die wichtigsten Fakten auf einen Blick. Schnell, kostenlos und effektiv.
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 scrapbook-grid">
             {stats.map((stat) => (
-              <div
-                key={stat.label}
-                className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 border border-gray-100 text-center hover:shadow-md transition-shadow"
-              >
-                <p className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600 mb-2">
+              <div key={stat.label} className="pin-card p-8 text-center">
+                <p className="text-4xl sm:text-5xl font-bold gradient-text-discovery mb-2">
                   {stat.value}
                 </p>
                 <p className="font-semibold text-gray-900 mb-1">{stat.label}</p>
@@ -541,9 +527,13 @@ export default function VorteilePage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="sticker-badge mb-4">
+              <Quote className="h-4 w-4" />
+              Stimmen
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               Das sagen unsere Nutzer
             </h2>
@@ -553,19 +543,15 @@ export default function VorteilePage() {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 scrapbook-grid">
             {testimonials.map((testimonial) => (
-              <div
-                key={testimonial.name}
-                className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
-              >
-                <Quote className="h-8 w-8 text-emerald-200 mb-4" />
+              <div key={testimonial.name} className="discovery-quote">
                 <p className="text-gray-700 leading-relaxed mb-6 text-sm">
                   &ldquo;{testimonial.text}&rdquo;
                 </p>
-                <div className="border-t border-gray-100 pt-4">
+                <div className="border-t border-rose-100 pt-4">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center text-white font-bold text-sm">
+                    <div className="w-10 h-10 rounded-full bg-gradient-to-br from-rose-500 to-pink-600 flex items-center justify-center text-white font-bold text-sm">
                       {testimonial.name.split(' ').map((n) => n[0]).join('')}
                     </div>
                     <div>
@@ -584,7 +570,7 @@ export default function VorteilePage() {
       </section>
 
       {/* Zusammenfassung der Top-Vorteile */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#FFF5F6]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -620,14 +606,11 @@ export default function VorteilePage() {
                 text: 'KI-Praktikumsfinder, Video Feed, Echtzeit-Chat. Praktikumsgenie nutzt moderne Technologie, um ein altes Problem neu zu lösen.',
               },
             ].map((item) => (
-              <div
-                key={item.number}
-                className="flex gap-6 items-start p-6 rounded-2xl border border-gray-100 hover:border-emerald-200 hover:bg-emerald-50/30 transition-all"
-              >
-                <span className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600 flex-shrink-0">
+              <div key={item.number} className="pin-card p-6 flex gap-6 items-start">
+                <span className="text-3xl font-bold gradient-text-discovery flex-shrink-0">
                   {item.number}
                 </span>
-                <div>
+                <div className="board-divider">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{item.text}</p>
                 </div>
@@ -638,8 +621,9 @@ export default function VorteilePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-emerald-600 to-teal-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-20 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             Bereit, die Vorteile selbst zu erleben?
           </h2>
@@ -649,8 +633,8 @@ export default function VorteilePage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.praktikumsgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-emerald-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/login"
+              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-rose-600 hover:bg-rose-50 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />
               Als Betrieb registrieren

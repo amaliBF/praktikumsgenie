@@ -13,12 +13,13 @@ import {
   ArrowRight,
   ChevronRight,
   ChevronDown,
-  Sparkles,
+  ClipboardCheck,
   Zap,
   MapPin,
   Star,
   Shield,
   Clock,
+  Target,
 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -47,9 +48,6 @@ const youthSteps = [
     number: '1',
     icon: User,
     title: 'Profil erstellen',
-    color: 'bg-emerald-100 text-emerald-600',
-    gradientFrom: 'from-emerald-500',
-    gradientTo: 'to-teal-600',
     description:
       'Der Einstieg bei Praktikumsgenie dauert nur 2 Minuten. Du erstellst ein Profil, das sich komplett von einer klassischen Bewerbung unterscheidet. Statt Noten und Zeugnisse gibst du deine Interessen, Stärken und deinen Standort an.',
     description2:
@@ -66,9 +64,6 @@ const youthSteps = [
     number: '2',
     icon: Video,
     title: 'Videos entdecken',
-    color: 'bg-teal-100 text-teal-600',
-    gradientFrom: 'from-teal-500',
-    gradientTo: 'to-cyan-600',
     description:
       'Dein Feed ist wie TikTok, aber für Praktika. Du scrollst durch kurze Videos von 30 bis 90 Sekunden, in denen echte Mitarbeiter ihren Arbeitsalltag zeigen. Jedes Video gibt dir einen authentischen Einblick in einen Beruf und Betrieb.',
     description2:
@@ -85,9 +80,6 @@ const youthSteps = [
     number: '3',
     icon: Heart,
     title: 'Swipen und Liken',
-    color: 'bg-red-100 text-red-600',
-    gradientFrom: 'from-red-500',
-    gradientTo: 'to-pink-600',
     description:
       'Wenn dir ein Video oder Betriebsprofil gefällt, swipest du nach rechts oder tippst auf das Herz-Symbol. Das signalisiert dem Betrieb, dass du Interesse hast. Wenn dir etwas nicht zusagt, swipest du einfach nach links.',
     description2:
@@ -102,11 +94,8 @@ const youthSteps = [
   },
   {
     number: '4',
-    icon: Sparkles,
+    icon: Target,
     title: 'Match!',
-    color: 'bg-amber-100 text-amber-600',
-    gradientFrom: 'from-amber-500',
-    gradientTo: 'to-yellow-600',
     description:
       'Wenn du einen Betrieb likest und der Betrieb dich ebenfalls liked, entsteht ein Match. Du bekommst sofort eine Benachrichtigung auf dein Handy. Das Match zeigt: Beide Seiten haben Interesse. Das ist der erste Schritt zu deinem Praktikum.',
     description2:
@@ -123,9 +112,6 @@ const youthSteps = [
     number: '5',
     icon: MessageCircle,
     title: 'Chatten und Bewerben',
-    color: 'bg-blue-100 text-blue-600',
-    gradientFrom: 'from-blue-500',
-    gradientTo: 'to-cyan-600',
     description:
       'Nach dem Match startest du den Chat mit dem Betrieb. Schreibe locker und direkt, wie du es von WhatsApp kennst. Stelle Fragen zum Praktikum, zu den Arbeitszeiten, zum Team oder zu den Aufgaben. Es gibt kein festgelegtes Format.',
     description2:
@@ -145,7 +131,6 @@ const companySteps = [
     number: '1',
     icon: Building2,
     title: 'Registrieren und Profil anlegen',
-    color: 'bg-emerald-500/20 text-emerald-400',
     description:
       'Erstellen Sie in wenigen Minuten ein ansprechendes Firmenprofil. Beschreiben Sie Ihren Betrieb, Ihre Praktikumsstellen und was Ihr Unternehmen besonders macht. Fügen Sie Ihr Logo hinzu und laden Sie Stellenanzeigen hoch.',
     description2:
@@ -161,7 +146,6 @@ const companySteps = [
     number: '2',
     icon: Upload,
     title: 'Kurzvideos hochladen',
-    color: 'bg-teal-500/20 text-teal-400',
     description:
       'Drehen Sie kurze Videos mit Ihren echten Mitarbeitern. Zeigen Sie den Arbeitsalltag, das Team, die Werkstatt oder das Büro. Authentizität schlägt Hochglanz: Schüler und Studenten wollen sehen, wie es wirklich bei Ihnen ist.',
     description2:
@@ -177,7 +161,6 @@ const companySteps = [
     number: '3',
     icon: Users,
     title: 'Kandidaten matchen',
-    color: 'bg-blue-500/20 text-blue-400',
     description:
       'Swipen Sie durch Profile interessierter Schüler und Studenten. Sehen Sie deren Interessen, Stärken und Standort. Wenn ein Profil zu Ihrer Stelle passt, liken Sie es. Wenn beide Seiten Interesse zeigen, entsteht ein Match.',
     description2:
@@ -193,7 +176,6 @@ const companySteps = [
     number: '4',
     icon: MessageCircle,
     title: 'Chatten und Einstellen',
-    color: 'bg-green-500/20 text-green-400',
     description:
       'Nach dem Match schreiben Sie direkt mit dem Kandidaten. Stellen Sie Fragen, laden Sie zum Probearbeiten ein oder vereinbaren Sie ein Vorstellungsgespräch. Der Chat ist informell und direkt, genau so, wie Gen Z es bevorzugt.',
     description2:
@@ -287,8 +269,23 @@ export default function SoFunktioniertsPage() {
     },
   };
 
+  const howToJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: 'So funktioniert Praktikumsgenie – In 5 Schritten zum Traumpraktikum',
+    description:
+      'Erfahre Schritt für Schritt, wie du mit Praktikumsgenie dein Traumpraktikum findest: Profil erstellen, Videos entdecken, Swipen, Matchen und direkt chatten.',
+    totalTime: 'PT10M',
+    step: youthSteps.map((s) => ({
+      '@type': 'HowToStep',
+      position: parseInt(s.number),
+      name: s.title,
+      text: s.description,
+    })),
+  };
+
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFF5F6]">
       <Header />
 
       <script
@@ -303,11 +300,16 @@ export default function SoFunktioniertsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
+      />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-700 pt-28 pb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-emerald-200 mb-6" aria-label="Breadcrumb">
+      <section className="relative bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 pt-28 pb-20 overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="text-sm text-rose-200 mb-6" aria-label="Breadcrumb">
             <ol className="flex items-center gap-1">
               <li>
                 <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -318,14 +320,18 @@ export default function SoFunktioniertsPage() {
           </nav>
 
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm text-emerald-200 mb-6 border border-white/20">
+            <div className="sticker-badge mb-6 !bg-white/20 !text-white !border-white/30 backdrop-blur-sm">
               <Zap className="h-4 w-4" />
               <span>Schritt für Schritt erklärt</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              So funktioniert Praktikumsgenie
+              So funktioniert{' '}
+              <span className="relative">
+                <span className="relative z-10">Praktikumsgenie</span>
+                <span className="absolute bottom-2 left-0 right-0 h-4 bg-white/20 -rotate-1 rounded" />
+              </span>
             </h1>
-            <p className="text-lg sm:text-xl text-emerald-100 mb-10 max-w-2xl">
+            <p className="text-lg sm:text-xl text-rose-100 mb-10 max-w-2xl">
               Von der Registrierung bis zum Match in wenigen Minuten. Wir zeigen dir
               Schritt für Schritt, wie du dein Traumpraktikum findest oder als Betrieb
               die besten Praktikanten gewinnst.
@@ -335,7 +341,7 @@ export default function SoFunktioniertsPage() {
             <div className="flex flex-wrap gap-3">
               <a
                 href="#fuer-schueler"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-emerald-600 font-medium text-sm hover:bg-emerald-50 transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-rose-600 font-medium text-sm hover:bg-rose-50 transition-colors shadow-lg"
               >
                 <User className="h-4 w-4" />
                 Für Schüler & Studenten
@@ -343,7 +349,7 @@ export default function SoFunktioniertsPage() {
               </a>
               <a
                 href="#fuer-betriebe"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 border border-white/20 rounded-full text-white font-medium text-sm hover:bg-white/20 transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 border border-white/20 rounded-full text-white font-medium text-sm hover:bg-white/20 transition-colors backdrop-blur-sm"
               >
                 <Building2 className="h-4 w-4" />
                 Für Betriebe
@@ -355,7 +361,7 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* Overview Stats */}
-      <section className="py-12 bg-white border-b border-gray-100">
+      <section className="py-12 bg-white border-b border-rose-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             {[
@@ -364,9 +370,9 @@ export default function SoFunktioniertsPage() {
               { value: '100%', label: 'Kostenlos für Schüler', icon: Shield },
               { value: '5 Schritte', label: 'Bis zum ersten Match', icon: Star },
             ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <stat.icon className="h-6 w-6 text-emerald-600 mx-auto mb-2" />
-                <p className="text-2xl sm:text-3xl font-bold text-gray-900">{stat.value}</p>
+              <div key={stat.label} className="text-center pin-card p-5">
+                <stat.icon className="h-6 w-6 text-rose-500 mx-auto mb-2" />
+                <p className="text-2xl sm:text-3xl font-bold gradient-text-discovery">{stat.value}</p>
                 <p className="text-sm text-gray-500 mt-1">{stat.label}</p>
               </div>
             ))}
@@ -375,15 +381,15 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* Für Schüler & Studenten */}
-      <section id="fuer-schueler" className="py-20 bg-white scroll-mt-20">
+      <section id="fuer-schueler" className="py-20 bg-[#FFF5F6] scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-1.5 text-sm text-emerald-700 mb-4">
+            <div className="sticker-badge mb-4">
               <User className="h-4 w-4" />
               Für Schüler & Studenten
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              In 5 Schritten zum Praktikum
+              In 5 Schritten zum <span className="gradient-text-discovery">Praktikum</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               So findest du mit Praktikumsgenie deinen Traumpraktikumsplatz. Schneller und
@@ -397,21 +403,17 @@ export default function SoFunktioniertsPage() {
               <div key={step.number} className="relative">
                 {/* Connector line */}
                 {index < youthSteps.length - 1 && (
-                  <div className="hidden lg:block absolute left-1/2 top-full w-0.5 h-16 bg-gradient-to-b from-emerald-200 to-transparent -ml-px" />
+                  <div className="hidden lg:block absolute left-1/2 top-full w-0.5 h-16 bg-gradient-to-b from-rose-300 to-transparent -ml-px" />
                 )}
 
-                <div
-                  className={`grid lg:grid-cols-2 gap-10 lg:gap-16 items-center ${
-                    index % 2 === 1 ? '' : ''
-                  }`}
-                >
+                <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
                   {/* Text Content */}
                   <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
-                    <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-600 to-teal-600 text-white text-xl font-bold flex items-center justify-center flex-shrink-0">
-                        {step.number}
-                      </div>
-                      <div>
+                    <div className="board-divider mb-6">
+                      <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 rounded-full bg-gradient-to-br from-rose-500 to-pink-600 text-white text-xl font-bold flex items-center justify-center flex-shrink-0 shadow-lg shadow-rose-500/25">
+                          {step.number}
+                        </div>
                         <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
                           {step.title}
                         </h3>
@@ -423,9 +425,8 @@ export default function SoFunktioniertsPage() {
                     <p className="text-gray-600 leading-relaxed mb-6">{step.description2}</p>
                     <ul className="space-y-2.5">
                       {step.bullets.map((bullet) => (
-                        <li key={bullet} className="flex items-start gap-3">
-                          <Check className="h-5 w-5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                          <span className="text-gray-700">{bullet}</span>
+                        <li key={bullet} className="checklist-item text-gray-700 leading-relaxed">
+                          {bullet}
                         </li>
                       ))}
                     </ul>
@@ -433,15 +434,13 @@ export default function SoFunktioniertsPage() {
 
                   {/* Visual */}
                   <div className={index % 2 === 1 ? 'lg:order-1' : ''}>
-                    <div
-                      className={`bg-gradient-to-br ${step.gradientFrom} ${step.gradientTo} rounded-3xl p-8 sm:p-10 relative overflow-hidden`}
-                    >
-                      <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20" />
-                      <div className="absolute bottom-0 left-0 w-32 h-32 bg-white/10 rounded-full -ml-16 -mb-16" />
+                    <div className="pin-card p-8 sm:p-10">
+                      <div className="bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 rounded-2xl p-6 sm:p-8 relative overflow-hidden">
+                        <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20" />
+                        <div className="absolute bottom-0 left-0 w-32 h-32 bg-white/10 rounded-full -ml-16 -mb-16" />
 
-                      <div className="relative z-10">
-                        <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 sm:p-8 text-center">
-                          <div className="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center mx-auto mb-4">
+                        <div className="relative z-10 text-center">
+                          <div className="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center mx-auto mb-4 backdrop-blur-sm">
                             <step.icon className="h-8 w-8 text-white" />
                           </div>
                           <p className="text-white font-bold text-xl mb-2">Schritt {step.number}</p>
@@ -469,22 +468,22 @@ export default function SoFunktioniertsPage() {
         </div>
       </section>
 
-      {/* Trennlinie */}
+      {/* Board Divider */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="border-t border-gray-200" />
+        <div className="pin-bar rounded-full" />
       </div>
 
       {/* Für Betriebe */}
       <section id="fuer-betriebe" className="py-20 bg-gray-900 text-white scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-emerald-300 mb-4">
+            <div className="inline-flex items-center gap-2 rounded-full bg-rose-500/20 px-4 py-1.5 text-sm text-rose-300 mb-4 border border-rose-500/30">
               <Building2 className="h-4 w-4" />
               Für Praktikumsbetriebe
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               In 4 Schritten zum{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-pink-400">
                 perfekten Praktikanten
               </span>
             </h2>
@@ -498,16 +497,16 @@ export default function SoFunktioniertsPage() {
             {companySteps.map((step, index) => (
               <div
                 key={step.number}
-                className="bg-white/5 backdrop-blur rounded-2xl p-6 sm:p-8 border border-white/10"
+                className="bg-white/5 backdrop-blur rounded-2xl p-6 sm:p-8 border border-white/10 hover:border-rose-500/30 transition-colors"
               >
                 <div className="grid lg:grid-cols-5 gap-8 items-start">
                   {/* Step Number + Icon */}
                   <div className="lg:col-span-1">
                     <div className="flex items-center gap-4 lg:flex-col lg:items-start">
-                      <div className="w-14 h-14 rounded-full bg-gradient-to-br from-emerald-500 to-teal-500 text-white text-2xl font-bold flex items-center justify-center flex-shrink-0">
+                      <div className="w-14 h-14 rounded-full bg-gradient-to-br from-rose-500 to-pink-600 text-white text-2xl font-bold flex items-center justify-center flex-shrink-0 shadow-lg shadow-rose-500/25">
                         {step.number}
                       </div>
-                      <div className={`inline-flex items-center justify-center w-10 h-10 rounded-xl ${step.color}`}>
+                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-rose-500/20 text-rose-400">
                         <step.icon className="h-5 w-5" />
                       </div>
                     </div>
@@ -525,7 +524,7 @@ export default function SoFunktioniertsPage() {
                     <ul className="grid sm:grid-cols-2 gap-2">
                       {step.bullets.map((bullet) => (
                         <li key={bullet} className="flex items-start gap-2">
-                          <Check className="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+                          <Check className="h-4 w-4 text-rose-400 flex-shrink-0 mt-0.5" />
                           <span className="text-gray-300 text-sm">{bullet}</span>
                         </li>
                       ))}
@@ -538,7 +537,7 @@ export default function SoFunktioniertsPage() {
                   <div className="mt-6 pt-4 border-t border-white/5">
                     <div className="w-full bg-white/10 rounded-full h-1">
                       <div
-                        className="bg-gradient-to-r from-emerald-500 to-teal-500 h-1 rounded-full"
+                        className="bg-gradient-to-r from-rose-500 to-pink-500 h-1 rounded-full"
                         style={{ width: `${((index + 1) / companySteps.length) * 100}%` }}
                       />
                     </div>
@@ -550,8 +549,8 @@ export default function SoFunktioniertsPage() {
 
           <div className="text-center mt-12">
             <Link
-              href="https://dashboard.praktikumsgenie.de/login"
-              className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-8 py-3.5 text-base font-medium text-white hover:bg-emerald-500 transition-colors"
+              href="https://dashboard.ausbildungsgenie.de/login"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 px-8 py-3.5 text-base font-medium text-white hover:from-rose-600 hover:to-pink-700 transition-all shadow-lg shadow-rose-500/25"
             >
               Jetzt als Betrieb registrieren
               <ChevronRight className="h-4 w-4" />
@@ -561,36 +560,38 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* Visual Process Summary */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white doodle-circles">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Der Weg zum Match auf einen Blick
+              Der Weg zum <span className="gradient-text-discovery">Match</span> auf einen Blick
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               So treffen Schüler, Studenten und Betriebe bei Praktikumsgenie aufeinander.
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-4 scrapbook-grid">
             {[
-              { icon: User, label: 'Profil', sublabel: 'erstellen', color: 'from-emerald-500 to-teal-600' },
-              { icon: Video, label: 'Videos', sublabel: 'entdecken', color: 'from-teal-500 to-cyan-600' },
-              { icon: Heart, label: 'Liken', sublabel: 'und Swipen', color: 'from-red-500 to-pink-600' },
-              { icon: Sparkles, label: 'Match!', sublabel: 'Beidseitig', color: 'from-amber-500 to-orange-600' },
-              { icon: MessageCircle, label: 'Chatten', sublabel: 'und Bewerben', color: 'from-blue-500 to-cyan-600' },
+              { icon: User, label: 'Profil', sublabel: 'erstellen', color: 'from-rose-500 to-pink-600' },
+              { icon: Video, label: 'Videos', sublabel: 'entdecken', color: 'from-pink-500 to-fuchsia-600' },
+              { icon: Heart, label: 'Liken', sublabel: 'und Swipen', color: 'from-red-500 to-rose-600' },
+              { icon: Target, label: 'Match!', sublabel: 'Beidseitig', color: 'from-fuchsia-500 to-purple-600' },
+              { icon: MessageCircle, label: 'Chatten', sublabel: 'und Bewerben', color: 'from-pink-600 to-rose-700' },
             ].map((item, index) => (
               <div key={item.label} className="relative">
-                <div
-                  className={`bg-gradient-to-br ${item.color} rounded-2xl p-6 text-center text-white`}
-                >
-                  <item.icon className="h-8 w-8 mx-auto mb-3" />
-                  <p className="font-bold text-lg">{item.label}</p>
-                  <p className="text-white/70 text-sm">{item.sublabel}</p>
+                <div className="tape-card overflow-hidden">
+                  <div
+                    className={`bg-gradient-to-br ${item.color} p-6 text-center text-white`}
+                  >
+                    <item.icon className="h-8 w-8 mx-auto mb-3" />
+                    <p className="font-bold text-lg">{item.label}</p>
+                    <p className="text-white/70 text-sm">{item.sublabel}</p>
+                  </div>
                 </div>
                 {index < 4 && (
                   <div className="hidden lg:flex absolute top-1/2 -right-2 transform -translate-y-1/2 z-10">
-                    <ArrowRight className="h-4 w-4 text-gray-400" />
+                    <ArrowRight className="h-4 w-4 text-rose-400" />
                   </div>
                 )}
               </div>
@@ -600,9 +601,13 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#FFF5F6]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <div className="sticker-badge mb-4">
+              <ClipboardCheck className="h-4 w-4" />
+              FAQ
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               Häufig gestellte Fragen
             </h2>
@@ -613,10 +618,7 @@ export default function SoFunktioniertsPage() {
 
           <div className="space-y-4">
             {faqs.map((faq, index) => (
-              <div
-                key={index}
-                className="border border-gray-200 rounded-xl overflow-hidden"
-              >
+              <div key={index} className="pin-card overflow-hidden">
                 <div className="px-6 py-5">
                   <h3 className="font-semibold text-gray-900 text-lg">{faq.question}</h3>
                   <p className="mt-3 text-gray-600 leading-relaxed">{faq.answer}</p>
@@ -628,8 +630,9 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-emerald-600 to-teal-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-20 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             Jetzt loslegen und Praktikum neu erleben
           </h2>
@@ -639,8 +642,8 @@ export default function SoFunktioniertsPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.praktikumsgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-emerald-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/login"
+              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-rose-600 hover:bg-rose-50 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />
               Als Betrieb registrieren

@@ -15,10 +15,12 @@ import {
   Upload,
   Users,
   MapPin,
-  Sparkles,
+  ClipboardCheck,
   Zap,
   Clock,
   ChevronRight,
+  Target,
+  BookOpen,
 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -46,9 +48,6 @@ const mainFeatures = [
   {
     icon: Video,
     title: 'TikTok-Style Video Feed',
-    color: 'bg-emerald-100 text-emerald-600',
-    gradientFrom: 'from-emerald-500',
-    gradientTo: 'to-teal-600',
     description:
       'Vergiss langweilige Stellenanzeigen mit Stockfotos. Bei Praktikumsgenie zeigen echte Mitarbeiter ihren Arbeitsalltag in authentischen Kurzvideos von 30 bis 90 Sekunden. Du siehst, wie es wirklich ist, in einer Werkstatt zu stehen, Patienten zu versorgen oder Code zu schreiben.',
     description2:
@@ -67,9 +66,6 @@ const mainFeatures = [
   {
     icon: Heart,
     title: 'Tinder-Matching',
-    color: 'bg-teal-100 text-teal-600',
-    gradientFrom: 'from-teal-500',
-    gradientTo: 'to-emerald-600',
     description:
       'Das Matching bei Praktikumsgenie funktioniert nach dem Tinder-Prinzip: Du schaust dir Videos und Profile von Betrieben an. Gefällt dir, was du siehst? Swipe nach rechts oder tippe auf das Herz. Nicht interessiert? Swipe nach links und weiter geht es.',
     description2:
@@ -88,9 +84,6 @@ const mainFeatures = [
   {
     icon: MessageCircle,
     title: 'Direkter Chat',
-    color: 'bg-blue-100 text-blue-600',
-    gradientFrom: 'from-blue-500',
-    gradientTo: 'to-cyan-600',
     description:
       'Nach einem Match öffnet sich der direkte Chat zwischen dir und dem Betrieb. Kein Anschreiben formulieren, kein Bewerbungsformular ausfüllen. Einfach locker schreiben, wie du es von WhatsApp oder Instagram kennst.',
     description2:
@@ -109,9 +102,6 @@ const mainFeatures = [
   {
     icon: Brain,
     title: 'KI-Praktikumsfinder',
-    color: 'bg-amber-100 text-amber-600',
-    gradientFrom: 'from-amber-500',
-    gradientTo: 'to-orange-600',
     description:
       'Du weißt noch nicht, welches Praktikum zu dir passt? Kein Problem. Unser KI-Praktikumsfinder stellt dir 5 bis 7 gezielte Fragen zu deinen Interessen, Stärken und Vorlieben. Basierend auf deinen Antworten schlägt die KI passende Praktikumsbereiche vor.',
     description2:
@@ -130,9 +120,6 @@ const mainFeatures = [
   {
     icon: Shield,
     title: 'Kein Lebenslauf nötig',
-    color: 'bg-green-100 text-green-600',
-    gradientFrom: 'from-green-500',
-    gradientTo: 'to-emerald-600',
     description:
       'Schluss mit dem Stress, einen perfekten Lebenslauf zu schreiben. Bei Praktikumsgenie erstellst du dein Profil in nur 2 Minuten. Du gibst deine Interessen, Stärken und deinen Standort an. Noten und formelle Qualifikationen spielen keine Rolle.',
     description2:
@@ -151,9 +138,6 @@ const mainFeatures = [
   {
     icon: Star,
     title: 'Regional First',
-    color: 'bg-orange-100 text-orange-600',
-    gradientFrom: 'from-orange-500',
-    gradientTo: 'to-red-600',
     description:
       'Dein Praktikum sollte in deiner Nähe sein. Deshalb zeigt dir Praktikumsgenie zuerst Betriebe aus deiner Region. Du stellst deinen Wunsch-Umkreis ein und siehst nur Videos und Profile von Betrieben, die du auch wirklich erreichen kannst.',
     description2:
@@ -267,7 +251,7 @@ export default function FeaturesPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFF5F6]">
       <Header />
 
       <script
@@ -280,9 +264,10 @@ export default function FeaturesPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-emerald-600 via-emerald-600 to-teal-600 pt-28 pb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-emerald-200 mb-6" aria-label="Breadcrumb">
+      <section className="relative bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 pt-28 pb-20 overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="text-sm text-rose-200 mb-6" aria-label="Breadcrumb">
             <ol className="flex items-center gap-1">
               <li>
                 <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -293,14 +278,14 @@ export default function FeaturesPage() {
           </nav>
 
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm text-emerald-200 mb-6 border border-white/20">
-              <Sparkles className="h-4 w-4" />
+            <div className="sticker-badge !bg-white/20 !text-white !border-white/30 backdrop-blur-sm mb-6">
+              <ClipboardCheck className="h-4 w-4" />
               <span>Alle Funktionen im Detail</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Alle Features auf einen Blick
+              Alle Features auf einen <span className="relative"><span className="relative z-10">Blick</span><span className="absolute bottom-2 left-0 right-0 h-4 bg-white/20 -rotate-1 rounded" /></span>
             </h1>
-            <p className="text-lg sm:text-xl text-emerald-100 mb-8 max-w-2xl">
+            <p className="text-lg sm:text-xl text-rose-100 mb-8 max-w-2xl">
               Praktikumsgenie verbindet das Beste aus TikTok, Tinder und KI zu einer
               Plattform, die Praktikumssuche endlich so macht, wie die Generation Z es will:
               schnell, visuell und direkt.
@@ -308,10 +293,7 @@ export default function FeaturesPage() {
             <div className="flex flex-wrap gap-3">
               {['Video Feed', 'Matching', 'Chat', 'KI-Praktikumsfinder', 'Regional', 'Kostenlos'].map(
                 (tag) => (
-                  <span
-                    key={tag}
-                    className="px-3 py-1.5 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white border border-white/20"
-                  >
+                  <span key={tag} className="explore-tag !bg-white/15 !text-white !border-white/25 backdrop-blur-sm">
                     {tag}
                   </span>
                 )
@@ -325,32 +307,28 @@ export default function FeaturesPage() {
       {mainFeatures.map((feature, index) => (
         <section
           key={feature.title}
-          className={`py-20 ${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}
+          className={`py-20 ${index % 2 === 0 ? 'bg-white doodle-circles' : 'bg-[#FFF5F6]'}`}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div
-              className={`grid lg:grid-cols-2 gap-12 lg:gap-16 items-center ${
-                index % 2 === 1 ? 'lg:direction-rtl' : ''
-              }`}
-            >
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               {/* Text Side */}
               <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
-                <div
-                  className={`inline-flex items-center justify-center w-14 h-14 rounded-2xl ${feature.color} mb-6`}
-                >
-                  <feature.icon className="h-7 w-7" />
+                <div className="sticker-badge mb-6">
+                  <feature.icon className="h-4 w-4" />
+                  Feature
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
                   {feature.title}
                 </h2>
-                <p className="text-gray-600 text-lg leading-relaxed mb-4">{feature.description}</p>
-                <p className="text-gray-600 leading-relaxed mb-4">{feature.description2}</p>
-                <p className="text-gray-600 leading-relaxed mb-8">{feature.description3}</p>
-                <ul className="space-y-3">
+                <div className="board-divider mb-6">
+                  <p className="text-gray-600 text-lg leading-relaxed mb-4">{feature.description}</p>
+                  <p className="text-gray-600 leading-relaxed mb-4">{feature.description2}</p>
+                  <p className="text-gray-600 leading-relaxed">{feature.description3}</p>
+                </div>
+                <ul className="space-y-3 mt-8">
                   {feature.bullets.map((bullet) => (
-                    <li key={bullet} className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-700">{bullet}</span>
+                    <li key={bullet} className="checklist-item text-gray-700">
+                      {bullet}
                     </li>
                   ))}
                 </ul>
@@ -358,17 +336,17 @@ export default function FeaturesPage() {
 
               {/* Visual Side */}
               <div className={index % 2 === 1 ? 'lg:order-1' : ''}>
-                <div
-                  className={`bg-gradient-to-br ${feature.gradientFrom} ${feature.gradientTo} rounded-3xl p-8 sm:p-12 aspect-square max-w-md mx-auto flex items-center justify-center relative overflow-hidden`}
-                >
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16" />
-                  <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full -ml-12 -mb-12" />
-                  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    <feature.icon className="h-24 w-24 sm:h-32 sm:w-32 text-white/90" strokeWidth={1} />
-                  </div>
-                  <div className="absolute bottom-6 left-6 right-6">
-                    <div className="bg-white/20 backdrop-blur-sm rounded-xl px-4 py-3 text-white text-center">
-                      <p className="font-semibold text-sm">{feature.title}</p>
+                <div className="tape-card p-4">
+                  <div className="bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 rounded-2xl p-8 sm:p-12 aspect-square max-w-md mx-auto flex items-center justify-center relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16" />
+                    <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full -ml-12 -mb-12" />
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                      <feature.icon className="h-24 w-24 sm:h-32 sm:w-32 text-white/90" strokeWidth={1} />
+                    </div>
+                    <div className="absolute bottom-6 left-6 right-6">
+                      <div className="bg-white/20 backdrop-blur-sm rounded-xl px-4 py-3 text-white text-center">
+                        <p className="font-semibold text-sm">{feature.title}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -382,13 +360,13 @@ export default function FeaturesPage() {
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-emerald-300 mb-6">
+            <div className="inline-flex items-center gap-2 rounded-full bg-rose-500/20 px-4 py-1.5 text-sm text-rose-300 mb-6 border border-rose-500/30">
               <Building2 className="h-4 w-4" />
               Für Praktikumsbetriebe
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               Leistungsstarke Features für{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-pink-400">
                 Betriebe
               </span>
             </h2>
@@ -398,13 +376,13 @@ export default function FeaturesPage() {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 scrapbook-grid">
             {companyFeatures.map((feature) => (
               <div
                 key={feature.title}
-                className="bg-white/5 backdrop-blur rounded-2xl p-6 border border-white/10 hover:border-emerald-500/50 transition-colors"
+                className="bg-white/5 backdrop-blur rounded-2xl p-6 border border-white/10 hover:border-rose-500/50 transition-colors"
               >
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-rose-500/20 text-rose-400 mb-4">
                   <feature.icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">{feature.title}</h3>
@@ -415,8 +393,8 @@ export default function FeaturesPage() {
 
           <div className="text-center mt-12">
             <Link
-              href="https://dashboard.praktikumsgenie.de/login"
-              className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-8 py-3.5 text-base font-medium text-white hover:bg-emerald-500 transition-colors"
+              href="https://dashboard.ausbildungsgenie.de/login"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 px-8 py-3.5 text-base font-medium text-white hover:from-rose-600 hover:to-pink-700 transition-all shadow-lg shadow-rose-500/25"
             >
               Betriebe-Dashboard testen
               <ChevronRight className="h-4 w-4" />
@@ -429,6 +407,10 @@ export default function FeaturesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <div className="sticker-badge mb-4">
+              <Target className="h-4 w-4" />
+              Vergleich
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               Praktikumsgenie vs. Klassische Stellenportale
             </h2>
@@ -438,16 +420,16 @@ export default function FeaturesPage() {
           </div>
 
           {/* Desktop Table */}
-          <div className="hidden md:block overflow-hidden rounded-2xl border border-gray-200">
+          <div className="hidden md:block overflow-hidden rounded-2xl border border-rose-200 pin-card !rounded-2xl">
             <table className="w-full">
               <thead>
-                <tr className="bg-gray-50">
+                <tr className="bg-gradient-to-r from-rose-50 to-pink-50">
                   <th className="text-left px-6 py-4 text-sm font-semibold text-gray-900 w-1/3">
                     Kriterium
                   </th>
                   <th className="text-left px-6 py-4 text-sm font-semibold w-1/3">
-                    <span className="inline-flex items-center gap-2 text-emerald-600">
-                      <Sparkles className="h-4 w-4" />
+                    <span className="inline-flex items-center gap-2 gradient-text-discovery">
+                      <ClipboardCheck className="h-4 w-4 text-rose-500" />
                       Praktikumsgenie
                     </span>
                   </th>
@@ -460,14 +442,14 @@ export default function FeaturesPage() {
                 {comparisonRows.map((row, index) => (
                   <tr
                     key={row.feature}
-                    className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}
+                    className={index % 2 === 0 ? 'bg-white' : 'bg-rose-50/30'}
                   >
                     <td className="px-6 py-4 text-sm font-medium text-gray-900">
                       {row.feature}
                     </td>
                     <td className="px-6 py-4 text-sm text-gray-700">
                       <span className="flex items-start gap-2">
-                        <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+                        <Check className="h-4 w-4 text-rose-500 flex-shrink-0 mt-0.5" />
                         {row.praktikumsgenie}
                       </span>
                     </td>
@@ -486,13 +468,13 @@ export default function FeaturesPage() {
           {/* Mobile Cards */}
           <div className="md:hidden space-y-4">
             {comparisonRows.map((row) => (
-              <div key={row.feature} className="rounded-xl border border-gray-200 p-4">
+              <div key={row.feature} className="pin-card p-4">
                 <h3 className="font-semibold text-gray-900 mb-3">{row.feature}</h3>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 text-sm">
-                    <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    <Check className="h-4 w-4 text-rose-500 flex-shrink-0 mt-0.5" />
                     <div>
-                      <span className="font-medium text-emerald-600">Praktikumsgenie: </span>
+                      <span className="font-medium gradient-text-discovery">Praktikumsgenie: </span>
                       <span className="text-gray-700">{row.praktikumsgenie}</span>
                     </div>
                   </div>
@@ -511,11 +493,11 @@ export default function FeaturesPage() {
       </section>
 
       {/* Quick Feature Grid */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#FFF5F6] doodle-circles">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Und noch mehr Features
+              Und noch mehr <span className="gradient-text-discovery">Features</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Praktikumsgenie steckt voller durchdachter Details, die deine Praktikumssuche
@@ -523,7 +505,7 @@ export default function FeaturesPage() {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 scrapbook-grid">
             {[
               { icon: Zap, title: 'Schnelle Ladezeiten', text: 'Videos und Profile laden blitzschnell, auch bei langsamer Verbindung.' },
               { icon: Shield, title: 'Datenschutz', text: 'DSGVO-konform. Deine Daten gehören dir und werden nie verkauft.' },
@@ -534,11 +516,8 @@ export default function FeaturesPage() {
               { icon: Brain, title: 'Smarte Vorschläge', text: 'Je mehr du swipest, desto besser werden die Empfehlungen.' },
               { icon: Heart, title: 'Kostenlos', text: 'Alle Features für Schüler sind und bleiben 100% kostenlos.' },
             ].map((item) => (
-              <div
-                key={item.title}
-                className="bg-white rounded-xl p-5 border border-gray-100 hover:border-emerald-200 hover:shadow-sm transition-all"
-              >
-                <item.icon className="h-6 w-6 text-emerald-600 mb-3" />
+              <div key={item.title} className="tape-card p-5">
+                <item.icon className="h-6 w-6 text-rose-500 mb-3" />
                 <h3 className="font-semibold text-gray-900 mb-1 text-sm">{item.title}</h3>
                 <p className="text-gray-500 text-sm">{item.text}</p>
               </div>
@@ -548,8 +527,9 @@ export default function FeaturesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-emerald-600 to-teal-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-20 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             Bereit, die Zukunft der Praktikumssuche zu erleben?
           </h2>
@@ -559,8 +539,8 @@ export default function FeaturesPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.praktikumsgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-emerald-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/login"
+              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-rose-600 hover:bg-rose-50 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />
               Als Betrieb registrieren

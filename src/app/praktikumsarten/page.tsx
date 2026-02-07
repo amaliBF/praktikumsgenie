@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { ChevronRight, ClipboardCheck, Clock, Users, Target } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { praktikumsarten } from '@/lib/praktikumsarten-data';
@@ -29,85 +30,114 @@ export default function PraktikumsartenPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen">
+      <main className="min-h-screen bg-[#FFF5F6]">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />
 
         {/* Hero */}
-        <div className="bg-gradient-to-br from-emerald-600 via-emerald-600 to-teal-600 pt-24 pb-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <nav className="text-sm text-emerald-200 mb-6" aria-label="Breadcrumb">
+        <div className="relative bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 pt-24 pb-16 overflow-hidden">
+          <div className="absolute inset-0 confetti-dots opacity-10" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav className="text-sm text-white/80 mb-6" aria-label="Breadcrumb">
               <ol className="flex items-center gap-1">
                 <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-                <li>/</li>
+                <li><ChevronRight className="w-3.5 h-3.5" /></li>
                 <li className="text-white font-medium">Praktikumsarten</li>
               </ol>
             </nav>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-              Praktikumsarten im Überblick
-            </h1>
-            <p className="text-lg text-emerald-100 mb-8 max-w-2xl">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-12 h-12 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center border border-white/30">
+                <ClipboardCheck className="w-6 h-6 text-white" />
+              </div>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
+                Praktikumsarten im &Uuml;berblick
+              </h1>
+            </div>
+            <p className="text-lg text-white/90 mb-6 max-w-2xl">
               Welches Praktikum passt zu dir? Hier findest du alle Praktikumsarten mit Dauer, Zielgruppe und den wichtigsten Infos.
             </p>
+
+            {/* Stats */}
+            <div className="flex flex-wrap gap-3">
+              <span className="sticker-badge bg-white/20 border-white/30 text-white">
+                <ClipboardCheck className="w-4 h-4" />
+                {praktikumsarten.length} Praktikumsarten
+              </span>
+              <span className="sticker-badge bg-white/20 border-white/30 text-white">
+                <Target className="w-4 h-4" />
+                Alle Zielgruppen
+              </span>
+            </div>
           </div>
         </div>
 
         {/* Cards */}
-        <div className="bg-white py-16">
+        <div className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="board-divider mb-8">
+              <h2 className="text-2xl font-bold text-gray-900">Alle Praktikumsarten entdecken</h2>
+              <p className="text-gray-600 mt-1">W&auml;hle eine Praktikumsart, um mehr zu erfahren</p>
+            </div>
+
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 scrapbook-grid">
               {praktikumsarten.map((p) => (
                 <Link
                   key={p.slug}
                   href={`/praktikumsarten/${p.slug}`}
-                  className="group rounded-2xl border border-gray-200 hover:border-emerald-300 hover:shadow-lg p-6 transition-all"
+                  className="pin-card p-6 block group mt-3"
                 >
-                  <h2 className="text-xl font-bold text-gray-900 group-hover:text-emerald-700 mb-2">
+                  <h2 className="text-xl font-bold text-gray-900 group-hover:text-rose-600 mb-3 transition-colors">
                     {p.name}
                   </h2>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700">
+                    <span className="sticker-badge">
+                      <Clock className="w-3.5 h-3.5" />
                       {p.dauer}
                     </span>
-                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-teal-100 text-teal-700">
+                    <span className="explore-tag">
+                      <Users className="w-3 h-3" />
                       {p.zielgruppe}
                     </span>
-                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-700">
-                      {typeof p.verguetet === 'boolean' ? (p.verguetet ? 'Vergütet' : 'Nicht vergütet') : p.verguetet}
+                    <span className="explore-tag">
+                      {typeof p.verguetet === 'boolean' ? (p.verguetet ? 'Verg&uuml;tet' : 'Nicht verg&uuml;tet') : p.verguetet}
                     </span>
                   </div>
                   <p className="text-gray-600 text-sm leading-relaxed line-clamp-3">
                     {p.beschreibung}
                   </p>
-                  <span className="inline-flex items-center gap-1 text-emerald-600 font-medium text-sm mt-4 group-hover:gap-2 transition-all">
-                    Mehr erfahren &rarr;
+                  <span className="inline-flex items-center gap-1 text-rose-600 font-semibold text-sm mt-4 group-hover:gap-2 transition-all">
+                    Mehr erfahren
+                    <ChevronRight className="w-4 h-4" />
                   </span>
                 </Link>
               ))}
             </div>
 
             {/* CTA */}
-            <section className="bg-gradient-to-r from-emerald-600 to-teal-600 rounded-2xl p-8 text-center text-white mt-16">
-              <h2 className="text-2xl font-bold mb-3">Praktikumsplatz in deiner Stadt finden</h2>
-              <p className="mb-6 text-emerald-100">
-                Entdecke Praktikumsmöglichkeiten in über 84 deutschen Städten.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                <Link
-                  href="/praktikum"
-                  className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white text-emerald-700 font-semibold hover:bg-emerald-50 transition-colors"
-                >
-                  Praktikum nach Stadt
-                </Link>
-                <Link
-                  href="/#app-download"
-                  className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-white text-white font-semibold hover:bg-white/10 transition-colors"
-                >
-                  App herunterladen
-                </Link>
+            <section className="relative bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 rounded-2xl p-8 text-center text-white mt-16 overflow-hidden">
+              <div className="absolute inset-0 confetti-dots opacity-10" />
+              <div className="relative">
+                <h2 className="text-2xl font-bold mb-3">Praktikumsplatz in deiner Stadt finden</h2>
+                <p className="mb-6 text-white/90">
+                  Entdecke Praktikumsm&ouml;glichkeiten in &uuml;ber 84 deutschen St&auml;dten.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                  <Link
+                    href="/praktikum"
+                    className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-white text-rose-600 font-semibold hover:bg-rose-50 transition-colors"
+                  >
+                    Praktikum nach Stadt
+                  </Link>
+                  <Link
+                    href="/#app-download"
+                    className="inline-flex items-center justify-center px-6 py-3 rounded-xl border-2 border-white text-white font-semibold hover:bg-white/10 transition-colors"
+                  >
+                    App herunterladen
+                  </Link>
+                </div>
               </div>
             </section>
           </div>

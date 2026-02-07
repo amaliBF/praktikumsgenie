@@ -12,7 +12,7 @@ import {
   Shield,
   ChevronDown,
   Upload,
-  Sparkles,
+  ClipboardCheck,
   Globe,
   Headphones,
   Lock,
@@ -131,7 +131,7 @@ export default function FuerBetriebePage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen">
+      <main className="min-h-screen bg-[#FFF5F6]">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
@@ -146,14 +146,11 @@ export default function FuerBetriebePage() {
         />
 
         {/* Hero Section */}
-        <section className="relative bg-gray-900 pt-28 pb-20 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-emerald-900/40 via-gray-900 to-teal-900/30" />
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-20 left-10 w-72 h-72 bg-emerald-500 rounded-full blur-3xl" />
-            <div className="absolute bottom-10 right-10 w-96 h-96 bg-teal-500 rounded-full blur-3xl" />
-          </div>
+        <section className="relative pt-28 pb-20 overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700" />
+          <div className="absolute inset-0 confetti-dots opacity-10" />
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <nav className="text-sm text-gray-400 mb-8" aria-label="Breadcrumb">
+            <nav className="text-sm text-rose-200 mb-8" aria-label="Breadcrumb">
               <ol className="flex items-center gap-1">
                 <li>
                   <Link href="/" className="hover:text-white transition-colors">
@@ -167,31 +164,32 @@ export default function FuerBetriebePage() {
 
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div>
-                <div className="inline-flex items-center gap-2 rounded-full bg-emerald-500/20 border border-emerald-500/30 px-4 py-1.5 text-sm text-emerald-300 mb-6">
+                <div className="sticker-badge !bg-white/20 !text-white !border-white/30 backdrop-blur-sm mb-6">
                   <Building2 className="h-4 w-4" />
                   Für Praktikumsbetriebe
                 </div>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Finden Sie die besten Praktikanten –{' '}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400">
-                    mit Praktikumsgenie
+                  <span className="relative">
+                    <span className="relative z-10">mit Praktikumsgenie</span>
+                    <span className="absolute bottom-2 left-0 right-0 h-4 bg-white/20 -rotate-1 rounded" />
                   </span>
                 </h1>
-                <p className="mt-6 text-xl text-gray-300 max-w-xl">
+                <p className="mt-6 text-xl text-rose-100 max-w-xl">
                   Klassische Stellenanzeigen? Liest Gen Z nicht. Zeigen Sie Ihren Betrieb mit
                   authentischen Kurzvideos und finden Sie motivierte Praktikanten per Matching.
                 </p>
                 <div className="mt-10 flex flex-col sm:flex-row gap-4">
                   <Link
-                    href="https://dashboard.praktikumsgenie.de/login"
-                    className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-emerald-600 to-teal-600 px-8 py-4 text-base font-semibold text-white hover:from-emerald-500 hover:to-teal-500 transition-all shadow-lg shadow-emerald-500/25"
+                    href="https://dashboard.ausbildungsgenie.de/login"
+                    className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-base font-semibold text-rose-600 hover:bg-rose-50 transition-all shadow-lg"
                   >
                     Kostenlos registrieren
                     <ArrowRight className="h-5 w-5" />
                   </Link>
                   <a
                     href="#so-starten-sie"
-                    className="inline-flex items-center justify-center gap-2 rounded-full border border-gray-600 px-8 py-4 text-base font-medium text-gray-200 hover:bg-white/5 transition-colors"
+                    className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-white/40 px-8 py-4 text-base font-medium text-white hover:bg-white/10 transition-colors"
                   >
                     So funktioniert&apos;s
                     <ChevronDown className="h-4 w-4" />
@@ -228,12 +226,12 @@ export default function FuerBetriebePage() {
                 ].map((card) => (
                   <div
                     key={card.label}
-                    className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-emerald-500/30 transition-colors"
+                    className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-colors"
                   >
-                    <card.icon className="h-8 w-8 text-emerald-400 mb-3" />
+                    <card.icon className="h-8 w-8 text-rose-200 mb-3" />
                     <p className="text-2xl font-bold text-white">{card.value}</p>
-                    <p className="font-medium text-gray-200 mt-1">{card.label}</p>
-                    <p className="text-sm text-gray-400 mt-0.5">{card.desc}</p>
+                    <p className="font-medium text-white mt-1">{card.label}</p>
+                    <p className="text-sm text-rose-200 mt-0.5">{card.desc}</p>
                   </div>
                 ))}
               </div>
@@ -242,10 +240,10 @@ export default function FuerBetriebePage() {
         </section>
 
         {/* Problem Section */}
-        <section className="py-20 bg-gray-50">
+        <section className="py-20 bg-white doodle-circles">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 rounded-full bg-red-50 px-4 py-1.5 text-sm text-red-600 mb-4">
+              <div className="sticker-badge mb-4">
                 <Target className="h-4 w-4" />
                 Die Herausforderung
               </div>
@@ -257,38 +255,29 @@ export default function FuerBetriebePage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8 scrapbook-grid">
               {[
                 {
                   stat: '73%',
                   title: 'der Praktikumsstellen bleiben unbesetzt',
                   description:
                     'Immer mehr Betriebe finden keine Praktikanten. Die Zahl der unbesetzten Stellen erreicht jedes Jahr neue Rekordwerte. Besonders betroffen: Handwerk, Gastronomie und Gesundheitswesen.',
-                  color: 'border-red-200 bg-red-50/50',
-                  statColor: 'text-red-600',
                 },
                 {
                   stat: '8 Sek.',
                   title: 'Aufmerksamkeitsspanne der Gen Z',
                   description:
                     'Lange Stellenanzeigen mit Fließtext? Werden nicht gelesen. Gen Z ist mit TikTok, Instagram und YouTube aufgewachsen. Sie entscheiden in Sekunden, ob etwas relevant ist – nicht in Minuten.',
-                  color: 'border-orange-200 bg-orange-50/50',
-                  statColor: 'text-orange-600',
                 },
                 {
                   stat: '86%',
                   title: 'wollen authentische Einblicke',
                   description:
                     'Schüler wollen sehen, wie der Arbeitsalltag wirklich aussieht. Hochglanz-Broschüren und Stockfotos wirken abschreckend. Was zählt: echte Menschen, echte Aufgaben, echte Atmosphäre.',
-                  color: 'border-amber-200 bg-amber-50/50',
-                  statColor: 'text-amber-600',
                 },
               ].map((item) => (
-                <div
-                  key={item.title}
-                  className={`rounded-2xl border-2 ${item.color} p-8`}
-                >
-                  <p className={`text-5xl font-bold ${item.statColor} mb-4`}>{item.stat}</p>
+                <div key={item.title} className="pin-card p-8">
+                  <p className="text-5xl font-bold gradient-text-discovery mb-4">{item.stat}</p>
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">{item.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{item.description}</p>
                 </div>
@@ -298,15 +287,15 @@ export default function FuerBetriebePage() {
         </section>
 
         {/* Solution Section */}
-        <section className="py-20">
+        <section className="py-20 bg-[#FFF5F6]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 rounded-full bg-green-50 px-4 py-1.5 text-sm text-green-600 mb-4">
-                <Sparkles className="h-4 w-4" />
+              <div className="sticker-badge mb-4">
+                <ClipboardCheck className="h-4 w-4" />
                 Unsere Lösung
               </div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-                So erreichen Sie die Generation Z
+                So erreichen Sie die <span className="gradient-text-discovery">Generation Z</span>
               </h2>
               <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
                 Praktikumsgenie verbindet Betriebe und Schüler auf eine völlig neue Art:
@@ -315,71 +304,77 @@ export default function FuerBetriebePage() {
             </div>
 
             <div className="grid lg:grid-cols-3 gap-8">
-              <div className="bg-gradient-to-br from-emerald-600 to-emerald-700 rounded-3xl p-8 text-white">
-                <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center mb-6">
-                  <Video className="h-7 w-7" />
+              <div className="tape-card overflow-hidden">
+                <div className="bg-gradient-to-br from-rose-500 to-pink-600 p-8 text-white">
+                  <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center mb-6 backdrop-blur-sm">
+                    <Video className="h-7 w-7" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4">TikTok-Style Videos</h3>
+                  <p className="text-rose-100 leading-relaxed mb-6">
+                    Laden Sie 30-90 Sekunden Kurzvideos hoch, in denen Ihre Mitarbeiter den Arbeitsalltag
+                    zeigen. Smartphone genügt – wir kümmern uns um die technische Optimierung.
+                    Schüler schauen sich Videos an, keine Stellenanzeigen.
+                  </p>
+                  <ul className="space-y-2">
+                    {['Automatische Konvertierung (HD 720p)', 'Thumbnail-Generierung', 'Feed-Platzierung'].map((item) => (
+                      <li key={item} className="flex items-center gap-2 text-sm text-rose-100">
+                        <Check className="h-4 w-4 text-rose-200 flex-shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">TikTok-Style Videos</h3>
-                <p className="text-emerald-100 leading-relaxed mb-6">
-                  Laden Sie 30-90 Sekunden Kurzvideos hoch, in denen Ihre Mitarbeiter den Arbeitsalltag
-                  zeigen. Smartphone genügt – wir kümmern uns um die technische Optimierung.
-                  Schüler schauen sich Videos an, keine Stellenanzeigen.
-                </p>
-                <ul className="space-y-2">
-                  {['Automatische Konvertierung (HD 720p)', 'Thumbnail-Generierung', 'Feed-Platzierung'].map((item) => (
-                    <li key={item} className="flex items-center gap-2 text-sm text-emerald-100">
-                      <Check className="h-4 w-4 text-emerald-300 flex-shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-teal-600 to-teal-700 rounded-3xl p-8 text-white">
-                <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center mb-6">
-                  <Heart className="h-7 w-7" />
+              <div className="tape-card overflow-hidden">
+                <div className="bg-gradient-to-br from-pink-600 to-fuchsia-700 p-8 text-white">
+                  <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center mb-6 backdrop-blur-sm">
+                    <Heart className="h-7 w-7" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4">Intelligentes Matching</h3>
+                  <p className="text-pink-100 leading-relaxed mb-6">
+                    Kein Bewerber-Spam, keine unpassenden Kandidaten. Unser Matching basiert auf
+                    beidseitigem Interesse: Erst wenn beide Seiten &quot;Like&quot; sagen,
+                    entsteht ein Match. Das garantiert Qualität statt Quantität.
+                  </p>
+                  <ul className="space-y-2">
+                    {['Beidseitiges Like-System', 'Interessen-basiert', 'Regionale Priorisierung'].map((item) => (
+                      <li key={item} className="flex items-center gap-2 text-sm text-pink-100">
+                        <Check className="h-4 w-4 text-pink-200 flex-shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Intelligentes Matching</h3>
-                <p className="text-teal-100 leading-relaxed mb-6">
-                  Kein Bewerber-Spam, keine unpassenden Kandidaten. Unser Matching basiert auf
-                  beidseitigem Interesse: Erst wenn beide Seiten &quot;Like&quot; sagen,
-                  entsteht ein Match. Das garantiert Qualität statt Quantität.
-                </p>
-                <ul className="space-y-2">
-                  {['Beidseitiges Like-System', 'Interessen-basiert', 'Regionale Priorisierung'].map((item) => (
-                    <li key={item} className="flex items-center gap-2 text-sm text-teal-100">
-                      <Check className="h-4 w-4 text-teal-300 flex-shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-3xl p-8 text-white">
-                <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center mb-6">
-                  <MessageCircle className="h-7 w-7" />
+              <div className="tape-card overflow-hidden">
+                <div className="bg-gradient-to-br from-fuchsia-600 to-purple-700 p-8 text-white">
+                  <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center mb-6 backdrop-blur-sm">
+                    <MessageCircle className="h-7 w-7" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4">Direkt-Chat</h3>
+                  <p className="text-fuchsia-100 leading-relaxed mb-6">
+                    Nach dem Match geht es direkt los: Chat in Echtzeit, ohne Anschreiben und
+                    Formalitäten. Schüler kommunizieren so, wie sie es gewohnt sind –
+                    unkompliziert und schnell. Das beschleunigt den gesamten Prozess.
+                  </p>
+                  <ul className="space-y-2">
+                    {['Echtzeit-Nachrichten', 'Keine Bewerbungsunterlagen nötig', 'Push-Benachrichtigungen'].map((item) => (
+                      <li key={item} className="flex items-center gap-2 text-sm text-fuchsia-100">
+                        <Check className="h-4 w-4 text-fuchsia-200 flex-shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Direkt-Chat</h3>
-                <p className="text-blue-100 leading-relaxed mb-6">
-                  Nach dem Match geht es direkt los: Chat in Echtzeit, ohne Anschreiben und
-                  Formalitäten. Schüler kommunizieren so, wie sie es gewohnt sind –
-                  unkompliziert und schnell. Das beschleunigt den gesamten Prozess.
-                </p>
-                <ul className="space-y-2">
-                  {['Echtzeit-Nachrichten', 'Keine Bewerbungsunterlagen nötig', 'Push-Benachrichtigungen'].map((item) => (
-                    <li key={item} className="flex items-center gap-2 text-sm text-blue-100">
-                      <Check className="h-4 w-4 text-blue-300 flex-shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
           </div>
         </section>
 
         {/* Detailed Features */}
-        <section className="py-20 bg-gray-50">
+        <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
@@ -398,72 +393,58 @@ export default function FuerBetriebePage() {
                   title: 'Video-Upload & Management',
                   description:
                     'Laden Sie Videos direkt vom Smartphone oder Computer hoch. Automatische Konvertierung in HD (720p MP4/H.264), Thumbnail-Generierung und Vorschau. Verwalten Sie alle Videos zentral im Dashboard.',
-                  color: 'bg-emerald-100 text-emerald-600',
                 },
                 {
                   icon: Heart,
                   title: 'Kandidaten-Matching',
                   description:
                     'Sehen Sie, welche Schüler Ihre Videos geliked haben. Liken Sie zurück und schaffen Sie ein Match. Das beidseitige Like-System sorgt für qualitativ hochwertige Kontakte.',
-                  color: 'bg-teal-100 text-teal-600',
                 },
                 {
                   icon: MessageCircle,
                   title: 'Echtzeit-Chat',
                   description:
                     'Nach dem Match chatten Sie direkt mit den Kandidaten. Echtzeit-Nachrichten, Lesebestätigungen und Tipp-Indikator. Kommunikation auf Augenhöhe, ohne Formalitäten.',
-                  color: 'bg-blue-100 text-blue-600',
                 },
                 {
                   icon: BarChart3,
                   title: 'Analytics Dashboard',
                   description:
                     'Sehen Sie in Echtzeit: Videoaufrufe, Likes, Matches, Chat-Anfragen und Conversion-Rates. Verstehen Sie, welche Videos funktionieren und optimieren Sie Ihre Strategie.',
-                  color: 'bg-emerald-100 text-emerald-600',
                 },
                 {
                   icon: Users,
                   title: 'Team-Verwaltung',
                   description:
                     'Laden Sie Mitarbeiter als Team-Mitglieder ein. Jeder erhält eigene Zugangsdaten und kann eigenständig Videos hochladen, Kandidaten bewerten und chatten.',
-                  color: 'bg-amber-100 text-amber-600',
                 },
                 {
                   icon: Building2,
                   title: 'Firmenprofil',
                   description:
                     'Präsentieren Sie Ihren Betrieb mit Logo, Beschreibung, Branche, Standort und Mitarbeiterzahl. Ihr Profil ist die digitale Visitenkarte für die nächste Generation.',
-                  color: 'bg-indigo-100 text-indigo-600',
                 },
                 {
                   icon: Zap,
                   title: 'Praktikumsanzeigen erstellen',
                   description:
                     'Erstellen Sie Praktikumsanzeigen in Minuten: Bereich auswählen, Anforderungen definieren, Benefits beschreiben. Automatisch mit Ihren Videos verknüpft für maximale Wirkung.',
-                  color: 'bg-yellow-100 text-yellow-600',
                 },
                 {
                   icon: Globe,
                   title: 'Regionale Sichtbarkeit',
                   description:
                     'Ihr Betrieb wird Schülern in Ihrer Region priorisiert angezeigt. Umkreissuche, Standort-Filter und regionale Feed-Platzierung bringen Ihnen Kandidaten aus der Nähe.',
-                  color: 'bg-teal-100 text-teal-600',
                 },
                 {
                   icon: TrendingUp,
                   title: 'Priority-Platzierung',
                   description:
                     'Im Professional- und Enterprise-Plan erscheinen Ihre Videos weiter oben im Feed. Mehr Sichtbarkeit bedeutet mehr Likes, mehr Matches und mehr qualifizierte Kandidaten.',
-                  color: 'bg-orange-100 text-orange-600',
                 },
               ].map((feature) => (
-                <div
-                  key={feature.title}
-                  className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg hover:border-gray-200 transition-all"
-                >
-                  <div
-                    className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${feature.color} mb-5`}
-                  >
+                <div key={feature.title} className="feature-box hover:shadow-lg transition-all">
+                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-rose-100 text-rose-600 mb-5">
                     <feature.icon className="h-6 w-6" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900">{feature.title}</h3>
@@ -475,18 +456,22 @@ export default function FuerBetriebePage() {
         </section>
 
         {/* How to Start */}
-        <section id="so-starten-sie" className="py-20">
+        <section id="so-starten-sie" className="py-20 bg-[#FFF5F6] doodle-circles">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
+              <div className="sticker-badge mb-4">
+                <Zap className="h-4 w-4" />
+                Schnellstart
+              </div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-                In 4 Schritten zum ersten Match
+                In 4 Schritten zum ersten <span className="gradient-text-discovery">Match</span>
               </h2>
               <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
                 Starten Sie in wenigen Minuten – ohne technisches Wissen und ohne Verpflichtungen.
               </p>
             </div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 scrapbook-grid">
               {[
                 {
                   icon: UserPlus,
@@ -513,9 +498,9 @@ export default function FuerBetriebePage() {
                     'Schüler liken Ihre Videos. Sie liken zurück. Match! Dann chatten Sie direkt.',
                 },
               ].map((item) => (
-                <div key={item.title} className="relative text-center group">
+                <div key={item.title} className="pin-card p-6 text-center group">
                   <div className="mx-auto mb-6">
-                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-600 text-white flex items-center justify-center mx-auto shadow-lg shadow-emerald-500/20 group-hover:shadow-xl group-hover:shadow-emerald-500/30 transition-shadow">
+                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-rose-500 to-pink-600 text-white flex items-center justify-center mx-auto shadow-lg shadow-rose-500/20 group-hover:shadow-xl group-hover:shadow-rose-500/30 transition-shadow">
                       <item.icon className="h-9 w-9" />
                     </div>
                   </div>
@@ -527,8 +512,8 @@ export default function FuerBetriebePage() {
 
             <div className="mt-12 text-center">
               <Link
-                href="https://dashboard.praktikumsgenie.de/login"
-                className="inline-flex items-center gap-2 rounded-full bg-gray-900 px-8 py-4 text-base font-semibold text-white hover:bg-gray-800 transition-colors"
+                href="https://dashboard.ausbildungsgenie.de/login"
+                className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 px-8 py-4 text-base font-semibold text-white hover:from-rose-600 hover:to-pink-700 transition-all shadow-lg shadow-rose-500/25"
               >
                 Jetzt kostenlos starten
                 <ArrowRight className="h-5 w-5" />
@@ -538,7 +523,7 @@ export default function FuerBetriebePage() {
         </section>
 
         {/* Pricing */}
-        <section className="py-20 bg-gray-50">
+        <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
@@ -619,12 +604,12 @@ export default function FuerBetriebePage() {
                   key={plan.name}
                   className={`rounded-2xl p-8 flex flex-col ${
                     plan.highlighted
-                      ? 'bg-gradient-to-br from-emerald-600 to-teal-600 text-white ring-4 ring-emerald-200 scale-[1.03] shadow-2xl'
-                      : 'bg-white border border-gray-200 shadow-sm'
+                      ? 'bg-gradient-to-br from-rose-500 to-pink-600 text-white ring-4 ring-rose-200 scale-[1.03] shadow-2xl'
+                      : 'pin-card'
                   }`}
                 >
                   {plan.highlighted && (
-                    <div className="text-xs font-semibold uppercase tracking-wide text-emerald-200 mb-2">
+                    <div className="text-xs font-semibold uppercase tracking-wide text-rose-200 mb-2">
                       Empfohlen
                     </div>
                   )}
@@ -634,7 +619,7 @@ export default function FuerBetriebePage() {
                     {plan.name}
                   </h3>
                   <p
-                    className={`text-sm mt-1 ${plan.highlighted ? 'text-emerald-200' : 'text-gray-500'}`}
+                    className={`text-sm mt-1 ${plan.highlighted ? 'text-rose-200' : 'text-gray-500'}`}
                   >
                     {plan.description}
                   </p>
@@ -642,7 +627,7 @@ export default function FuerBetriebePage() {
                     <span className="text-4xl font-bold">{plan.price}</span>
                     {plan.period && (
                       <span
-                        className={`text-sm ml-1 ${plan.highlighted ? 'text-emerald-200' : 'text-gray-500'}`}
+                        className={`text-sm ml-1 ${plan.highlighted ? 'text-rose-200' : 'text-gray-500'}`}
                       >
                         {plan.period}
                       </span>
@@ -653,7 +638,7 @@ export default function FuerBetriebePage() {
                       <li key={feature} className="flex items-start gap-2.5 text-sm">
                         <Check
                           className={`h-4 w-4 mt-0.5 flex-shrink-0 ${
-                            plan.highlighted ? 'text-emerald-200' : 'text-emerald-600'
+                            plan.highlighted ? 'text-rose-200' : 'text-rose-500'
                           }`}
                         />
                         <span>{feature}</span>
@@ -661,11 +646,11 @@ export default function FuerBetriebePage() {
                     ))}
                   </ul>
                   <Link
-                    href="https://dashboard.praktikumsgenie.de/login"
+                    href="https://dashboard.ausbildungsgenie.de/login"
                     className={`mt-8 block text-center rounded-full px-6 py-3 text-sm font-semibold transition-colors ${
                       plan.highlighted
-                        ? 'bg-white text-emerald-600 hover:bg-gray-100'
-                        : 'bg-emerald-600 text-white hover:bg-emerald-700'
+                        ? 'bg-white text-rose-600 hover:bg-rose-50'
+                        : 'bg-gradient-to-r from-rose-500 to-pink-600 text-white hover:from-rose-600 hover:to-pink-700'
                     }`}
                   >
                     {plan.cta}
@@ -677,7 +662,7 @@ export default function FuerBetriebePage() {
         </section>
 
         {/* Trust Section */}
-        <section className="py-20">
+        <section className="py-20 bg-[#FFF5F6]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
@@ -706,12 +691,9 @@ export default function FuerBetriebePage() {
                     'Unser deutschsprachiges Support-Team hilft Ihnen bei allen Fragen – von der Einrichtung bis zur Optimierung Ihrer Videos. Per E-Mail, Chat oder Telefon.',
                 },
               ].map((item) => (
-                <div
-                  key={item.title}
-                  className="text-center p-8 rounded-2xl bg-gray-50 border border-gray-100"
-                >
-                  <div className="w-16 h-16 rounded-2xl bg-emerald-100 flex items-center justify-center mx-auto mb-6">
-                    <item.icon className="h-8 w-8 text-emerald-600" />
+                <div key={item.title} className="pin-card p-8 text-center">
+                  <div className="w-16 h-16 rounded-2xl bg-rose-100 flex items-center justify-center mx-auto mb-6">
+                    <item.icon className="h-8 w-8 text-rose-600" />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">{item.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{item.description}</p>
@@ -728,7 +710,7 @@ export default function FuerBetriebePage() {
               ].map((badge) => (
                 <div
                   key={badge.label}
-                  className="flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-green-50 border border-green-100 text-green-700 text-sm font-medium"
+                  className="explore-tag !text-sm justify-center py-3 px-4"
                 >
                   <badge.icon className="h-4 w-4" />
                   {badge.label}
@@ -739,9 +721,13 @@ export default function FuerBetriebePage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-20 bg-gray-50">
+        <section className="py-20 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
+              <div className="sticker-badge mb-4">
+                <ClipboardCheck className="h-4 w-4" />
+                FAQ
+              </div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
                 Häufige Fragen von Betrieben
               </h2>
@@ -754,11 +740,11 @@ export default function FuerBetriebePage() {
               {faqs.map((faq, index) => (
                 <details
                   key={index}
-                  className="group bg-white rounded-2xl border border-gray-200 shadow-sm"
+                  className="group pin-card overflow-hidden"
                 >
                   <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
                     <h3 className="text-lg font-semibold text-gray-900 pr-4">{faq.q}</h3>
-                    <ChevronDown className="h-5 w-5 text-gray-400 flex-shrink-0 group-open:rotate-180 transition-transform" />
+                    <ChevronDown className="h-5 w-5 text-rose-400 flex-shrink-0 group-open:rotate-180 transition-transform" />
                   </summary>
                   <div className="px-6 pb-6 pt-0">
                     <p className="text-gray-600 leading-relaxed">{faq.a}</p>
@@ -770,11 +756,8 @@ export default function FuerBetriebePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-br from-emerald-600 via-emerald-600 to-teal-600 relative overflow-hidden">
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-10 left-20 w-64 h-64 bg-white rounded-full blur-3xl" />
-            <div className="absolute bottom-10 right-20 w-80 h-80 bg-white rounded-full blur-3xl" />
-          </div>
+        <section className="relative py-20 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 overflow-hidden">
+          <div className="absolute inset-0 confetti-dots opacity-10" />
           <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
               Bereit, die besten Praktikanten zu finden?
@@ -785,8 +768,8 @@ export default function FuerBetriebePage() {
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="https://dashboard.praktikumsgenie.de/login"
-                className="inline-flex items-center gap-2 rounded-full bg-white px-10 py-4 text-base font-semibold text-emerald-600 hover:bg-gray-100 transition-colors shadow-lg"
+                href="https://dashboard.ausbildungsgenie.de/login"
+                className="inline-flex items-center gap-2 rounded-full bg-white px-10 py-4 text-base font-semibold text-rose-600 hover:bg-rose-50 transition-colors shadow-lg"
               >
                 <Building2 className="h-5 w-5" />
                 Kostenlos registrieren
@@ -795,7 +778,7 @@ export default function FuerBetriebePage() {
             <p className="mt-6 text-sm text-white/60">
               Bereits registriert?{' '}
               <Link
-                href="https://dashboard.praktikumsgenie.de/login"
+                href="https://dashboard.ausbildungsgenie.de/login"
                 className="text-white/80 underline hover:text-white"
               >
                 Zum Dashboard einloggen

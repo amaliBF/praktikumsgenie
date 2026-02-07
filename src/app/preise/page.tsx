@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {
   Check,
   X,
-  Sparkles,
+  ClipboardCheck,
   Building2,
   ChevronRight,
   Star,
@@ -85,7 +85,7 @@ const faqItems = [
   {
     question: 'Welche Zahlungsmethoden werden akzeptiert?',
     answer:
-      'Wir akzeptieren alle gängigen Zahlungsmethoden: Kreditkarte (Visa, Mastercard), SEPA-Lastschrift und Überweisung. Die Zahlung wird sicher über unseren Payment-Partner Stripe abgewickelt.',
+      'Wir akzeptieren alle gängigen Zahlungsmethoden: Kreditkarte (Visa, Mastercard), SEPA-Lastschrift und PayPal. Die Zahlung wird sicher über unseren Payment-Partner PayPal abgewickelt.',
   },
   {
     question: 'Was ist im API-Zugang enthalten?',
@@ -105,7 +105,7 @@ const plans = [
     price: '0',
     period: '',
     description: 'Zum Ausprobieren',
-    icon: Sparkles,
+    icon: ClipboardCheck,
     color: 'text-gray-600',
     features: [
       '1 Stellenanzeige',
@@ -141,7 +141,7 @@ const plans = [
     period: '/Monat',
     description: 'Beliebteste Wahl',
     icon: Star,
-    color: 'text-emerald-600',
+    color: 'text-rose-600',
     features: [
       '10 Stellenanzeigen',
       'Unbegrenzt Videos',
@@ -284,7 +284,7 @@ const jsonLdWebPage = {
 function FeatureValue({ value }: { value: boolean | string }) {
   if (typeof value === 'boolean') {
     return value ? (
-      <Check className="h-5 w-5 text-emerald-600 mx-auto" />
+      <Check className="h-5 w-5 text-rose-600 mx-auto" />
     ) : (
       <X className="h-5 w-5 text-gray-300 mx-auto" />
     );
@@ -294,7 +294,7 @@ function FeatureValue({ value }: { value: boolean | string }) {
 
 export default function PreisePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFF5F6]">
       <Header />
 
       {/* JSON-LD */}
@@ -312,8 +312,9 @@ export default function PreisePage() {
       />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-700 text-white">
-        <div className="max-w-5xl mx-auto text-center">
+      <section className="relative pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 text-white overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="max-w-5xl mx-auto text-center relative z-10">
           {/* Breadcrumb */}
           <nav className="flex items-center justify-center gap-2 text-sm text-white/70 mb-8">
             <Link href="/" className="hover:text-white transition-colors">
@@ -323,7 +324,7 @@ export default function PreisePage() {
             <span className="text-white font-medium">Preise</span>
           </nav>
 
-          <div className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-1.5 text-sm mb-8">
+          <div className="sticker-badge !bg-white/15 !border-white/30 !text-white backdrop-blur mb-8 mx-auto">
             <Shield className="h-4 w-4" />
             <span>Transparent & fair - keine versteckten Kosten</span>
           </div>
@@ -338,33 +339,35 @@ export default function PreisePage() {
       </section>
 
       {/* Big Callout for Schüler */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-teal-50 to-emerald-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-emerald-500 to-teal-500 text-white mb-6">
-            <Heart className="h-8 w-8" />
-          </div>
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Für Schüler und Studenten immer{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">
-              100% kostenlos!
-            </span>
-          </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Videos schauen, swipen, matchen, chatten, KI-Praktikumsfinder nutzen - alles kostenlos.
-            Keine Werbung, kein Haken, kein Kleingedrucktes. Versprochen.
-          </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-            {['Videos schauen', 'Swipe-Matching', 'Chat mit Betrieben', 'KI-Praktikumsfinder', 'Profil erstellen'].map(
-              (feature) => (
-                <div
-                  key={feature}
-                  className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm border border-emerald-100"
-                >
-                  <Check className="h-4 w-4 text-emerald-600 flex-shrink-0" />
-                  <span className="text-sm font-medium text-gray-700">{feature}</span>
-                </div>
-              )
-            )}
+      <section className="py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="pin-card rounded-2xl p-8 sm:p-12 text-center">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-rose-500 to-pink-600 text-white mb-6">
+              <Heart className="h-8 w-8" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+              Für Schüler und Studenten immer{' '}
+              <span className="gradient-text-discovery">
+                100% kostenlos!
+              </span>
+            </h2>
+            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+              Videos schauen, swipen, matchen, chatten, KI-Praktikumsfinder nutzen - alles kostenlos.
+              Keine Werbung, kein Haken, kein Kleingedrucktes. Versprochen.
+            </p>
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+              {['Videos schauen', 'Swipe-Matching', 'Chat mit Betrieben', 'KI-Praktikumsfinder', 'Profil erstellen'].map(
+                (feature) => (
+                  <div
+                    key={feature}
+                    className="explore-tag"
+                  >
+                    <Check className="h-3.5 w-3.5" />
+                    <span>{feature}</span>
+                  </div>
+                )
+              )}
+            </div>
           </div>
         </div>
       </section>
@@ -373,7 +376,7 @@ export default function PreisePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-1.5 text-sm text-emerald-700 mb-4">
+            <div className="sticker-badge mb-4">
               <Building2 className="h-4 w-4" />
               <span>Pakete für Praktikumsbetriebe</span>
             </div>
@@ -385,18 +388,18 @@ export default function PreisePage() {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto scrapbook-grid">
             {plans.map((plan) => (
               <div
                 key={plan.name}
                 className={`rounded-2xl p-8 relative flex flex-col ${
                   plan.highlighted
-                    ? 'bg-emerald-600 text-white ring-2 ring-emerald-600 ring-offset-2 scale-[1.03] shadow-xl shadow-emerald-200'
-                    : 'bg-white border border-gray-200 hover:border-emerald-200 hover:shadow-lg transition-all'
+                    ? 'bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 text-white ring-2 ring-rose-500 ring-offset-2 scale-[1.03] shadow-xl shadow-rose-200'
+                    : 'pin-card !rounded-2xl'
                 }`}
               >
                 {plan.highlighted && (
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-emerald-500 to-teal-500 text-white text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide">
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-white text-rose-600 text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide shadow-md">
                     Beliebteste Wahl
                   </div>
                 )}
@@ -404,7 +407,7 @@ export default function PreisePage() {
                 <div className="mb-4">
                   <div
                     className={`inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 ${
-                      plan.highlighted ? 'bg-white/20' : 'bg-emerald-50'
+                      plan.highlighted ? 'bg-white/20' : 'bg-rose-50'
                     }`}
                   >
                     <plan.icon
@@ -417,7 +420,7 @@ export default function PreisePage() {
                     {plan.name}
                   </h3>
                   <p
-                    className={`text-sm mt-1 ${plan.highlighted ? 'text-emerald-200' : 'text-gray-500'}`}
+                    className={`text-sm mt-1 ${plan.highlighted ? 'text-rose-200' : 'text-gray-500'}`}
                   >
                     {plan.description}
                   </p>
@@ -426,7 +429,7 @@ export default function PreisePage() {
                 <div className="mb-6">
                   <span className="text-5xl font-bold">{plan.price}</span>
                   <span
-                    className={`text-lg ${plan.highlighted ? 'text-emerald-200' : 'text-gray-500'}`}
+                    className={`text-lg ${plan.highlighted ? 'text-rose-200' : 'text-gray-500'}`}
                   >
                     {plan.price === '0' ? ' EUR' : ` EUR${plan.period}`}
                   </span>
@@ -437,7 +440,7 @@ export default function PreisePage() {
                     <li key={feature} className="flex items-start gap-2.5 text-sm">
                       <Check
                         className={`h-5 w-5 flex-shrink-0 mt-0.5 ${
-                          plan.highlighted ? 'text-emerald-200' : 'text-emerald-600'
+                          plan.highlighted ? 'text-rose-200' : 'text-rose-500'
                         }`}
                       />
                       <span>{feature}</span>
@@ -449,12 +452,12 @@ export default function PreisePage() {
                   href={
                     plan.name === 'Enterprise'
                       ? '/kontakt'
-                      : 'https://dashboard.praktikumsgenie.de/login'
+                      : 'https://dashboard.ausbildungsgenie.de/login'
                   }
-                  className={`block text-center rounded-full px-6 py-3 text-sm font-semibold transition-colors ${
+                  className={`block text-center rounded-full px-6 py-3 text-sm font-semibold transition-all ${
                     plan.highlighted
-                      ? 'bg-white text-emerald-600 hover:bg-gray-100'
-                      : 'bg-emerald-600 text-white hover:bg-emerald-700'
+                      ? 'bg-white text-rose-600 hover:bg-gray-100 shadow-lg'
+                      : 'bg-gradient-to-r from-rose-500 to-pink-600 text-white hover:from-rose-600 hover:to-pink-700 shadow-md shadow-rose-100'
                   }`}
                 >
                   {plan.cta}
@@ -464,13 +467,13 @@ export default function PreisePage() {
           </div>
 
           <p className="text-center text-sm text-gray-500 mt-8">
-            Alle Preise verstehen sich zzgl. MwSt. Monatlich kündbar. Keine versteckten Kosten.
+            Alle Preise verstehen sich zzgl. MwSt. Monatlich kündbar. Keine versteckten Kosten. Zahlung via PayPal.
           </p>
         </div>
       </section>
 
       {/* Feature Comparison Table */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
@@ -481,9 +484,9 @@ export default function PreisePage() {
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+          <div className="pin-card rounded-2xl overflow-hidden">
             {/* Table Header */}
-            <div className="grid grid-cols-5 gap-0 border-b border-gray-200 bg-gray-50">
+            <div className="grid grid-cols-5 gap-0 border-b border-rose-100 bg-rose-50/50">
               <div className="p-4 lg:p-6">
                 <span className="text-sm font-semibold text-gray-700">Funktion</span>
               </div>
@@ -491,18 +494,18 @@ export default function PreisePage() {
                 <div
                   key={name}
                   className={`p-4 lg:p-6 text-center ${
-                    name === 'Professional' ? 'bg-emerald-50' : ''
+                    name === 'Professional' ? 'bg-rose-50' : ''
                   }`}
                 >
                   <span
                     className={`text-sm font-bold ${
-                      name === 'Professional' ? 'text-emerald-700' : 'text-gray-900'
+                      name === 'Professional' ? 'text-rose-700' : 'text-gray-900'
                     }`}
                   >
                     {name}
                   </span>
                   {name === 'Professional' && (
-                    <span className="block text-xs text-emerald-500 mt-0.5">Empfohlen</span>
+                    <span className="block text-xs text-rose-500 mt-0.5">Empfohlen</span>
                   )}
                 </div>
               ))}
@@ -512,7 +515,7 @@ export default function PreisePage() {
             {comparisonFeatures.map((category) => (
               <div key={category.category}>
                 {/* Category Header */}
-                <div className="grid grid-cols-5 gap-0 border-b border-gray-200 bg-gray-50/50">
+                <div className="grid grid-cols-5 gap-0 border-b border-rose-100 bg-rose-50/30">
                   <div className="col-span-5 p-4 lg:px-6">
                     <span className="text-sm font-bold text-gray-900">{category.category}</span>
                   </div>
@@ -522,8 +525,8 @@ export default function PreisePage() {
                 {category.features.map((feature, idx) => (
                   <div
                     key={feature.name}
-                    className={`grid grid-cols-5 gap-0 border-b border-gray-100 ${
-                      idx % 2 === 0 ? '' : 'bg-gray-50/30'
+                    className={`grid grid-cols-5 gap-0 border-b border-rose-50 ${
+                      idx % 2 === 0 ? '' : 'bg-rose-50/10'
                     }`}
                   >
                     <div className="p-4 lg:px-6 flex items-center">
@@ -535,7 +538,7 @@ export default function PreisePage() {
                     <div className="p-4 lg:px-6 flex items-center justify-center">
                       <FeatureValue value={feature.starter} />
                     </div>
-                    <div className="p-4 lg:px-6 flex items-center justify-center bg-emerald-50/30">
+                    <div className="p-4 lg:px-6 flex items-center justify-center bg-rose-50/30">
                       <FeatureValue value={feature.professional} />
                     </div>
                     <div className="p-4 lg:px-6 flex items-center justify-center">
@@ -547,24 +550,24 @@ export default function PreisePage() {
             ))}
 
             {/* Table Footer with CTAs */}
-            <div className="grid grid-cols-5 gap-0 bg-gray-50">
+            <div className="grid grid-cols-5 gap-0 bg-rose-50/30">
               <div className="p-4 lg:p-6" />
               {plans.map((plan) => (
                 <div
                   key={plan.name}
                   className={`p-4 lg:p-6 text-center ${
-                    plan.highlighted ? 'bg-emerald-50/50' : ''
+                    plan.highlighted ? 'bg-rose-50/50' : ''
                   }`}
                 >
                   <Link
                     href={
                       plan.name === 'Enterprise'
                         ? '/kontakt'
-                        : 'https://dashboard.praktikumsgenie.de/login'
+                        : 'https://dashboard.ausbildungsgenie.de/login'
                     }
                     className={`inline-block rounded-full px-4 py-2 text-xs font-semibold transition-colors ${
                       plan.highlighted
-                        ? 'bg-emerald-600 text-white hover:bg-emerald-700'
+                        ? 'bg-gradient-to-r from-rose-500 to-pink-600 text-white hover:from-rose-600 hover:to-pink-700'
                         : 'bg-gray-900 text-white hover:bg-gray-800'
                     }`}
                   >
@@ -589,58 +592,50 @@ export default function PreisePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 scrapbook-grid">
             {[
               {
                 icon: Video,
                 title: 'Authentische Kurzvideos',
                 description:
                   'Zeigt euren Betrieb mit echten Videos statt langweiliger Texte. Praktikanten lieben Kurzvideos - genau wie auf TikTok.',
-                color: 'bg-emerald-100 text-emerald-600',
               },
               {
                 icon: Users,
                 title: 'Generation Z erreichen',
                 description:
                   '80% der 14-20-Jährigen nutzen täglich Social Media. Wir bringen eure Praktikumsplätze genau dorthin.',
-                color: 'bg-teal-100 text-teal-600',
               },
               {
                 icon: Zap,
                 title: 'Schnelles Matching',
                 description:
                   'Kein wochenlanges Warten auf Bewerbungen. Durch Swipe-Matching findet ihr in Minuten passende Kandidaten.',
-                color: 'bg-amber-100 text-amber-600',
               },
               {
                 icon: MessageCircle,
                 title: 'Direkter Draht',
                 description:
                   'Nach dem Match chattet ihr direkt mit Kandidaten. Kein formelles Anschreiben, sondern echtes Kennenlernen.',
-                color: 'bg-blue-100 text-blue-600',
               },
               {
                 icon: BarChart3,
                 title: 'Datenbasierte Insights',
                 description:
                   'Versteht, welche Videos und Stellenanzeigen am besten ankommen. Optimiert eure Praktikanten-Suche mit echten Daten.',
-                color: 'bg-green-100 text-green-600',
               },
               {
                 icon: Shield,
                 title: 'Sicher & DSGVO-konform',
                 description:
                   'Alle Daten werden in Deutschland gespeichert und verarbeitet. Vollständig DSGVO-konform und sicher.',
-                color: 'bg-slate-100 text-slate-600',
               },
             ].map((item) => (
               <div
                 key={item.title}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+                className="feature-box rounded-2xl p-8 hover:shadow-md transition-shadow"
               >
-                <div
-                  className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${item.color} mb-5`}
-                >
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-rose-500 to-pink-600 text-white mb-5">
                   <item.icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900">{item.title}</h3>
@@ -652,10 +647,10 @@ export default function PreisePage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-4 py-1.5 text-sm text-emerald-700 mb-4">
+            <div className="sticker-badge mb-4">
               <HelpCircle className="h-4 w-4" />
               <span>Häufig gestellte Fragen</span>
             </div>
@@ -671,11 +666,11 @@ export default function PreisePage() {
             {faqItems.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl border border-gray-200 overflow-hidden"
+                className="tape-card rounded-xl overflow-hidden"
               >
-                <div className="p-6">
+                <div className="p-6 pt-8">
                   <h3 className="text-lg font-semibold text-gray-900 flex items-start gap-3">
-                    <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-emerald-100 text-emerald-700 text-sm font-bold flex-shrink-0 mt-0.5">
+                    <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gradient-to-br from-rose-500 to-pink-600 text-white text-sm font-bold flex-shrink-0 mt-0.5">
                       {index + 1}
                     </span>
                     {item.question}
@@ -689,8 +684,9 @@ export default function PreisePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-emerald-600 to-teal-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-20 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 overflow-hidden">
+        <div className="absolute inset-0 confetti-dots opacity-10" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
             Bereit, die besten Praktikanten zu finden?
           </h2>
@@ -699,8 +695,8 @@ export default function PreisePage() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.praktikumsgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-emerald-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/login"
+              className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-rose-600 hover:bg-gray-100 transition-colors flex items-center gap-2 shadow-lg"
             >
               Jetzt kostenlos starten
               <ArrowRight className="h-4 w-4" />
@@ -714,7 +710,7 @@ export default function PreisePage() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-white/60">
-            Keine Kreditkarte nötig. Monatlich kündbar.
+            Keine Kreditkarte nötig. Zahlung via PayPal. Monatlich kündbar.
           </p>
         </div>
       </section>

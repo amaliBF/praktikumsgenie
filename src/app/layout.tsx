@@ -11,11 +11,11 @@ const geistSans = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://praktikumsgenie.de'),
   title: {
-    default: 'Praktikumsgenie - Finde dein Praktikum per Swipe',
+    default: 'Praktikumsgenie – Finde dein Praktikum per Swipe',
     template: '%s | Praktikumsgenie',
   },
   description:
-    'Finde dein Praktikum per Swipe! Schülerpraktikum, Pflichtpraktikum, BOGY & BORS - Kurzvideos von echten Betrieben, Swipe-Matching und KI-Berufsfinder. Kostenlos für Schüler.',
+    'Finde dein Praktikum per Swipe! Schülerpraktikum, Pflichtpraktikum, BOGY & BORS – Kurzvideos von echten Betrieben, Swipe-Matching und KI-Berufsfinder. Kostenlos für Schüler.',
   keywords: [
     'Praktikum',
     'Schülerpraktikum',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Praktikumsgenie - Finde dein Praktikum per Swipe',
+    title: 'Praktikumsgenie – Finde dein Praktikum per Swipe',
     description:
       'Die Plattform die Schüler und Praktikumsbetriebe zusammenbringt. Kurzvideos, Matching, Chat.',
     url: 'https://praktikumsgenie.de',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Praktikumsgenie - Finde dein Praktikum per Swipe',
+    title: 'Praktikumsgenie – Finde dein Praktikum per Swipe',
     description:
       'Finde dein Praktikum per Swipe! Schülerpraktikum, Pflichtpraktikum, BOGY & BORS. Kurzvideos, Matching, KI-Berufsfinder. Kostenlos für Schüler.',
   },
@@ -66,22 +66,15 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const organizationJsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'WebApplication',
+  '@type': 'Organization',
   name: 'Praktikumsgenie',
   url: 'https://praktikumsgenie.de',
-  description:
-    'Die Plattform die Schüler und Praktikumsbetriebe zusammenbringt. TikTok-Style Kurzvideos, Tinder-Matching und KI-Berufsfinder.',
-  applicationCategory: 'EducationApplication',
-  operatingSystem: 'Web, iOS, Android',
-  offers: {
-    '@type': 'Offer',
-    price: '0',
-    priceCurrency: 'EUR',
-    description: 'Kostenlos für Schüler',
-  },
-  creator: {
+  logo: 'https://praktikumsgenie.de/icon.svg',
+  description: 'Die Plattform die Schüler und Praktikumsbetriebe zusammenbringt. Kurzvideos, Matching, Chat.',
+  foundingDate: '2025',
+  parentOrganization: {
     '@type': 'Organization',
     name: 'Butterflies IT UG (haftungsbeschränkt)',
     address: {
@@ -91,6 +84,28 @@ const jsonLd = {
       postalCode: '19061',
       addressCountry: 'DE',
     },
+  },
+  sameAs: [
+    'https://instagram.com/praktikumsgenie',
+    'https://tiktok.com/@praktikumsgenie',
+    'https://youtube.com/@praktikumsgenie',
+  ],
+};
+
+const webAppJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Praktikumsgenie',
+  url: 'https://praktikumsgenie.de',
+  description:
+    'Finde dein Praktikum per Swipe! Kurzvideos, Matching und direkter Kontakt mit Betrieben.',
+  applicationCategory: 'EducationApplication',
+  operatingSystem: 'Web, iOS, Android',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'EUR',
+    description: 'Kostenlos für Schüler',
   },
 };
 
@@ -104,10 +119,15 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppJsonLd) }}
         />
       </head>
       <body className={`${geistSans.variable} font-sans antialiased`}>
+        <div className="pin-bar" />
         {children}
       </body>
     </html>
