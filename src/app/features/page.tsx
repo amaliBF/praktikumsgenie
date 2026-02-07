@@ -278,7 +278,7 @@ export default function FeaturesPage() {
           </nav>
 
           <div className="max-w-3xl">
-            <div className="sticker-badge !bg-white/20 !text-white !border-white/30 backdrop-blur-sm mb-6">
+            <div className="inline-flex items-center gap-1.5 rounded-full bg-white/20 border border-white/30 backdrop-blur-sm px-4 py-1.5 text-sm font-semibold text-white mb-6">
               <ClipboardCheck className="h-4 w-4" />
               <span>Alle Funktionen im Detail</span>
             </div>
