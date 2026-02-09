@@ -20,8 +20,8 @@ export default function Footer() {
               Finde per Swipe-Matching das perfekte Praktikum oder die idealen Praktikanten für deinen Betrieb.
             </p>
             <p className="text-sm mb-4">
-              <a href="mailto:kontakt@praktikumsgenie.de" className="hover:text-white transition-colors">
-                kontakt@praktikumsgenie.de
+              <a href="mailto:praktikum@genieportal.de" className="hover:text-white transition-colors">
+                praktikum@genieportal.de
               </a>
             </p>
             <div className="flex gap-3">

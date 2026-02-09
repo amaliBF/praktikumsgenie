@@ -82,7 +82,7 @@ export default function DatenschutzPage() {
               Butterflies IT UG (haftungsbeschränkt)<br />
               Vertreten durch: Andreas Mali<br />
               Hagenower Str. 73, 19061 Schwerin<br />
-              E-Mail: <a href="mailto:kontakt@praktikumsgenie.de" className="text-rose-600 hover:underline">kontakt@praktikumsgenie.de</a>
+              E-Mail: <a href="mailto:praktikum@genieportal.de" className="text-rose-600 hover:underline">praktikum@genieportal.de</a>
             </p>
 
             <h2 className="board-divider text-xl font-bold text-gray-900 mt-10 mb-4">2. Übersicht der Verarbeitungen</h2>

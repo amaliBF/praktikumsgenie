@@ -95,7 +95,7 @@ const faqItems = [
   {
     question: 'Gibt es spezielle Konditionen für Bildungsträger oder Verbände?',
     answer:
-      'Ja, für Bildungsträger, Kammern und Verbände bieten wir individuelle Pakete an. Kontaktiert uns unter kontakt@praktikumsgenie.de und wir erstellen ein maßgeschneidertes Angebot.',
+      'Ja, für Bildungsträger, Kammern und Verbände bieten wir individuelle Pakete an. Kontaktiert uns unter praktikum@genieportal.de und wir erstellen ein maßgeschneidertes Angebot.',
   },
 ];
 

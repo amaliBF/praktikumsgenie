@@ -90,7 +90,7 @@ export default function ImpressumPage() {
             </p>
             <p className="mt-4">
               <strong>Kontakt:</strong><br />
-              E-Mail: <a href="mailto:kontakt@praktikumsgenie.de" className="text-rose-600 hover:underline">kontakt@praktikumsgenie.de</a>
+              E-Mail: <a href="mailto:praktikum@genieportal.de" className="text-rose-600 hover:underline">praktikum@genieportal.de</a>
             </p>
             <p className="mt-4">
               <strong>Registereintrag:</strong><br />

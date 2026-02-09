@@ -23,7 +23,7 @@ import KontaktForm from './KontaktForm';
 export const metadata: Metadata = {
   title: 'Kontakt - Wir helfen dir weiter',
   description:
-    'Kontaktiere das Praktikumsgenie-Team. Fragen, Support oder Feedback - wir sind für dich da. E-Mail: kontakt@praktikumsgenie.de',
+    'Kontaktiere das Praktikumsgenie-Team. Fragen, Support oder Feedback - wir sind für dich da. E-Mail: praktikum@genieportal.de',
   alternates: {
     canonical: '/kontakt',
   },
@@ -53,7 +53,7 @@ const faqItems = [
   {
     question: 'Ich bin Schüler und habe ein technisches Problem. An wen wende ich mich?',
     answer:
-      'Schreibe uns einfach eine E-Mail an kontakt@praktikumsgenie.de oder nutze das Kontaktformular mit dem Betreff "Support". Beschreibe dein Problem möglichst genau und wir helfen dir schnellstmöglich weiter. Praktikumsgenie ist für dich komplett kostenlos - auch der Support!',
+      'Schreibe uns einfach eine E-Mail an praktikum@genieportal.de oder nutze das Kontaktformular mit dem Betreff "Support". Beschreibe dein Problem möglichst genau und wir helfen dir schnellstmöglich weiter. Praktikumsgenie ist für dich komplett kostenlos - auch der Support!',
   },
   {
     question: 'Wie kann ich mein Unternehmen auf Praktikumsgenie registrieren?',
@@ -68,7 +68,7 @@ const faqItems = [
   {
     question: 'Kann ich Praktikumsgenie für eine Presseanfrage kontaktieren?',
     answer:
-      'Natürlich! Für Presseanfragen nutze bitte das Kontaktformular mit dem Betreff "Presse" oder schreibe direkt an kontakt@praktikumsgenie.de. Wir stellen gerne Pressematerial, Interviews und Hintergrundinformationen zur Verfügung.',
+      'Natürlich! Für Presseanfragen nutze bitte das Kontaktformular mit dem Betreff "Presse" oder schreibe direkt an praktikum@genieportal.de. Wir stellen gerne Pressematerial, Interviews und Hintergrundinformationen zur Verfügung.',
   },
   {
     question: 'Wo finde ich die rechtlichen Informationen (Impressum, Datenschutz)?',
@@ -124,7 +124,7 @@ const jsonLdWebPage = {
     '@type': 'Organization',
     name: 'Butterflies IT UG (haftungsbeschränkt)',
     url: 'https://praktikumsgenie.de',
-    email: 'kontakt@praktikumsgenie.de',
+    email: 'praktikum@genieportal.de',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Hagenower Str. 73',
@@ -213,10 +213,10 @@ export default function KontaktPage() {
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">E-Mail</h3>
               <a
-                href="mailto:kontakt@praktikumsgenie.de"
+                href="mailto:praktikum@genieportal.de"
                 className="text-rose-600 hover:text-rose-700 font-medium transition-colors block"
               >
-                kontakt@praktikumsgenie.de
+                praktikum@genieportal.de
               </a>
               <p className="text-sm text-gray-500 mt-2">Für alle Anfragen</p>
             </div>
@@ -414,10 +414,10 @@ export default function KontaktPage() {
                   <Mail className="h-5 w-5 text-rose-500 mt-1 flex-shrink-0" />
                   <div>
                     <a
-                      href="mailto:kontakt@praktikumsgenie.de"
+                      href="mailto:praktikum@genieportal.de"
                       className="text-rose-600 hover:text-rose-700 font-medium transition-colors"
                     >
-                      kontakt@praktikumsgenie.de
+                      praktikum@genieportal.de
                     </a>
                   </div>
                 </div>
