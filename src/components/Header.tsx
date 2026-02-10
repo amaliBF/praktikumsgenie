@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { ClipboardCheck, Menu, X } from 'lucide-react';
 import PortalSwitcher from './PortalSwitcher';
+import { LoginButton, UserMenu, useAuth } from '@/lib/genie-auth';
 
 const navLinks = [
   { href: '/stellen', label: 'Stellen' },
@@ -20,6 +21,7 @@ const navLinks = [
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { isLoggedIn, isLoading } = useAuth();
 
   return (
     <nav className="fixed top-1 w-full z-50">
@@ -47,12 +49,7 @@ export default function Header() {
 
             <div className="hidden lg:flex items-center gap-3">
               <PortalSwitcher currentPortal="praktikum" />
-              <Link
-                href="https://dashboard.genieportal.de/login"
-                className="text-sm font-medium text-gray-700 hover:text-rose-600 transition-colors"
-              >
-                Login
-              </Link>
+              {!isLoading && (isLoggedIn ? <UserMenu /> : <LoginButton />)}
               <Link
                 href="https://dashboard.genieportal.de/register"
                 className="rounded-full bg-gradient-to-r from-rose-500 to-pink-600 px-5 py-2 text-sm font-medium text-white hover:from-rose-600 hover:to-pink-700 transition-all shadow-md shadow-rose-500/20"
@@ -101,13 +98,9 @@ export default function Header() {
                   </a>
                 ))}
                 <hr className="my-2 border-rose-100" />
-                <Link
-                  href="https://dashboard.genieportal.de/login"
-                  className="text-sm font-medium text-gray-700 hover:text-rose-600 px-3 py-2.5 rounded-lg transition-colors"
-                  onClick={() => setMobileOpen(false)}
-                >
-                  Login
-                </Link>
+                <div className="px-3 py-2">
+                  {!isLoading && (isLoggedIn ? <UserMenu /> : <LoginButton />)}
+                </div>
                 <Link
                   href="https://dashboard.genieportal.de/register"
                   className="text-sm font-medium text-center text-white bg-gradient-to-r from-rose-500 to-pink-600 px-4 py-2.5 rounded-full mt-1"
