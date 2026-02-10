@@ -1,0 +1,37 @@
+{
+  "slug": "justizfachangestellter",
+  "name": "Justizfachangestellte/r",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Justizfachangestellte/r führt dich in die Welt der Gerichte und der Justiz ein. Du erlebst, wie Gerichtsverhandlungen organisiert, Akten verwaltet und Protokolle geführt werden. Dabei lernst du den strukturierten Ablauf der Rechtsprechung kennen – vom Amtsgericht bis zum Verwaltungsgericht. Das Praktikum zeigt dir, ob dich die Arbeit im Dienst der Gerechtigkeit interessiert und ob du die nötige Gewissenhaftigkeit mitbringst.",
+  "aufgaben": [
+    "Gerichtsverhandlungen als Zuschauer besuchen",
+    "Akten und Schriftstücke sortieren und ablegen",
+    "Bei der Erstellung von Ladungen und Protokollen helfen",
+    "Die Geschäftsstelle eines Gerichts kennenlernen",
+    "Registereinträge und Grundbuchauszüge beobachten",
+    "Den Schriftverkehr zwischen Gericht und Parteien nachvollziehen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Recht und Gerechtigkeit",
+    "Sorgfalt und Gewissenhaftigkeit bei der Aktenarbeit",
+    "Gute Deutschkenntnisse und Ausdrucksfähigkeit",
+    "Verschwiegenheit und Neutralität"
+  ],
+  "wasManLernt": [
+    "Wie ein Gericht aufgebaut ist und Verhandlungen ablaufen",
+    "Grundlagen der Aktenführung und Protokollerstellung",
+    "Die verschiedenen Gerichtsbarkeiten und ihre Zuständigkeiten",
+    "Wie Ladungen, Zustellungen und Fristen verwaltet werden",
+    "Die Bedeutung von Rechtsstaatlichkeit im Alltag"
+  ],
+  "tipps": [
+    "Kleide dich angemessen und respektvoll für das Gerichtsgebäude",
+    "Frage nach, ob du verschiedene Verhandlungen besuchen darfst",
+    "Beobachte den Richter, die Anwälte und die Geschäftsstelle",
+    "Halte dich streng an die Schweigepflicht über laufende Verfahren"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["rechtsanwaltsfachangestellter", "notarfachangestellter", "polizist"]
+}

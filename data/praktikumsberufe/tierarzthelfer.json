@@ -1,0 +1,37 @@
+{
+  "slug": "tierarzthelfer",
+  "name": "Tiermedizinische/r Fachangestellte/r",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Als Praktikant/in in einer Tierarztpraxis kommst du Tieren ganz nah und erlebst, wie sie medizinisch versorgt und behandelt werden. Du hilfst bei der Betreuung der tierischen Patienten und lernst, wie Untersuchungen, Impfungen und kleine Eingriffe ablaufen. Dabei siehst du auch die emotionalen Seiten des Berufs, wenn Tierhalter sich um ihre Lieblinge sorgen. Das Praktikum zeigt dir, ob du die Tierliebe und Belastbarkeit für diesen besonderen Beruf mitbringst.",
+  "aufgaben": [
+    "Tiere beruhigen und beim Festhalten während Untersuchungen helfen",
+    "Behandlungsräume reinigen und desinfizieren",
+    "Bei der Fütterung und Versorgung stationärer Tiere helfen",
+    "Tierhalter im Wartezimmer empfangen und betreuen",
+    "Medikamente und Material auffüllen und sortieren",
+    "Bei einfachen Untersuchungen und Impfungen zusehen"
+  ],
+  "voraussetzungen": [
+    "Große Tierliebe und respektvoller Umgang mit Tieren",
+    "Keine Angst vor größeren Tieren oder Verletzungen",
+    "Emotionale Belastbarkeit, auch bei traurigen Situationen",
+    "Hygienebewusstsein und Zuverlässigkeit"
+  ],
+  "wasManLernt": [
+    "Wie eine Tierarztpraxis organisiert ist und funktioniert",
+    "Grundlagen der Tiermedizin und artgerechten Haltung",
+    "Wie man mit verschiedenen Tierarten sicher umgeht",
+    "Den Umgang mit ängstlichen oder aggressiven Tieren",
+    "Hygienevorschriften und Sicherheitsmaßnahmen in der Praxis"
+  ],
+  "tipps": [
+    "Trage Kleidung, die Tierhaare und Schmutz verträgt",
+    "Gehe ruhig und besonnen mit den Tieren um",
+    "Frage vorab, ob du allergisch auf bestimmte Tiere reagierst",
+    "Bereite dich darauf vor, dass auch traurige Fälle zum Alltag gehören"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["zahnarzthelfer", "krankenpfleger", "apotheker"]
+}

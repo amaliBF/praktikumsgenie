@@ -1,0 +1,37 @@
+{
+  "slug": "kfz-mechatroniker",
+  "name": "KFZ-Mechatroniker/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "1-3 Wochen",
+  "beschreibung": "Im Praktikum als KFZ-Mechatroniker/in tauchst du in die faszinierende Welt der Fahrzeugtechnik ein. Du schaust den Profis in der Werkstatt über die Schulter, wenn sie Autos reparieren, warten und diagnostizieren. Dabei erlebst du, wie moderne Fahrzeuge immer stärker von Elektronik und Software gesteuert werden. Das Praktikum ist ideal für alle, die sich für Autos begeistern und gerne mit den Händen arbeiten.",
+  "aufgaben": [
+    "Beim Ölwechsel und Reifenwechsel assistieren",
+    "Fahrzeuge mit dem Diagnosegerät untersuchen helfen",
+    "Bremsbeläge, Filter und Leuchtmittel mit austauschen",
+    "Werkzeuge und Ersatzteile bereitstellen und sortieren",
+    "Einfache Wartungsarbeiten unter Anleitung durchführen",
+    "Fahrzeuge für die Hauptuntersuchung vorbereiten helfen"
+  ],
+  "voraussetzungen": [
+    "Begeisterung für Autos und Fahrzeugtechnik",
+    "Handwerkliches Geschick und zupackende Art",
+    "Bereitschaft, sich schmutzig zu machen",
+    "Technisches Grundverständnis"
+  ],
+  "wasManLernt": [
+    "Wie moderne Fahrzeuge aufgebaut sind und funktionieren",
+    "Grundlagen der Fahrzeugwartung und -reparatur",
+    "Den Umgang mit Diagnosegeräten und Spezialwerkzeug",
+    "Wie Mechanik und Elektronik im Auto zusammenspielen",
+    "Arbeitssicherheit in der KFZ-Werkstatt"
+  ],
+  "tipps": [
+    "Trage robuste Kleidung, die schmutzig werden darf",
+    "Informiere dich vorab über grundlegende Autobauteile",
+    "Frage nach, ob du bei einer Inspektion von Anfang bis Ende dabei sein kannst",
+    "Zeige Initiative beim Aufräumen und Werkzeug-Sortieren"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["mechatroniker", "metallbauer", "elektroniker"]
+}

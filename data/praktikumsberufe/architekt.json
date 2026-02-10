@@ -1,0 +1,37 @@
+{
+  "slug": "architekt",
+  "name": "Architekt/in",
+  "category": "Bau & Architektur",
+  "categorySlug": "bau-architektur",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum in einem Architekturbüro erlebst du, wie aus einer ersten Idee ein konkreter Gebäudeentwurf entsteht. Du begleitest Architekten bei der Planung, Gestaltung und Umsetzung von Bauprojekten und lernst, wie funktionale und ästhetische Aspekte zusammengeführt werden. Dabei arbeitest du mit Modellen, Skizzen und digitalen Entwurfswerkzeugen. Das Praktikum zeigt dir die kreative und gleichzeitig technisch anspruchsvolle Seite des Bauens.",
+  "aufgaben": [
+    "Einfache Skizzen und Entwürfe anfertigen",
+    "Bei der Erstellung von Modellen aus Pappe oder 3D-Druck helfen",
+    "Architekten bei Baustellenbesuchen begleiten",
+    "Materialproben und Farbmuster für Projekte sortieren",
+    "Präsentationsunterlagen für Kundengespräche vorbereiten",
+    "Digitale Entwurfsprogramme kennenlernen und ausprobieren"
+  ],
+  "voraussetzungen": [
+    "Kreativität und räumliches Vorstellungsvermögen",
+    "Interesse an Gebäuden, Design und Stadtgestaltung",
+    "Zeichnerisches Talent und Sinn für Proportionen",
+    "Geduld bei detaillierter Planungsarbeit"
+  ],
+  "wasManLernt": [
+    "Wie der Entwurfsprozess vom Konzept bis zur Ausführung abläuft",
+    "Grundlagen der Gebäudeplanung und Raumgestaltung",
+    "Modellbau und Visualisierungstechniken",
+    "Zusammenarbeit zwischen Architekten, Bauingenieuren und Bauherren",
+    "Die Verbindung von Ästhetik, Funktion und Bauvorschriften"
+  ],
+  "tipps": [
+    "Bringe dein Skizzenbuch mit und halte Eindrücke fest",
+    "Frage nach, ob du an einem Modellbau mitwirken darfst",
+    "Beobachte Gebäude in deiner Umgebung mit neuen Augen",
+    "Zeige Interesse an den verschiedenen Bauphasen eines Projekts"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["bauzeichner", "raumausstatter", "vermessungstechniker"]
+}

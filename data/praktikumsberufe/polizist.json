@@ -1,0 +1,37 @@
+{
+  "slug": "polizist",
+  "name": "Polizist/in",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum bei der Polizei gibt dir einen faszinierenden Einblick in die vielfältige Arbeit der Ordnungshüter. Du erlebst den Alltag auf einer Polizeiwache, begleitest Beamte auf Streifenfahrten und lernst die verschiedenen Einsatzbereiche kennen – von der Verkehrskontrolle bis zur Kriminalitätsbekämpfung. Dabei erfährst du, welche Verantwortung Polizisten tragen und wie sie für die Sicherheit der Bürger sorgen. Das Praktikum zeigt dir, ob du den Mut und das Gerechtigkeitsempfinden für diesen Beruf hast.",
+  "aufgaben": [
+    "Streifenfahrten mit Polizeibeamten begleiten",
+    "Den Alltag auf einer Polizeidienststelle erleben",
+    "Bei Verkehrskontrollen und Präventionsmaßnahmen zusehen",
+    "Die Arbeit der Kriminalpolizei kennenlernen",
+    "Einsatzzentrale und Leitstelle besichtigen",
+    "An Präventionsveranstaltungen oder Informationstagen teilnehmen"
+  ],
+  "voraussetzungen": [
+    "Ausgeprägtes Gerechtigkeitsempfinden und Zivilcourage",
+    "Körperliche Fitness und Belastbarkeit",
+    "Kommunikationsfähigkeit und Durchsetzungsvermögen",
+    "Teamfähigkeit und Verantwortungsbewusstsein"
+  ],
+  "wasManLernt": [
+    "Wie der Polizeialltag zwischen Streife und Büroarbeit aussieht",
+    "Grundlagen der Gefahrenabwehr und Strafverfolgung",
+    "Die verschiedenen Abteilungen und Spezialeinheiten der Polizei",
+    "Kommunikation in Konfliktsituationen und Deeskalation",
+    "Welche Anforderungen die Polizeiausbildung stellt"
+  ],
+  "tipps": [
+    "Informiere dich vorab über die Polizeistruktur in deinem Bundesland",
+    "Stelle dich auf unterschiedliche Einsatzsituationen ein",
+    "Frage nach, ob du verschiedene Abteilungen kennenlernen darfst",
+    "Sei offen und respektvoll im Umgang mit den Beamten"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["justizfachangestellter", "verwaltungsfachangestellter", "finanzbeamter"]
+}

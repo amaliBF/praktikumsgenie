@@ -1,0 +1,37 @@
+{
+  "slug": "goldschmied",
+  "name": "Goldschmied/in",
+  "category": "Kreativ & Design",
+  "categorySlug": "kreativ-design",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Goldschmied/in lässt dich in die faszinierende Welt des Schmuckhandwerks eintauchen, wo aus Edelmetallen und Steinen einzigartige Schmuckstücke entstehen. Du erlebst, wie mit traditionellen Werkzeugen und modernen Techniken filigrane Ringe, Ketten und Anhänger gefertigt werden. Dabei lernst du den Wert von Präzisionsarbeit und kreativem Ausdruck kennen. Das Praktikum zeigt dir, ob du die Geduld und das Fingerspitzengefühl für dieses edle Handwerk mitbringst.",
+  "aufgaben": [
+    "Einfache Schmuckstücke aus Übungsmaterialien feilen und formen",
+    "Goldschmiede bei der Arbeit beobachten und Werkzeuge kennenlernen",
+    "Metall polieren und Oberflächen bearbeiten",
+    "Edelsteine und Materialien sortieren und katalogisieren",
+    "Entwurfsskizzen für Schmuckstücke anfertigen",
+    "Werkstatt aufräumen und Werkzeuge pflegen"
+  ],
+  "voraussetzungen": [
+    "Fingerspitzengefühl und Freude an filigraner Arbeit",
+    "Kreativität und Sinn für Ästhetik",
+    "Geduld und Konzentrationsfähigkeit",
+    "Interesse an Edelmetallen und Edelsteinen"
+  ],
+  "wasManLernt": [
+    "Grundtechniken der Goldschmiedekunst wie Feilen, Löten und Polieren",
+    "Materialkunde zu Gold, Silber und Edelsteinen",
+    "Wie aus einer Skizze ein fertiges Schmuckstück entsteht",
+    "Der Wert von Handwerkskunst und Präzision",
+    "Kreatives Gestalten unter Berücksichtigung von Kundenwünschen"
+  ],
+  "tipps": [
+    "Zeige deine kreative Seite und bringe eigene Schmuckideen mit",
+    "Frage nach, ob du ein einfaches Übungsstück selbst anfertigen darfst",
+    "Beobachte die Profis beim Löten und Fassen von Steinen genau",
+    "Trage keine weite Kleidung in der Werkstatt – Sicherheit geht vor"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["konditor", "modedesigner", "buchbinder"]
+}

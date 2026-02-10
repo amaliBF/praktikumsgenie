@@ -1,0 +1,37 @@
+{
+  "slug": "bauzeichner",
+  "name": "Bauzeichner/in",
+  "category": "Bau & Architektur",
+  "categorySlug": "bau-architektur",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Ein Praktikum als Bauzeichner/in gibt dir Einblick in die technische Seite des Bauwesens, wo Gebäude und Bauwerke am Computer zum Leben erweckt werden. Du lernst, wie aus den Entwürfen der Architekten präzise Baupläne und Zeichnungen entstehen, nach denen auf der Baustelle gearbeitet wird. Dabei arbeitest du mit professioneller CAD-Software und erlebst, wie Maße, Materialien und Vorschriften in technischen Zeichnungen umgesetzt werden. Das Praktikum zeigt dir, ob du das räumliche Vorstellungsvermögen und die Genauigkeit für diesen Beruf mitbringst.",
+  "aufgaben": [
+    "Einfache Bauzeichnungen am Computer mit CAD-Software erstellen",
+    "Bestehende Pläne aktualisieren und Maße eintragen",
+    "Grundrisse, Schnitte und Ansichten lesen und verstehen lernen",
+    "Baustoffe und Materialien in Zeichnungen korrekt darstellen",
+    "Baustellenbesuche begleiten und Bestandsaufnahmen machen",
+    "Ausdrucke und Planunterlagen für Besprechungen vorbereiten"
+  ],
+  "voraussetzungen": [
+    "Gutes räumliches Vorstellungsvermögen",
+    "Interesse an Technik und Architektur",
+    "Sorgfalt und Genauigkeit beim Arbeiten",
+    "Grundlegende Computerkenntnisse"
+  ],
+  "wasManLernt": [
+    "Grundlagen der technischen Zeichnung und Plandarstellung",
+    "Erste Schritte mit professioneller CAD-Software",
+    "Wie Bauzeichnungen gelesen und interpretiert werden",
+    "Den Zusammenhang zwischen Plan und fertigem Bauwerk",
+    "Normen und Maßstäbe im Bauwesen"
+  ],
+  "tipps": [
+    "Bringe Interesse an Mathematik und Geometrie mit",
+    "Frage nach, ob du eine einfache Zeichnung selbst am PC erstellen darfst",
+    "Begleite die Kollegen auf eine Baustelle – dort siehst du die Pläne in der Realität",
+    "Übe das Lesen von Grundrissen, zum Beispiel von deiner eigenen Wohnung"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["architekt", "vermessungstechniker", "strassenbauer"]
+}

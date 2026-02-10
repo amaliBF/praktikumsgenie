@@ -1,0 +1,37 @@
+{
+  "slug": "krankenpfleger",
+  "name": "Krankenpfleger/in",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als Krankenpfleger/in erlebst du den Alltag auf einer Krankenhausstation hautnah mit. Du begleitest Pflegekräfte bei ihrer täglichen Arbeit und lernst, wie Patienten betreut, versorgt und begleitet werden. Dabei siehst du, wie viel Einfühlungsvermögen und Fachwissen dieser Beruf erfordert. Das Praktikum zeigt dir, ob du die emotionale Stärke und Menschlichkeit mitbringst, die in der Krankenpflege unverzichtbar sind.",
+  "aufgaben": [
+    "Patienten bei der Grundpflege unterstützen helfen",
+    "Mahlzeiten verteilen und beim Essen assistieren",
+    "Betten beziehen und Krankenzimmer vorbereiten",
+    "Blutdruck und Temperatur messen unter Anleitung",
+    "Pflegekräfte bei der Dokumentation unterstützen",
+    "Patienten Gesellschaft leisten und kleine Wünsche erfüllen"
+  ],
+  "voraussetzungen": [
+    "Einfühlungsvermögen und Geduld im Umgang mit kranken Menschen",
+    "Keine Berührungsängste bei körperlicher Nähe",
+    "Psychische Belastbarkeit",
+    "Hygienebewusstsein und Sorgfalt"
+  ],
+  "wasManLernt": [
+    "Wie der Pflegealltag auf einer Station organisiert ist",
+    "Grundlagen der Patientenversorgung und Hygiene",
+    "Wie wichtig Kommunikation und Empathie in der Pflege sind",
+    "Den Umgang mit medizinischen Geräten und Hilfsmitteln",
+    "Wie Pflegeteams zusammenarbeiten und sich abstimmen"
+  ],
+  "tipps": [
+    "Bereite dich darauf vor, auch schwierige Situationen zu erleben",
+    "Trage bequeme, saubere Kleidung und geschlossene Schuhe",
+    "Wasche dir häufig die Hände und achte auf Hygiene",
+    "Sprich mit dem Team, wenn dich etwas emotional belastet"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["altenpfleger", "rettungssanitaeter", "physiotherapeut"]
+}

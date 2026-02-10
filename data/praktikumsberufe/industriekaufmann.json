@@ -1,0 +1,37 @@
+{
+  "slug": "industriekaufmann",
+  "name": "Industriekaufmann/-frau",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Als Praktikant/in als Industriekaufmann/-frau erlebst du die kaufmännischen Abläufe in einem produzierenden Unternehmen. Du durchläufst verschiedene Abteilungen wie Einkauf, Vertrieb, Personal und Buchhaltung und verstehst, wie alle Bereiche zusammenwirken. Dabei bekommst du einen einzigartigen Überblick über die gesamte Wertschöpfungskette eines Unternehmens. Das Praktikum ist perfekt, wenn du vielseitig interessiert bist und wirtschaftliche Zusammenhänge verstehen möchtest.",
+  "aufgaben": [
+    "Bestellungen im Einkauf erfassen und Lieferanten kontaktieren",
+    "Angebote erstellen und Aufträge im Vertrieb bearbeiten helfen",
+    "Rechnungen prüfen und in der Buchhaltung unterstützen",
+    "Personalakten sortieren und bei der Personalverwaltung helfen",
+    "Lagerbestände kontrollieren und Inventuren begleiten",
+    "An Abteilungsmeetings und Projektbesprechungen teilnehmen"
+  ],
+  "voraussetzungen": [
+    "Interesse an wirtschaftlichen Zusammenhängen",
+    "Organisationstalent und analytisches Denken",
+    "Gute Kenntnisse in Mathematik und Deutsch",
+    "Kommunikationsfähigkeit und Teamgeist"
+  ],
+  "wasManLernt": [
+    "Wie ein Industrieunternehmen kaufmännisch gesteuert wird",
+    "Den Zusammenhang zwischen Einkauf, Produktion und Vertrieb",
+    "Grundlagen der Buchhaltung und Kostenrechnung",
+    "Wie verschiedene Abteilungen zusammenarbeiten",
+    "Professionelle Geschäftskommunikation mit Kunden und Lieferanten"
+  ],
+  "tipps": [
+    "Nutze die Chance, in möglichst viele Abteilungen reinzuschauen",
+    "Stelle Fragen zu den Zusammenhängen zwischen den Bereichen",
+    "Bringe Grundkenntnisse in Excel und Word mit",
+    "Mache dir Notizen über die verschiedenen Aufgabenbereiche"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["buerokaufmann", "bankkaufmann", "e-commerce-kaufmann"]
+}

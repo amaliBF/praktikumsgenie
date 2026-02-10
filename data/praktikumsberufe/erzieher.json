@@ -1,0 +1,41 @@
+{
+  "slug": "erzieher",
+  "name": "Erzieher/in",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "2-4 Wochen",
+  "beschreibung": "Im Praktikum als Erzieher/in tauchst du in den bunten Alltag von Kindergärten, Krippen oder Jugendzentren ein. Du spielst, bastelst und lernst gemeinsam mit den Kindern und erlebst, wie pädagogische Konzepte in der Praxis umgesetzt werden. Dabei wird dir bewusst, wie viel Verantwortung und Feingefühl dieser Beruf erfordert. Das Praktikum zeigt dir, ob du Kinder begeistern kannst und dir die Arbeit mit ihnen Energie gibt.",
+  "aufgaben": [
+    "Mit den Kindern spielen, basteln und kreativ arbeiten",
+    "Bei der Betreuung während des Morgenkreises und bei Mahlzeiten helfen",
+    "Ausflüge und Aktivitäten im Freien begleiten",
+    "Spiel- und Bastelmaterial vorbereiten und aufräumen",
+    "Kinder bei Konflikten unterstützen und Lösungen finden helfen",
+    "An Teambesprechungen und Elterngesprächen als Beobachter teilnehmen"
+  ],
+  "voraussetzungen": [
+    "Freude am Umgang mit Kindern und Jugendlichen",
+    "Geduld, Kreativität und Einfühlungsvermögen",
+    "Verantwortungsbewusstsein und Zuverlässigkeit",
+    "Bereitschaft, auch laut und chaotisch zu arbeiten"
+  ],
+  "wasManLernt": [
+    "Wie pädagogische Arbeit in Kindertagesstätten praktisch aussieht",
+    "Grundlagen der Kinderentwicklung und Erziehungskonzepte",
+    "Wie man altersgerechte Beschäftigungen plant und durchführt",
+    "Den professionellen Umgang mit Eltern und Erziehungsberechtigten",
+    "Wie Teamarbeit im pädagogischen Bereich funktioniert"
+  ],
+  "tipps": [
+    "Ziehe bequeme und strapazierfähige Kleidung an",
+    "Überlege dir vorab ein Spiel oder eine Bastelidee, die du einbringen kannst",
+    "Gehe auf Augenhöhe der Kinder und nimm ihre Anliegen ernst",
+    "Beobachte, wie erfahrene Erzieher mit schwierigen Situationen umgehen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": [
+    "sozialpaedagoge",
+    "altenpfleger",
+    "logopaede"
+  ]
+}

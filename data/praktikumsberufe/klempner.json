@@ -1,0 +1,37 @@
+{
+  "slug": "klempner",
+  "name": "Klempner/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Klempner/in lernst du die Welt der Sanitär-, Heizungs- und Klimatechnik kennen. Du begleitest Fachkräfte zu Kunden und siehst, wie Rohrleitungen verlegt, Heizungen installiert und Bäder eingebaut werden. Dabei erfährst du, wie wichtig sauberes Trinkwasser und funktionierende Haustechnik für jeden Haushalt sind. Das Praktikum zeigt dir, ob du Spaß an vielfältiger handwerklicher Arbeit mit praktischem Nutzen hast.",
+  "aufgaben": [
+    "Rohre und Fittings vorbereiten und sortieren",
+    "Bei der Installation von Sanitäranlagen zusehen und anreichen",
+    "Einfache Dichtungsarbeiten unter Anleitung durchführen",
+    "Werkzeug und Material zum Kunden transportieren helfen",
+    "Heizungsanlagen besichtigen und deren Funktion erklärt bekommen",
+    "Aufmaß nehmen und dokumentieren helfen"
+  ],
+  "voraussetzungen": [
+    "Handwerkliches Geschick und praktische Veranlagung",
+    "Keine Scheu vor Schmutz und beengten Räumen",
+    "Freundlichkeit im Umgang mit Kunden",
+    "Technisches Verständnis für Rohrsysteme und Anlagen"
+  ],
+  "wasManLernt": [
+    "Wie Trinkwasser- und Abwassersysteme in Gebäuden funktionieren",
+    "Grundlagen der Rohrverlegung und Verbindungstechnik",
+    "Den Unterschied zwischen verschiedenen Heizungssystemen",
+    "Wie man freundlich und kompetent beim Kunden auftritt",
+    "Sicherheitsvorschriften im Umgang mit Gas und Wasser"
+  ],
+  "tipps": [
+    "Trage Arbeitskleidung, die nass und schmutzig werden darf",
+    "Sei freundlich und höflich bei Kundeneinsätzen",
+    "Frage nach, ob du ein einfaches Rohrstück zusammenbauen darfst",
+    "Informiere dich vorab über den Unterschied zwischen Klempner und Installateur"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["elektroniker", "dachdecker", "metallbauer"]
+}

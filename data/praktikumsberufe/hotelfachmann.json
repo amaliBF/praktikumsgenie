@@ -1,0 +1,37 @@
+{
+  "slug": "hotelfachmann",
+  "name": "Hotelfachmann/-frau",
+  "category": "Gastronomie & Hotel",
+  "categorySlug": "gastronomie-hotel",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Hotelfachmann/-frau tauchst du in die vielseitige Welt der Hotellerie ein und lernst alle Abteilungen eines Hotels kennen. Vom Empfang über das Housekeeping bis zum Restaurantservice erlebst du, wie Gästebetreuung auf hohem Niveau funktioniert. Du erlebst den abwechslungsreichen Arbeitsalltag und die Bedeutung von Freundlichkeit und Aufmerksamkeit. Das Praktikum zeigt dir, ob du Freude daran hast, Menschen willkommen zu heißen und ihren Aufenthalt unvergesslich zu machen.",
+  "aufgaben": [
+    "Gäste am Empfang begrüßen und beim Check-in unterstützen",
+    "Hotelzimmer nach Standards kontrollieren und herrichten",
+    "Frühstücks- und Restaurantservice begleiten",
+    "Reservierungen und Anfragen am Telefon entgegennehmen",
+    "Bei der Vorbereitung von Veranstaltungen und Tagungen helfen",
+    "Gästewünsche notieren und an die zuständige Abteilung weiterleiten"
+  ],
+  "voraussetzungen": [
+    "Freundliches und gepflegtes Auftreten",
+    "Freude am Umgang mit Menschen verschiedener Kulturen",
+    "Flexibilität und Bereitschaft für wechselnde Aufgaben",
+    "Gute Umgangsformen und Serviceorientierung"
+  ],
+  "wasManLernt": [
+    "Wie ein Hotelbetrieb mit allen Abteilungen zusammenarbeitet",
+    "Professionelle Gästekommunikation und Beschwerdemanagement",
+    "Grundlagen der Zimmerreservierung und Hotelsoftware",
+    "Standards im Housekeeping und Restaurantservice",
+    "Interkulturelle Kompetenz im Umgang mit internationalen Gästen"
+  ],
+  "tipps": [
+    "Kleide dich gepflegt und bringe ein freundliches Lächeln mit",
+    "Frage, ob du in verschiedenen Abteilungen reinschnuppern darfst",
+    "Beobachte, wie erfahrene Mitarbeiter mit schwierigen Situationen umgehen",
+    "Grundkenntnisse in Englisch sind ein großes Plus"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["restaurantfachmann", "koch", "fachmann-systemgastronomie"]
+}

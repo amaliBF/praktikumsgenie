@@ -1,0 +1,37 @@
+{
+  "slug": "bankkaufmann",
+  "name": "Bankkaufmann/-frau",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als Bankkaufmann/-frau erhältst du einen Einblick in die Welt der Finanzen und Bankdienstleistungen. Du erlebst, wie Kundenberater individuelle Finanzlösungen anbieten und wie der Zahlungsverkehr hinter den Kulissen abläuft. Dabei lernst du, wie wichtig Vertrauen, Seriosität und fachliche Kompetenz im Bankwesen sind. Das Praktikum zeigt dir, ob du dich für Finanzen begeisterst und gerne verantwortungsvoll berätst.",
+  "aufgaben": [
+    "Kundengespräche am Schalter und in der Beratung beobachten",
+    "Formulare und Unterlagen für Kunden vorbereiten",
+    "Kontoauszüge und Bankunterlagen sortieren und archivieren",
+    "Bei der Vorbereitung von Beratungsgesprächen helfen",
+    "Marketingmaterialien und Aushänge aktualisieren",
+    "Die verschiedenen Abteilungen einer Bank kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Finanzen, Wirtschaft und Zahlen",
+    "Vertrauenswürdigkeit und Diskretion",
+    "Gepflegtes und seriöses Auftreten",
+    "Gute Kommunikationsfähigkeiten"
+  ],
+  "wasManLernt": [
+    "Wie eine Bank organisiert ist und welche Abteilungen es gibt",
+    "Grundlagen des Zahlungsverkehrs und der Kontoführung",
+    "Wie professionelle Kundenberatung im Bankwesen abläuft",
+    "Was Sparprodukte, Kredite und Geldanlage bedeuten",
+    "Warum Datenschutz und Vertraulichkeit im Bankwesen essenziell sind"
+  ],
+  "tipps": [
+    "Kleide dich angemessen und professionell - Hemd oder Bluse sind Pflicht",
+    "Informiere dich vorab über grundlegende Finanzprodukte",
+    "Achte besonders auf Diskretion und Verschwiegenheit",
+    "Frage, ob du in verschiedenen Abteilungen hospitieren darfst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["versicherungskaufmann", "industriekaufmann", "steuerfachangestellter"]
+}

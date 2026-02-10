@@ -1,0 +1,37 @@
+{
+  "slug": "vermessungstechniker",
+  "name": "Vermessungstechniker/in",
+  "category": "Bau & Architektur",
+  "categorySlug": "bau-architektur",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Vermessungstechniker/in zeigt dir, wie Gelände, Grundstücke und Bauwerke präzise vermessen und in Plänen dargestellt werden. Du begleitest Vermessungsteams ins Gelände und erlebst, wie mit modernen Instrumenten wie GPS und Tachymeter Daten erfasst werden. Dabei lernst du den Zusammenhang zwischen Feldarbeit und der anschließenden Auswertung am Computer kennen. Das Praktikum ist ideal für alle, die Technik und Outdoor-Arbeit verbinden möchten.",
+  "aufgaben": [
+    "Vermessungsteams bei der Feldarbeit begleiten und assistieren",
+    "Messpunkte setzen und Geräte aufbauen helfen",
+    "GPS-Geräte und Tachymeter in Aktion beobachten",
+    "Messdaten am Computer erfassen und in Pläne übertragen",
+    "Katasterkarten und Lagepläne lesen und verstehen lernen",
+    "Bei der Dokumentation von Vermessungsergebnissen unterstützen"
+  ],
+  "voraussetzungen": [
+    "Gutes mathematisches Verständnis und räumliches Denken",
+    "Interesse an Technik und Geografie",
+    "Sorgfalt und Genauigkeit beim Arbeiten mit Daten",
+    "Bereitschaft für Arbeit im Freien bei jedem Wetter"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Vermessungstechnik und Geodäsie",
+    "Wie moderne Vermessungsgeräte funktionieren",
+    "Den Weg vom Messpunkt im Gelände zur digitalen Karte",
+    "Zusammenhang zwischen Vermessung und Bauprojekten",
+    "Umgang mit Geoinformationssystemen (GIS)"
+  ],
+  "tipps": [
+    "Bringe festes Schuhwerk und wetterfeste Kleidung mit",
+    "Frage nach, ob du ein Vermessungsgerät unter Anleitung bedienen darfst",
+    "Informiere dich vorab über Koordinatensysteme und Kartenmaßstäbe",
+    "Nutze die Chance, sowohl die Feldarbeit als auch die Büroauswertung kennenzulernen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["bauzeichner", "architekt", "strassenbauer"]
+}

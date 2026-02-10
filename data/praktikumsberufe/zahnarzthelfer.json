@@ -1,0 +1,37 @@
+{
+  "slug": "zahnarzthelfer",
+  "name": "Zahnmedizinische/r Fachangestellte/r",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Zahnmedizinische/r Fachangestellte/r erlebst du den vielseitigen Alltag in einer Zahnarztpraxis. Du beobachtest Behandlungen, lernst Instrumente und Materialien kennen und siehst, wie Prophylaxe und Zahngesundheit vermittelt werden. Dabei erfährst du, wie wichtig das Zusammenspiel zwischen Zahnarzt und Assistenz für einen reibungslosen Praxisbetrieb ist. Das Praktikum zeigt dir, ob du dich in der medizinischen Umgebung wohlfühlst und gerne organisierst.",
+  "aufgaben": [
+    "Behandlungszimmer für Patienten vorbereiten und desinfizieren",
+    "Instrumente und Materialien bereitstellen und sortieren",
+    "Bei Behandlungen zusehen und Absaugen üben",
+    "Patienten im Wartezimmer begrüßen und betreuen",
+    "Bei der Terminplanung und Verwaltung am Empfang helfen",
+    "Röntgenbilder und Patientenakten sortieren"
+  ],
+  "voraussetzungen": [
+    "Hygienebewusstsein und Sauberkeit",
+    "Einfühlungsvermögen, besonders bei ängstlichen Patienten",
+    "Organisationstalent und Multitasking-Fähigkeit",
+    "Keine Scheu vor Blut und medizinischen Eingriffen"
+  ],
+  "wasManLernt": [
+    "Wie eine Zahnarztpraxis organisiert und geführt wird",
+    "Grundlagen der Zahnmedizin und Mundhygiene",
+    "Den Umgang mit zahnmedizinischen Instrumenten und Geräten",
+    "Wie Patientenbetreuung und Verwaltung zusammenspielen",
+    "Hygienevorschriften und Sterilisation in der Praxis"
+  ],
+  "tipps": [
+    "Trage saubere, helle Kleidung und geschlossene Schuhe",
+    "Informiere dich vorab über grundlegende Zahnhygiene",
+    "Sei besonders freundlich zu Patienten, die nervös wirken",
+    "Frage nach, ob du bei einer Prophylaxe-Behandlung zusehen darfst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["tierarzthelfer", "krankenpfleger", "apotheker"]
+}

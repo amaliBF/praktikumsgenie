@@ -1,0 +1,37 @@
+{
+  "slug": "finanzbeamter",
+  "name": "Finanzbeamte/r",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Finanzbeamte/r lernst du die Arbeit im Finanzamt kennen und erfährst, wie Steuern erhoben, geprüft und verwaltet werden. Du erlebst, wie Steuererklärungen bearbeitet, Steuerbescheide erstellt und Betriebsprüfungen vorbereitet werden. Dabei lernst du das Zusammenspiel von Recht, Zahlen und Verwaltung kennen und verstehst, warum Steuern für das Funktionieren des Gemeinwesens so wichtig sind. Das Praktikum zeigt dir, ob du die analytische Denkweise und Genauigkeit für die Finanzverwaltung mitbringst.",
+  "aufgaben": [
+    "Steuererklärungen sortieren und auf Vollständigkeit prüfen",
+    "Bei der Erfassung von Daten in die Bearbeitungssysteme helfen",
+    "Den Ablauf einer Steuerveranlagung kennenlernen",
+    "Verschiedene Abteilungen des Finanzamts besuchen",
+    "Einfache Berechnungen und Plausibilitätsprüfungen durchführen",
+    "Den Schriftverkehr mit Steuerpflichtigen beobachten"
+  ],
+  "voraussetzungen": [
+    "Gutes Zahlenverständnis und analytisches Denken",
+    "Sorgfalt und Gewissenhaftigkeit bei der Datenarbeit",
+    "Interesse an Wirtschaft und Recht",
+    "Verschwiegenheit und korrektes Auftreten"
+  ],
+  "wasManLernt": [
+    "Wie das Steuersystem in Deutschland grundlegend funktioniert",
+    "Den Ablauf von der Steuererklärung bis zum Bescheid",
+    "Verschiedene Steuerarten und ihre Bedeutung",
+    "Umgang mit Bearbeitungssoftware in der Finanzverwaltung",
+    "Die Rolle des Finanzamts im öffentlichen Dienst"
+  ],
+  "tipps": [
+    "Informiere dich vorab über grundlegende Steuerarten wie Einkommensteuer und Umsatzsteuer",
+    "Frage nach, ob du verschiedene Abteilungen kennenlernen darfst",
+    "Kleide dich angemessen für das Amt",
+    "Zeige Interesse an den wirtschaftlichen Zusammenhängen hinter den Steuern"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["verwaltungsfachangestellter", "polizist", "justizfachangestellter"]
+}

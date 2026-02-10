@@ -1,0 +1,37 @@
+{
+  "slug": "trockenbaumonteur",
+  "name": "Trockenbaumonteur/in",
+  "category": "Bau & Architektur",
+  "categorySlug": "bau-architektur",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Trockenbaumonteur/in erlebst du, wie Innenräume durch Leichtbauwände, abgehängte Decken und Verkleidungen ihre endgültige Form erhalten. Du lernst, wie ohne nassen Mörtel oder Putz mit Gipskartonplatten und Metallprofilen schnell und präzise Räume gestaltet werden. Dabei erlebst du die Vielseitigkeit des Trockenbaus vom Schallschutz bis zur Brandschutztechnik. Das Praktikum zeigt dir, ob du handwerkliches Geschick und ein gutes Augenmaß für diesen modernen Bauberuf mitbringst.",
+  "aufgaben": [
+    "Metallprofile zuschneiden und als Unterkonstruktion montieren helfen",
+    "Gipskartonplatten zurechtschneiden und befestigen",
+    "Fugen verspachteln und Oberflächen glätten",
+    "Dämmmaterial zuschneiden und einbauen",
+    "Werkzeuge und Materialien auf der Baustelle vorbereiten",
+    "Maße abnehmen und anzeichnen unter Anleitung"
+  ],
+  "voraussetzungen": [
+    "Handwerkliches Geschick und genaues Arbeiten",
+    "Körperliche Fitness und Bereitschaft für staubige Arbeit",
+    "Gutes Augenmaß und räumliches Denken",
+    "Teamfähigkeit auf der Baustelle"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Trockenbautechnik und Leichtbauweise",
+    "Umgang mit Gipskarton, Metallprofilen und Dämmstoffen",
+    "Wie Wände, Decken und Verkleidungen im Innenausbau entstehen",
+    "Bedeutung von Brand- und Schallschutz im Trockenbau",
+    "Professionelles Spachteln und Oberflächenbearbeitung"
+  ],
+  "tipps": [
+    "Trage Schutzbrille und Staubmaske beim Schneiden von Gipskarton",
+    "Frage nach, ob du selbst eine Platte zuschneiden und montieren darfst",
+    "Beobachte, wie die Profis perfekt gerade Fugen spachteln",
+    "Achte auf die verschiedenen Plattentypen und ihre Einsatzbereiche"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["beton-stahlbetonbauer", "strassenbauer", "raumausstatter"]
+}

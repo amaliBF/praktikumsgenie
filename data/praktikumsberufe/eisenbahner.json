@@ -1,0 +1,37 @@
+{
+  "slug": "eisenbahner",
+  "name": "Eisenbahner/in",
+  "category": "Logistik & Verkehr",
+  "categorySlug": "logistik-verkehr",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Eisenbahner/in erlebst du die vielfältigen Aufgaben rund um den Betrieb und die Instandhaltung des Schienenverkehrs. Du lernst verschiedene Bereiche kennen – von der Zugabfertigung über die Gleispflege bis zur Fahrdienstleitung. Dabei erfährst du, wie Fahrpläne erstellt, Weichen gestellt und Züge sicher durch das Schienennetz geleitet werden. Das Praktikum zeigt dir die Breite der Eisenbahnberufe und ob dich die Welt auf Schienen begeistert.",
+  "aufgaben": [
+    "Zugabfertigung am Bahnsteig beobachten und unterstützen",
+    "Die Arbeit der Fahrdienstleitung kennenlernen",
+    "Gleisanlagen und Weichen mit Fachleuten inspizieren",
+    "Fahrkartensysteme und Kundenservice im Bahnhof erleben",
+    "Sicherheitseinrichtungen und Signaltechnik erklärt bekommen",
+    "Bei der Dokumentation von Betriebsabläufen helfen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Technik und dem Schienenverkehr",
+    "Zuverlässigkeit und Pünktlichkeit",
+    "Bereitschaft für Schichtarbeit und Arbeit im Freien",
+    "Teamfähigkeit und Verantwortungsbewusstsein"
+  ],
+  "wasManLernt": [
+    "Wie der Eisenbahnbetrieb im Hintergrund organisiert ist",
+    "Grundlagen der Signal- und Weichentechnik",
+    "Zusammenspiel von Fahrdienstleitung, Werkstatt und Zugpersonal",
+    "Sicherheitsvorschriften und Notfallprozeduren im Bahnbetrieb",
+    "Die verschiedenen Berufsfelder bei der Eisenbahn"
+  ],
+  "tipps": [
+    "Frage nach, ob du verschiedene Abteilungen kennenlernen darfst",
+    "Beobachte den Fahrdienstleiter bei der Arbeit – das ist besonders spannend",
+    "Trage festes Schuhwerk für Begehungen an den Gleisen",
+    "Informiere dich vorab über die verschiedenen Eisenbahnberufe"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["lokfuehrer", "berufskraftfahrer", "fluglotse"]
+}

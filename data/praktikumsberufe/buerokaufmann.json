@@ -1,0 +1,37 @@
+{
+  "slug": "buerokaufmann",
+  "name": "Bürokaufmann/-frau",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als Bürokaufmann/-frau lernst du die organisatorische Schaltzentrale eines Unternehmens kennen. Du erlebst, wie Briefe geschrieben, Rechnungen erstellt, Termine koordiniert und Meetings vorbereitet werden. Dabei wird dir bewusst, wie vielfältig und unverzichtbar die Büroarbeit für jedes Unternehmen ist. Das Praktikum zeigt dir, ob du Organisationstalent hast und gerne strukturiert und am Computer arbeitest.",
+  "aufgaben": [
+    "Geschäftsbriefe und E-Mails nach Vorlage verfassen",
+    "Rechnungen und Lieferscheine prüfen und ablegen",
+    "Termine koordinieren und Besprechungsräume vorbereiten",
+    "Daten in Tabellen und Datenbanken eingeben und pflegen",
+    "Telefonate entgegennehmen und weiterleiten",
+    "Bei der Vorbereitung von Präsentationen helfen"
+  ],
+  "voraussetzungen": [
+    "Organisationstalent und strukturierte Arbeitsweise",
+    "Gute Deutschkenntnisse in Wort und Schrift",
+    "Sicherer Umgang mit Computer und Office-Programmen",
+    "Freundliches und kommunikatives Auftreten"
+  ],
+  "wasManLernt": [
+    "Wie Büroabläufe und Verwaltungsprozesse in Unternehmen funktionieren",
+    "Den professionellen Umgang mit Geschäftskorrespondenz",
+    "Grundlagen der Buchhaltung und Rechnungswesen",
+    "Effizientes Arbeiten mit Office-Software",
+    "Wie man Prioritäten setzt und mehrere Aufgaben gleichzeitig bearbeitet"
+  ],
+  "tipps": [
+    "Frische deine Kenntnisse in Word und Excel vorher auf",
+    "Bringe einen Notizblock mit und schreibe dir Abläufe auf",
+    "Frage nach verschiedenen Abteilungen und ihren Aufgaben",
+    "Zeige Eigeninitiative und biete deine Hilfe aktiv an"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["industriekaufmann", "einzelhandelskaufmann", "informatikkaufmann"]
+}

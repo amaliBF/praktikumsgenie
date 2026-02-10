@@ -1,0 +1,37 @@
+{
+  "slug": "strassenbauer",
+  "name": "Straßenbauer/in",
+  "category": "Bau & Architektur",
+  "categorySlug": "bau-architektur",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Straßenbauer/in erlebst du hautnah, wie Straßen, Wege und Plätze gebaut und saniert werden. Du bist direkt auf der Baustelle dabei und lernst, wie Untergründe vorbereitet, Pflastersteine verlegt und Asphalt eingebaut werden. Dabei siehst du schwere Baumaschinen im Einsatz und erlebst, wie Teamarbeit auf einer Baustelle funktioniert. Das Praktikum zeigt dir, ob du die körperliche Fitness und das handwerkliche Geschick für diesen Beruf mitbringst.",
+  "aufgaben": [
+    "Beim Abstecken und Vorbereiten von Baustellen helfen",
+    "Schotter und Splitt verteilen und verdichten",
+    "Pflastersteine und Bordsteine setzen helfen",
+    "Baumaschinen wie Bagger und Walzen in Aktion beobachten",
+    "Werkzeuge und Material auf der Baustelle transportieren",
+    "Sicherheitsregeln auf der Baustelle kennenlernen und einhalten"
+  ],
+  "voraussetzungen": [
+    "Körperliche Fitness und Belastbarkeit",
+    "Keine Scheu vor Arbeit im Freien bei jedem Wetter",
+    "Interesse an Technik und Baumaterialien",
+    "Teamfähigkeit und Zuverlässigkeit"
+  ],
+  "wasManLernt": [
+    "Wie Straßen und Wege fachgerecht gebaut werden",
+    "Grundlagen des Tiefbaus und der Bodenverdichtung",
+    "Umgang mit Baumaterialien wie Asphalt, Beton und Naturstein",
+    "Sicherheitsvorschriften auf Baustellen",
+    "Zusammenarbeit im Baustellenteam"
+  ],
+  "tipps": [
+    "Trage Sicherheitsschuhe und robuste Arbeitskleidung",
+    "Frage nach, ob du beim Pflastern einen kleinen Bereich übernehmen darfst",
+    "Beobachte die Maschinisten bei ihrer Arbeit – das ist beeindruckend",
+    "Bringe Sonnenschutz und ausreichend zu trinken mit"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["beton-stahlbetonbauer", "trockenbaumonteur", "vermessungstechniker"]
+}

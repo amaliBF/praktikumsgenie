@@ -1,0 +1,37 @@
+{
+  "slug": "einzelhandelskaufmann",
+  "name": "Einzelhandelskaufmann/-frau",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Als Praktikant/in im Einzelhandel stehst du mitten im Geschehen und erlebst den direkten Kontakt mit Kunden. Du lernst, wie Waren präsentiert, Regale bestückt und Kassen bedient werden, und bekommst einen Einblick in die Logistik hinter den Kulissen. Dabei merkst du, wie wichtig freundliche Beratung und ein gepflegtes Ladenbild für den Geschäftserfolg sind. Das Praktikum zeigt dir, ob du Freude am Verkaufen und an der Arbeit mit Menschen hast.",
+  "aufgaben": [
+    "Waren auspacken, auszeichnen und in Regale einräumen",
+    "Kunden begrüßen und bei einfachen Fragen beraten",
+    "An der Kasse beim Kassieren zusehen und assistieren",
+    "Schaufenster und Warenauslagen mitgestalten",
+    "Lieferungen kontrollieren und Warenbestand prüfen",
+    "Den Verkaufsraum sauber und ordentlich halten"
+  ],
+  "voraussetzungen": [
+    "Freude am Umgang mit Menschen und Kunden",
+    "Freundliches und offenes Auftreten",
+    "Bereitschaft, auch im Stehen zu arbeiten",
+    "Interesse an Produkten und Verkaufsstrategien"
+  ],
+  "wasManLernt": [
+    "Wie ein Einzelhandelsgeschäft organisiert und geführt wird",
+    "Grundlagen der Kundenberatung und Verkaufstechnik",
+    "Wie Warenwirtschaft und Lagerhaltung funktionieren",
+    "Den Umgang mit Kassensystemen und Zahlungsmethoden",
+    "Wie Werbung und Warenpräsentation den Verkauf beeinflussen"
+  ],
+  "tipps": [
+    "Kleide dich dem Geschäft entsprechend gepflegt",
+    "Lächle und begrüße Kunden von dir aus aktiv",
+    "Lerne die wichtigsten Produkte und Preise schnell kennen",
+    "Frage nach verschiedenen Abteilungen, um einen breiten Einblick zu bekommen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["buerokaufmann", "e-commerce-kaufmann", "bankkaufmann"]
+}

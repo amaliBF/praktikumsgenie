@@ -1,0 +1,37 @@
+{
+  "slug": "rettungssanitaeter",
+  "name": "Rettungssanitäter/in",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum beim Rettungsdienst erlebst du den spannenden und anspruchsvollen Alltag der Notfallmedizin. Du begleitest Rettungssanitäter auf der Wache, lernst den Rettungswagen und seine Ausrüstung kennen und beobachtest, wie in Stresssituationen schnell und routiniert gehandelt wird. Dabei spürst du den Adrenalinkick, wenn ein Einsatz kommt, und die Befriedigung, Menschen in Not helfen zu können. Das Praktikum zeigt dir, ob du unter Druck ruhig bleibst und schnell reagieren kannst.",
+  "aufgaben": [
+    "Den Rettungswagen und seine Ausstattung kennenlernen",
+    "Bei der täglichen Fahrzeug- und Gerätekontrolle helfen",
+    "Verbandsmaterial und Notfallausrüstung auffüllen",
+    "Einfache Erste-Hilfe-Maßnahmen üben",
+    "Die Rettungswache und ihre Abläufe kennenlernen",
+    "Einsatzberichte und Dokumentation beobachten"
+  ],
+  "voraussetzungen": [
+    "Stressresistenz und schnelle Auffassungsgabe",
+    "Körperliche Fitness und Belastbarkeit",
+    "Einfühlungsvermögen in Notsituationen",
+    "Keine Angst vor Blut und Verletzungen"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Ersten Hilfe und Notfallversorgung",
+    "Wie der Rettungsdienst organisiert und alarmiert wird",
+    "Den Umgang mit medizinischem Notfallequipment",
+    "Wie man in Stresssituationen ruhig und strukturiert handelt",
+    "Teamarbeit und Kommunikation im Rettungsdienst"
+  ],
+  "tipps": [
+    "Mache vorab einen Erste-Hilfe-Kurs, das erleichtert den Einstieg",
+    "Trage sportliche Kleidung und feste Schuhe",
+    "Bereite dich darauf vor, dass Einsätze auch belastend sein können",
+    "Frage die Rettungssanitäter nach ihren eindrücklichsten Erfahrungen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["krankenpfleger", "physiotherapeut", "altenpfleger"]
+}

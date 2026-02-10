@@ -1,0 +1,37 @@
+{
+  "slug": "grosshandelskaufmann",
+  "name": "Groß- und Außenhandelskaufmann/-frau",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als Groß- und Außenhandelskaufmann/-frau erlebst du hautnah, wie Waren in großen Mengen eingekauft und an Geschäftskunden weiterverkauft werden. Du begleitest den Einkauf bei Preisverhandlungen mit Lieferanten und lernst, wie Logistik und Lagerhaltung im Großhandel organisiert werden. Dabei bekommst du einen Einblick in internationale Handelsbeziehungen und den Umgang mit verschiedenen Währungen und Zollbestimmungen. Das Praktikum zeigt dir, wie spannend die Welt des Handels hinter den Kulissen ist.",
+  "aufgaben": [
+    "Angebote von Lieferanten vergleichen und auswerten",
+    "Bestellungen erfassen und Liefertermine überwachen",
+    "Bei der Lagerverwaltung und Bestandskontrolle unterstützen",
+    "Lieferscheine und Rechnungen prüfen und zuordnen",
+    "Kundengespräche begleiten und Aufträge dokumentieren",
+    "Marktpreise recherchieren und Kalkulationen erstellen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Handel und wirtschaftlichen Zusammenhängen",
+    "Gutes Zahlenverständnis und Sorgfalt",
+    "Kommunikationsfreude im Umgang mit Geschäftspartnern",
+    "Organisationstalent und Überblick bei vielen Vorgängen"
+  ],
+  "wasManLernt": [
+    "Wie Warenströme im Groß- und Außenhandel funktionieren",
+    "Grundlagen der Kalkulation und Preisgestaltung",
+    "Umgang mit Warenwirtschaftssystemen und Datenbanken",
+    "Ablauf von Import- und Exportgeschäften",
+    "Kommunikation mit Lieferanten und Geschäftskunden"
+  ],
+  "tipps": [
+    "Bereite dich auf kaufmännische Grundbegriffe wie Skonto und Rabatt vor",
+    "Frage aktiv nach, wenn du Abläufe in der Warenwirtschaft nicht verstehst",
+    "Notiere dir die verschiedenen Handelspartner und ihre Rollen",
+    "Zeige Interesse an den internationalen Geschäftsbeziehungen des Unternehmens"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["speditionskaufmann", "fachlagerist", "schifffahrtskaufmann"]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "maler",
+  "name": "Maler/in und Lackierer/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Als Praktikant/in im Maler- und Lackiererhandwerk erlebst du, wie Räume und Fassaden durch Farbe und Gestaltung komplett verwandelt werden. Du lernst verschiedene Maltechniken kennen und hilfst bei der Vorbereitung und Ausführung von Malerarbeiten. Dabei siehst du, wie viel Fachwissen hinter einem gleichmäßigen Anstrich steckt. Das Praktikum zeigt dir, ob du Freude an der kreativen und handwerklichen Arbeit mit Farben hast.",
+  "aufgaben": [
+    "Wände und Flächen abschleifen, spachteln und grundieren",
+    "Beim Streichen und Tapezieren von Räumen helfen",
+    "Abdeckarbeiten und Abkleben von Kanten durchführen",
+    "Farben mischen und Farbmuster erstellen",
+    "Werkzeuge wie Pinsel, Rollen und Spritzgeräte pflegen",
+    "Bei Fassadenarbeiten und Außenanstrichen unterstützen"
+  ],
+  "voraussetzungen": [
+    "Sinn für Farben und Gestaltung",
+    "Körperliche Fitness und Schwindelfreiheit",
+    "Saubere und gewissenhafte Arbeitsweise",
+    "Bereitschaft, auch bei Staub und Farbgeruch zu arbeiten"
+  ],
+  "wasManLernt": [
+    "Verschiedene Mal- und Beschichtungstechniken",
+    "Wie man Farbkonzepte erstellt und Farben harmonisch kombiniert",
+    "Den richtigen Umgang mit Werkzeugen und Materialien",
+    "Grundlagen der Oberflächenvorbereitung",
+    "Wie Malerarbeiten professionell geplant und durchgeführt werden"
+  ],
+  "tipps": [
+    "Ziehe alte Kleidung an, die Farbspritzer vertragen kann",
+    "Übe zu Hause das gleichmäßige Streichen auf einer kleinen Fläche",
+    "Achte auf sorgfältiges Abkleben - das ist die halbe Arbeit",
+    "Frage nach verschiedenen Techniken wie Wischtechnik oder Spachteltechnik"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["dachdecker", "maurer", "tischler"]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "florist",
+  "name": "Florist/in",
+  "category": "Natur & Landwirtschaft",
+  "categorySlug": "natur-landwirtschaft",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Florist/in verbindet Kreativität mit der Liebe zu Blumen und Pflanzen. Du lernst, wie aus einzelnen Blüten wunderschöne Sträuße und Gestecke für jeden Anlass entstehen. Dabei erlebst du den Umgang mit frischen Schnittblumen, die Beratung von Kunden und die saisonale Gestaltung des Ladens. Das Praktikum zeigt dir, ob du das gestalterische Talent und den Sinn für natürliche Schönheit für diesen Beruf mitbringst.",
+  "aufgaben": [
+    "Blumen und Pflanzen frisch halten und versorgen",
+    "Bei der Herstellung von Sträußen und Gestecken helfen",
+    "Schnittblumen anschneiden und Vasen vorbereiten",
+    "Kunden begrüßen und bei der Auswahl beraten",
+    "Den Laden dekorieren und Pflanzen ansprechend präsentieren",
+    "Warenlieferungen annehmen und Frische kontrollieren"
+  ],
+  "voraussetzungen": [
+    "Kreativität und Sinn für Farben und Formen",
+    "Freude am Umgang mit Blumen und Pflanzen",
+    "Kundenorientierung und Beratungsfreude",
+    "Sorgfalt und geschickte Hände"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Blumenkunde und Pflanzenpflege",
+    "Techniken zum Binden von Sträußen und Gestecken",
+    "Farbharmonie und Gestaltungsprinzipien in der Floristik",
+    "Kundenberatung für verschiedene Anlässe",
+    "Saisonale Trends und Dekorationsmöglichkeiten"
+  ],
+  "tipps": [
+    "Zeige deine kreative Seite und bringe eigene Gestaltungsideen ein",
+    "Frage nach, ob du einen kleinen Strauß selbst binden darfst",
+    "Merke dir die Namen der häufigsten Blumen und ihre Saison",
+    "Achte darauf, wie die Profis Farben und Formen kombinieren"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["gaertner", "raumausstatter", "kosmetiker"]
+}

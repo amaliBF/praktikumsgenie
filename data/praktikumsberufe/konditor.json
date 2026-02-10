@@ -1,0 +1,37 @@
+{
+  "slug": "konditor",
+  "name": "Konditor/in",
+  "category": "Gastronomie & Hotel",
+  "categorySlug": "gastronomie-hotel",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Konditor/in entführt dich in die kreative Welt der Patisserie, wo Torten, Pralinen und feinste Desserts entstehen. Du erlebst, wie mit Präzision und künstlerischem Geschick aus Schokolade, Sahne und Früchten kleine Meisterwerke geschaffen werden. Dabei lernst du verschiedene Techniken wie Temperieren, Garnieren und Glasieren kennen. Das Praktikum zeigt dir, ob du die Geduld und Kreativität für diesen kunstvollen Beruf hast.",
+  "aufgaben": [
+    "Zutaten für Torten und Feingebäck abwiegen und vorbereiten",
+    "Beim Dekorieren von Torten und Gebäckstücken helfen",
+    "Einfache Füllungen und Cremes unter Anleitung herstellen",
+    "Pralinen formen und in Schokolade tauchen",
+    "Schaufenster und Theke mit Backwaren bestücken",
+    "Arbeitsplatz sauber halten und Werkzeuge pflegen"
+  ],
+  "voraussetzungen": [
+    "Kreativität und Sinn für Ästhetik",
+    "Geduld und Fingerspitzengefühl für filigrane Arbeiten",
+    "Interesse an Süßspeisen und deren Herstellung",
+    "Hygienebewusstsein und Sorgfalt"
+  ],
+  "wasManLernt": [
+    "Grundtechniken der Patisserie wie Temperieren und Glasieren",
+    "Wie professionelle Torten und Desserts dekoriert werden",
+    "Warenkunde zu Schokolade, Nüssen und Früchten",
+    "Zusammenarbeit im Team einer Konditorei",
+    "Kreatives Gestalten unter Einhaltung von Rezepturen"
+  ],
+  "tipps": [
+    "Zeige deine kreative Seite – bringe eigene Dekorationsideen ein",
+    "Frage, ob du eine kleine Torte selbst verzieren darfst",
+    "Beobachte die Profis beim Umgang mit Spritzbeutel und Palette",
+    "Halte deinen Arbeitsplatz stets ordentlich – das ist in der Patisserie besonders wichtig"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["baecker", "koch", "goldschmied"]
+}

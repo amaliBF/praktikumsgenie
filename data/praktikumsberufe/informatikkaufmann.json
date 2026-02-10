@@ -1,0 +1,37 @@
+{
+  "slug": "informatikkaufmann",
+  "name": "Informatikkaufmann/-frau",
+  "category": "IT & Medien",
+  "categorySlug": "it-medien",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Als Praktikant/in im Bereich Informatikkaufmann/-frau erlebst du die Schnittstelle zwischen IT und Wirtschaft. Du lernst, wie IT-Projekte geplant, kalkuliert und betreut werden und wie man zwischen Technikern und Geschäftsleuten vermittelt. Dabei bekommst du Einblicke in Beschaffung, Beratung und Organisation von IT-Lösungen. Das Praktikum ist ideal, wenn du sowohl Technik als auch kaufmännisches Denken spannend findest.",
+  "aufgaben": [
+    "IT-Angebote vergleichen und Bestellungen vorbereiten",
+    "Bei der Erstellung von Projektplänen und Dokumentationen helfen",
+    "Kundengespräche und Beratungstermine begleiten",
+    "Einfache Kalkulationen für IT-Projekte erstellen",
+    "Hardware- und Software-Bestand verwalten und dokumentieren",
+    "An Abteilungsmeetings teilnehmen und Protokoll führen"
+  ],
+  "voraussetzungen": [
+    "Interesse sowohl an IT als auch an wirtschaftlichen Zusammenhängen",
+    "Organisationstalent und strukturierte Denkweise",
+    "Kommunikationsfreude und sicheres Auftreten",
+    "Grundkenntnisse im Umgang mit Office-Programmen"
+  ],
+  "wasManLernt": [
+    "Wie IT-Beschaffung und Projektmanagement in Unternehmen funktionieren",
+    "Grundlagen der IT-Beratung und Kundenbetreuung",
+    "Den kaufmännischen Hintergrund von IT-Entscheidungen",
+    "Wie man technische Sachverhalte verständlich erklärt",
+    "Organisation und Dokumentation von IT-Prozessen"
+  ],
+  "tipps": [
+    "Mache dich mit gängigen IT-Begriffen und Produkten vertraut",
+    "Übe, technische Dinge einfach und verständlich zu erklären",
+    "Zeige Interesse an den betriebswirtschaftlichen Abläufen",
+    "Frage nach, ob du ein kleines Projekt eigenständig bearbeiten darfst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["fachinformatiker", "it-systemelektroniker", "buerokaufmann"]
+}

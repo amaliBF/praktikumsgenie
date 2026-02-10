@@ -1,0 +1,37 @@
+{
+  "slug": "raumausstatter",
+  "name": "Raumausstatter/in",
+  "category": "Kreativ & Design",
+  "categorySlug": "kreativ-design",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Raumausstatter/in erlebst du, wie Räume durch die richtige Auswahl von Bodenbelägen, Gardinen, Polstern und Wandgestaltungen komplett verwandelt werden. Du begleitest Fachleute bei der Beratung von Kunden und siehst, wie Materialien ausgewählt und fachgerecht verarbeitet werden. Dabei lernst du die Verbindung von Handwerk und Design kennen. Das Praktikum zeigt dir, ob du Kreativität mit handwerklichem Geschick verbinden möchtest.",
+  "aufgaben": [
+    "Stoff- und Materialproben zusammenstellen und präsentieren",
+    "Bei der Kundennberatung zur Raumgestaltung zuhören",
+    "Beim Verlegen von Bodenbelägen oder Tapezieren helfen",
+    "Gardinen und Vorhänge zuschneiden und nähen unterstützen",
+    "Polstermöbel-Bezugsstoffe kennenlernen und vergleichen",
+    "Raummaße nehmen und Materialmengen berechnen"
+  ],
+  "voraussetzungen": [
+    "Sinn für Ästhetik und Raumgestaltung",
+    "Handwerkliches Geschick und sorgfältiges Arbeiten",
+    "Interesse an Farben, Materialien und Design",
+    "Kommunikationsfähigkeit für Kundengespräche"
+  ],
+  "wasManLernt": [
+    "Wie Räume durch Materialien und Farben gestaltet werden",
+    "Grundlagen der Polster-, Gardinen- und Bodentechnik",
+    "Kundenberatung und Gestaltungsvorschläge entwickeln",
+    "Verschiedene Materialien und ihre Eigenschaften",
+    "Den Zusammenhang zwischen Funktion und Ästhetik bei der Raumgestaltung"
+  ],
+  "tipps": [
+    "Fotografiere vorher Räume, die dir gefallen, und analysiere warum",
+    "Frage nach, ob du einen eigenen Gestaltungsvorschlag machen darfst",
+    "Beobachte, wie die Profis Farben und Materialien kombinieren",
+    "Probiere verschiedene Handwerkstechniken aus, wenn sich die Gelegenheit bietet"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["architekt", "modedesigner", "florist"]
+}

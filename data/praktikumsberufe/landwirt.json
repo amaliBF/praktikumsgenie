@@ -1,0 +1,37 @@
+{
+  "slug": "landwirt",
+  "name": "Landwirt/in",
+  "category": "Natur & Landwirtschaft",
+  "categorySlug": "natur-landwirtschaft",
+  "dauer": "1-3 Wochen",
+  "beschreibung": "Im Praktikum als Landwirt/in erlebst du den abwechslungsreichen Alltag auf einem Bauernhof oder landwirtschaftlichen Betrieb. Du lernst, wie Getreide angebaut, Tiere versorgt und moderne Landmaschinen eingesetzt werden. Dabei erfahrst du, wie eng die Arbeit mit den Jahreszeiten und dem Wetter verbunden ist und welche Verantwortung die Erzeugung von Nahrungsmitteln mit sich bringt. Das Praktikum gibt dir einen ehrlichen Eindruck davon, ob dir die vielseitige Arbeit in der Landwirtschaft liegt.",
+  "aufgaben": [
+    "Tiere füttern, tränken und den Stall ausmisten",
+    "Bei der Feldarbeit wie Säen, Pflegen und Ernten helfen",
+    "Landmaschinen und Traktoren im Einsatz beobachten",
+    "Tiergesundheit kontrollieren und Auffälligkeiten melden",
+    "Bei der Ernte und Lagerung von Getreide oder Gemüse unterstützen",
+    "Zäune und Stalleinrichtungen instand halten"
+  ],
+  "voraussetzungen": [
+    "Liebe zur Natur und zu Tieren",
+    "Körperliche Belastbarkeit und Bereitschaft für frühe Arbeitszeiten",
+    "Verantwortungsbewusstsein im Umgang mit Lebewesen",
+    "Wetterfestigkeit und praktisches Geschick"
+  ],
+  "wasManLernt": [
+    "Wie ein landwirtschaftlicher Betrieb organisiert ist",
+    "Grundlagen der Tierhaltung und Fütterung",
+    "Den Zusammenhang zwischen Jahreszeiten und Feldarbeit",
+    "Umgang mit landwirtschaftlichen Geräten und Maschinen",
+    "Verantwortung für Tiere und nachhaltige Bewirtschaftung"
+  ],
+  "tipps": [
+    "Stelle dich auf frühe Arbeitszeiten und körperliche Arbeit ein",
+    "Trage robuste Kleidung, die schmutzig werden darf",
+    "Frage nach, ob du bei der Tierfütterung eigenständig helfen darfst",
+    "Nutze die Chance, verschiedene Bereiche des Hofes kennenzulernen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["tierpfleger", "gaertner", "forstwirt"]
+}

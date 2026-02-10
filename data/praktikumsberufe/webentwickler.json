@@ -1,0 +1,37 @@
+{
+  "slug": "webentwickler",
+  "name": "Webentwickler/in",
+  "category": "IT & Medien",
+  "categorySlug": "it-medien",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Während eines Praktikums in der Webentwicklung erlebst du, wie moderne Websites und Webanwendungen entstehen. Du schreibst erste eigene Code-Zeilen in HTML, CSS und JavaScript und siehst sofort, wie deine Arbeit im Browser Gestalt annimmt. Gemeinsam mit erfahrenen Entwicklern arbeitest du an echten Projekten und lernst, wie Technik und Design zusammenwirken. So entdeckst du, ob das Programmieren von Webseiten deine Leidenschaft werden könnte.",
+  "aufgaben": [
+    "Einfache Webseiten mit HTML und CSS erstellen",
+    "Bestehende Websites testen und Fehler dokumentieren",
+    "Kleine Funktionen mit JavaScript programmieren",
+    "Responsive Design für verschiedene Bildschirmgrößen kennenlernen",
+    "Inhalte in Content-Management-Systeme einpflegen",
+    "An Code-Reviews und Teamabsprachen teilnehmen"
+  ],
+  "voraussetzungen": [
+    "Neugier auf Programmierung und Webseiten",
+    "Ausdauer und Freude am Problemlösen",
+    "Grundlegendes Verständnis für Computeranwendungen",
+    "Bereitschaft, eigenständig zu recherchieren und zu lernen"
+  ],
+  "wasManLernt": [
+    "Grundlagen von HTML, CSS und JavaScript",
+    "Wie professionelle Webprojekte geplant und umgesetzt werden",
+    "Den Umgang mit Versionsverwaltung und Entwicklungstools",
+    "Was Responsive Design und Barrierefreiheit bedeuten",
+    "Wie Frontend und Backend einer Website zusammenarbeiten"
+  ],
+  "tipps": [
+    "Probiere vorher kostenlose Coding-Kurse auf Plattformen wie freeCodeCamp aus",
+    "Erstelle eine kleine persönliche Webseite als Vorbereitung",
+    "Scheue dich nicht, Fragen zum Code zu stellen",
+    "Mache dir Notizen zu neuen Begriffen und Konzepten"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9 mit Technikinteresse",
+  "relatedSlugs": ["fachinformatiker", "game-designer", "mediengestalter"]
+}

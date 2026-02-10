@@ -1,0 +1,37 @@
+{
+  "slug": "berufskraftfahrer",
+  "name": "Berufskraftfahrer/in",
+  "category": "Logistik & Verkehr",
+  "categorySlug": "logistik-verkehr",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Berufskraftfahrer/in erlebst du die Welt des Güter- und Personentransports aus nächster Nähe. Du begleitest erfahrene Fahrer auf ihren Touren und lernst, wie Ladung gesichert, Routen geplant und Fahrzeuge gewartet werden. Dabei erfährst du, welche Verantwortung Berufskraftfahrer tragen und wie wichtig Sicherheit und Zuverlässigkeit in diesem Beruf sind. Das Praktikum gibt dir einen realistischen Eindruck vom Leben auf der Straße.",
+  "aufgaben": [
+    "Erfahrene Fahrer auf Auslieferungsfahrten begleiten",
+    "Bei der Ladungssicherung und dem Be- und Entladen helfen",
+    "Fahrzeugkontrollen und tägliche Checks beobachten",
+    "Lieferscheine und Frachtpapiere prüfen und sortieren",
+    "Routenplanung am Computer oder mit Navigation nachvollziehen",
+    "Bei der Fahrzeugpflege und einfachen Wartungsarbeiten unterstützen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Fahrzeugen und Technik",
+    "Verantwortungsbewusstsein und Zuverlässigkeit",
+    "Keine Reiseübelkeit und Freude am Unterwegssein",
+    "Konzentrationsfähigkeit und vorausschauendes Denken"
+  ],
+  "wasManLernt": [
+    "Wie professioneller Gütertransport organisiert wird",
+    "Grundlagen der Ladungssicherung und Fahrzeugtechnik",
+    "Vorschriften zu Lenk- und Ruhezeiten",
+    "Routenplanung und Navigation im Berufsverkehr",
+    "Verantwortung und Sicherheit im Straßenverkehr"
+  ],
+  "tipps": [
+    "Frage nach, ob du bei verschiedenen Tourenarten mitfahren darfst",
+    "Beobachte die Fahrer bei der Fahrzeugkontrolle vor Fahrtantritt",
+    "Informiere dich über die verschiedenen Führerscheinklassen",
+    "Bringe Verpflegung und bequeme Kleidung für lange Fahrten mit"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["fachlagerist", "speditionskaufmann", "eisenbahner"]
+}

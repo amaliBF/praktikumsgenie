@@ -1,0 +1,37 @@
+{
+  "slug": "metallbauer",
+  "name": "Metallbauer/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Als Praktikant/in im Metallbau erlebst du, wie aus Stahl und Aluminium stabile Konstruktionen entstehen. Du siehst Schweißern bei der Arbeit zu, hilfst beim Biegen und Schneiden von Metall und lernst, wie Geländer, Tore und Stahlkonstruktionen gebaut werden. Die Arbeit mit dem robusten Material ist körperlich fordernd, aber das Ergebnis immer beeindruckend. Im Praktikum merkst du schnell, ob dir die Kombination aus Kraft und Präzision liegt.",
+  "aufgaben": [
+    "Metallteile feilen, entgraten und schleifen",
+    "Beim Schweißen und Löten zusehen und einfache Übungen machen",
+    "Werkstücke nach Zeichnung anreißen und markieren",
+    "Bei der Montage von Metallkonstruktionen helfen",
+    "Material zuschneiden und für die Verarbeitung vorbereiten",
+    "Werkzeuge und Maschinen reinigen und pflegen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Belastbarkeit und Kraft",
+    "Interesse an Metall und technischer Fertigung",
+    "Sorgfältiges Arbeiten trotz schwerer Materialien",
+    "Keine Angst vor Funkenflug und Lärm"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Metallbearbeitung und verschiedene Techniken",
+    "Wie man technische Zeichnungen versteht und umsetzt",
+    "Den sicheren Umgang mit Schweiß- und Schneidgeräten",
+    "Welche Metallarten es gibt und wie sie sich verarbeiten lassen",
+    "Arbeitsschutz und Sicherheit in der Metallwerkstatt"
+  ],
+  "tipps": [
+    "Trage unbedingt Sicherheitsschuhe, Schutzbrille und Gehörschutz",
+    "Mache dich mit grundlegenden Metallarten vertraut",
+    "Sei darauf vorbereitet, dass es laut und warm in der Werkstatt sein kann",
+    "Frage, ob du ein kleines Übungsstück schweißen darfst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["mechatroniker", "feinwerkmechaniker", "klempner"]
+}

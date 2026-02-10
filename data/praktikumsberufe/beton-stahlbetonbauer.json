@@ -1,0 +1,37 @@
+{
+  "slug": "beton-stahlbetonbauer",
+  "name": "Beton- und Stahlbetonbauer/in",
+  "category": "Bau & Architektur",
+  "categorySlug": "bau-architektur",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Beton- und Stahlbetonbauer/in führt dich auf Großbaustellen, wo die tragenden Strukturen von Gebäuden und Brücken entstehen. Du erlebst, wie Schalungen gebaut, Bewehrungsstahl verlegt und Beton gegossen wird. Dabei lernst du die Kraft und Vielseitigkeit von Beton als Baustoff kennen und siehst, wie aus flüssigem Material massive Bauwerke entstehen. Das Praktikum zeigt dir die beeindruckende Seite des Rohbaus und ob dir schwere körperliche Arbeit liegt.",
+  "aufgaben": [
+    "Beim Aufbau von Schalungen aus Holz und Stahl helfen",
+    "Bewehrungsstahl zurechtlegen und binden beobachten",
+    "Betonmischungen und deren Eigenschaften kennenlernen",
+    "Beim Betonieren und Verdichten zusehen und unterstützen",
+    "Werkzeuge reinigen und Baumaterialien transportieren",
+    "Maße kontrollieren und Schalungen nach Plan ausrichten helfen"
+  ],
+  "voraussetzungen": [
+    "Hohe körperliche Belastbarkeit und Kraft",
+    "Schwindelfreiheit für Arbeiten in der Höhe",
+    "Handwerkliches Geschick und räumliches Denken",
+    "Teamfähigkeit und Verantwortungsbewusstsein"
+  ],
+  "wasManLernt": [
+    "Wie Stahlbetonkonstruktionen geplant und hergestellt werden",
+    "Grundlagen des Schalungsbaus und der Bewehrungstechnik",
+    "Eigenschaften und Verarbeitung von Beton als Baustoff",
+    "Sicherheitsstandards auf Großbaustellen",
+    "Zusammenarbeit verschiedener Gewerke im Rohbau"
+  ],
+  "tipps": [
+    "Trage unbedingt Sicherheitsschuhe und Helm auf der Baustelle",
+    "Frage nach Schutzhandschuhen – Beton ist ätzend für die Haut",
+    "Beobachte, wie die Profis Schalungen millimetergenau ausrichten",
+    "Informiere dich vorab über verschiedene Betonarten und ihre Verwendung"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["strassenbauer", "trockenbaumonteur", "bauzeichner"]
+}

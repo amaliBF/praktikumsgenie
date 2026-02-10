@@ -1,0 +1,37 @@
+{
+  "slug": "forstwirt",
+  "name": "Forstwirt/in",
+  "category": "Natur & Landwirtschaft",
+  "categorySlug": "natur-landwirtschaft",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Forstwirt/in führt dich mitten in den Wald, wo du die nachhaltige Bewirtschaftung unserer Wälder erlebst. Du lernst, wie Bäume gepflanzt, gepflegt und geerntet werden und welche Rolle der Wald als Ökosystem und Wirtschaftsfaktor spielt. Dabei arbeitest du an der frischen Luft und erfährst, wie Förster und Forstwirte den Wald für kommende Generationen erhalten. Das Praktikum zeigt dir, ob du die Naturverbundenheit und körperliche Ausdauer für diesen Beruf mitbringst.",
+  "aufgaben": [
+    "Junge Bäume pflanzen und Setzlinge wässern",
+    "Bei der Waldpflege und dem Freischneiden von Wegen helfen",
+    "Baumarten bestimmen und Waldbestände kartieren",
+    "Werkzeuge wie Astscheren und Freischneider kennenlernen",
+    "Wildschäden und Schädlingsbefall erkennen und dokumentieren",
+    "Bei Holzernte und -transport zuschauen und unterstützen"
+  ],
+  "voraussetzungen": [
+    "Naturverbundenheit und Freude an Outdoor-Arbeit",
+    "Körperliche Fitness und Wetterfestigkeit",
+    "Interesse an Ökologie und Umweltschutz",
+    "Verantwortungsbewusstsein und Sicherheitsbewusstsein"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Waldwirtschaft und nachhaltigen Forstwirtschaft",
+    "Verschiedene Baumarten und ihre Standortansprüche",
+    "Wie der Wald als Ökosystem funktioniert",
+    "Umgang mit forstwirtschaftlichen Werkzeugen und Sicherheitsregeln",
+    "Die Bedeutung des Waldes für Klimaschutz und Biodiversität"
+  ],
+  "tipps": [
+    "Trage feste Wanderschuhe und wetterfeste Kleidung",
+    "Bringe Zeckenschutz und eine Kopfbedeckung mit",
+    "Frage nach einer Waldführung, um verschiedene Waldtypen kennenzulernen",
+    "Halte Augen und Ohren offen – im Wald gibt es viel zu entdecken"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["gaertner", "landwirt", "winzer"]
+}

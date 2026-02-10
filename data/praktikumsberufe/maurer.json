@@ -1,0 +1,37 @@
+{
+  "slug": "maurer",
+  "name": "Maurer/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Als Praktikant/in im Maurerhandwerk erlebst du, wie Gebäude Stein für Stein entstehen. Du bist auf echten Baustellen dabei und siehst, wie Mauern hochgezogen, Beton gegossen und Fundamente gelegt werden. Die Arbeit ist körperlich fordernd, aber das Gefühl, am Bau eines Hauses mitgewirkt zu haben, ist unbezahlbar. Das Praktikum zeigt dir, ob du die Ausdauer und den Stolz für diesen grundlegenden Bauberuf mitbringst.",
+  "aufgaben": [
+    "Mörtel anrühren und Steine für das Mauern vorbereiten",
+    "Beim Errichten von Mauerwerk zusehen und kleine Abschnitte üben",
+    "Baumaterialien transportieren und auf der Baustelle verteilen",
+    "Einfache Schalungen für Betonarbeiten aufbauen helfen",
+    "Flächen ausmessen und mit der Wasserwaage prüfen",
+    "Die Baustelle aufräumen und Werkzeug reinigen"
+  ],
+  "voraussetzungen": [
+    "Gute körperliche Fitness und Ausdauer",
+    "Bereitschaft zur Arbeit im Freien bei jedem Wetter",
+    "Teamfähigkeit und Durchhaltevermögen",
+    "Sorgfalt beim Arbeiten nach Maß"
+  ],
+  "wasManLernt": [
+    "Grundlagen des Mauerwerksbaus und der Betontechnik",
+    "Wie Baupläne gelesen und auf der Baustelle umgesetzt werden",
+    "Den Umgang mit Wasserwaage, Lot und Richtschnur",
+    "Wie verschiedene Baustoffe verarbeitet werden",
+    "Arbeitssicherheit und Gesundheitsschutz auf der Baustelle"
+  ],
+  "tipps": [
+    "Trage robuste Arbeitskleidung und Sicherheitsschuhe",
+    "Nimm genug Essen und Trinken mit auf die Baustelle",
+    "Sei auf frühen Arbeitsbeginn vorbereitet",
+    "Packe überall mit an und zeige deine Einsatzbereitschaft"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["dachdecker", "zimmerer", "maler"]
+}

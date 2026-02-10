@@ -1,0 +1,37 @@
+{
+  "slug": "elektroniker",
+  "name": "Elektroniker/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Als Praktikant/in im Elektrohandwerk erlebst du, wie elektrische Anlagen geplant, installiert und gewartet werden. Du begleitest erfahrene Elektriker auf Baustellen oder in Betrieben und lernst, wie Strom sicher durch Gebäude geleitet wird. Dabei erfährst du, wie wichtig Präzision und Sicherheit in diesem Beruf sind. Das Praktikum gibt dir einen realistischen Eindruck davon, wie vielseitig die Arbeit als Elektroniker/in ist.",
+  "aufgaben": [
+    "Kabel abisolieren, verlegen und anschließen helfen",
+    "Schaltpläne lesen und einfache Schaltungen nachbauen",
+    "Bei der Installation von Steckdosen und Schaltern zusehen und assistieren",
+    "Messgeräte kennenlernen und einfache Messungen durchführen",
+    "Material und Werkzeug für Einsätze vorbereiten",
+    "Arbeitsabläufe auf Baustellen beobachten und dokumentieren"
+  ],
+  "voraussetzungen": [
+    "Interesse an Elektrotechnik und physikalischen Zusammenhängen",
+    "Sorgfältige und konzentrierte Arbeitsweise",
+    "Keine Angst vor Höhen und beengten Räumen",
+    "Gute Feinmotorik und handwerkliches Geschick"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Elektrotechnik und Sicherheitsvorschriften",
+    "Wie elektrische Installationen in Gebäuden funktionieren",
+    "Den Umgang mit Messgeräten und Spezialwerkzeug",
+    "Warum Arbeitsschutz in der Elektrotechnik lebenswichtig ist",
+    "Wie Schaltpläne gelesen und umgesetzt werden"
+  ],
+  "tipps": [
+    "Lerne vorher die Grundlagen von Spannung, Strom und Widerstand",
+    "Halte dich strikt an alle Sicherheitsvorschriften",
+    "Trage immer Sicherheitsschuhe und geeignete Arbeitskleidung",
+    "Frage aktiv nach, wenn du etwas nicht verstehst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["it-systemelektroniker", "mechatroniker", "klempner"]
+}

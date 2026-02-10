@@ -1,0 +1,41 @@
+{
+  "slug": "physiotherapeut",
+  "name": "Physiotherapeut/in",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Als Praktikant/in in der Physiotherapie erlebst du, wie Menschen durch gezielte Übungen und Behandlungen ihre Beweglichkeit zurückgewinnen. Du beobachtest verschiedene Therapieformen und lernst, wie der menschliche Körper funktioniert und heilt. Dabei siehst du die Fortschritte der Patienten und spürst, wie motivierend es ist, Menschen aktiv zu helfen. Das Praktikum zeigt dir, ob du Freude an Bewegung, Anatomie und der Arbeit mit Menschen hast.",
+  "aufgaben": [
+    "Behandlungsräume vorbereiten und Therapiegeräte bereitstellen",
+    "Therapeuten bei Behandlungen beobachten und assistieren",
+    "Patienten bei Übungen unter Anleitung unterstützen",
+    "Wärme- und Kälteanwendungen vorbereiten helfen",
+    "Termine koordinieren und Patienten empfangen",
+    "Einfache Dehn- und Kräftigungsübungen kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Interesse am menschlichen Körper und an Bewegung",
+    "Einfühlungsvermögen und motivierende Art",
+    "Eigene sportliche Aktivität oder Fitness",
+    "Keine Berührungsängste bei körperlichem Kontakt"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Anatomie und Bewegungslehre",
+    "Verschiedene physiotherapeutische Behandlungsmethoden",
+    "Wie individuell auf Patienten und ihre Beschwerden eingegangen wird",
+    "Den Ablauf einer physiotherapeutischen Praxis",
+    "Wie man Patienten motiviert und bei Übungen anleitet"
+  ],
+  "tipps": [
+    "Trage sportliche und bequeme Kleidung",
+    "Informiere dich vorab über grundlegende Anatomie",
+    "Frage, ob du bestimmte Übungen selbst ausprobieren darfst",
+    "Beobachte, wie Therapeuten mit verschiedenen Patientengruppen kommunizieren"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": [
+    "krankenpfleger",
+    "rettungssanitaeter",
+    "logopaede"
+  ]
+}

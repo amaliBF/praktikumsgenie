@@ -1,0 +1,37 @@
+{
+  "slug": "mediengestalter",
+  "name": "Mediengestalter/in",
+  "category": "IT & Medien",
+  "categorySlug": "it-medien",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als Mediengestalter/in tauchst du in die kreative Welt der visuellen Kommunikation ein. Du erlebst hautnah, wie Flyer, Websites und Social-Media-Inhalte professionell gestaltet werden. An echten Projekten lernst du den Umgang mit Designsoftware und entwickelst ein Gefühl für Farben, Typografie und Layouts. So findest du heraus, ob das Zusammenspiel von Kreativität und Technik dein Ding ist.",
+  "aufgaben": [
+    "Entwürfe für Druckprodukte und digitale Medien erstellen",
+    "Bilder bearbeiten und für verschiedene Formate aufbereiten",
+    "An der Gestaltung von Social-Media-Beiträgen mitwirken",
+    "Layouts für Broschüren oder Plakate unter Anleitung entwickeln",
+    "Druckvorstufen und Reinzeichnungen kennenlernen",
+    "Farbkonzepte und Schriftkombinationen ausprobieren"
+  ],
+  "voraussetzungen": [
+    "Kreativität und Sinn für Ästhetik",
+    "Interesse an Design und visueller Gestaltung",
+    "Sorgfältige und detailgenaue Arbeitsweise",
+    "Offenheit für konstruktives Feedback"
+  ],
+  "wasManLernt": [
+    "Grundlagen professioneller Bildbearbeitung und Layoutgestaltung",
+    "Wie Designprozesse in Agenturen und Unternehmen ablaufen",
+    "Den Unterschied zwischen Print- und Digitalmedien",
+    "Umgang mit branchenüblicher Software wie Adobe Creative Suite",
+    "Wie man kreative Ideen überzeugend präsentiert"
+  ],
+  "tipps": [
+    "Bringe eine Mappe mit eigenen Zeichnungen oder Designs mit",
+    "Mache dich vorab mit kostenlosen Designtools wie Canva vertraut",
+    "Beobachte im Alltag Werbung und analysiere, was dir gefällt",
+    "Frage aktiv nach Feedback zu deinen Entwürfen"
+  ],
+  "geeignetFuer": "Kreative Schüler ab Klasse 9",
+  "relatedSlugs": ["grafikdesigner", "fotograf", "social-media-manager"]
+}

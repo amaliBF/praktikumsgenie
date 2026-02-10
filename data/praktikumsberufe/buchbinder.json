@@ -1,0 +1,37 @@
+{
+  "slug": "buchbinder",
+  "name": "Buchbinder/in",
+  "category": "Kreativ & Design",
+  "categorySlug": "kreativ-design",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Buchbinder/in entdeckst du ein traditionsreiches Handwerk, bei dem aus einzelnen Seiten und Materialien fertige Bücher, Alben und Schachteln entstehen. Du erlebst, wie Papier geschnitten, gefalzt und gebunden wird und wie Einbände gestaltet und veredelt werden. Dabei lernst du sowohl traditionelle Handwerkstechniken als auch moderne maschinelle Verfahren kennen. Das Praktikum zeigt dir, ob du die Sorgfalt und das handwerkliche Geschick für diesen besonderen Beruf mitbringst.",
+  "aufgaben": [
+    "Papier schneiden, falzen und zusammentragen",
+    "Bei der Herstellung einfacher Buchblöcke und Hefte helfen",
+    "Einbandmaterialien wie Leinen und Papier zuschneiden",
+    "Buchdecken kaschieren und pressen",
+    "Maschinen wie Schneidemaschinen und Falzapparate kennenlernen",
+    "Fertige Produkte kontrollieren und verpacken"
+  ],
+  "voraussetzungen": [
+    "Sorgfalt und Präzision bei handwerklicher Arbeit",
+    "Interesse an Büchern, Papier und Druckerzeugnissen",
+    "Geschicklichkeit und ein gutes Augenmaß",
+    "Geduld für wiederholende Arbeitsschritte"
+  ],
+  "wasManLernt": [
+    "Grundtechniken des Buchbindens wie Falzen, Heften und Kleben",
+    "Verschiedene Bindetechniken und Einbandarten",
+    "Materialkunde zu Papier, Karton und Einbandstoffen",
+    "Wie traditionelles Handwerk und moderne Technik zusammenwirken",
+    "Qualitätskontrolle bei der Fertigstellung von Druckprodukten"
+  ],
+  "tipps": [
+    "Frage nach, ob du ein kleines Notizbuch selbst binden darfst",
+    "Beobachte die verschiedenen Bindetechniken genau",
+    "Bringe saubere Hände mit – Fingerabdrücke auf Papier sind tabu",
+    "Zeige Interesse an der Geschichte des Buchdrucks und der Buchkunst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["goldschmied", "modedesigner", "drogist"]
+}

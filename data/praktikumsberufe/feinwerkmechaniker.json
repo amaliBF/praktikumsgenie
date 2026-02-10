@@ -1,0 +1,37 @@
+{
+  "slug": "feinwerkmechaniker",
+  "name": "Feinwerkmechaniker/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als Feinwerkmechaniker/in arbeitest du mit höchster Präzision an winzigen Bauteilen und filigranen Werkstücken. Du erlebst, wie an Dreh- und Fräsmaschinen Teile entstehen, die auf den hundertstel Millimeter genau sein müssen. Diese Arbeit erfordert ruhige Hände und ein geschultes Auge. Das Praktikum zeigt dir, ob du die Geduld und Genauigkeit mitbringst, die dieser anspruchsvolle Beruf verlangt.",
+  "aufgaben": [
+    "Werkstücke mit Messschieber und Mikrometer vermessen",
+    "An der Drehmaschine und Fräsmaschine unter Anleitung arbeiten",
+    "Kleine Bauteile feilen und entgraten",
+    "Technische Zeichnungen lesen und verstehen lernen",
+    "Bei der Qualitätskontrolle von Werkstücken helfen",
+    "CNC-gesteuerte Maschinen beobachten und kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Ausgeprägte Feinmotorik und ruhige Hände",
+    "Geduld und Konzentrationsfähigkeit",
+    "Interesse an Technik und Physik",
+    "Gutes räumliches Vorstellungsvermögen"
+  ],
+  "wasManLernt": [
+    "Wie Präzisionsteile hergestellt und gemessen werden",
+    "Den Umgang mit Dreh-, Fräs- und Schleifmaschinen",
+    "Technische Zeichnungen und Maßangaben zu interpretieren",
+    "Grundlagen der CNC-Technik",
+    "Warum Qualitätskontrolle in der Fertigung unverzichtbar ist"
+  ],
+  "tipps": [
+    "Übe vorher den Umgang mit einem Lineal und exaktem Messen",
+    "Achte in der Werkstatt besonders auf Sauberkeit und Ordnung",
+    "Frage nach den verschiedenen Materialien und ihren Eigenschaften",
+    "Lass dir den Unterschied zwischen konventionellen und CNC-Maschinen erklären"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["metallbauer", "mechatroniker", "elektroniker"]
+}

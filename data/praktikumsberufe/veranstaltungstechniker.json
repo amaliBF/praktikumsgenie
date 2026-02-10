@@ -1,0 +1,37 @@
+{
+  "slug": "veranstaltungstechniker",
+  "name": "Veranstaltungstechniker/in",
+  "category": "IT & Medien",
+  "categorySlug": "it-medien",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Veranstaltungstechniker/in erlebst du die aufregende Welt hinter den Kulissen von Events, Konzerten und Messen. Du hilfst beim Aufbau von Bühnen, Licht- und Tontechnik und siehst, wie viel Planung in einer gelungenen Veranstaltung steckt. Dabei spürst du die besondere Energie, wenn alles zusammenkommt und die Show beginnt. Das Praktikum zeigt dir, ob du in der Eventbranche zu Hause bist.",
+  "aufgaben": [
+    "Beim Aufbau und Abbau von Bühnen und Technik mitanpacken",
+    "Kabel verlegen und Licht- sowie Tontechnik einrichten helfen",
+    "Soundchecks und Beleuchtungsproben begleiten",
+    "Material und Equipment transportieren und sortieren",
+    "Bei der Planung und Koordination von Veranstaltungen zusehen",
+    "Sicherheitsvorschriften und Fluchtwege kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Fitness und Bereitschaft anzupacken",
+    "Interesse an Technik, Musik oder Events",
+    "Zuverlässigkeit und Teamfähigkeit",
+    "Flexibilität bei den Arbeitszeiten"
+  ],
+  "wasManLernt": [
+    "Wie professionelle Veranstaltungen technisch geplant und umgesetzt werden",
+    "Grundlagen der Licht- und Tontechnik",
+    "Wie Teamarbeit unter Zeitdruck funktioniert",
+    "Sicherheitsvorschriften und Arbeitsschutz bei Events",
+    "Den Umgang mit technischem Equipment"
+  ],
+  "tipps": [
+    "Trage bequeme, dunkle Kleidung und festes Schuhwerk",
+    "Sei auf unregelmäßige Arbeitszeiten vorbereitet",
+    "Zeige Eigeninitiative und packe überall mit an",
+    "Frage, ob du bei einer konkreten Veranstaltung dabei sein kannst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["fotograf", "elektroniker", "social-media-manager"]
+}

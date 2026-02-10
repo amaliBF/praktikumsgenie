@@ -1,0 +1,37 @@
+{
+  "slug": "immobilienkaufmann",
+  "name": "Immobilienkaufmann/-frau",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Als Praktikant/in im Immobilienbereich erlebst du, wie Wohnungen vermietet, Häuser verkauft und Objekte verwaltet werden. Du begleitest Besichtigungen, lernst die Erstellung von Exposés kennen und siehst, wie der Immobilienmarkt funktioniert. Dabei erfährst du, wie vielseitig der Beruf ist - von der Kundenberatung über das Marketing bis zur Verwaltung. Das Praktikum zeigt dir, ob du Verhandlungsgeschick hast und dich für Immobilien begeisterst.",
+  "aufgaben": [
+    "Wohnungsbesichtigungen und Kundentermine begleiten",
+    "Bei der Erstellung von Exposés und Objektbeschreibungen helfen",
+    "Fotos von Immobilien machen und für Inserate aufbereiten",
+    "Mietverträge und Unterlagen sortieren und archivieren",
+    "Anfragen von Interessenten telefonisch und per E-Mail bearbeiten helfen",
+    "Den Immobilienmarkt beobachten und Vergleichsobjekte recherchieren"
+  ],
+  "voraussetzungen": [
+    "Interesse an Immobilien, Architektur und Wohnen",
+    "Kommunikationsstärke und sicheres Auftreten",
+    "Gepflegtes Äußeres und Serviceorientierung",
+    "Grundlegendes Verständnis für wirtschaftliche Zusammenhänge"
+  ],
+  "wasManLernt": [
+    "Wie der Immobilienmarkt funktioniert und was Objekte wert macht",
+    "Grundlagen der Immobilienvermittlung und -verwaltung",
+    "Wie professionelle Exposés und Inserate erstellt werden",
+    "Den Ablauf von Miet- und Kaufvertragsverhandlungen",
+    "Wie Kundenberatung und Objektpräsentation zusammenspielen"
+  ],
+  "tipps": [
+    "Kleide dich professionell, da du Kundenkontakt haben wirst",
+    "Achte bei Besichtigungen auf Details der Objekte",
+    "Informiere dich vorab über Mietpreise und Immobilientrends in deiner Region",
+    "Frage nach den Unterschieden zwischen Vermietung, Verkauf und Verwaltung"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["bankkaufmann", "versicherungskaufmann", "buerokaufmann"]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "it-systemelektroniker",
+  "name": "IT-Systemelektroniker/in",
+  "category": "IT & Medien",
+  "categorySlug": "it-medien",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als IT-Systemelektroniker/in lernst du die Hardware-Seite der IT-Welt kennen. Du baust Computer zusammen, verlegst Netzwerkkabel und hilfst bei der Installation von IT-Systemen vor Ort. Dabei erfährst du, wie Unternehmen ihre gesamte IT-Infrastruktur aufbauen und betreiben. Das Praktikum ist perfekt für alle, die gerne schrauben, verkabeln und technische Probleme lösen.",
+  "aufgaben": [
+    "Beim Zusammenbau und der Einrichtung von PCs und Laptops helfen",
+    "Netzwerkkabel verlegen und Anschlüsse prüfen",
+    "Bei der Installation von Betriebssystemen und Software unterstützen",
+    "Einfache Störungen analysieren und beheben",
+    "IT-Komponenten inventarisieren und dokumentieren",
+    "Kundenservice-Einsätze begleiten"
+  ],
+  "voraussetzungen": [
+    "Technisches Verständnis und handwerkliches Geschick",
+    "Interesse an Computer-Hardware und Netzwerken",
+    "Sorgfältige und gewissenhafte Arbeitsweise",
+    "Freude am direkten Umgang mit Menschen"
+  ],
+  "wasManLernt": [
+    "Wie Computer und Netzwerke aufgebaut sind",
+    "Grundlagen der Systemadministration und Fehlerbehebung",
+    "Den Unterschied zwischen verschiedenen Netzwerktechnologien",
+    "Wie IT-Dienstleister ihre Kunden betreuen",
+    "Sicherheitsaspekte bei der Arbeit mit elektrischen Geräten"
+  ],
+  "tipps": [
+    "Schau dir vorher den Aufbau eines Computers in Videos an",
+    "Trage immer festes Schuhwerk und geeignete Kleidung",
+    "Frage, ob du einen alten PC zum Üben auseinanderbauen darfst",
+    "Dokumentiere, was du gelernt hast, mit Fotos und Notizen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["fachinformatiker", "elektroniker", "informatikkaufmann"]
+}

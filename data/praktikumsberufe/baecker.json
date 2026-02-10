@@ -1,0 +1,37 @@
+{
+  "slug": "baecker",
+  "name": "Bäcker/in",
+  "category": "Gastronomie & Hotel",
+  "categorySlug": "gastronomie-hotel",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Bäcker/in erlebst du den Duft von frischem Brot und Gebäck bereits in den frühen Morgenstunden. Du lernst, wie aus Mehl, Wasser und Hefe die verschiedensten Backwaren entstehen und welche Handgriffe für perfekte Ergebnisse nötig sind. Dabei erlebst du die Mischung aus traditionellem Handwerk und moderner Backtechnik. Das Praktikum zeigt dir, ob du die Leidenschaft und die Bereitschaft für frühe Arbeitszeiten mitbringst.",
+  "aufgaben": [
+    "Teige nach Rezept abwiegen und anrühren",
+    "Brötchen, Brot und Kleingebäck formen und aufs Blech setzen",
+    "Den Backofen unter Anleitung beschicken und Backzeiten überwachen",
+    "Backwaren glasieren, bestreuen und dekorieren",
+    "Arbeitsplatz und Geräte reinigen und pflegen",
+    "Zutaten aus dem Lager holen und Bestände prüfen"
+  ],
+  "voraussetzungen": [
+    "Freude am Backen und Arbeiten mit den Händen",
+    "Bereitschaft für sehr frühe Arbeitszeiten",
+    "Sinn für Sauberkeit und Hygiene",
+    "Körperliche Fitness für stehende Tätigkeit"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Teigherstellung und Gärführung",
+    "Wie verschiedene Brotsorten und Gebäckarten entstehen",
+    "Hygieneanforderungen in der Lebensmittelproduktion",
+    "Umgang mit professionellen Backöfen und Knetmaschinen",
+    "Zeitmanagement bei der Produktion verschiedener Backwaren"
+  ],
+  "tipps": [
+    "Gehe am Abend vorher früh ins Bett – Bäcker starten oft um 3 oder 4 Uhr",
+    "Trage keine Ringe oder Armbänder in der Backstube",
+    "Frage nach, ob du ein Brot eigenständig formen darfst",
+    "Probiere die Ergebnisse und entwickle ein Gespür für gute Qualität"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["konditor", "koch", "fachmann-systemgastronomie"]
+}

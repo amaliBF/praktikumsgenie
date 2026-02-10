@@ -1,0 +1,37 @@
+{
+  "slug": "grafikdesigner",
+  "name": "Grafikdesigner/in",
+  "category": "IT & Medien",
+  "categorySlug": "it-medien",
+  "dauer": "1-3 Wochen",
+  "beschreibung": "Als Praktikant/in im Grafikdesign erlebst du, wie aus Ideen visuelle Botschaften werden. Du begleitest Designer bei der Entwicklung von Logos, Illustrationen und Markenauftritten und bekommst einen realistischen Einblick in den Agenturalltag. Dabei lernst du, wie man mit Formen, Farben und Typografie Geschichten erzählt. Das Praktikum hilft dir zu verstehen, ob du deine künstlerische Begabung zum Beruf machen möchtest.",
+  "aufgaben": [
+    "Einfache Grafiken und Icons unter Anleitung gestalten",
+    "Bei der Erstellung von Logos und Markenkonzepten zusehen und mitarbeiten",
+    "Moodboards und Farbpaletten für Projekte zusammenstellen",
+    "Bildrecherche und Bildauswahl für verschiedene Projekte durchführen",
+    "Reinzeichnungen anfertigen und Druckdaten vorbereiten",
+    "An Kreativmeetings und Brainstormings teilnehmen"
+  ],
+  "voraussetzungen": [
+    "Leidenschaft fürs Zeichnen und Gestalten",
+    "Gutes Auge für Details und Proportionen",
+    "Bereitschaft, neue Software zu erlernen",
+    "Fähigkeit, Kritik als Chance zur Verbesserung zu sehen"
+  ],
+  "wasManLernt": [
+    "Wie ein professioneller Designprozess von der Idee bis zum fertigen Produkt abläuft",
+    "Grundlagen von Typografie, Farbtheorie und Komposition",
+    "Den Umgang mit Vektorgrafik- und Bildbearbeitungsprogrammen",
+    "Wie man Kundenwünsche kreativ umsetzt",
+    "Unterschiede zwischen verschiedenen Designbereichen kennen"
+  ],
+  "tipps": [
+    "Erstelle vorab ein kleines Portfolio mit eigenen Arbeiten",
+    "Schau dir Online-Tutorials zu Designgrundlagen an",
+    "Beobachte Verpackungen, Werbung und Logos im Alltag bewusst",
+    "Nimm dir ein Skizzenbuch mit und halte Ideen fest"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9 mit Sinn für Gestaltung",
+  "relatedSlugs": ["mediengestalter", "fotograf", "webentwickler"]
+}

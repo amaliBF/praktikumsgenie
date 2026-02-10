@@ -1,0 +1,37 @@
+{
+  "slug": "drogist",
+  "name": "Drogist/in",
+  "category": "Kreativ & Design",
+  "categorySlug": "kreativ-design",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Drogist/in gibt dir einen vielseitigen Einblick in die Welt der Körperpflege, Kosmetik, Gesundheit und Ernährung. Du erlebst den Alltag in einem Drogeriemarkt, lernst die Beratung von Kunden zu Pflegeprodukten kennen und verstehst, welche Inhaltsstoffe wirken. Dabei entdeckst du auch die kaufmännische Seite mit Warenauszeichnung, Regalpflege und Bestellwesen. Das Praktikum zeigt dir, ob du Freude an Produktwissen und Kundenberatung hast.",
+  "aufgaben": [
+    "Waren auspacken, auszeichnen und in Regale einräumen",
+    "Kunden bei der Produktsuche freundlich unterstützen",
+    "Produktinformationen und Inhaltsstoffe kennenlernen",
+    "Warenbestände kontrollieren und Nachbestellungen vorbereiten",
+    "Schaufenster und Aktionsflächen mitgestalten",
+    "Kassiervorgänge beobachten und unterstützen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Kosmetik, Gesundheit und Ernährung",
+    "Freundlichkeit und Freude am Kundenkontakt",
+    "Sorgfalt und Ordnungssinn",
+    "Lernbereitschaft für Produktwissen und Inhaltsstoffe"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Produktkunde in Kosmetik und Gesundheit",
+    "Wie professionelle Kundenberatung funktioniert",
+    "Warenwirtschaft und Bestandsmanagement im Einzelhandel",
+    "Inhaltsstoffe und ihre Wirkung verstehen",
+    "Visual Merchandising und ansprechende Warenpräsentation"
+  ],
+  "tipps": [
+    "Lies vorab die Etiketten von Drogerieprodukten zu Hause",
+    "Frage nach, bei welchen Produktkategorien du beraten lernen kannst",
+    "Beobachte, wie erfahrene Mitarbeiter auf Kundenfragen eingehen",
+    "Zeige Eigeninitiative bei der Regalpflege und Warenpräsentation"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["kosmetiker", "florist", "buchbinder"]
+}

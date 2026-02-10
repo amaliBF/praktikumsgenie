@@ -1,0 +1,37 @@
+{
+  "slug": "gaertner",
+  "name": "Gärtner/in",
+  "category": "Natur & Landwirtschaft",
+  "categorySlug": "natur-landwirtschaft",
+  "dauer": "1-3 Wochen",
+  "beschreibung": "Ein Praktikum als Gärtner/in lässt dich die Arbeit mit Pflanzen und in der Natur hautnah erleben. Du lernst verschiedene Fachrichtungen kennen – vom Garten- und Landschaftsbau über die Baumschule bis hin zur Zierpflanzenzucht. Dabei arbeitest du an der frischen Luft und erlebst, wie Gärten, Parks und Grünflächen professionell gestaltet und gepflegt werden. Das Praktikum zeigt dir, ob du die Verbundenheit zur Natur und die körperliche Fitness für diesen grünen Beruf mitbringst.",
+  "aufgaben": [
+    "Beete anlegen, bepflanzen und pflegen",
+    "Pflanzen gießen, düngen und zurückschneiden",
+    "Rasen mähen und Hecken in Form bringen",
+    "Bei der Gestaltung von Gärten und Außenanlagen helfen",
+    "Erde und Substrate vorbereiten und umtopfen",
+    "Werkzeuge und Maschinen kennenlernen und pflegen"
+  ],
+  "voraussetzungen": [
+    "Freude an der Arbeit im Freien und in der Natur",
+    "Körperliche Fitness und Ausdauer",
+    "Interesse an Pflanzen und ökologischen Zusammenhängen",
+    "Sorgfalt und Geduld bei der Pflanzenpflege"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Pflanzenkunde und Bodenvorbereitung",
+    "Wie professionelle Garten- und Landschaftsgestaltung funktioniert",
+    "Umgang mit gärtnerischen Werkzeugen und Maschinen",
+    "Saisonale Pflege und Pflanzzyklen",
+    "Nachhaltiges Arbeiten mit natürlichen Ressourcen"
+  ],
+  "tipps": [
+    "Trage wetterfeste Kleidung und robuste Schuhe",
+    "Frage nach verschiedenen Pflanzennamen – das beeindruckt die Profis",
+    "Nutze die Chance, verschiedene Fachrichtungen kennenzulernen",
+    "Bringe Sonnenschutz mit, besonders im Sommer"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["florist", "landwirt", "forstwirt"]
+}

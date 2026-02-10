@@ -1,0 +1,37 @@
+{
+  "slug": "steuerfachangestellter",
+  "name": "Steuerfachangestellte/r",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als Steuerfachangestellte/r tauchst du in die Welt der Zahlen, Steuererklärungen und Buchhaltung ein. Du erlebst, wie Steuerberater ihre Mandanten betreuen und wie aus Belegen und Daten ordentliche Buchführungen entstehen. Dabei lernst du, wie wichtig Genauigkeit und Vertraulichkeit in diesem Beruf sind. Das Praktikum zeigt dir, ob du Spaß an Zahlen hast und sorgfältig genug für diesen verantwortungsvollen Beruf bist.",
+  "aufgaben": [
+    "Belege und Rechnungen sortieren und für die Buchhaltung vorbereiten",
+    "Einfache Buchungssätze unter Anleitung erfassen",
+    "Steuererklärungen und Jahresabschlüsse beobachten",
+    "Mandantenakten pflegen und Dokumente ablegen",
+    "Bei der Korrespondenz mit dem Finanzamt helfen",
+    "Steuersoftware und Buchhaltungsprogramme kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Freude am Umgang mit Zahlen und Daten",
+    "Hohe Sorgfalt und Genauigkeit",
+    "Verschwiegenheit und Vertrauenswürdigkeit",
+    "Grundkenntnisse in Mathematik und Office-Programmen"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Buchführung und des Steuerwesens",
+    "Wie eine Steuerkanzlei organisiert ist und arbeitet",
+    "Den Umgang mit professioneller Steuersoftware",
+    "Wie Steuererklärungen aufgebaut sind und erstellt werden",
+    "Die Bedeutung von Fristen und Terminen im Steuerrecht"
+  ],
+  "tipps": [
+    "Bringe gute Mathekenntnisse mit und übe den Umgang mit dem Taschenrechner",
+    "Kleide dich geschäftsmäßig und professionell",
+    "Frage nach den verschiedenen Steuerarten und ihren Besonderheiten",
+    "Achte besonders auf die Vertraulichkeit der Mandantendaten"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["bankkaufmann", "buerokaufmann", "industriekaufmann"]
+}

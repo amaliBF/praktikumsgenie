@@ -1,0 +1,37 @@
+{
+  "slug": "game-designer",
+  "name": "Game-Designer/in",
+  "category": "IT & Medien",
+  "categorySlug": "it-medien",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als Game-Designer/in erlebst du, wie aus einer Spielidee ein interaktives Erlebnis wird. Du blickst hinter die Kulissen der Spieleentwicklung und arbeitest mit Designern und Programmierern zusammen. Dabei lernst du, wie Spielmechaniken, Level und Charaktere entworfen werden. Das Praktikum zeigt dir, dass Spieleentwicklung weit mehr ist als nur Spielen - es ist ein kreativer und technischer Prozess zugleich.",
+  "aufgaben": [
+    "Spielkonzepte und Leveldesigns auf Papier entwerfen",
+    "Einfache Prototypen mit Game-Engines erstellen",
+    "Spiele testen und detailliertes Feedback dokumentieren",
+    "Grafische Elemente wie Sprites oder UI-Komponenten gestalten",
+    "An Brainstormings für neue Spielideen teilnehmen",
+    "Spielmechaniken analysieren und Verbesserungsvorschläge machen"
+  ],
+  "voraussetzungen": [
+    "Leidenschaft für Videospiele und interaktive Medien",
+    "Kreativität und Vorstellungskraft",
+    "Grundlegendes Interesse an Programmierung oder Grafik",
+    "Teamfähigkeit und Kommunikationsfreude"
+  ],
+  "wasManLernt": [
+    "Wie der Entwicklungsprozess eines Spiels von der Idee bis zum Release abläuft",
+    "Grundlagen von Game-Engines wie Unity oder Unreal",
+    "Was gutes Leveldesign und Spielbalance ausmacht",
+    "Wie interdisziplinäre Teams in der Spielebranche zusammenarbeiten",
+    "Den Unterschied zwischen Game-Design, Game-Art und Game-Programming"
+  ],
+  "tipps": [
+    "Spiele vorab mit kostenlosen Tools wie Scratch oder Unity ein kleines Projekt",
+    "Analysiere deine Lieblingsspiele und überlege, was sie gut macht",
+    "Halte deine Spielideen in einem Notizbuch fest",
+    "Informiere dich über aktuelle Trends in der Gaming-Branche"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9 mit Interesse an Spielen",
+  "relatedSlugs": ["webentwickler", "fachinformatiker", "grafikdesigner"]
+}

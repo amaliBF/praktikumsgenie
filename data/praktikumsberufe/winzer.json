@@ -1,0 +1,37 @@
+{
+  "slug": "winzer",
+  "name": "Winzer/in",
+  "category": "Natur & Landwirtschaft",
+  "categorySlug": "natur-landwirtschaft",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Winzer/in tauchst du in die faszinierende Welt des Weinbaus ein und erlebst, wie aus Trauben edler Wein entsteht. Du lernst die Arbeit im Weinberg kennen – vom Rebschnitt über die Laubarbeit bis zur Lese – und verfolgst den Weg der Trauben in den Weinkeller. Dabei erfahrst du, wie Boden, Klima und handwerkliches Können den Geschmack eines Weins beeinflussen. Das Praktikum zeigt dir, ob du die Verbindung von Natur, Tradition und Genusskultur faszinierend findest.",
+  "aufgaben": [
+    "Im Weinberg bei der Rebpflege und Laubarbeit helfen",
+    "Trauben kontrollieren und den Reifegrad beobachten",
+    "Bei der Weinlese und Traubenverarbeitung unterstützen",
+    "Weinfässer und Tanks reinigen und pflegen",
+    "Etikettieren und Abfüllen von Flaschen begleiten",
+    "An Weinverkostungen teilnehmen und Unterschiede schmecken lernen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Natur, Landwirtschaft und Genusskultur",
+    "Körperliche Fitness für Arbeit im Freien und in Hanglage",
+    "Geduld und Sorgfalt bei der Arbeit mit empfindlichen Pflanzen",
+    "Bereitschaft, bei jedem Wetter zu arbeiten"
+  ],
+  "wasManLernt": [
+    "Grundlagen des Weinbaus und der Rebsortenkunde",
+    "Wie Wein vom Weinberg bis in die Flasche entsteht",
+    "Den Einfluss von Boden und Klima auf den Weingeschmack",
+    "Traditionelle und moderne Kellertechniken",
+    "Saisonale Arbeitsabläufe im Weinbau"
+  ],
+  "tipps": [
+    "Informiere dich vorab über die Weinregion und typische Rebsorten",
+    "Trage robuste Kleidung und feste Schuhe für die Arbeit im Weinberg",
+    "Frage nach, ob du bei einer Weinprobe (Traubensaft) dabei sein darfst",
+    "Zeige Interesse an den Traditionen und der Geschichte des Weinguts"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["landwirt", "gaertner", "sommelier"]
+}

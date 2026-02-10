@@ -1,0 +1,37 @@
+{
+  "slug": "lokfuehrer",
+  "name": "Lokführer/in",
+  "category": "Logistik & Verkehr",
+  "categorySlug": "logistik-verkehr",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Lokführer/in bietet dir einen einzigartigen Blick hinter die Kulissen des Schienenverkehrs. Du erlebst, wie Züge vorbereitet, gesteuert und sicher ans Ziel gebracht werden. Dabei lernst du die Technik moderner Triebfahrzeuge kennen und erfährst, welche Signale und Regeln auf der Schiene gelten. Das Praktikum zeigt dir die Verantwortung und die Faszination, die mit dem Führen von Zügen verbunden sind.",
+  "aufgaben": [
+    "Lokführer bei der Fahrzeugvorbereitung und den Checks begleiten",
+    "Im Führerstand bei Fahrten zuschauen und Signale kennenlernen",
+    "Das Signalsystem und die Fahrplanregeln erklärt bekommen",
+    "Bei der Zugabfertigung am Bahnhof beobachtend teilnehmen",
+    "Sicherheitssysteme und Bremseinrichtungen kennenlernen",
+    "Die Leitstelle und Betriebszentrale besuchen"
+  ],
+  "voraussetzungen": [
+    "Technisches Interesse und Begeisterung für Züge",
+    "Hohes Verantwortungsbewusstsein und Konzentrationsfähigkeit",
+    "Bereitschaft für Schichtarbeit und unregelmäßige Zeiten",
+    "Gute Augen und schnelle Reaktionsfähigkeit"
+  ],
+  "wasManLernt": [
+    "Wie ein Zug technisch funktioniert und gesteuert wird",
+    "Das Signal- und Sicherheitssystem im Schienenverkehr",
+    "Fahrplanwesen und betriebliche Abläufe bei der Bahn",
+    "Die hohe Verantwortung für Passagiere und Güter",
+    "Zusammenarbeit zwischen Lokführern, Fahrdienstleitern und Werkstätten"
+  ],
+  "tipps": [
+    "Informiere dich vorab über die Grundlagen des Schienenverkehrs",
+    "Frage nach, ob du auch die Werkstatt und Leitstelle besichtigen darfst",
+    "Notiere dir die verschiedenen Signale und ihre Bedeutung",
+    "Sei pünktlich – bei der Bahn zählt jede Minute"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["eisenbahner", "berufskraftfahrer", "fluglotse"]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "koch",
+  "name": "Koch/Köchin",
+  "category": "Gastronomie & Hotel",
+  "categorySlug": "gastronomie-hotel",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Koch/Köchin lässt dich die Energie und Kreativität einer professionellen Küche hautnah erleben. Du arbeitest Seite an Seite mit erfahrenen Köchen und lernst, wie aus frischen Zutaten köstliche Gerichte entstehen. Dabei erlebst du den Zeitdruck während der Stoßzeiten und die Präzision, die beim Anrichten gefordert wird. Das Praktikum zeigt dir, ob du die Leidenschaft und Belastbarkeit für diesen kreativen Beruf mitbringst.",
+  "aufgaben": [
+    "Gemüse, Obst und andere Zutaten waschen, schälen und schneiden",
+    "Beim Anrichten und Garnieren von Tellern helfen",
+    "Einfache Beilagen und Salate unter Anleitung zubereiten",
+    "Auf Hygiene und Sauberkeit in der Küche achten",
+    "Warenlieferungen kontrollieren und einräumen",
+    "Kühltemperaturen und Haltbarkeitsdaten überprüfen"
+  ],
+  "voraussetzungen": [
+    "Freude am Kochen und Interesse an Lebensmitteln",
+    "Belastbarkeit und Teamfähigkeit unter Zeitdruck",
+    "Hygienebewusstsein und Sauberkeit",
+    "Kreativität beim Kombinieren von Geschmäckern"
+  ],
+  "wasManLernt": [
+    "Professionelle Schnitttechniken und Zubereitungsarten",
+    "Wie der Ablauf in einer Großküche organisiert ist",
+    "Grundlagen der Lebensmittelhygiene (HACCP)",
+    "Zusammenarbeit im Küchenteam unter Zeitdruck",
+    "Warenkunde und saisonale Zutaten"
+  ],
+  "tipps": [
+    "Trage festes Schuhwerk und bringe saubere Kleidung mit",
+    "Frage nach, ob du ein einfaches Gericht eigenständig zubereiten darfst",
+    "Beobachte die erfahrenen Köche bei Schnitttechniken genau",
+    "Sei pünktlich – in der Gastronomie zählt jede Minute"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["baecker", "konditor", "restaurantfachmann"]
+}

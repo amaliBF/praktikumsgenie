@@ -3,12 +3,17 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { ClipboardCheck, Menu, X } from 'lucide-react';
+import PortalSwitcher from './PortalSwitcher';
 
 const navLinks = [
+  { href: '/stellen', label: 'Stellen' },
+  { href: '/firmen', label: 'Firmen' },
   { href: '/praktikumsarten', label: 'Praktikumsarten' },
   { href: '/praktikum', label: 'Städte' },
   { href: '/ratgeber', label: 'Ratgeber' },
   { href: '/fuer-betriebe', label: 'Für Betriebe' },
+  { href: '/app', label: 'App' },
+  { href: '/berufsfinder', label: 'Berufsfinder' },
   { href: '/fuer-schueler', label: 'Für Schüler' },
   { href: '/preise', label: 'Preise' },
 ];
@@ -41,6 +46,7 @@ export default function Header() {
             </div>
 
             <div className="hidden lg:flex items-center gap-3">
+              <PortalSwitcher currentPortal="praktikum" />
               <Link
                 href="https://dashboard.genieportal.de/login"
                 className="text-sm font-medium text-gray-700 hover:text-rose-600 transition-colors"
@@ -76,6 +82,23 @@ export default function Header() {
                   >
                     {link.label}
                   </Link>
+                ))}
+                <hr className="my-2 border-rose-100" />
+                <div className="px-3 py-1.5 text-xs font-semibold text-gray-400 uppercase tracking-wider">Portale</div>
+                {[
+                  { name: 'Ausbildungsgenie', domain: 'ausbildungsgenie.de' },
+                  { name: 'Berufsgenie', domain: 'berufsgenie.de' },
+                  { name: 'Minijobgenie', domain: 'minijobgenie.de' },
+                  { name: 'Werkstudentengenie', domain: 'werkstudentengenie.de' },
+                ].map((p) => (
+                  <a
+                    key={p.domain}
+                    href={`https://${p.domain}`}
+                    className="text-sm text-gray-700 hover:text-rose-600 hover:bg-rose-50 px-3 py-2 rounded-lg transition-colors"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {p.name}
+                  </a>
                 ))}
                 <hr className="my-2 border-rose-100" />
                 <Link

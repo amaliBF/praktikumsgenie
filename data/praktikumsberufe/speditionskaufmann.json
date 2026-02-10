@@ -1,0 +1,37 @@
+{
+  "slug": "speditionskaufmann",
+  "name": "Speditionskaufmann/-frau",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Ein Praktikum als Speditionskaufmann/-frau führt dich in die faszinierende Welt der Logistik und des Gütertransports ein. Du erlebst, wie Transporte per LKW, Schiff, Bahn oder Flugzeug geplant und koordiniert werden. Dabei lernst du, welche Dokumente für nationale und internationale Sendungen benötigt werden und wie Frachtkosten kalkuliert werden. Das Praktikum gibt dir einen realistischen Eindruck davon, wie die globale Lieferkette funktioniert.",
+  "aufgaben": [
+    "Transportaufträge annehmen und in Systeme eingeben",
+    "Frachtdokumente und Lieferscheine vorbereiten",
+    "Sendungsverfolgung am Computer durchführen",
+    "Bei der Tourenplanung und Routenoptimierung unterstützen",
+    "Angebote verschiedener Transportunternehmen vergleichen",
+    "Zolldokumente und Versandpapiere kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Organisationstalent und Überblick bei komplexen Abläufen",
+    "Interesse an Logistik und internationalem Handel",
+    "Sorgfältiges Arbeiten mit Dokumenten und Zahlen",
+    "Gute Kommunikationsfähigkeit"
+  ],
+  "wasManLernt": [
+    "Wie internationale Transporte organisiert und abgewickelt werden",
+    "Grundlagen der Frachtkostenkalkulation",
+    "Umgang mit Speditionssoftware und Sendungsverfolgung",
+    "Bedeutung von Zollvorschriften und Transportdokumenten",
+    "Zusammenarbeit zwischen Speditionen, Frachtführern und Kunden"
+  ],
+  "tipps": [
+    "Informiere dich vorab über verschiedene Transportwege und ihre Vor- und Nachteile",
+    "Frage nach, ob du einen Disponenten bei der Tourenplanung begleiten darfst",
+    "Lerne die gängigen Abkürzungen in der Logistik kennen",
+    "Zeige Interesse an den internationalen Kunden und Routen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["grosshandelskaufmann", "fachlagerist", "berufskraftfahrer"]
+}

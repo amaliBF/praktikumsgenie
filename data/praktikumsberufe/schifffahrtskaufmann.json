@@ -1,0 +1,37 @@
+{
+  "slug": "schifffahrtskaufmann",
+  "name": "Schifffahrtskaufmann/-frau",
+  "category": "Logistik & Verkehr",
+  "categorySlug": "logistik-verkehr",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Schifffahrtskaufmann/-frau führt dich in die spannende Welt der Seeschifffahrt und des maritimen Handels ein. Du erlebst, wie Frachtschiffe beladen, Seefrachten kalkuliert und internationale Transportwege organisiert werden. Dabei lernst du die Besonderheiten des Seetransports kennen – von Containerverschiffung bis zur Hafenlogistik. Das Praktikum zeigt dir, ob dich die globale Welt des Seehandels und die Verbindung von Kaufmännischem und Maritimem fasziniert.",
+  "aufgaben": [
+    "Frachtdokumente und Konnossemente kennenlernen und bearbeiten",
+    "Seefrachtraten recherchieren und vergleichen",
+    "Schiffsabfertigungen und Hafenabläufe beobachten",
+    "Bei der Korrespondenz mit internationalen Partnern unterstützen",
+    "Containerladungen und Stauplanungen nachvollziehen",
+    "Zolldokumente für den Seehandel kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Interesse an internationaler Logistik und Seefahrt",
+    "Gute Englischkenntnisse für die internationale Kommunikation",
+    "Organisationstalent und Sorgfalt bei Dokumenten",
+    "Freude am Umgang mit verschiedenen Kulturen"
+  ],
+  "wasManLernt": [
+    "Wie internationale Seefracht organisiert und abgewickelt wird",
+    "Grundlagen der maritimen Logistik und Containerverkehr",
+    "Frachtdokumente und ihre Bedeutung im Seehandel",
+    "Die Rolle von Häfen in der globalen Lieferkette",
+    "Interkulturelle Kommunikation im internationalen Handel"
+  ],
+  "tipps": [
+    "Informiere dich vorab über die wichtigsten Seehäfen und Handelsrouten",
+    "Frage nach, ob du den Hafen oder ein Containerterminal besichtigen darfst",
+    "Lerne grundlegende Fachbegriffe der Seeschifffahrt auf Deutsch und Englisch",
+    "Zeige Interesse an den internationalen Geschäftsbeziehungen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["speditionskaufmann", "grosshandelskaufmann", "fluglotse"]
+}

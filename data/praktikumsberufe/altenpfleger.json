@@ -1,0 +1,37 @@
+{
+  "slug": "altenpfleger",
+  "name": "Altenpfleger/in",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Als Praktikant/in in der Altenpflege lernst du, ältere Menschen in ihrem Alltag liebevoll zu unterstützen und zu begleiten. Du erlebst, wie Pflegekräfte individuell auf die Bedürfnisse jedes Bewohners eingehen und ihnen Lebensqualität schenken. Dabei merkst du, wie bereichernd es sein kann, von den Lebenserfahrungen älterer Menschen zu lernen. Das Praktikum hilft dir zu entscheiden, ob du die Herzlichkeit und Geduld für diesen bedeutsamen Beruf aufbringst.",
+  "aufgaben": [
+    "Bewohner beim Frühstück und Mittagessen begleiten und helfen",
+    "Bei Freizeitaktivitäten wie Spielen und Vorlesen mitwirken",
+    "Spaziergänge mit Bewohnern im Garten begleiten",
+    "Bei der Grundpflege wie Waschen und Ankleiden unterstützen",
+    "Gemeinschaftsräume vorbereiten und aufräumen",
+    "Einfache Dokumentationsaufgaben übernehmen"
+  ],
+  "voraussetzungen": [
+    "Respekt und Geduld im Umgang mit älteren Menschen",
+    "Einfühlungsvermögen und emotionale Stabilität",
+    "Keine Berührungsängste",
+    "Freundliches und zugewandtes Auftreten"
+  ],
+  "wasManLernt": [
+    "Wie Altenpflegeeinrichtungen organisiert und strukturiert sind",
+    "Grundlagen der pflegerischen Versorgung älterer Menschen",
+    "Wie man mit Demenz und altersbedingten Einschränkungen umgeht",
+    "Die Bedeutung von sozialer Teilhabe und Aktivierung",
+    "Wie Pflegedokumentation funktioniert"
+  ],
+  "tipps": [
+    "Gehe offen und vorurteilsfrei auf die Bewohner zu",
+    "Höre aufmerksam zu, wenn ältere Menschen Geschichten erzählen",
+    "Frage das Pflegeteam, wie du am besten helfen kannst",
+    "Bereite dich darauf vor, auch mit Abschied und Trauer konfrontiert zu werden"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["krankenpfleger", "erzieher", "sozialpaedagoge"]
+}

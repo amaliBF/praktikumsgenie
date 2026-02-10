@@ -1,0 +1,37 @@
+{
+  "slug": "apotheker",
+  "name": "Pharmazeutisch-kaufmännische/r Angestellte/r",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum in der Apotheke erlebst du die spannende Verbindung von Gesundheitswissen und Kundenberatung. Du lernst, wie Medikamente gelagert, ausgegeben und erklärt werden, und beobachtest, wie individuelle Rezepturen hergestellt werden. Dabei siehst du, wie viel pharmazeutisches Fachwissen hinter dem Apothekentresen steckt. Das Praktikum zeigt dir, ob du Interesse an Naturwissenschaften und Freude an der Beratung von Menschen hast.",
+  "aufgaben": [
+    "Regale auffüllen und Medikamentenbestand prüfen",
+    "Bei der Herstellung einfacher Rezepturen zusehen",
+    "Kunden bei der Warenausgabe freundlich bedienen helfen",
+    "Warenannahme und Lieferungen kontrollieren und einsortieren",
+    "Preise auszeichnen und Schaufenster gestalten helfen",
+    "Die Organisation des Warenlagers kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Naturwissenschaften, besonders Chemie und Biologie",
+    "Sorgfältigkeit und Verantwortungsbewusstsein",
+    "Freundliches und hilfsbereites Auftreten",
+    "Diskretion im Umgang mit Kundeninformationen"
+  ],
+  "wasManLernt": [
+    "Wie eine Apotheke organisiert und geführt wird",
+    "Grundlagen über Arzneimittel und ihre Wirkungsweisen",
+    "Den verantwortungsvollen Umgang mit Medikamenten",
+    "Wie Kundenberatung in der Apotheke funktioniert",
+    "Kaufmännische Abläufe im Gesundheitswesen"
+  ],
+  "tipps": [
+    "Kleide dich gepflegt und ordentlich",
+    "Informiere dich vorab über gängige Medikamente wie Schmerzmittel",
+    "Achte auf Diskretion bei Kundengesprächen",
+    "Frage nach, ob du beim Herstellen einer Salbe oder Creme zusehen darfst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["zahnarzthelfer", "krankenpfleger", "einzelhandelskaufmann"]
+}

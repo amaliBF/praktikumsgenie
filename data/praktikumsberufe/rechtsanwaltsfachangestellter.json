@@ -1,0 +1,37 @@
+{
+  "slug": "rechtsanwaltsfachangestellter",
+  "name": "Rechtsanwaltsfachangestellte/r",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Rechtsanwaltsfachangestellte/r erlebst du den Arbeitsalltag in einer Anwaltskanzlei und lernst, wie juristische Fälle organisiert und bearbeitet werden. Du siehst, wie Schriftsätze verfasst, Fristen überwacht und Mandantengespräche vorbereitet werden. Dabei bekommst du einen Einblick in verschiedene Rechtsgebiete und die Bedeutung von Vertraulichkeit und Genauigkeit. Das Praktikum zeigt dir, ob dich die Arbeit an der Schnittstelle von Recht und Organisation fasziniert.",
+  "aufgaben": [
+    "Post bearbeiten, sortieren und den richtigen Akten zuordnen",
+    "Fristen und Termine in den Kalender eintragen und überwachen",
+    "Schriftsätze und Briefe nach Diktat oder Vorlage tippen",
+    "Akten anlegen und in der Kanzleisoftware pflegen",
+    "Mandanten am Telefon und Empfang freundlich betreuen",
+    "Gerichtstermine vorbereiten und Unterlagen zusammenstellen"
+  ],
+  "voraussetzungen": [
+    "Sorgfalt und Genauigkeit beim Umgang mit Dokumenten",
+    "Gute Deutschkenntnisse und Ausdrucksfähigkeit",
+    "Verschwiegenheit und Vertrauenswürdigkeit",
+    "Organisationstalent und strukturiertes Arbeiten"
+  ],
+  "wasManLernt": [
+    "Wie eine Anwaltskanzlei organisiert ist und funktioniert",
+    "Grundlagen des Fristenmanagements und der Aktenführung",
+    "Den Ablauf eines Rechtsstreits von der Klage bis zum Urteil",
+    "Professionelle Mandantenkommunikation",
+    "Umgang mit Kanzleisoftware und juristischen Dokumenten"
+  ],
+  "tipps": [
+    "Kleide dich gepflegt und seriös für die Kanzleiumgebung",
+    "Frage nach, ob du bei einem Gerichtstermin dabei sein darfst",
+    "Achte besonders auf die Vertraulichkeit aller Informationen",
+    "Informiere dich vorab über grundlegende Rechtsbegriffe"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["justizfachangestellter", "notarfachangestellter", "verwaltungsfachangestellter"]
+}

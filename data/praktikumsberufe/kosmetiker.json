@@ -1,0 +1,37 @@
+{
+  "slug": "kosmetiker",
+  "name": "Kosmetiker/in",
+  "category": "Kreativ & Design",
+  "categorySlug": "kreativ-design",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Kosmetiker/in tauchst du in die Welt der Schönheitspflege und des Wohlbefindens ein. Du erlebst, wie professionelle Gesichtsbehandlungen, Maniküren und Hautpflege-Beratungen durchgeführt werden und welche Produkte für verschiedene Hauttypen geeignet sind. Dabei lernst du die Bedeutung von Hygiene, Kundenkommunikation und ästhetischem Arbeiten kennen. Das Praktikum zeigt dir, ob du die Einfühlsamkeit und das Interesse an Schönheitspflege für diesen Beruf mitbringst.",
+  "aufgaben": [
+    "Behandlungsräume vorbereiten und hygienisch sauber halten",
+    "Bei Gesichtsbehandlungen und Hautanalysen zuschauen",
+    "Produkte und Pflegeutensilien sortieren und bereitstellen",
+    "Kundenberatung zu Hautpflege und Produkten beobachten",
+    "Einfache Hand- und Nagelpflege unter Anleitung durchführen",
+    "Termine koordinieren und den Empfang unterstützen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Schönheitspflege und Wellness",
+    "Einfühlungsvermögen und freundliches Auftreten",
+    "Sinn für Hygiene und gepflegtes Erscheinungsbild",
+    "Geschickte Hände und Aufmerksamkeit für Details"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Hautpflege und verschiedene Hauttypen",
+    "Wie professionelle kosmetische Behandlungen ablaufen",
+    "Hygieneanforderungen im Kosmetikbereich",
+    "Kundenberatung und Produktempfehlungen",
+    "Unterschiedliche Behandlungstechniken und Pflegeprodukte"
+  ],
+  "tipps": [
+    "Komme mit gepflegten, kurzen Fingernägeln zum Praktikum",
+    "Frage nach, ob du bei einer Behandlung assistieren darfst",
+    "Informiere dich vorab über gängige Inhaltsstoffe in Kosmetikprodukten",
+    "Beobachte, wie die Kosmetikerin auf individuelle Kundenwünsche eingeht"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["drogist", "florist", "modedesigner"]
+}

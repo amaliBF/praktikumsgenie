@@ -1,0 +1,37 @@
+{
+  "slug": "mechatroniker",
+  "name": "Mechatroniker/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als Mechatroniker/in erlebst du das spannende Zusammenspiel von Mechanik, Elektronik und Informatik. Du arbeitest an komplexen Maschinen und Anlagen, die alle drei Disziplinen vereinen, und verstehst, wie Roboter und automatisierte Systeme funktionieren. Dabei wird dir bewusst, wie zukunftsorientiert dieser Beruf ist. Das Praktikum zeigt dir, ob du in der Lage bist, technische Zusammenhänge zu durchdringen und vernetzt zu denken.",
+  "aufgaben": [
+    "Mechanische und elektronische Baugruppen zusammenbauen helfen",
+    "Sensoren und Aktoren kennenlernen und testen",
+    "Bei der Programmierung einfacher Steuerungen zusehen",
+    "Maschinen und Anlagen warten und reinigen helfen",
+    "Schaltpläne und technische Zeichnungen studieren",
+    "Fehlerdiagnose an mechatronischen Systemen begleiten"
+  ],
+  "voraussetzungen": [
+    "Breites technisches Interesse an Mechanik und Elektronik",
+    "Analytisches Denkvermögen",
+    "Feinmotorisches Geschick",
+    "Geduld bei der Fehlersuche in komplexen Systemen"
+  ],
+  "wasManLernt": [
+    "Wie Mechanik, Elektronik und Software in Maschinen zusammenwirken",
+    "Grundlagen der Steuerungs- und Regelungstechnik",
+    "Den Umgang mit Messgeräten und Diagnosewerkzeugen",
+    "Wie automatisierte Fertigungsanlagen funktionieren",
+    "Systematische Fehlersuche und Problemlösung"
+  ],
+  "tipps": [
+    "Informiere dich vorab über die Grundlagen von Mechanik und Elektrik",
+    "Frage, ob du an einem Roboter oder einer Steuerung üben darfst",
+    "Mache dir Notizen zu den verschiedenen Systemen, die du kennenlernst",
+    "Zeige dich vielseitig interessiert - der Beruf verbindet viele Bereiche"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["kfz-mechatroniker", "elektroniker", "feinwerkmechaniker"]
+}

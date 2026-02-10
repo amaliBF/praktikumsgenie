@@ -1,0 +1,37 @@
+{
+  "slug": "fachlagerist",
+  "name": "Fachlagerist/in",
+  "category": "Logistik & Verkehr",
+  "categorySlug": "logistik-verkehr",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Fachlagerist/in gibt dir einen umfassenden Einblick in die Welt der Lagerlogistik, wo Waren angenommen, gelagert und für den Versand vorbereitet werden. Du erlebst den Pulsschlag eines modernen Lagers mit Hochregalen, Scannern und Fördertechnik. Dabei lernst du, wie Ordnung und System dafür sorgen, dass jede Bestellung rechtzeitig den Kunden erreicht. Das Praktikum zeigt dir, ob du die Übersicht und das organisatorische Talent für die Logistikbranche mitbringst.",
+  "aufgaben": [
+    "Warenannahme begleiten und Lieferscheine prüfen",
+    "Pakete und Waren kommissionieren und verpacken",
+    "Lagerbestände kontrollieren und Regale auffüllen",
+    "Mit Handscannern und Lagerverwaltungssystemen arbeiten",
+    "Waren für den Versand vorbereiten und kennzeichnen",
+    "Bei der Inventur und Bestandsaufnahme helfen"
+  ],
+  "voraussetzungen": [
+    "Organisationstalent und Ordnungssinn",
+    "Körperliche Fitness für das Arbeiten im Lager",
+    "Sorgfalt und Genauigkeit beim Umgang mit Waren",
+    "Teamfähigkeit und Zuverlässigkeit"
+  ],
+  "wasManLernt": [
+    "Wie ein modernes Lager organisiert und verwaltet wird",
+    "Grundlagen der Kommissionierung und Verpackung",
+    "Umgang mit Lagerverwaltungssystemen und Scannern",
+    "Qualitätskontrolle bei Warenein- und -ausgang",
+    "Arbeitssicherheit und Ergonomie im Lager"
+  ],
+  "tipps": [
+    "Trage Sicherheitsschuhe und bequeme Arbeitskleidung",
+    "Frage nach, ob du einen Kommissionierauftrag eigenständig bearbeiten darfst",
+    "Beobachte, wie die Lagerfachkräfte den Überblick behalten",
+    "Zeige Initiative beim Ordnung halten – das wird im Lager besonders geschätzt"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["grosshandelskaufmann", "speditionskaufmann", "berufskraftfahrer"]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "verwaltungsfachangestellter",
+  "name": "Verwaltungsfachangestellte/r",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Ein Praktikum als Verwaltungsfachangestellte/r gibt dir einen umfassenden Einblick in die Arbeit von Behörden und öffentlichen Einrichtungen. Du erlebst, wie Bürgeranliegen bearbeitet, Bescheide erstellt und Verwaltungsvorschriften angewendet werden. Dabei lernst du verschiedene Abteilungen einer Stadtverwaltung oder Behörde kennen – vom Einwohnermeldeamt bis zum Sozialamt. Das Praktikum zeigt dir, ob du die Sorgfalt und das Interesse am Gemeinwohl für den öffentlichen Dienst mitbringst.",
+  "aufgaben": [
+    "Anträge und Formulare von Bürgern entgegennehmen und prüfen",
+    "Bei der Erfassung von Daten in Verwaltungssysteme helfen",
+    "Akten anlegen, sortieren und archivieren",
+    "Schriftverkehr und Bescheide unter Anleitung vorbereiten",
+    "Bürger am Empfang oder Telefon freundlich weiterleiten",
+    "Verschiedene Abteilungen einer Behörde kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Sorgfalt und Genauigkeit bei der Arbeit mit Dokumenten",
+    "Freundliches und hilfsbereites Auftreten gegenüber Bürgern",
+    "Interesse an Recht und gesellschaftlichen Zusammenhängen",
+    "Gute Deutschkenntnisse in Wort und Schrift"
+  ],
+  "wasManLernt": [
+    "Wie eine öffentliche Verwaltung organisiert ist und funktioniert",
+    "Grundlagen des Verwaltungsrechts und der Antragbearbeitung",
+    "Umgang mit Verwaltungssoftware und Aktenführung",
+    "Bürgerkommunikation und Serviceorientierung im öffentlichen Dienst",
+    "Verschiedene Aufgabenbereiche einer Kommune oder Behörde"
+  ],
+  "tipps": [
+    "Frage nach, ob du in verschiedenen Abteilungen hospitieren darfst",
+    "Beobachte, wie erfahrene Mitarbeiter mit Bürgeranfragen umgehen",
+    "Informiere dich vorab über die Aufgaben deiner Praktikumsbehörde",
+    "Kleide dich angemessen und trete freundlich auf"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["rechtsanwaltsfachangestellter", "justizfachangestellter", "finanzbeamter"]
+}

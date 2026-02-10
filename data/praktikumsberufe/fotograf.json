@@ -1,0 +1,37 @@
+{
+  "slug": "fotograf",
+  "name": "Fotograf/in",
+  "category": "IT & Medien",
+  "categorySlug": "it-medien",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Fotograf/in lässt dich die Welt durch die Linse einer professionellen Kamera erleben. Du begleitest Shootings, lernst verschiedene Belichtungstechniken und erlebst, wie aus Rohdaten beeindruckende Bilder entstehen. Ob Porträt, Produkt oder Event - du siehst, wie vielfältig der Fotografenalltag wirklich ist. Dabei entwickelst du ein Gespür dafür, wie man Momente und Stimmungen einfängt.",
+  "aufgaben": [
+    "Bei Fotoshootings assistieren und Requisiten vorbereiten",
+    "Eigene Fotos unter Anleitung aufnehmen",
+    "Bilder am Computer nachbearbeiten und sortieren",
+    "Beleuchtung und Hintergründe für Aufnahmen aufbauen",
+    "Equipment pflegen und für Einsätze vorbereiten",
+    "Bildauswahl für Kunden oder Projekte unterstützen"
+  ],
+  "voraussetzungen": [
+    "Begeisterung für Fotografie und visuelle Gestaltung",
+    "Gutes Auge für Motive, Licht und Farben",
+    "Geduld und Ausdauer, auch bei längeren Shootings",
+    "Zuverlässigkeit im Umgang mit teurem Equipment"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Bildkomposition und Belichtung",
+    "Wie professionelle Bildbearbeitung funktioniert",
+    "Den Umgang mit verschiedenen Kameratypen und Objektiven",
+    "Wie man mit Models und Kunden kommuniziert",
+    "Organisation und Planung von Fotoprojekten"
+  ],
+  "tipps": [
+    "Bringe deine eigene Kamera oder dein Smartphone mit und fotografiere parallel",
+    "Erstelle vorab eine kleine Mappe mit deinen besten Bildern",
+    "Beobachte bewusst Lichtverhältnisse in deiner Umgebung",
+    "Frage nach, ob du Bilder für dein eigenes Portfolio verwenden darfst"
+  ],
+  "geeignetFuer": "Kreative Schüler ab Klasse 8",
+  "relatedSlugs": ["mediengestalter", "grafikdesigner", "veranstaltungstechniker"]
+}

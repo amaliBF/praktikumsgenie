@@ -1,0 +1,37 @@
+{
+  "slug": "versicherungskaufmann",
+  "name": "Versicherungskaufmann/-frau",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Versicherungskaufmann/-frau lernst du, wie Menschen und Unternehmen sich gegen Risiken absichern. Du beobachtest Beratungsgespräche, verstehst verschiedene Versicherungsarten und erlebst, wie Schadensfälle bearbeitet werden. Dabei wird dir klar, wie wichtig individuelle Beratung und Vertrauensaufbau in der Versicherungsbranche sind. Das Praktikum zeigt dir, ob du analytisch denken kannst und gerne berätst.",
+  "aufgaben": [
+    "Kundengespräche und Beratungstermine begleiten",
+    "Versicherungsanträge und Unterlagen sortieren und prüfen",
+    "Einfache Schadensmeldungen erfassen und dokumentieren",
+    "Bei der Erstellung von Versicherungsangeboten helfen",
+    "Kundendaten in Systeme eingeben und pflegen",
+    "Verschiedene Versicherungsprodukte kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Wirtschaft und Finanzen",
+    "Vertrauenswürdiges und seriöses Auftreten",
+    "Gute mündliche Ausdrucksfähigkeit",
+    "Analytisches Denkvermögen"
+  ],
+  "wasManLernt": [
+    "Welche verschiedenen Versicherungsarten es gibt und wofür sie da sind",
+    "Wie professionelle Versicherungsberatung abläuft",
+    "Den Prozess der Schadensbearbeitung von der Meldung bis zur Regulierung",
+    "Wie Risiken bewertet und Tarife berechnet werden",
+    "Grundlagen des Vertragsrechts im Versicherungswesen"
+  ],
+  "tipps": [
+    "Kleide dich professionell und gepflegt",
+    "Informiere dich vorab über die gängigsten Versicherungsarten",
+    "Achte auf Diskretion bei Kundendaten",
+    "Frage nach, wie sich die Branche durch Digitalisierung verändert"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["bankkaufmann", "immobilienkaufmann", "buerokaufmann"]
+}

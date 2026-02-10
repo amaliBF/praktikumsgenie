@@ -1,0 +1,41 @@
+{
+  "slug": "sozialpaedagoge",
+  "name": "Sozialpädagoge/Sozialpädagogin",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "2-4 Wochen",
+  "beschreibung": "Als Praktikant/in in der Sozialpädagogik lernst du, wie Menschen in schwierigen Lebenssituationen professionell begleitet und unterstützt werden. Du arbeitest in Jugendeinrichtungen, Beratungsstellen oder Wohngruppen und erlebst, wie wichtig soziale Arbeit für den Zusammenhalt unserer Gesellschaft ist. Dabei begegnest du unterschiedlichsten Lebensgeschichten und lernst, vorurteilsfrei und lösungsorientiert zu denken. Das Praktikum zeigt dir, ob du die Empathie und Belastbarkeit für die soziale Arbeit mitbringst.",
+  "aufgaben": [
+    "Freizeitangebote für Jugendliche mitplanen und durchführen",
+    "Beratungsgespräche als stiller Beobachter begleiten",
+    "Bei der Organisation von Gruppenaktivitäten helfen",
+    "Dokumentationen und Berichte vorbereiten helfen",
+    "Klienten bei alltäglichen Aufgaben unterstützen",
+    "An Team- und Fallbesprechungen teilnehmen"
+  ],
+  "voraussetzungen": [
+    "Großes Interesse an Menschen und sozialen Themen",
+    "Emotionale Stärke und Belastbarkeit",
+    "Respektvoller und vorurteilsfreier Umgang mit allen Menschen",
+    "Kommunikationsfähigkeit und gutes Zuhören"
+  ],
+  "wasManLernt": [
+    "Wie soziale Einrichtungen arbeiten und welche Hilfsangebote es gibt",
+    "Grundlagen der sozialpädagogischen Gesprächsführung",
+    "Den Umgang mit verschiedenen Zielgruppen und Lebenssituationen",
+    "Wie Netzwerkarbeit und Kooperation mit Behörden funktionieren",
+    "Die eigenen Grenzen erkennen und Selbstfürsorge praktizieren"
+  ],
+  "tipps": [
+    "Informiere dich vorab über die Einrichtung und ihre Zielgruppe",
+    "Wahre die Schweigepflicht über alles, was du erfährst",
+    "Reflektiere deine Erlebnisse abends in einem Tagebuch",
+    "Sprich offen mit deiner Betreuungsperson, wenn dich etwas belastet"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": [
+    "erzieher",
+    "altenpfleger",
+    "logopaede"
+  ]
+}

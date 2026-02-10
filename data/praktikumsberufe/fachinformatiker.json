@@ -1,0 +1,37 @@
+{
+  "slug": "fachinformatiker",
+  "name": "Fachinformatiker/in",
+  "category": "IT & Medien",
+  "categorySlug": "it-medien",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Ein Praktikum als Fachinformatiker/in gibt dir einen spannenden Einblick in die Welt der Softwareentwicklung und IT-Systeme. Du arbeitest direkt mit dem Entwicklerteam zusammen und erlebst, wie professionelle IT-Projekte ablaufen. Dabei lernst du verschiedene Programmiersprachen kennen und verstehst, wie Netzwerke und Server funktionieren. Das Praktikum zeigt dir, ob du technische Herausforderungen liebst und gerne logisch denkst.",
+  "aufgaben": [
+    "Einfache Programme und Skripte unter Anleitung schreiben",
+    "Bei der Einrichtung und Wartung von Computern und Netzwerken helfen",
+    "Fehler in Software und Hardware gemeinsam mit dem Team analysieren",
+    "Datenbanken kennenlernen und einfache Abfragen erstellen",
+    "An Teambesprechungen und Projektplanungen teilnehmen",
+    "IT-Dokumentationen lesen und verstehen lernen"
+  ],
+  "voraussetzungen": [
+    "Begeisterung für Computer und Technik",
+    "Logisches und strukturiertes Denkvermögen",
+    "Geduld beim Lösen kniffliger Probleme",
+    "Teamfähigkeit und Kommunikationsbereitschaft"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Programmierung und Softwareentwicklung",
+    "Wie IT-Systeme und Netzwerke in Unternehmen funktionieren",
+    "Systematisches Vorgehen bei der Fehlersuche",
+    "Zusammenarbeit in agilen Entwicklerteams",
+    "Umgang mit professionellen Entwicklungswerkzeugen"
+  ],
+  "tipps": [
+    "Installiere vorab eine Entwicklungsumgebung und probiere erste Tutorials aus",
+    "Stelle viele Fragen und scheue dich nicht, um Hilfe zu bitten",
+    "Führe ein Lerntagebuch, um neue Begriffe und Konzepte festzuhalten",
+    "Zeige Eigeninitiative und frage nach zusätzlichen Aufgaben"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9 mit Interesse an Computern",
+  "relatedSlugs": ["webentwickler", "it-systemelektroniker", "informatikkaufmann"]
+}

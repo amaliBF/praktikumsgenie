@@ -1,0 +1,37 @@
+{
+  "slug": "e-commerce-kaufmann",
+  "name": "E-Commerce-Kaufmann/-frau",
+  "category": "Kaufmännisch",
+  "categorySlug": "kaufmaennisch",
+  "dauer": "2-3 Wochen",
+  "beschreibung": "Im Praktikum als E-Commerce-Kaufmann/-frau erlebst du, wie der Online-Handel hinter den Kulissen funktioniert. Du lernst, wie Produkte in Onlineshops gepflegt, Bestellungen abgewickelt und Online-Marketingkampagnen gesteuert werden. Dabei siehst du, wie datengetrieben und dynamisch der digitale Handel arbeitet. Das Praktikum ist perfekt, wenn du dich für das Internet begeisterst und verstehen willst, wie aus Klicks Kunden werden.",
+  "aufgaben": [
+    "Produktdaten und Artikelbeschreibungen im Onlineshop pflegen",
+    "Bestellungen bearbeiten und den Versandprozess begleiten",
+    "Kundenbewertungen und Anfragen im Onlineshop beobachten",
+    "Bei der Analyse von Besucherzahlen und Verkaufsdaten helfen",
+    "Social-Media-Aktivitäten und Newsletter mitvorbereiten",
+    "Wettbewerber und Markttrends online recherchieren"
+  ],
+  "voraussetzungen": [
+    "Begeisterung für Online-Shopping und digitale Medien",
+    "Interesse an Marketing und Verkaufsstrategien",
+    "Grundlegendes technisches Verständnis",
+    "Analytisches Denken und Zahlenverständnis"
+  ],
+  "wasManLernt": [
+    "Wie ein Onlineshop technisch und organisatorisch funktioniert",
+    "Grundlagen des Online-Marketings und der Suchmaschinenoptimierung",
+    "Wie Bestellprozesse und Logistik im E-Commerce ablaufen",
+    "Den Umgang mit Shopsystemen und Analyse-Tools",
+    "Wie Kundenzufriedenheit und Conversion-Rate gemessen und verbessert werden"
+  ],
+  "tipps": [
+    "Schau dir vorher bekannte Onlineshops genau an und analysiere ihre Stärken",
+    "Mache dich mit Begriffen wie SEO, Conversion und KPI vertraut",
+    "Bringe eigene Ideen für Produktpräsentationen und Marketing ein",
+    "Frage nach den verschiedenen Vertriebskanälen und Plattformen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["einzelhandelskaufmann", "social-media-manager", "industriekaufmann"]
+}

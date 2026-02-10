@@ -1,0 +1,37 @@
+{
+  "slug": "barkeeper",
+  "name": "Barkeeper/in",
+  "category": "Gastronomie & Hotel",
+  "categorySlug": "gastronomie-hotel",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Barkeeper/in gibt dir einen spannenden Einblick in die Kunst der Getränkezubereitung und die lebendige Atmosphäre einer Bar oder eines Hotels. Du lernst, wie alkoholfreie Cocktails und Mixgetränke professionell zubereitet und ansprechend präsentiert werden. Dabei erlebst du den direkten Kontakt mit Gästen und die kreative Seite der Getränkekultur. Das Praktikum zeigt dir, ob du die Kommunikationsfreude und das Geschick für diesen geselligen Beruf mitbringst.",
+  "aufgaben": [
+    "Alkoholfreie Cocktails und Mixgetränke nach Rezept zubereiten",
+    "Gläser polieren und die Bar vorbereiten",
+    "Getränke ansprechend garnieren und servieren",
+    "Zutaten wie Früchte, Kräuter und Sirups vorbereiten",
+    "Kühlschränke und Bestände kontrollieren und auffüllen",
+    "Den Barbereich sauber halten und aufräumen"
+  ],
+  "voraussetzungen": [
+    "Kontaktfreude und ein offenes Auftreten",
+    "Kreativität bei der Gestaltung von Getränken",
+    "Geschicklichkeit und Auge-Hand-Koordination",
+    "Bereitschaft für Abend- und Wochenendarbeit"
+  ],
+  "wasManLernt": [
+    "Grundlagen der professionellen Getränkezubereitung",
+    "Verschiedene Gläserarten und ihre Verwendung",
+    "Wie man Gäste unterhält und berät",
+    "Warenkunde zu Säften, Sirups und Garnituren",
+    "Organisation und Sauberkeit hinter der Bar"
+  ],
+  "tipps": [
+    "Übe zu Hause ein paar alkoholfreie Cocktailrezepte",
+    "Frage nach, ob du einen eigenen Mocktail kreieren darfst",
+    "Beobachte, wie erfahrene Barkeeper mit Gästen kommunizieren",
+    "Trage dunkle, gepflegte Kleidung und bequeme Schuhe"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": ["restaurantfachmann", "hotelfachmann", "sommelier"]
+}

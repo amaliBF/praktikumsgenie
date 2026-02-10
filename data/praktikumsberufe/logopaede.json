@@ -1,0 +1,41 @@
+{
+  "slug": "logopaede",
+  "name": "Logopäde/Logopädin",
+  "category": "Gesundheit & Soziales",
+  "categorySlug": "gesundheit-soziales",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum in der Logopädie erlebst du, wie Menschen mit Sprach-, Sprech- und Schluckstörungen professionell behandelt werden. Du beobachtest Therapiesitzungen mit Kindern und Erwachsenen und lernst verschiedene Methoden kennen, die helfen, die Kommunikation zu verbessern. Dabei wird dir bewusst, wie grundlegend Sprache für das tägliche Leben und die soziale Teilhabe ist. Das Praktikum zeigt dir, ob du Geduld, Einfühlungsvermögen und Interesse an Sprache mitbringst.",
+  "aufgaben": [
+    "Therapiesitzungen mit Kindern und Erwachsenen beobachten",
+    "Therapiematerialien und Spiele vorbereiten und sortieren",
+    "Bei spielerischen Sprachübungen mit Kindern unterstützen",
+    "Behandlungsräume vorbereiten und aufräumen",
+    "Einfache Übungen zur Mundmotorik kennenlernen",
+    "Bei der Dokumentation von Therapieverläufen helfen"
+  ],
+  "voraussetzungen": [
+    "Geduld und Freude an der Arbeit mit Menschen",
+    "Interesse an Sprache und Kommunikation",
+    "Einfühlungsvermögen und aufmerksames Zuhören",
+    "Kreativität beim Finden von spielerischen Übungsideen"
+  ],
+  "wasManLernt": [
+    "Welche verschiedenen Sprach- und Sprechstörungen es gibt",
+    "Wie logopädische Therapien aufgebaut und durchgeführt werden",
+    "Den Zusammenhang zwischen Sprache, Hören und Motorik",
+    "Wie man Menschen verschiedener Altersgruppen therapeutisch begleitet",
+    "Grundlagen der Kommunikationsförderung"
+  ],
+  "tipps": [
+    "Beobachte genau, welche Methoden bei welchen Patienten eingesetzt werden",
+    "Sprich deutlich und langsam, besonders mit den Patienten",
+    "Frage nach den verschiedenen Störungsbildern und Therapieansätzen",
+    "Überlege dir kreative Spielideen, die du einbringen kannst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 9",
+  "relatedSlugs": [
+    "erzieher",
+    "physiotherapeut",
+    "sozialpaedagoge"
+  ]
+}

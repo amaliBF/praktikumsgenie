@@ -1,0 +1,37 @@
+{
+  "slug": "fluglotse",
+  "name": "Fluglotse/Fluglotsin",
+  "category": "Logistik & Verkehr",
+  "categorySlug": "logistik-verkehr",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Fluglotse/Fluglotsin erhältst du einen faszinierenden Einblick in die Flugsicherung und die Koordination des Luftverkehrs. Du erlebst, wie Flugzeuge sicher durch den Luftraum geleitet werden und welche hochkomplexen Systeme dabei zum Einsatz kommen. Dabei besuchst du den Tower oder ein Kontrollzentrum und lernst die enorme Verantwortung dieses Berufs kennen. Das Praktikum zeigt dir, ob du die Konzentrationsfähigkeit und Belastbarkeit für einen der anspruchsvollsten Berufe überhaupt mitbringst.",
+  "aufgaben": [
+    "Den Tower oder das Kontrollzentrum besichtigen und Abläufe beobachten",
+    "Fluglotsen bei der Arbeit über die Schulter schauen",
+    "Radarbildschirme und Kommunikationssysteme erklärt bekommen",
+    "An Simulatorübungen als Beobachter teilnehmen",
+    "Grundlagen der Flugnavigation und Luftraumstruktur kennenlernen",
+    "Briefings und Schichtübergaben beobachten"
+  ],
+  "voraussetzungen": [
+    "Hervorragende Konzentrationsfähigkeit und Belastbarkeit",
+    "Sehr gute Englischkenntnisse",
+    "Schnelle Auffassungsgabe und Entscheidungsfähigkeit",
+    "Räumliches Vorstellungsvermögen und Multitasking-Fähigkeit"
+  ],
+  "wasManLernt": [
+    "Wie die Flugsicherung den Luftverkehr koordiniert",
+    "Grundlagen der Luftraumstruktur und Flugnavigation",
+    "Die Technik hinter Radar- und Kommunikationssystemen",
+    "Welche Verantwortung Fluglotsen für die Sicherheit tragen",
+    "Kommunikation mit Piloten und internationale Standards"
+  ],
+  "tipps": [
+    "Frische deine Englischkenntnisse auf – die Fachsprache ist Englisch",
+    "Informiere dich vorab über Grundbegriffe der Luftfahrt",
+    "Stelle viele Fragen – die Fluglotsen erklären ihre Arbeit gerne",
+    "Bereite dich auf Sicherheitskontrollen am Flughafen vor"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 10",
+  "relatedSlugs": ["lokfuehrer", "eisenbahner", "schifffahrtskaufmann"]
+}

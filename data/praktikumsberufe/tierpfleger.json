@@ -1,0 +1,37 @@
+{
+  "slug": "tierpfleger",
+  "name": "Tierpfleger/in",
+  "category": "Natur & Landwirtschaft",
+  "categorySlug": "natur-landwirtschaft",
+  "dauer": "1-3 Wochen",
+  "beschreibung": "Im Praktikum als Tierpfleger/in kommst du Tieren ganz nah und lernst, was ihre artgerechte Haltung und Versorgung bedeutet. Ob im Zoo, Tierheim oder in einer Forschungseinrichtung – du erlebst den täglichen Rhythmus der Tierbetreuung von der Fütterung bis zur Gehegesäuberung. Dabei lernst du auch, Tierverhalten zu beobachten und Veränderungen zu erkennen. Das Praktikum zeigt dir, ob du die Verantwortung und auch die körperlich anspruchsvollen Aufgaben dieses Berufs bewältigen möchtest.",
+  "aufgaben": [
+    "Tiere füttern und Futter nach Ernährungsplänen zubereiten",
+    "Gehege, Käfige und Stallungen reinigen und pflegen",
+    "Tierverhalten beobachten und Auffälligkeiten notieren",
+    "Bei der Beschäftigung und dem Training von Tieren helfen",
+    "Wasser- und Futternäpfe säubern und auffüllen",
+    "Bei tierärztlichen Untersuchungen assistieren"
+  ],
+  "voraussetzungen": [
+    "Große Tierliebe und Verantwortungsbewusstsein",
+    "Körperliche Fitness und Bereitschaft für schmutzige Arbeit",
+    "Geduld und Ruhe im Umgang mit Tieren",
+    "Zuverlässigkeit auch an Wochenenden und Feiertagen"
+  ],
+  "wasManLernt": [
+    "Grundlagen der artgerechten Tierhaltung und Fütterung",
+    "Wie man Tierverhalten richtig deutet und dokumentiert",
+    "Hygienemaßnahmen in der Tierpflege",
+    "Verantwortung und Fürsorge für Lebewesen im Berufsalltag",
+    "Zusammenarbeit mit Tierärzten und anderen Fachkräften"
+  ],
+  "tipps": [
+    "Trage robuste, waschbare Kleidung, die schmutzig werden darf",
+    "Bewege dich ruhig und langsam in der Nähe der Tiere",
+    "Frage nach, welche Tiere du unter Aufsicht füttern oder pflegen darfst",
+    "Führe ein Beobachtungstagebuch über die Tiere, die du betreust"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["landwirt", "gaertner", "forstwirt"]
+}

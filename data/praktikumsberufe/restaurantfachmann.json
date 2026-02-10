@@ -1,0 +1,37 @@
+{
+  "slug": "restaurantfachmann",
+  "name": "Restaurantfachmann/-frau",
+  "category": "Gastronomie & Hotel",
+  "categorySlug": "gastronomie-hotel",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Restaurantfachmann/-frau zeigt dir, wie professioneller Service in der Gastronomie aussieht. Du lernst, wie Tische eingedeckt werden, Speisen und Getränke serviert werden und wie man auf die Wünsche der Gäste eingeht. Dabei erlebst du den Rhythmus eines Restaurantbetriebs vom Mise en Place bis zum Feierabend. Das Praktikum ist ideal, um herauszufinden, ob du Freude an Gastfreundschaft und Kundenkontakt hast.",
+  "aufgaben": [
+    "Tische fachgerecht eindecken und dekorieren",
+    "Gäste begrüßen und zu ihren Plätzen begleiten",
+    "Speisen und Getränke servieren und abräumen",
+    "Bei der Vorbereitung des Gastraums (Mise en Place) helfen",
+    "Speisekarten kennenlernen und Gästefragen beantworten",
+    "Abrechnungen und Kassenvorgänge beobachten"
+  ],
+  "voraussetzungen": [
+    "Kontaktfreude und freundliches Auftreten",
+    "Geschicklichkeit und ein gutes Gleichgewichtsgefühl",
+    "Bereitschaft für Arbeit am Abend und am Wochenende",
+    "Gutes Gedächtnis und Aufmerksamkeit für Details"
+  ],
+  "wasManLernt": [
+    "Professionelle Servicetechniken und Tischkultur",
+    "Wie Gästebetreuung auf hohem Niveau funktioniert",
+    "Grundlagen der Getränke- und Speisekunde",
+    "Umgang mit Beschwerden und besonderen Gästewünschen",
+    "Teamarbeit zwischen Küche und Service"
+  ],
+  "tipps": [
+    "Trage gepflegte, dunkle Kleidung und bequeme Schuhe",
+    "Übe vorher, wie man ein Tablett sicher trägt",
+    "Merke dir die Gerichte auf der Speisekarte – das beeindruckt",
+    "Bleibe auch in stressigen Momenten freundlich und gelassen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["hotelfachmann", "barkeeper", "koch"]
+}

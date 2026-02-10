@@ -1,0 +1,37 @@
+{
+  "slug": "schreiner",
+  "name": "Schreiner/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "1-3 Wochen",
+  "beschreibung": "Im Praktikum als Schreiner/in erlebst du traditionelles Holzhandwerk kombiniert mit modernen CNC-Technologien. Du fertigst unter Anleitung eigene Werkstücke an und siehst, wie individuelle Möbel und Innenausbauten maßgeschneidert entstehen. Der Duft von frisch gesägtem Holz und das Erfolgserlebnis eines fertigen Werkstücks machen dieses Praktikum besonders. Hier erkennst du, ob die kreative Arbeit mit Holz zu deinen Stärken passt.",
+  "aufgaben": [
+    "Holzteile nach Maß zusägen und zuschneiden helfen",
+    "Werkstücke schleifen und die Oberfläche veredeln",
+    "Bei der Montage von Schränken, Türen oder Fenstern unterstützen",
+    "CNC-gesteuerte Maschinen beobachten und Materialien zuführen",
+    "Holzverbindungen wie Dübel oder Zinken kennenlernen",
+    "Arbeitsplatz sauber halten und Späne entsorgen"
+  ],
+  "voraussetzungen": [
+    "Begeisterung für Holz und handwerkliches Arbeiten",
+    "Genaues und sorgfältiges Arbeiten",
+    "Räumliches Denkvermögen",
+    "Körperliche Belastbarkeit für stehende Tätigkeiten"
+  ],
+  "wasManLernt": [
+    "Traditionelle und moderne Holzbearbeitungstechniken",
+    "Wie maßgefertigte Möbel und Einrichtungen geplant werden",
+    "Den Umgang mit Hand- und Maschinenwerkzeugen",
+    "Verschiedene Holzverbindungsarten und ihre Anwendung",
+    "Wie Qualitätskontrolle in der Schreinerei funktioniert"
+  ],
+  "tipps": [
+    "Trage Sicherheitsschuhe und eng anliegende Kleidung",
+    "Bitte darum, verschiedene Holzarten anfassen und vergleichen zu dürfen",
+    "Halte die Sicherheitsregeln an Maschinen unbedingt ein",
+    "Frage, ob du ein eigenes kleines Projekt wie einen Stiftehalter anfertigen darfst"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["tischler", "zimmerer", "maler"]
+}

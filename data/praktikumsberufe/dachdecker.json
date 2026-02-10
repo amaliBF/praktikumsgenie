@@ -1,0 +1,37 @@
+{
+  "slug": "dachdecker",
+  "name": "Dachdecker/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Ein Praktikum als Dachdecker/in bringt dich buchstäblich hoch hinaus und bietet dir einen einzigartigen Arbeitsplatz mit Aussicht. Du erlebst, wie Dächer eingedeckt, abgedichtet und gedämmt werden, und lernst die verschiedenen Materialien und Techniken kennen. Dabei spürst du, wie wichtig Teamarbeit und gegenseitiges Vertrauen in luftiger Höhe sind. Das Praktikum zeigt dir, ob du schwindelfrei bist und Spaß an der Arbeit im Freien hast.",
+  "aufgaben": [
+    "Dachziegel und Baumaterialien auf die Baustelle transportieren helfen",
+    "Beim Verlegen von Dachziegeln und Dachsteinen zusehen und anreichen",
+    "Dachlatten und Unterspannbahnen vorbereiten helfen",
+    "Dachrinnen und Bleche montieren helfen",
+    "Werkzeug und Material auf der Baustelle ordnen",
+    "Einfache Abdichtungsarbeiten unter Anleitung durchführen"
+  ],
+  "voraussetzungen": [
+    "Absolute Schwindelfreiheit und Trittsicherheit",
+    "Körperliche Fitness und Wetterfestigkeit",
+    "Zuverlässigkeit und Verantwortungsbewusstsein",
+    "Bereitschaft zur Arbeit im Freien bei jedem Wetter"
+  ],
+  "wasManLernt": [
+    "Wie verschiedene Dachkonstruktionen aufgebaut sind",
+    "Grundlagen der Dacheindeckung und Abdichtung",
+    "Den sicheren Umgang mit Leitern und Gerüsten",
+    "Teamarbeit und Kommunikation auf der Baustelle",
+    "Warum Wärmedämmung und Energieeffizienz bei Dächern wichtig sind"
+  ],
+  "tipps": [
+    "Teste vorab ehrlich, ob du schwindelfrei bist",
+    "Trage wetterfeste Kleidung und rutschfeste Schuhe",
+    "Nimm ausreichend Wasser und Sonnenschutz mit",
+    "Halte dich immer an die Sicherheitsanweisungen auf dem Dach"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["zimmerer", "maurer", "klempner"]
+}

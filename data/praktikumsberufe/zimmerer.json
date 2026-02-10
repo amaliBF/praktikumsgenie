@@ -1,0 +1,37 @@
+{
+  "slug": "zimmerer",
+  "name": "Zimmerer/Zimmerin",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Zimmerer/Zimmerin erlebst du eines der ältesten Handwerke der Welt und siehst, wie aus massiven Holzbalken tragende Konstruktionen entstehen. Du arbeitest auf Baustellen und in der Werkstatt und lernst, wie Dachstühle, Holzhäuser und Balkone gebaut werden. Die Verbindung von Tradition und modernem Holzbau macht dieses Praktikum besonders faszinierend. Hier findest du heraus, ob du die Kraft und Leidenschaft für dieses uralte Handwerk mitbringst.",
+  "aufgaben": [
+    "Holzbalken und Bretter tragen und sortieren helfen",
+    "Beim Aufstellen von Holzkonstruktionen assistieren",
+    "Holzverbindungen wie Zapfen und Versätze beobachten",
+    "Einfache Abbundarbeiten unter Anleitung durchführen",
+    "Werkzeuge wie Zimmermannsaxt und Stechbeitel kennenlernen",
+    "Bei der Montage von Dachstühlen auf Baustellen helfen"
+  ],
+  "voraussetzungen": [
+    "Körperliche Fitness und Kraft",
+    "Schwindelfreiheit für Arbeiten in der Höhe",
+    "Freude an der Arbeit im Freien",
+    "Teamfähigkeit und Zuverlässigkeit"
+  ],
+  "wasManLernt": [
+    "Wie Holzkonstruktionen berechnet und aufgebaut werden",
+    "Traditionelle und moderne Holzverbindungstechniken",
+    "Den Umgang mit zimmermannsüblichen Werkzeugen",
+    "Grundlagen des Holzbaus und der Statik",
+    "Wie Teamarbeit auf der Baustelle organisiert wird"
+  ],
+  "tipps": [
+    "Mache dich auf körperlich anstrengende Arbeit gefasst",
+    "Trage Arbeitshandschuhe und einen Helm auf der Baustelle",
+    "Frage nach den verschiedenen Holzverbindungsarten",
+    "Beobachte, wie die erfahrenen Zimmerleute ihr Holz auswählen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["tischler", "dachdecker", "maurer"]
+}

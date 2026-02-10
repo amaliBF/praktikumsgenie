@@ -1,0 +1,37 @@
+{
+  "slug": "fachmann-systemgastronomie",
+  "name": "Fachmann/-frau für Systemgastronomie",
+  "category": "Gastronomie & Hotel",
+  "categorySlug": "gastronomie-hotel",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Fachmann/-frau für Systemgastronomie lernst du, wie große Restaurantketten und Gastronomiebetriebe mit standardisierten Abläufen funktionieren. Du erlebst, wie Qualität, Service und Effizienz in der Systemgastronomie Hand in Hand gehen. Dabei durchläufst du verschiedene Stationen von der Küche über die Kasse bis zum Gästebereich. Das Praktikum zeigt dir die kaufmännische Seite der Gastronomie mit ihren klaren Strukturen und Prozessen.",
+  "aufgaben": [
+    "Speisen nach standardisierten Rezepturen zubereiten",
+    "Gäste an der Theke oder Kasse bedienen",
+    "Qualitätskontrollen bei Speisen und Sauberkeit durchführen",
+    "Warenbestände prüfen und Nachbestellungen vorbereiten",
+    "Bei Schichtplanung und Organisation beobachtend teilnehmen",
+    "Hygienevorschriften und HACCP-Standards kennenlernen"
+  ],
+  "voraussetzungen": [
+    "Teamfähigkeit und Belastbarkeit in hektischen Situationen",
+    "Freude am Umgang mit Gästen und Kunden",
+    "Interesse an Organisation und betrieblichen Abläufen",
+    "Zuverlässigkeit und Pünktlichkeit"
+  ],
+  "wasManLernt": [
+    "Wie standardisierte Gastronomiekonzepte funktionieren",
+    "Grundlagen der Qualitätssicherung in der Gastronomie",
+    "Kassensysteme und Bestellabwicklung",
+    "Personalplanung und Schichtorganisation im Überblick",
+    "Hygiene- und Sicherheitsstandards in der Systemgastronomie"
+  ],
+  "tipps": [
+    "Sei offen für verschiedene Stationen – so lernst du am meisten",
+    "Frage nach den Qualitätsstandards und warum sie so wichtig sind",
+    "Beobachte, wie das Team auch in Stoßzeiten strukturiert arbeitet",
+    "Zeige Eigeninitiative beim Sauberhalten deines Arbeitsbereichs"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["koch", "restaurantfachmann", "hotelfachmann"]
+}

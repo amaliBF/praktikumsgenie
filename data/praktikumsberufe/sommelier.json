@@ -1,0 +1,37 @@
+{
+  "slug": "sommelier",
+  "name": "Sommelier/Sommelière",
+  "category": "Gastronomie & Hotel",
+  "categorySlug": "gastronomie-hotel",
+  "dauer": "1-2 Wochen",
+  "beschreibung": "Im Praktikum als Sommelier/Sommelière erhältst du einen exklusiven Einblick in die Welt des Weins und der gehobenen Gastronomie. Du lernst, wie Weinanbaugebiete, Rebsorten und Jahrgänge zusammenhängen und wie Weine zu verschiedenen Speisen empfohlen werden. Dabei begleitest du erfahrene Sommeliers bei der Weinberatung und erlebst, wie Verkostungen professionell durchgeführt werden. Das Praktikum zeigt dir, wie vielfältig und anspruchsvoll die Arbeit mit edlen Tropfen ist.",
+  "aufgaben": [
+    "Die Weinkarte studieren und Weinregionen kennenlernen",
+    "Bei Weinverkostungen als Beobachter teilnehmen",
+    "Weine fachgerecht temperieren und lagern helfen",
+    "Die Weinpräsentation am Tisch beobachten und dokumentieren",
+    "Gläser fachgerecht polieren und bereitstellen",
+    "Bei der Bestandskontrolle im Weinkeller unterstützen"
+  ],
+  "voraussetzungen": [
+    "Interesse an Genusskultur und Lebensmitteln",
+    "Guter Geruchs- und Geschmackssinn",
+    "Gepflegtes Auftreten und gute Umgangsformen",
+    "Lernbereitschaft und Aufmerksamkeit für Details"
+  ],
+  "wasManLernt": [
+    "Grundlagen der Weinanbaugebiete und Rebsorten",
+    "Wie professionelle Weinberatung in der Gastronomie funktioniert",
+    "Die richtige Lagerung und Temperierung von Weinen",
+    "Fachsprache und Etikette in der gehobenen Gastronomie",
+    "Zusammenspiel von Speisen und Getränken (Food Pairing)"
+  ],
+  "tipps": [
+    "Lies vorab etwas über die bekanntesten Weinregionen Deutschlands",
+    "Frage aktiv nach, warum bestimmte Weine zu bestimmten Gerichten passen",
+    "Führe ein Notizbuch über die verschiedenen Weine, die du kennenlernst",
+    "Zeige Interesse an der Geschichte und Kultur des Weins"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 10",
+  "relatedSlugs": ["barkeeper", "restaurantfachmann", "hotelfachmann"]
+}

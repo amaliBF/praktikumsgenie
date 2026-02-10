@@ -1,0 +1,37 @@
+{
+  "slug": "tischler",
+  "name": "Tischler/in",
+  "category": "Handwerk & Technik",
+  "categorySlug": "handwerk-technik",
+  "dauer": "1-3 Wochen",
+  "beschreibung": "Im Praktikum als Tischler/in arbeitest du mit dem natürlichen Werkstoff Holz und erlebst, wie aus einem rohen Brett ein fertiges Möbelstück entsteht. Du lernst den Umgang mit Handwerkzeugen und modernen Maschinen und spürst die Zufriedenheit, etwas mit deinen eigenen Händen geschaffen zu haben. In der Werkstatt erlebst du den typischen Tischleralltag mit Planung, Zuschnitt und Montage. Das Praktikum zeigt dir, ob du handwerkliches Talent und Freude an der Holzarbeit hast.",
+  "aufgaben": [
+    "Holz schleifen, hobeln und für die Verarbeitung vorbereiten",
+    "Einfache Werkstücke unter Anleitung anfertigen",
+    "Bei der Montage von Möbeln und Einbauten helfen",
+    "Maße nehmen und auf Werkstücke übertragen",
+    "Oberflächen behandeln durch Ölen, Lasieren oder Lackieren",
+    "Werkzeuge und Maschinen pflegen und die Werkstatt aufräumen"
+  ],
+  "voraussetzungen": [
+    "Freude an handwerklicher Arbeit mit Holz",
+    "Räumliches Vorstellungsvermögen",
+    "Sorgfalt und Genauigkeit beim Arbeiten",
+    "Körperliche Belastbarkeit"
+  ],
+  "wasManLernt": [
+    "Grundlegende Holzbearbeitungstechniken und den Umgang mit Werkzeugen",
+    "Wie man technische Zeichnungen liest und umsetzt",
+    "Verschiedene Holzarten und ihre Eigenschaften kennen",
+    "Wie ein Möbelstück von der Planung bis zur Fertigstellung entsteht",
+    "Sicherheitsregeln im Umgang mit Maschinen"
+  ],
+  "tipps": [
+    "Trage eng anliegende Kleidung und festes Schuhwerk in der Werkstatt",
+    "Frage nach, ob du ein kleines Werkstück als Erinnerung anfertigen darfst",
+    "Achte besonders auf die Sicherheitseinweisungen an den Maschinen",
+    "Zeige Interesse an den verschiedenen Holzarten und ihren Verwendungen"
+  ],
+  "geeignetFuer": "Schüler ab Klasse 8",
+  "relatedSlugs": ["schreiner", "zimmerer", "metallbauer"]
+}
