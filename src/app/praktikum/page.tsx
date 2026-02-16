@@ -174,10 +174,10 @@ export default function PraktikumStaedtePage() {
                   Alle Praktikumsarten ansehen
                 </Link>
                 <Link
-                  href="/#app-download"
+                  href="/app"
                   className="inline-flex items-center justify-center px-6 py-3 rounded-xl border-2 border-white text-white font-semibold hover:bg-white/10 transition-colors"
                 >
-                  App herunterladen
+                  App &ndash; Bald verf&uuml;gbar
                 </Link>
               </div>
             </div>

@@ -335,7 +335,7 @@ function StadtPage({ stadtSlug }: { stadtSlug: string }) {
               <h2 className="text-2xl font-bold mb-3">Jetzt Praktikumsplatz in {stadt.name} finden</h2>
               <p className="mb-6 text-white/90">Entdecke freie Praktikumsplätze und bewirb dich direkt über Praktikumsgenie.</p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                <Link href="/#app-download" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-white text-rose-600 font-semibold hover:bg-rose-50 transition-colors">App herunterladen</Link>
+                <Link href="/app" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-white text-rose-600 font-semibold hover:bg-rose-50 transition-colors">App &ndash; Bald verf&uuml;gbar</Link>
                 <Link href="/praktikum" className="inline-flex items-center justify-center px-6 py-3 rounded-xl border-2 border-white text-white font-semibold hover:bg-white/10 transition-colors">Alle Städte ansehen</Link>
               </div>
             </div>

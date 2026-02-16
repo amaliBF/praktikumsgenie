@@ -217,7 +217,7 @@ export default function FuerSchuelerPage() {
 
             <div className="max-w-4xl mx-auto">
               {[
-                { step: '1', icon: Smartphone, title: 'App downloaden', description: 'Lade die Praktikumsgenie App kostenlos herunter. Bald im App Store und bei Google Play.' },
+                { step: '1', icon: Smartphone, title: 'App downloaden', description: 'Die Praktikumsgenie App kommt bald! Kostenlos f\u00fcr iOS und Android.' },
                 { step: '2', icon: UserCircle, title: 'Profil in 2 Min erstellen', description: 'Interessen auswählen, Standort angeben – fertig. Kein Lebenslauf, keine Noten.' },
                 { step: '3', icon: Eye, title: 'Videos von Betrieben schauen', description: 'Scrolle durch Kurzvideos und sieh, wie der Arbeitsalltag bei verschiedenen Betrieben aussieht.' },
                 { step: '4', icon: Heart, title: 'Swipen & matchen', description: 'Gefällt dir ein Betrieb? Swipe nach rechts! Wenn der Betrieb dein Profil auch cool findet: Match!' },

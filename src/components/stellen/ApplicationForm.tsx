@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import AppNotifyForm from '@/components/AppNotifyForm';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://api.genieportal.de/v1';
 
@@ -41,20 +42,11 @@ export default function ApplicationForm({ jobId, jobTitle, companyName }: { jobI
 
   if (!config || !config.allowWebsiteApplication) {
     return (
-      <div className="bg-gradient-to-br from-rose-500 to-pink-600 rounded-2xl p-6 text-white">
-        <h3 className="font-bold text-lg">In der App bewerben</h3>
-        <p className="text-white/80 text-sm mt-2">
-          Lade die Genie-App und zeig dein Interesse mit einem Swipe!
-        </p>
-        <div className="flex flex-col gap-2 mt-4">
-          <a href="#" className="inline-flex items-center justify-center gap-2 bg-white text-rose-700 font-medium px-4 py-2.5 rounded-xl text-sm hover:bg-rose-50 transition-colors">
-            App Store
-          </a>
-          <a href="#" className="inline-flex items-center justify-center gap-2 bg-white/20 text-white font-medium px-4 py-2.5 rounded-xl text-sm hover:bg-white/30 transition-colors">
-            Google Play
-          </a>
-        </div>
-      </div>
+      <AppNotifyForm
+        variant="inline"
+        title="App kommt bald!"
+        description="Bald kannst du dich direkt in der Genie-App bewerben. Trag dich ein und erfahre als Erstes, wenn es losgeht."
+      />
     );
   }
 

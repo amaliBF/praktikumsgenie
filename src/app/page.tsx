@@ -173,7 +173,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Social Proof / Testimonial – Speech Bubble */}
+      {/* Social Proof / Testimonial – Speech Bubble (commented out – no real testimonials yet)
       <section className="py-20 bg-[#FFF5F6]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="discovery-quote">
@@ -194,6 +194,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      */}
 
       {/* How it Works – Pinboard Timeline */}
       <section id="how-it-works" className="py-24 bg-white">

@@ -209,10 +209,10 @@ export default function RatgeberArtikelPage({ params }: Props) {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link
-                  href="/#app-download"
+                  href="/app"
                   className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-white text-rose-600 font-semibold hover:bg-rose-50 transition-colors"
                 >
-                  App herunterladen
+                  App &ndash; Bald verf&uuml;gbar
                 </Link>
                 <Link
                   href="/ratgeber"
