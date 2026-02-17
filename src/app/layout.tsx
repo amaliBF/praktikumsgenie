@@ -48,12 +48,21 @@ export const metadata: Metadata = {
     siteName: 'Praktikumsgenie',
     locale: 'de_DE',
     type: 'website',
+    images: [
+      {
+        url: '/icon.svg',
+        width: 512,
+        height: 512,
+        alt: 'Praktikumsgenie Logo',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Praktikumsgenie – Finde dein Praktikum per Swipe',
     description:
       'Finde dein Praktikum per Swipe! Schülerpraktikum, Pflichtpraktikum, BOGY & BORS. Kurzvideos, Matching, KI-Berufsfinder. Kostenlos für Schüler.',
+    images: ['/icon.svg'],
   },
   robots: {
     index: true,

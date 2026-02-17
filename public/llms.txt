@@ -1,0 +1,43 @@
+# Praktikumsgenie
+
+> Die Plattform für Praktika. Finde dein Praktikum per Swipe-Matching, entdecke Betriebe per Kurzvideo und sammle erste Berufserfahrung.
+
+## Über uns
+
+Praktikumsgenie ist eine innovative Praktikumsplattform von Butterflies IT UG (haftungsbeschränkt) aus Schwerin, Deutschland. Die Plattform verbindet Schüler und Studierende mit Praktikumsbetrieben durch ein einzigartiges Swipe-Matching-System.
+
+## Hauptfunktionen
+
+- **Swipe-Matching**: Schüler und Betriebe finden zueinander durch intuitives Swipen
+- **Kurzvideos**: Betriebe stellen sich in TikTok-Style Kurzvideos vor
+- **KI-Berufsfinder**: Ein KI-gestützter Chat hilft bei der Berufsorientierung
+- **Direkt-Chat**: Direkter Kontakt zwischen Bewerbern und Betrieben
+- **Vergütungsübersicht**: Transparente Praktikumsvergütungen nach Branche
+
+## Zielgruppen
+
+- **Schüler & Studierende**: Finden kostenlos Praktikumsplätze (BOGY, BORS, Pflichtpraktikum, freiwilliges Praktikum)
+- **Praktikumsbetriebe**: Erreichen motivierte junge Menschen über innovative Kanäle
+
+## Verfügbare Inhalte
+
+- Praktikumsplätze nach Stadt (84 Städte in Deutschland)
+- Praktikumsberufe (80+ Berufsprofile)
+- Praktikumsarten (Schülerpraktikum, Pflichtpraktikum, BOGY, BORS, etc.)
+- Kombinationsseiten (Beruf in Stadt, 2.500+ Seiten)
+- Ratgeber-Artikel rund um Praktikum und Berufsorientierung
+- Vergütungsübersicht für Praktika
+- Firmenverzeichnis
+
+## Kontakt
+
+- Website: https://praktikumsgenie.de
+- E-Mail: praktikum@genieportal.de
+- Betreiber: Butterflies IT UG (haftungsbeschränkt), Hagenower Str. 73, 19061 Schwerin
+
+## Schwester-Portale
+
+- https://werkstudentengenie.de – Werkstudentenstellen
+- https://ausbildungsgenie.de – Ausbildungsplätze
+- https://berufsgenie.de – Jobs & Karriere
+- https://minijobgenie.de – Minijobs & Nebenjobs
