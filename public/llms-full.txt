@@ -1,0 +1,114 @@
+# Praktikumsgenie
+
+> Die Plattform fuer Praktika. Finde dein Praktikum per Swipe-Matching, entdecke Betriebe per Kurzvideo und sammle erste Berufserfahrung.
+
+## Ueber uns
+
+Praktikumsgenie ist eine innovative Praktikumsplattform von Butterflies IT UG (haftungsbeschraenkt) aus Schwerin, Deutschland. Die Plattform verbindet Schueler und Studierende mit Praktikumsbetrieben durch ein einzigartiges Swipe-Matching-System.
+
+## Hauptfunktionen
+
+- **Swipe-Matching**: Schueler und Betriebe finden zueinander durch intuitives Swipen
+- **Kurzvideos**: Betriebe stellen sich in TikTok-Style Kurzvideos vor
+- **KI-Berufsfinder**: Ein KI-gestuetzter Chat hilft bei der Berufsorientierung
+- **Direkt-Chat**: Direkter Kontakt zwischen Bewerbern und Betrieben
+- **Verguetungsuebersicht**: Transparente Praktikumsverguetungen nach Branche
+
+## Zielgruppen
+
+- **Schueler & Studierende**: Finden kostenlos Praktikumsplaetze (BOGY, BORS, Pflichtpraktikum, freiwilliges Praktikum)
+- **Praktikumsbetriebe**: Erreichen motivierte junge Menschen ueber innovative Kanaele
+
+## Verfuegbare Inhalte
+
+- Praktikumsplaetze nach Stadt (84 Staedte in Deutschland)
+- Praktikumsberufe (80+ Berufsprofile)
+- Praktikumsarten (Schuelerpraktikum, Pflichtpraktikum, BOGY, BORS, etc.)
+- Kombinationsseiten (Beruf in Stadt, 2.500+ Seiten)
+- Ratgeber-Artikel rund um Praktikum und Berufsorientierung
+- Verguetungsuebersicht fuer Praktika
+- Firmenverzeichnis
+
+## Seitenverzeichnis
+
+### Hauptseiten
+- https://praktikumsgenie.de/ -- Startseite mit Hero, Features, Testimonials und Berufsuebersicht
+- https://praktikumsgenie.de/praktikum -- Praktikumsplaetze nach Stadt finden (84 Staedte)
+- https://praktikumsgenie.de/praktikumsarten -- Uebersicht aller Praktikumsarten (5 Arten)
+- https://praktikumsgenie.de/praktikumsberufe -- Uebersicht aller Praktikumsberufe (80+ Berufsprofile)
+- https://praktikumsgenie.de/ratgeber -- Ratgeber-Artikel rund um Praktikum (42 Artikel)
+- https://praktikumsgenie.de/stellen -- Stellensuche mit Filter- und Suchfunktion
+- https://praktikumsgenie.de/firmen -- Firmenverzeichnis mit Unternehmensprofilen
+
+### Produkt & Features
+- https://praktikumsgenie.de/features -- Uebersicht aller Plattform-Features (Swipe, Video, Chat, KI)
+- https://praktikumsgenie.de/so-funktionierts -- Schritt-fuer-Schritt-Anleitung zur Nutzung
+- https://praktikumsgenie.de/vorteile -- Vorteile der Plattform gegenueber klassischen Jobboersen
+- https://praktikumsgenie.de/preise -- Preise und Pakete fuer Praktikumsbetriebe
+- https://praktikumsgenie.de/app -- Mobile App Download-Seite (iOS & Android)
+
+### Zielgruppen-Seiten
+- https://praktikumsgenie.de/fuer-betriebe -- Landingpage fuer Praktikumsbetriebe
+- https://praktikumsgenie.de/fuer-schueler -- Landingpage fuer Schueler und Praktikumssuchende
+
+### Tools
+- https://praktikumsgenie.de/berufsfinder -- KI-gestuetzter Berufsfinder-Chat zur Orientierung
+- https://praktikumsgenie.de/gehalt -- Verguetungsuebersicht fuer Praktika nach Branche
+
+### Kontakt & Rechtliches
+- https://praktikumsgenie.de/kontakt -- Kontaktformular
+- https://praktikumsgenie.de/impressum -- Impressum
+- https://praktikumsgenie.de/datenschutz -- Datenschutzerklaerung
+- https://praktikumsgenie.de/agb -- Allgemeine Geschaeftsbedingungen
+
+### Dynamische Inhalte
+- https://praktikumsgenie.de/praktikumsarten/[art] -- Detailseite fuer eine Praktikumsart (5 Arten: Schuelerpraktikum, BOGY/BORS, Pflichtpraktikum, Freiwilliges Praktikum, Schnupperpraktikum)
+- https://praktikumsgenie.de/praktikumsberufe/[beruf] -- Detailseite fuer einen Praktikumsberuf (80+ Berufe)
+- https://praktikumsgenie.de/praktikum/[stadt] -- Praktika in einer bestimmten Stadt (84 Staedte)
+- https://praktikumsgenie.de/praktikum/[beruf]-in-[stadt] -- Kombinationsseiten Beruf in Stadt (2.520 Seiten)
+- https://praktikumsgenie.de/ratgeber/[artikel] -- Einzelner Ratgeber-Artikel (42 Artikel)
+- https://praktikumsgenie.de/stellen/[slug] -- Einzelne Stellenanzeige
+- https://praktikumsgenie.de/firmen/[slug] -- Einzelnes Firmenprofil
+
+## Datenumfang
+
+- 84 Staedte in Deutschland mit eigenen Stadtseiten
+- 80+ Praktikumsberufe mit detaillierten Berufsprofilen (Aufgaben, Voraussetzungen, Tagesablauf)
+- 5 Praktikumsarten (Schuelerpraktikum, BOGY/BORS, Pflichtpraktikum, Freiwilliges Praktikum, Schnupperpraktikum)
+- 2.520 Kombinationsseiten (Top 30 Berufe x 84 Staedte)
+- 42 Ratgeber-Artikel zu Themen wie Bewerbung, Praktikumsbericht, Rechte, Verguetung und Berufsorientierung
+- Firmenverzeichnis mit Unternehmensprofilen
+- Dynamische Stellenangebote via API
+- Gesamt: ca. 2.750+ indexierte Seiten
+
+## API
+
+Die Plattform nutzt eine zentrale REST-API unter https://api.genieportal.de/v1 fuer:
+- Stellensuche und Stellendetails
+- Firmenverzeichnis und Firmenprofile
+- Autocomplete-Suche
+- Sitemap-Daten
+- Authentifizierung ueber auth.genieportal.de
+
+## Technische Details
+
+- **Framework**: Next.js 14 (App Router, TypeScript)
+- **Styling**: Tailwind CSS 3.4
+- **Rendering**: Server-Side Rendering (SSR) + Incremental Static Regeneration (ISR)
+- **SEO**: Dynamische Sitemap, JSON-LD (Organization, WebSite, WebApplication), OpenGraph, Twitter Cards
+- **Sprache**: Deutsch (lang="de")
+- **Auth**: Genie Auth SDK mit Login/Register Modals
+- **Hosting**: Plesk-Server (IONOS), Deutschland
+
+## Kontakt
+
+- Website: https://praktikumsgenie.de
+- E-Mail: praktikum@genieportal.de
+- Betreiber: Butterflies IT UG (haftungsbeschraenkt), Hagenower Str. 73, 19061 Schwerin
+
+## Schwester-Portale
+
+- https://werkstudentengenie.de -- Werkstudentenstellen
+- https://ausbildungsgenie.de -- Ausbildungsplaetze
+- https://berufsgenie.de -- Jobs & Karriere
+- https://minijobgenie.de -- Minijobs & Nebenjobs

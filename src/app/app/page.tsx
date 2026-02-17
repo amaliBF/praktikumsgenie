@@ -11,6 +11,7 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Die Genie App – Dein Praktikum per Swipe | Praktikumsgenie',
   description: 'Finde dein Traumpraktikum mit der Genie App. Swipe durch Video-Stellenanzeigen, chatte direkt mit Betrieben und nutze den KI-Berufsfinder. Kostenlos für iOS & Android.',
+  alternates: { canonical: '/app' },
   openGraph: {
     title: 'Die Genie App – Dein Praktikum per Swipe',
     description: 'Swipe durch Video-Stellenanzeigen, chatte direkt mit Betrieben und nutze den KI-Berufsfinder.',

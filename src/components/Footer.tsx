@@ -104,6 +104,8 @@ export default function Footer() {
               <li><Link href="/fuer-betriebe" className="hover:text-white transition-colors">Für Betriebe</Link></li>
               <li><Link href="/fuer-schueler" className="hover:text-white transition-colors">Für Schüler</Link></li>
               <li><Link href="/preise" className="hover:text-white transition-colors">Preise</Link></li>
+              <li><Link href="/gehalt" className="hover:text-white transition-colors">Gehalt</Link></li>
+              <li><Link href="/berufsfinder" className="hover:text-white transition-colors">Berufsfinder</Link></li>
               <li><Link href="/kontakt" className="hover:text-white transition-colors">Kontakt</Link></li>
               <li><a href="https://dashboard.genieportal.de/login" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors inline-flex items-center gap-1">Betriebe-Login <ExternalLink className="h-3 w-3" /></a></li>
             </ul>

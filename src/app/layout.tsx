@@ -50,10 +50,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/icon.svg',
-        width: 512,
-        height: 512,
-        alt: 'Praktikumsgenie Logo',
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'Praktikumsgenie – Finde dein Praktikum per Swipe',
       },
     ],
   },
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: 'Praktikumsgenie – Finde dein Praktikum per Swipe',
     description:
       'Finde dein Praktikum per Swipe! Schülerpraktikum, Pflichtpraktikum, BOGY & BORS. Kurzvideos, Matching, KI-Berufsfinder. Kostenlos für Schüler.',
-    images: ['/icon.svg'],
+    images: ['/opengraph-image'],
   },
   robots: {
     index: true,

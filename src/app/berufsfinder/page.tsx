@@ -285,6 +285,27 @@ export default function BerufsinderPage() {
         </div>
       </section>
 
+      {/* Related Topics */}
+      <section className="py-16 bg-[#FFF5F6]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Verwandte Themen</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href="/gehalt" className="group p-5 rounded-xl border border-gray-200 hover:border-rose-300 hover:shadow-md transition-all bg-white">
+              <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 mb-1">Gehaltsübersicht</h3>
+              <p className="text-sm text-gray-500">Was verdient man im Praktikum?</p>
+            </Link>
+            <Link href="/stellen" className="group p-5 rounded-xl border border-gray-200 hover:border-rose-300 hover:shadow-md transition-all bg-white">
+              <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 mb-1">Aktuelle Stellen</h3>
+              <p className="text-sm text-gray-500">Praktikumsplätze entdecken</p>
+            </Link>
+            <Link href="/berufe" className="group p-5 rounded-xl border border-gray-200 hover:border-rose-300 hover:shadow-md transition-all bg-white">
+              <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 mb-1">Berufe</h3>
+              <p className="text-sm text-gray-500">Praktikumsbereiche erkunden</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="relative py-20 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 overflow-hidden">
         <div className="absolute inset-0 confetti-dots opacity-10" />

@@ -93,6 +93,61 @@ export default function GehaltPage() {
     },
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Muss ein Pflichtpraktikum bezahlt werden?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Nein, bei einem Pflichtpraktikum (im Rahmen von Schule, Studium oder Ausbildung) besteht kein gesetzlicher Anspruch auf Vergütung oder Mindestlohn. Viele Unternehmen zahlen dennoch eine freiwillige Vergütung, die jedoch deutlich geringer ausfallen kann als bei freiwilligen Praktika.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Gilt der Mindestlohn im Praktikum?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Der gesetzliche Mindestlohn von 12,82 Euro pro Stunde gilt nur für freiwillige Praktika, die länger als 3 Monate dauern. Ausgenommen sind: Pflichtpraktika (Schule/Studium), freiwillige Praktika unter 3 Monaten und Einstiegsqualifizierungen. Bei Vollzeit (40 Stunden/Woche) entspricht der Mindestlohn ca. 2.220 Euro brutto pro Monat.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Was ist der Unterschied zwischen freiwilligem und Pflichtpraktikum?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Ein Pflichtpraktikum ist in der Studien- oder Prüfungsordnung vorgeschrieben und muss absolviert werden. Ein freiwilliges Praktikum wird aus eigenem Antrieb gemacht. Der wichtigste Unterschied: Beim freiwilligen Praktikum ab 3 Monaten gilt der Mindestlohn, beim Pflichtpraktikum nicht. Auch bei Sozialversicherung und Urlaubsanspruch gibt es Unterschiede.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Wie viel verdient man als Praktikant in der IT oder Beratung?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'In der IT und Unternehmensberatung gehören Praktikumsvergütungen zu den höchsten. IT-Praktikanten verdienen typischerweise 1.200 bis 2.000 Euro brutto pro Monat, in der Unternehmensberatung sind 1.500 bis 2.000 Euro üblich. Große Konzerne und Beratungshäuser zahlen oft am oberen Ende dieser Spanne.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Kann man im Praktikum Sozialversicherungsbeiträge sparen?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Bei einem Pflichtpraktikum bist du in der Regel sozialversicherungsfrei, unabhängig von der Vergütung. Bei einem freiwilligen Praktikum gelten die normalen Regeln: Bis 520 Euro monatlich ist es ein Minijob, darüber fallen Sozialversicherungsbeiträge an. Studierende profitieren ggf. vom Werkstudentenprivileg.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'In welchen Branchen sind Praktika häufig unbezahlt?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Unbezahlte Praktika kommen besonders häufig im NGO- und Non-Profit-Bereich, in Medien und Journalismus sowie in der Bildung und Forschung vor. Auch kurze Pflichtpraktika (unter 3 Monaten) sind in vielen Branchen oft unvergütet. Dagegen zahlen IT, Consulting, Banking und die Automobilindustrie fast immer eine Vergütung.',
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <Header />
@@ -104,6 +159,10 @@ export default function GehaltPage() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
 
         {/* Hero Section */}
@@ -442,6 +501,39 @@ export default function GehaltPage() {
                 . Alle Angaben sind Richtwerte und können je nach Branche, Unternehmen und
                 Praktikumsart abweichen. Stand: 2026.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Topics */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Verwandte Themen</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <Link href="/ratgeber" className="group p-5 rounded-xl border border-gray-200 hover:border-rose-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 mb-1">Ratgeber</h3>
+                <p className="text-sm text-gray-500">Tipps zu Bewerbung, Praktikum & mehr</p>
+              </Link>
+              <Link href="/praktikumsarten" className="group p-5 rounded-xl border border-gray-200 hover:border-rose-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 mb-1">Praktikumsarten</h3>
+                <p className="text-sm text-gray-500">Pflichtpraktikum, freiwillig & mehr</p>
+              </Link>
+              <Link href="/berufsfinder" className="group p-5 rounded-xl border border-gray-200 hover:border-rose-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 mb-1">KI-Berufsfinder</h3>
+                <p className="text-sm text-gray-500">Finde das passende Praktikum mit KI</p>
+              </Link>
+              <Link href="/stellen" className="group p-5 rounded-xl border border-gray-200 hover:border-rose-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 mb-1">Aktuelle Stellen</h3>
+                <p className="text-sm text-gray-500">Offene Praktikumsplätze finden</p>
+              </Link>
+              <Link href="/vorteile" className="group p-5 rounded-xl border border-gray-200 hover:border-rose-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 mb-1">Vorteile</h3>
+                <p className="text-sm text-gray-500">Warum Praktikumsgenie nutzen?</p>
+              </Link>
+              <Link href="/so-funktionierts" className="group p-5 rounded-xl border border-gray-200 hover:border-rose-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 mb-1">So funktioniert&apos;s</h3>
+                <p className="text-sm text-gray-500">Praktikumsgenie Schritt für Schritt</p>
+              </Link>
             </div>
           </div>
         </section>
