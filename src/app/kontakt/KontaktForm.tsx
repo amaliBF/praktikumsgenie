@@ -21,16 +21,34 @@ export default function KontaktForm() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setError('');
 
-    // Simulate sending (no backend connection)
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      const res = await fetch('https://api.genieportal.de/v1/api/public/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.betreff,
+          message: formData.nachricht,
+          domain: 'praktikumsgenie.de',
+        }),
+      });
 
-    setIsSubmitting(false);
-    setIsSubmitted(true);
+      if (!res.ok) throw new Error('Senden fehlgeschlagen');
+
+      setIsSubmitted(true);
+    } catch {
+      setError('Beim Senden ist ein Fehler aufgetreten. Bitte versuche es erneut.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (isSubmitted) {
@@ -148,6 +166,10 @@ export default function KontaktForm() {
           </a>{' '}
           zu. Wir verwenden deine Daten ausschließlich zur Bearbeitung deiner Anfrage.
         </p>
+
+        {error && (
+          <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-2">{error}</p>
+        )}
 
         {/* Submit Button */}
         <button

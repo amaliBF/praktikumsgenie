@@ -128,7 +128,7 @@ export default function AgbPage() {
             </p>
             <p className="mt-2">
               Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Butterflies IT UG, Hagenower Str. 73,
-              19061 Schwerin, E-Mail: kontakt@praktikumsgenie.de) mittels einer eindeutigen Erklärung
+              19061 Schwerin, E-Mail: praktikum@genieportal.de) mittels einer eindeutigen Erklärung
               über Ihren Entschluss informieren.
             </p>
             <p className="mt-2">
