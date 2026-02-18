@@ -9,10 +9,23 @@
   --accent-light: #FDA4AF;
 }
 
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --accent: #FB7185;
+  --accent-light: #4a0420;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* Global focus-visible style for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 @layer utilities {

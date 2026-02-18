@@ -25,6 +25,7 @@ export default function LandingPage() {
     <div className="min-h-screen bg-[#FFF5F6]">
       <Header />
 
+      <main id="main-content">
       {/* Hero Section – Discovery Board */}
       <section className="pt-36 pb-24 px-4 sm:px-6 lg:px-8 doodle-circles relative overflow-hidden">
         <div className="absolute top-20 right-10 w-64 h-64 bg-rose-100/40 rounded-full blur-3xl" />
@@ -512,6 +513,8 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      </main>
 
       <Footer />
     </div>

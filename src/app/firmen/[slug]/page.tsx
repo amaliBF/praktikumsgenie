@@ -95,7 +95,7 @@ export default async function FirmenDetailPage({ params }: Props) {
         <section className="relative pt-20 pb-8">
           {c.coverImageUrl ? (
             <div className="absolute inset-0 h-48">
-              <img src={c.coverImageUrl} alt="" className="w-full h-full object-cover" />
+              <img src={c.coverImageUrl} alt={`Titelbild von ${c.name}`} className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-50 to-transparent" />
             </div>
           ) : (
@@ -305,7 +305,7 @@ export default async function FirmenDetailPage({ params }: Props) {
                     {videos.map((video) => (
                       <div key={video.id} className="group relative rounded-lg overflow-hidden bg-gray-900 aspect-video">
                         {video.thumbnailUrl ? (
-                          <img src={video.thumbnailUrl} alt={video.title || ''} className="w-full h-full object-cover" />
+                          <img src={video.thumbnailUrl} alt={video.title || 'Video-Vorschaubild'} className="w-full h-full object-cover" />
                         ) : (
                           <div className="w-full h-full bg-gradient-to-br from-rose-600/20 to-pink-600/20" />
                         )}
