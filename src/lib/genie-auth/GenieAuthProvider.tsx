@@ -42,8 +42,13 @@ export function GenieAuthProvider({ children }: { children: React.ReactNode }) {
   // Check login status on mount
   useEffect(() => {
     const checkAuth = async () => {
-      // Quick check: if genie_logged_in cookie doesn't exist, skip API call
-      if (!document.cookie.includes('genie_logged_in=1')) {
+      // Check localStorage flag (works cross-domain, unlike cookies)
+      const hasSession =
+        typeof window !== 'undefined' &&
+        (localStorage.getItem('genie_logged_in') === '1' ||
+          document.cookie.includes('genie_logged_in=1'));
+
+      if (!hasSession) {
         setIsLoading(false);
         return;
       }
@@ -57,8 +62,9 @@ export function GenieAuthProvider({ children }: { children: React.ReactNode }) {
           const result = await ssoRefresh();
           setUser(result.user);
         } catch {
-          // Not logged in
+          // Not logged in — clear stale flag
           setUser(null);
+          try { localStorage.removeItem('genie_logged_in'); } catch {}
         }
       } finally {
         setIsLoading(false);
@@ -72,6 +78,7 @@ export function GenieAuthProvider({ children }: { children: React.ReactNode }) {
     setError(null);
     const result = await ssoLogin({ email, password });
     setUser(result.user);
+    try { localStorage.setItem('genie_logged_in', '1'); } catch {}
     setActiveModal(null);
   }, []);
 
@@ -86,7 +93,8 @@ export function GenieAuthProvider({ children }: { children: React.ReactNode }) {
       setError(null);
       const result = await ssoRegister(data);
       setUser(result.user);
-      setActiveModal(null);
+      try { localStorage.setItem('genie_logged_in', '1'); } catch {}
+      // Don't close modal here — let RegisterModal show success message
     },
     [],
   );
@@ -98,6 +106,7 @@ export function GenieAuthProvider({ children }: { children: React.ReactNode }) {
       // Ignore errors
     }
     setUser(null);
+    try { localStorage.removeItem('genie_logged_in'); } catch {}
   }, []);
 
   const openLoginModal = useCallback(() => setActiveModal('login'), []);

@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Send, Sparkles, Loader2, RotateCcw, TrendingUp, Briefcase } from 'lucide-react';
+import { Send, Sparkles, Loader2, RotateCcw, TrendingUp, Briefcase, LogIn, UserPlus } from 'lucide-react';
+import { useAuth } from '@/lib/genie-auth';
 
 const API_BASE = 'https://api.genieportal.de/v1/ai';
 
@@ -23,6 +24,7 @@ interface SuggestedProfession {
 }
 
 interface BerufsinderChatProps {
+  portal: string;
   accentColor?: string;
   accentBg?: string;
   accentHover?: string;
@@ -32,6 +34,7 @@ interface BerufsinderChatProps {
 }
 
 export default function BerufsinderChat({
+  portal,
   accentColor = 'text-cyan-600',
   accentBg = 'bg-cyan-600',
   accentHover = 'hover:bg-cyan-700',
@@ -39,6 +42,7 @@ export default function BerufsinderChat({
   gradientTo = 'to-teal-600',
   buttonTextColor = 'text-white',
 }: BerufsinderChatProps) {
+  const { isLoggedIn, isLoading: authLoading, openLoginModal, openRegisterModal } = useAuth();
   const [conversationId, setConversationId] = useState<string | null>(null);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -64,7 +68,8 @@ export default function BerufsinderChat({
       const res = await fetch(`${API_BASE}/conversation/new`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({}),
+        credentials: 'include',
+        body: JSON.stringify({ portal }),
       });
       const data = await res.json();
       setConversationId(data.conversationId);
@@ -94,6 +99,7 @@ export default function BerufsinderChat({
       const res = await fetch(`${API_BASE}/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
         body: JSON.stringify({ conversationId, message: message.trim() }),
       });
       const data = await res.json();
@@ -132,6 +138,50 @@ export default function BerufsinderChat({
     setInputValue('');
     setHasStarted(false);
   };
+
+  // Auth loading state
+  if (authLoading) {
+    return (
+      <div className="max-w-2xl mx-auto text-center py-12">
+        <Loader2 className="h-8 w-8 animate-spin text-gray-400 mx-auto mb-4" />
+        <p className="text-gray-500">Wird geladen...</p>
+      </div>
+    );
+  }
+
+  // Auth gate — require login
+  if (!isLoggedIn) {
+    return (
+      <div className="max-w-2xl mx-auto text-center py-12">
+        <div className={`inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br ${gradientFrom} ${gradientTo} text-white mb-6`}>
+          <Sparkles className="h-10 w-10" />
+        </div>
+        <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+          KI-Berufsfinder
+        </h3>
+        <p className="text-gray-600 mb-8 max-w-lg mx-auto">
+          Erstelle ein kostenloses Konto oder melde dich an, um den KI-Berufsfinder zu nutzen.
+          So können wir deine Ergebnisse speichern und dir passende Stellen vorschlagen.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <button
+            onClick={openRegisterModal}
+            className={`inline-flex items-center justify-center gap-2 rounded-full ${accentBg} ${accentHover} px-8 py-4 text-base font-semibold ${buttonTextColor} transition-colors shadow-lg`}
+          >
+            <UserPlus className="h-5 w-5" />
+            Kostenlos registrieren
+          </button>
+          <button
+            onClick={openLoginModal}
+            className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-gray-300 hover:border-gray-400 px-8 py-4 text-base font-semibold text-gray-700 transition-colors"
+          >
+            <LogIn className="h-5 w-5" />
+            Anmelden
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   // Start screen
   if (!hasStarted) {

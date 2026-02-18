@@ -15,10 +15,13 @@ import {
   ClipboardCheck,
   BookOpen,
   Target,
+  Smartphone,
 } from 'lucide-react';
 import Link from 'next/link';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import AppNotifyForm from '../components/AppNotifyForm';
+import RegistrationBenefits from '../components/RegistrationBenefits';
 
 export default function LandingPage() {
   return (
@@ -50,19 +53,19 @@ export default function LandingPage() {
                 Kurzvideos, Matching und direkter Kontakt &ndash; komplett kostenlos für Schüler.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row items-start gap-4">
-                <a
-                  href="#features"
+                <Link
+                  href="/stellen"
                   className="rounded-full bg-gradient-to-r from-rose-500 to-pink-600 px-8 py-3.5 text-base font-medium text-white hover:from-rose-600 hover:to-pink-700 transition-all shadow-lg shadow-rose-500/25 flex items-center gap-2"
                 >
-                  App kommt bald
+                  Jetzt Stellen entdecken
                   <ArrowRight className="h-4 w-4" />
-                </a>
+                </Link>
                 <Link
-                  href="https://dashboard.genieportal.de/register"
+                  href="/app"
                   className="rounded-full border-2 border-rose-200 px-8 py-3.5 text-base font-medium text-gray-700 hover:border-rose-300 hover:bg-white transition-all flex items-center gap-2"
                 >
-                  <Building2 className="h-4 w-4" />
-                  Betrieb registrieren
+                  <Smartphone className="h-4 w-4" />
+                  App &ndash; Bald verf&uuml;gbar
                 </Link>
               </div>
             </div>
@@ -114,7 +117,7 @@ export default function LandingPage() {
               Praktikumssuche, die <span className="gradient-text-discovery">Spaß macht</span>
             </h2>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Kein Anschreiben, keine langweiligen Stellenanzeigen. Einfach echte Einblicke in echte Unternehmen.
+              Neben herk&ouml;mmlichen Stellenanzeigen bieten wir: Echte Einblicke in echte Unternehmen &ndash; in Sekunden.
             </p>
           </div>
 
@@ -492,23 +495,27 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 relative overflow-hidden">
-        <div className="absolute inset-0 confetti-dots opacity-10" />
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white">
-            Finde dein Traum-Praktikum
-          </h2>
-          <p className="mt-4 text-xl text-white/80">
-            Die App kommt bald. Betriebe können sich jetzt schon registrieren und ihr Profil anlegen.
+      {/* Registration Benefits */}
+      <RegistrationBenefits />
+
+      {/* CTA - App kommt bald + Newsletter */}
+      <section className="py-20 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-gray-600 mb-6">
+            Durchsuche jetzt tausende Stellen im Browser — oder warte auf die App mit Swipe-Matching.
           </p>
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <AppNotifyForm
+            variant="banner"
+            title="Die App kommt bald!"
+            description="Wir arbeiten mit Hochdruck an der Genie-App. Trag dich ein und erfahre als Erstes, wenn sie verfügbar ist."
+          />
+          <div className="text-center mt-6">
             <Link
               href="https://dashboard.genieportal.de/register"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-rose-600 hover:bg-gray-100 transition-colors flex items-center gap-2 shadow-lg"
+              className="inline-flex items-center gap-2 text-rose-600 font-semibold hover:text-rose-700 transition-colors"
             >
               <Building2 className="h-4 w-4" />
-              Registriere deinen Betrieb
+              Als Betrieb registrieren
             </Link>
           </div>
         </div>
