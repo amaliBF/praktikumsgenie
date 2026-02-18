@@ -44,6 +44,8 @@ export interface JobListItem {
   videoThumbnail: string | null;
   createdAt: string;
   url: string;
+  isExternal?: boolean;
+  externalUrl?: string;
 }
 
 export interface SearchResponse {
@@ -155,6 +157,41 @@ export interface JobDetailResponse {
 
 export interface SchemaResponse {
   schema: Record<string, unknown>;
+}
+
+export interface ExternalJobDetailResponse {
+  job: {
+    id: string;
+    title: string;
+    slug: string;
+    description: string | null;
+    companyName: string | null;
+    city: string | null;
+    postalCode: string | null;
+    latitude: number | null;
+    longitude: number | null;
+    salaryMin: number | null;
+    salaryMax: number | null;
+    salaryUnit: string | null;
+    category: string | null;
+    categoryTag: string | null;
+    jobType: string;
+    jobTypeLabel: string;
+    portalId: number;
+    externalUrl: string;
+    source: string;
+    publishedAt: string | null;
+    expiresAt: string | null;
+    clickCount: number;
+    isExternal: true;
+  };
+  company: {
+    name: string;
+    slug: string;
+    logo: string | null;
+  };
+  similarJobs: JobListItem[];
+  portalDomain: string;
 }
 
 export interface AutocompleteResponse {

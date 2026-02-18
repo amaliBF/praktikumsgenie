@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MapPin, Calendar, Video, Building2 } from 'lucide-react';
+import { MapPin, Calendar, Video, Building2, ExternalLink } from 'lucide-react';
 import { JobListItem, jobUrlToPath } from '@/lib/api';
 
 export default function JobCard({ job }: { job: JobListItem }) {
@@ -41,10 +41,26 @@ export default function JobCard({ job }: { job: JobListItem }) {
 
         {/* Content */}
         <div className="flex-1 min-w-0">
-          <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 transition-colors truncate">
-            {job.title}
-          </h3>
-          <p className="text-sm text-gray-600 mt-0.5">{job.company.name}</p>
+          <div className="flex items-start justify-between gap-2">
+            <div className="min-w-0">
+              <h3 className="font-semibold text-gray-900 group-hover:text-rose-700 transition-colors truncate">
+                {job.title}
+              </h3>
+              <p className="text-sm text-gray-600 mt-0.5">{job.company.name}</p>
+            </div>
+            <div className="flex items-center gap-1.5 shrink-0">
+              {job.isExternal && (
+                <span className="inline-flex items-center gap-1 text-xs font-medium text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">
+                  <ExternalLink className="h-3 w-3" /> Extern
+                </span>
+              )}
+              {job.hasVideo && (
+                <span className="inline-flex items-center gap-1 text-xs font-medium text-rose-600 bg-rose-50 px-2 py-0.5 rounded-full">
+                  <Video className="h-3 w-3" /> Video
+                </span>
+              )}
+            </div>
+          </div>
 
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-2 text-sm text-gray-500">
             {job.standort.stadt && (
@@ -70,12 +86,6 @@ export default function JobCard({ job }: { job: JobListItem }) {
                   month: 'long',
                   year: 'numeric',
                 })}
-              </span>
-            )}
-            {job.hasVideo && (
-              <span className="inline-flex items-center gap-1 text-rose-600">
-                <Video className="h-3.5 w-3.5" />
-                Video
               </span>
             )}
           </div>

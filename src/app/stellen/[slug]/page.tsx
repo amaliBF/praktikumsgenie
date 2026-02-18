@@ -28,6 +28,7 @@ import {
   fetchApi,
   ByCityResponse,
   JobDetailResponse,
+  ExternalJobDetailResponse,
   SchemaResponse,
   extractIdFromSlug,
 } from '@/lib/api';
@@ -64,27 +65,42 @@ export async function generateMetadata({
   const partialId = extractIdFromSlug(params.slug);
   const data = await fetchApi<JobDetailResponse>(`/public/jobs/${partialId}`);
 
-  if (!data) {
-    return { title: 'Stelle nicht gefunden' };
+  if (data) {
+    const { job, company } = data;
+    const salaryText = job.salaryYear1 ? `${job.salaryYear1}\u20AC/Monat` : '';
+    const cityText = job.city || company.city || '';
+
+    return {
+      title: job.metaTitle || `${job.title} bei ${company.name}${cityText ? ` | ${cityText}` : ''} 2026`,
+      description:
+        job.metaDescription ||
+        `${job.title} bei ${company.name}${cityText ? ` in ${cityText}` : ''}. ${salaryText ? `${salaryText}. ` : ''}Jetzt in der Genie-App bewerben!`,
+      alternates: { canonical: `/stellen/${params.slug}` },
+      openGraph: {
+        title: `${job.title} bei ${company.name}`,
+        description: `${job.title}${cityText ? ` in ${cityText}` : ''}. ${salaryText ? `${salaryText}. ` : ''}Jetzt bewerben!`,
+        url: `https://praktikumsgenie.de/stellen/${params.slug}`,
+      },
+      twitter: { card: 'summary_large_image' },
+    };
   }
 
-  const { job, company } = data;
-  const salaryText = job.salaryYear1 ? `${job.salaryYear1}€/Monat` : '';
-  const cityText = job.city || company.city || '';
+  const extData = await fetchApi<ExternalJobDetailResponse>(`/public/jobs/external/${partialId}`);
+  if (extData) {
+    const { job: extJob, company: extCompany } = extData;
+    const cityText = extJob.city || '';
+    return {
+      title: `${extJob.title}${extCompany.name ? ` bei ${extCompany.name}` : ''}${cityText ? ` | ${cityText}` : ''}`,
+      description: `${extJob.title}${extCompany.name ? ` bei ${extCompany.name}` : ''}${cityText ? ` in ${cityText}` : ''}. Jetzt bewerben!`,
+      alternates: { canonical: `/stellen/${params.slug}` },
+      openGraph: {
+        title: `${extJob.title}${extCompany.name ? ` bei ${extCompany.name}` : ''}`,
+        url: `https://praktikumsgenie.de/stellen/${params.slug}`,
+      },
+    };
+  }
 
-  return {
-    title: job.metaTitle || `${job.title} bei ${company.name}${cityText ? ` | ${cityText}` : ''} 2026`,
-    description:
-      job.metaDescription ||
-      `${job.title} bei ${company.name}${cityText ? ` in ${cityText}` : ''}. ${salaryText ? `${salaryText}. ` : ''}Jetzt in der Genie-App bewerben!`,
-    alternates: { canonical: `/stellen/${params.slug}` },
-    openGraph: {
-      title: `${job.title} bei ${company.name}`,
-      description: `${job.title}${cityText ? ` in ${cityText}` : ''}. ${salaryText ? `${salaryText}. ` : ''}Jetzt bewerben!`,
-      url: `https://praktikumsgenie.de/stellen/${params.slug}`,
-    },
-    twitter: { card: 'summary_large_image' },
-  };
+  return { title: 'Stelle nicht gefunden' };
 }
 
 // ─── City Listing Component ───────────────────────────────────────────────
@@ -569,6 +585,204 @@ function JobDetailPage({
   );
 }
 
+// ─── External Job Detail Component ───────────────────────────────────────
+
+function ExternalJobDetailPage({
+  data,
+  schema,
+  slug,
+}: {
+  data: ExternalJobDetailResponse;
+  schema: SchemaResponse | null;
+  slug: string;
+}) {
+  const { job, company, similarJobs } = data;
+  const cityText = job.city || '';
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Stellen', item: 'https://praktikumsgenie.de/stellen' },
+      ...(cityText
+        ? [{
+            '@type': 'ListItem',
+            position: 2,
+            name: cityText,
+            item: `https://praktikumsgenie.de/stellen/${cityText.toLowerCase().replace(/[\u00e4\u00c4]/g, 'ae').replace(/[\u00f6\u00d6]/g, 'oe').replace(/[\u00fc\u00dc]/g, 'ue').replace(/\u00df/g, 'ss').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}`,
+          }]
+        : []),
+      {
+        '@type': 'ListItem',
+        position: cityText ? 3 : 2,
+        name: job.title,
+        item: `https://praktikumsgenie.de/stellen/${slug}`,
+      },
+    ],
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <Header />
+
+      <div className="pt-24 pb-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="flex items-center gap-1.5 text-sm text-gray-500 mb-6 flex-wrap">
+            <Link href="/stellen" className="hover:text-rose-600">Stellen</Link>
+            {cityText && (
+              <>
+                <ChevronRight className="h-3.5 w-3.5" />
+                <Link
+                  href={`/stellen/${cityText.toLowerCase().replace(/[\u00e4\u00c4]/g, 'ae').replace(/[\u00f6\u00d6]/g, 'oe').replace(/[\u00fc\u00dc]/g, 'ue').replace(/\u00df/g, 'ss').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}`}
+                  className="hover:text-rose-600"
+                >
+                  {cityText}
+                </Link>
+              </>
+            )}
+            <ChevronRight className="h-3.5 w-3.5" />
+            <span className="text-gray-900 font-medium truncate max-w-xs">{job.title}</span>
+          </nav>
+
+          <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 mb-6">
+            <div className="flex items-start gap-5">
+              <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-rose-50 to-pink-50 flex items-center justify-center border border-rose-100">
+                <Building2 className="h-7 w-7 text-rose-400" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2">
+                  <p className="text-sm text-gray-500">{company.name || 'Unbekannter Arbeitgeber'}</p>
+                  <span className="inline-flex items-center gap-1 text-xs font-medium text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">
+                    <ExternalLink className="h-3 w-3" /> Externe Stelle
+                  </span>
+                </div>
+                <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mt-1">{job.title}</h1>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6 pt-6 border-t border-gray-100">
+              {cityText && (
+                <div className="flex items-center gap-2 text-sm">
+                  <MapPin className="h-4 w-4 text-rose-500 flex-shrink-0" />
+                  <span className="text-gray-700">{cityText}{job.postalCode ? ` (${job.postalCode})` : ''}</span>
+                </div>
+              )}
+              {job.salaryMin && (
+                <div className="flex items-center gap-2 text-sm">
+                  <span className="text-rose-500 font-bold">&euro;</span>
+                  <span className="text-gray-700">
+                    {job.salaryMin === job.salaryMax
+                      ? `${job.salaryMin.toLocaleString('de-DE')}&euro;`
+                      : `${job.salaryMin.toLocaleString('de-DE')} - ${(job.salaryMax || job.salaryMin).toLocaleString('de-DE')}&euro;`}
+                    {job.salaryUnit === 'HOUR' ? '/Std.' : '/Monat'}
+                  </span>
+                </div>
+              )}
+              {job.category && (
+                <div className="flex items-center gap-2 text-sm">
+                  <Briefcase className="h-4 w-4 text-rose-500 flex-shrink-0" />
+                  <span className="text-gray-700">{job.category}</span>
+                </div>
+              )}
+              {job.jobTypeLabel && (
+                <div className="flex items-center gap-2 text-sm">
+                  <Clock className="h-4 w-4 text-rose-500 flex-shrink-0" />
+                  <span className="text-gray-700">{job.jobTypeLabel}</span>
+                </div>
+              )}
+            </div>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-6">
+            <div className="lg:col-span-2 space-y-6">
+              {job.description && (
+                <div className="bg-white rounded-2xl border border-gray-200 p-6">
+                  <h2 className="font-bold text-gray-900 mb-4">Stellenbeschreibung</h2>
+                  {job.description.includes('<') ? (
+                    <div className="prose prose-sm text-gray-600 max-w-none" dangerouslySetInnerHTML={{ __html: job.description }} />
+                  ) : (
+                    <div className="prose prose-sm text-gray-600 max-w-none">
+                      {job.description.split('\n').map((p: string, i: number) => (
+                        <p key={i}>{p}</p>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6">
+                <div className="flex items-start gap-3">
+                  <ExternalLink className="h-5 w-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <h3 className="font-semibold text-amber-900">Externe Stellenanzeige</h3>
+                    <p className="text-sm text-amber-700 mt-1">
+                      Diese Stellenanzeige stammt von einem externen Anbieter ({job.source}).
+                      Klicke auf &bdquo;Jetzt bewerben&ldquo;, um zur Originalanzeige weitergeleitet zu werden.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-white rounded-2xl border border-gray-200 p-6">
+                <a
+                  href={job.externalUrl}
+                  target="_blank"
+                  rel="noopener sponsored"
+                  className="block w-full text-center bg-gradient-to-r from-rose-500 to-pink-600 text-white font-semibold py-3 px-6 rounded-xl hover:from-rose-600 hover:to-pink-700 transition-all"
+                >
+                  Jetzt bewerben
+                  <ExternalLink className="inline h-4 w-4 ml-2" />
+                </a>
+                <p className="text-xs text-gray-500 text-center mt-2">
+                  Weiterleitung zum externen Anbieter
+                </p>
+              </div>
+
+              {company.name && (
+                <div className="bg-white rounded-2xl border border-gray-200 p-6">
+                  <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                    <Building2 className="h-5 w-5 text-rose-500" />
+                    {company.name}
+                  </h3>
+                  {cityText && (
+                    <div className="flex items-center gap-2 text-sm text-gray-600">
+                      <MapPin className="h-4 w-4 text-gray-400 flex-shrink-0" />
+                      {cityText}
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {similarJobs.length > 0 && (
+            <div className="mt-12">
+              <h2 className="text-xl font-bold text-gray-900 mb-6">&Auml;hnliche Stellen</h2>
+              <div className="space-y-3">
+                {similarJobs.slice(0, 4).map((j) => (
+                  <JobCard key={j.id} job={j} />
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="mt-12">
+            <AppCTA />
+          </div>
+        </div>
+      </div>
+
+      <Footer />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      {schema?.schema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema.schema) }} />
+      )}
+    </div>
+  );
+}
+
 // ─── Page Component ───────────────────────────────────────────────────────
 
 export default async function StellenSlugPage({
@@ -585,16 +799,24 @@ export default async function StellenSlugPage({
     return <CityPage city={city} data={data} slug={params.slug} />;
   }
 
-  // Job detail: extract partial ID from composite slug
   const partialId = extractIdFromSlug(params.slug);
   const [data, schema] = await Promise.all([
     fetchApi<JobDetailResponse>(`/public/jobs/${partialId}`),
     fetchApi<SchemaResponse>(`/public/jobs/${partialId}/schema`),
   ]);
 
-  if (!data) {
-    notFound();
+  if (data) {
+    return <JobDetailPage data={data} schema={schema} slug={params.slug} />;
   }
 
-  return <JobDetailPage data={data} schema={schema} slug={params.slug} />;
+  const [extData, extSchema] = await Promise.all([
+    fetchApi<ExternalJobDetailResponse>(`/public/jobs/external/${partialId}`),
+    fetchApi<SchemaResponse>(`/public/jobs/external/${partialId}/schema`),
+  ]);
+
+  if (extData) {
+    return <ExternalJobDetailPage data={extData} schema={extSchema} slug={params.slug} />;
+  }
+
+  notFound();
 }
