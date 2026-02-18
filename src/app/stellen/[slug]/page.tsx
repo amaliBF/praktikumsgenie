@@ -695,20 +695,67 @@ function ExternalJobDetailPage({
 
           <div className="grid lg:grid-cols-3 gap-6">
             <div className="lg:col-span-2 space-y-6">
-              {job.description && (
-                <div className="bg-white rounded-2xl border border-gray-200 p-6">
-                  <h2 className="font-bold text-gray-900 mb-4">Stellenbeschreibung</h2>
-                  {job.description.includes('<') ? (
-                    <div className="prose prose-sm text-gray-600 max-w-none" dangerouslySetInnerHTML={{ __html: job.description }} />
-                  ) : (
+              {job.description && (() => {
+                const desc = job.description;
+                const sectionLabels: Record<string, string> = {
+                  'Salary': 'Gehalt',
+                  'Requirements': 'Anforderungen',
+                  'Responsibilities': 'Aufgaben',
+                  'Technologies': 'Technologien',
+                  'Benefits': 'Benefits',
+                  'More info': 'Weitere Infos',
+                };
+                const keys = Object.keys(sectionLabels);
+                const hasStructuredSections = !desc.includes('<') && keys.some(k => desc.includes(`${k}:`));
+
+                if (desc.includes('<')) {
+                  return (
+                    <div className="bg-white rounded-2xl border border-gray-200 p-6">
+                      <h2 className="font-bold text-gray-900 mb-4">Stellenbeschreibung</h2>
+                      <div className="prose prose-sm text-gray-600 max-w-none" dangerouslySetInnerHTML={{ __html: desc }} />
+                    </div>
+                  );
+                }
+
+                if (hasStructuredSections) {
+                  const parts = desc.split(new RegExp(`(${keys.join('|')}):\\s*`));
+                  const sections: { label: string; content: string }[] = [];
+                  for (let i = 0; i < parts.length; i++) {
+                    if (keys.includes(parts[i]) && i + 1 < parts.length) {
+                      sections.push({ label: parts[i], content: parts[i + 1].trim() });
+                      i++;
+                    } else if (parts[i].trim() && sections.length === 0) {
+                      sections.push({ label: '', content: parts[i].trim() });
+                    }
+                  }
+                  return (
+                    <div className="space-y-4">
+                      {sections.map((sec, i) => (
+                        <div key={i} className="bg-white rounded-2xl border border-gray-200 p-6">
+                          {sec.label && (
+                            <h2 className="font-bold text-gray-900 mb-3">
+                              {sectionLabels[sec.label] || sec.label}
+                            </h2>
+                          )}
+                          {!sec.label && <h2 className="font-bold text-gray-900 mb-3">Stellenbeschreibung</h2>}
+                          <p className="text-sm text-gray-600 leading-relaxed">{sec.content}</p>
+                        </div>
+                      ))}
+                    </div>
+                  );
+                }
+
+                return (
+                  <div className="bg-white rounded-2xl border border-gray-200 p-6">
+                    <h2 className="font-bold text-gray-900 mb-4">Stellenbeschreibung</h2>
                     <div className="prose prose-sm text-gray-600 max-w-none">
-                      {job.description.split('\n').map((p: string, i: number) => (
+                      {desc.split('\n').map((p: string, i: number) => (
                         <p key={i}>{p}</p>
                       ))}
                     </div>
-                  )}
-                </div>
-              )}
+                  </div>
+                );
+              })()}
 
               <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6">
                 <div className="flex items-start gap-3">
