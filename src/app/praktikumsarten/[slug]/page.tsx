@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ChevronRight, ClipboardCheck, Clock, Users, Target, BookOpen, Zap, Briefcase } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PassendeStellen from '@/components/stellen/PassendeStellen';
 import { getPraktikumsartBySlug, getAllPraktikumsartenSlugs, praktikumsarten } from '@/lib/praktikumsarten-data';
 
 interface Props {
@@ -205,6 +206,13 @@ export default function PraktikumsartDetailPage({ params }: Props) {
               </div>
             </section>
           )}
+
+          <PassendeStellen
+            query={art.name}
+            titel={`Aktuelle Praktikumsstellen: ${art.name}`}
+            linkHref={`/stellen?q=${encodeURIComponent(art.name)}`}
+            linkText="Alle Stellen anzeigen"
+          />
 
           {/* CTA */}
           <section className="relative bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 rounded-2xl p-8 text-center text-white overflow-hidden">

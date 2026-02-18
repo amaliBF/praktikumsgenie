@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ChevronRight, MapPin, Building2, Train, Wallet, ClipboardCheck, Target, Briefcase, Clock, Users, CheckCircle2, GraduationCap, Lightbulb } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PassendeStellen from '@/components/stellen/PassendeStellen';
 import { staedte, getStadtBySlug, getAllStaedteSlugs, getNachbarstaedte } from '@/lib/staedte-data';
 import { branchen } from '@/lib/branchen-data';
 import { getPraktikumsberufBySlug, praktikumsberufe } from '@/lib/praktikumsberufe-data';
@@ -328,6 +329,14 @@ function StadtPage({ stadtSlug }: { stadtSlug: string }) {
             </section>
           )}
 
+          <PassendeStellen
+            query="Praktikum"
+            stadt={stadt.name}
+            titel={`Aktuelle Praktikumsstellen in ${stadt.name}`}
+            linkHref={`/stellen?q=Praktikum&stadt=${encodeURIComponent(stadt.name)}`}
+            linkText="Alle Stellen anzeigen"
+          />
+
           {/* CTA */}
           <section className="relative bg-gradient-to-br from-rose-500 via-pink-600 to-fuchsia-700 rounded-2xl p-8 text-center text-white mb-10 overflow-hidden">
             <div className="absolute inset-0 confetti-dots opacity-10" />
@@ -567,6 +576,14 @@ function KombiPage({ berufSlug, stadtSlug }: { berufSlug: string; stadtSlug: str
             </aside>
           </div>
         </div>
+
+        <PassendeStellen
+          query={beruf.name}
+          stadt={stadt.name}
+          titel={`Aktuelle Praktikumsstellen als ${beruf.name} in ${stadt.name}`}
+          linkHref={`/stellen?q=${encodeURIComponent(beruf.name)}&stadt=${encodeURIComponent(stadt.name)}`}
+          linkText="Alle Stellen anzeigen"
+        />
       </main>
       <Footer />
     </>

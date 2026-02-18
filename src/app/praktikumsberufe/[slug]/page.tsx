@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ChevronRight, Briefcase, Clock, Users, CheckCircle2, Lightbulb, GraduationCap, Target } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PassendeStellen from '@/components/stellen/PassendeStellen';
 import {
   getPraktikumsberufBySlug,
   getAllPraktikumsberufeSlugs,
@@ -261,6 +262,13 @@ export default function PraktikumsberufDetailPage({ params }: Props) {
             </aside>
           </div>
         </div>
+
+        <PassendeStellen
+          query={beruf.name}
+          titel={`Aktuelle Praktikumsstellen als ${beruf.name}`}
+          linkHref={`/stellen?q=${encodeURIComponent(beruf.name)}`}
+          linkText="Alle Stellen anzeigen"
+        />
       </main>
       <Footer />
     </>
