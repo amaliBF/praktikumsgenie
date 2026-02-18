@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
+import { MapPin } from 'lucide-react';
 
 interface SearchStadt {
   slug: string;
@@ -144,7 +145,7 @@ export default function StaedteSearch({ staedte }: { staedte: SearchStadt[] }) {
                     onClick={() => setIsOpen(false)}
                   >
                     <div className="flex items-center gap-3 min-w-0">
-                      <span className="text-lg flex-shrink-0">📍</span>
+                      <MapPin className="h-5 w-5 text-rose-500 flex-shrink-0" />
                       <div className="min-w-0">
                         <div className="font-medium text-gray-900 truncate">{s.name}</div>
                         <div className="text-xs text-gray-500">{s.bundesland} · {formatEinwohner(s.einwohner)} Einwohner</div>

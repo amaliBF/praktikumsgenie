@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronRight, Briefcase, Clock, Users, CheckCircle2, Lightbulb, GraduationCap, Target } from 'lucide-react';
+import { ChevronRight, Briefcase, Clock, Users, CheckCircle2, Lightbulb, GraduationCap, Target, MapPin } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PassendeStellen from '@/components/stellen/PassendeStellen';
@@ -159,7 +159,7 @@ export default function PraktikumsberufDetailPage({ params }: Props) {
                 <ul className="space-y-2">
                   {beruf.tipps.map((tipp, i) => (
                     <li key={i} className="flex items-start gap-2 text-gray-700">
-                      <span className="text-amber-500 shrink-0">💡</span>
+                      <Lightbulb className="h-4 w-4 text-amber-500 shrink-0" />
                       {tipp}
                     </li>
                   ))}
@@ -178,7 +178,7 @@ export default function PraktikumsberufDetailPage({ params }: Props) {
                       href={`/praktikum/${beruf.slug}-in-${stadt.slug}`}
                       className="flex items-center gap-2 p-3 rounded-lg hover:bg-rose-50 transition-colors text-sm"
                     >
-                      <span className="text-rose-500">📍</span>
+                      <MapPin className="h-4 w-4 text-rose-500" />
                       <span className="text-gray-700 hover:text-rose-600">{beruf.name} in {stadt.name}</span>
                     </Link>
                   ))}

@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 import PassendeStellen from '@/components/stellen/PassendeStellen';
 import { staedte, getStadtBySlug, getAllStaedteSlugs, getNachbarstaedte } from '@/lib/staedte-data';
 import { branchen } from '@/lib/branchen-data';
+import { BrancheIcon } from '@/lib/branchen-icons';
 import { getPraktikumsberufBySlug, praktikumsberufe } from '@/lib/praktikumsberufe-data';
 
 // Top 30 Berufe für Kombiseiten (30 × 84 Städte = 2.520 Seiten)
@@ -263,7 +264,7 @@ function StadtPage({ stadtSlug }: { stadtSlug: string }) {
               {branchen.map((b) => (
                 <div key={b.slug} className="tape-card p-4 mt-2">
                   <div className="flex items-start gap-3">
-                    <span className="text-2xl flex-shrink-0">{b.icon}</span>
+                    <BrancheIcon name={b.icon} className="h-6 w-6 text-rose-500 flex-shrink-0" />
                     <div>
                       <div className="font-medium text-gray-900 text-sm">{b.name}</div>
                       <div className="text-xs text-gray-500 mb-2">{b.beschreibung}</div>
@@ -470,7 +471,7 @@ function KombiPage({ berufSlug, stadtSlug }: { berufSlug: string; stadtSlug: str
                 <ul className="space-y-2">
                   {beruf.tipps.map((t, i) => (
                     <li key={i} className="flex items-start gap-2 text-gray-700">
-                      <span className="text-amber-500 shrink-0">💡</span>
+                      <Lightbulb className="h-4 w-4 text-amber-500 shrink-0" />
                       {t}
                     </li>
                   ))}

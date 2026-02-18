@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight, BookOpen, ClipboardCheck, Target } from 'lucide-react';
+import { ChevronRight, BookOpen, ClipboardCheck, Target, PenLine, BookOpenCheck, GraduationCap, Compass, Coins, ClipboardList, type LucideIcon } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ratgeber, ratgeberKategorien, getRatgeberByCategory } from '@/lib/ratgeber-data';
@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   },
 };
 
-const categoryIcons: Record<string, string> = {
-  'bewerbung': '\uD83D\uDCDD',
-  'praktikum-allgemein': '\uD83D\uDCDA',
-  'studium': '\uD83C\uDF93',
-  'berufsorientierung': '\uD83E\uDDED',
-  'recht-finanzen': '\uD83D\uDCB0',
+const categoryIcons: Record<string, LucideIcon> = {
+  'bewerbung': PenLine,
+  'praktikum-allgemein': BookOpenCheck,
+  'studium': GraduationCap,
+  'berufsorientierung': Compass,
+  'recht-finanzen': Coins,
 };
 
 export default function RatgeberPage() {
@@ -98,7 +98,7 @@ export default function RatgeberPage() {
                   href={`#${kat.slug}`}
                   className="explore-tag hover:bg-rose-100 hover:text-rose-700 transition-colors"
                 >
-                  <span>{categoryIcons[kat.slug] || '\uD83D\uDCCB'}</span>
+                  {(() => { const Icon = categoryIcons[kat.slug] || ClipboardList; return <Icon className="h-4 w-4" />; })()}
                   <span>{kat.name}</span>
                   <span className="text-xs opacity-60">({count})</span>
                 </a>
@@ -114,7 +114,7 @@ export default function RatgeberPage() {
               <section key={kat.slug} id={kat.slug} className="mb-12 scroll-mt-28">
                 <div className="board-divider mb-4">
                   <div className="flex items-center gap-3">
-                    <span className="text-2xl">{categoryIcons[kat.slug] || '\uD83D\uDCCB'}</span>
+                    {(() => { const Icon = categoryIcons[kat.slug] || ClipboardList; return <Icon className="h-6 w-6 text-rose-500" />; })()}
                     <h2 className="text-2xl font-bold text-gray-900">{kat.name}</h2>
                     <span className="sticker-badge text-xs">{katArtikel.length} Artikel</span>
                   </div>
