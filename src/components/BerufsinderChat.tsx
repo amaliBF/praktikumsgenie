@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Send, Sparkles, Loader2, RotateCcw, TrendingUp, Briefcase, LogIn, UserPlus } from 'lucide-react';
+import { Send, Sparkles, Loader2, RotateCcw, TrendingUp, Briefcase, LogIn, UserPlus, Search } from 'lucide-react';
+import Link from 'next/link';
 import { useAuth } from '@/lib/genie-auth';
 
 const API_BASE = 'https://api.genieportal.de/v1/ai';
@@ -50,11 +51,14 @@ export default function BerufsinderChat({
   const [suggestedProfessions, setSuggestedProfessions] = useState<SuggestedProfession[] | null>(null);
   const [inputValue, setInputValue] = useState('');
   const [hasStarted, setHasStarted] = useState(false);
-  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    const container = chatContainerRef.current;
+    if (container) {
+      container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
+    }
   };
 
   useEffect(() => {
@@ -232,7 +236,7 @@ export default function BerufsinderChat({
           )}
         </div>
 
-        <div className="h-[400px] sm:h-[480px] overflow-y-auto p-4 space-y-4">
+        <div ref={chatContainerRef} className="h-[400px] sm:h-[480px] overflow-y-auto p-4 space-y-4">
           {messages.map((msg, index) => (
             <div key={index}>
               <div className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
@@ -278,7 +282,6 @@ export default function BerufsinderChat({
             </div>
           )}
 
-          <div ref={messagesEndRef} />
         </div>
 
         {/* Input area */}
@@ -357,6 +360,14 @@ export default function BerufsinderChat({
                     </span>
                   </div>
                 )}
+
+                <Link
+                  href={`/stellen?q=${encodeURIComponent(prof.name)}`}
+                  className={`mt-4 inline-flex items-center gap-2 rounded-full ${accentBg} ${accentHover} px-5 py-2.5 text-sm font-semibold ${buttonTextColor} transition-colors shadow-sm`}
+                >
+                  <Search className="h-4 w-4" />
+                  Passende Stellen finden
+                </Link>
               </div>
             ))}
           </div>
